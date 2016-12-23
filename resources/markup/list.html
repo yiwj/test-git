@@ -1,0 +1,550 @@
+<!doctype html>
+<html ng-app="discoveryApp" class="ng-scope">
+<head>
+<style type="text/css">
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="../css/store17-common.css" rel="stylesheet">
+<link href="../css/store17-sub.css" rel="stylesheet">
+<link href="../css/store17-animation.css" rel="stylesheet"><!-- animation 분리 / Lite 에서는 store16-animation-lite.css 으로 변경  -->
+<script type="text/javascript" src="pub-dreadlocks.js"></script>
+<style type="text/css">
+/* html 파일에서 확인하기 위한 스타일 */
+::-webkit-scrollbar{width:0;}
+.panel-body{overflow-y:scroll;pointer-events:auto;}
+.panel-list .list-title{left:0;right:0;}
+.panel-list .list-title,
+.panel-list .list-cont{position:relative;}
+/* end-파일에서 확인하기 위한 스타일 */
+</style>
+</head>
+<body class="dir-rtl-"><!-- RTL 언어 class="dir-rtl" -->
+<!-- drawer -->
+<div class="drawer"><!-- 20150608 수정 -->
+  <div class="blank drawer-category drawer-featured"></div><div class="blank drawer-category drawer-tvshows"></div><div class="blank drawer-category drawer-movies"></div><div class="blank drawer-category drawer-premium"></div><div class="blank drawer-category drawer-appsngames"></div><div class="blank drawer-category drawer-mypage"></div><div class="blank drawer-category drawer-search"></div><div class="blank drawer-category drawer-close"></div>
+</div>
+<!-- //drawer -->
+
+<!-- panels -->
+<div class="panels">
+  <!-- panels-breadcrumbs -->
+  <div class="panels-breadcrumbs">
+    <div class="blank breadcrumb"><div class="breadcrumb-bar"></div><div class="step"></div><div class="icon icon-panel-back"></div></div>
+    <div class="blank breadcrumb showing"><div class="breadcrumb-bar"></div><div class="step">01</div><div class="icon icon-panel-back"></div></div>
+  </div>
+  <!-- //panels-breadcrumbs -->
+  <!-- panels-viewport -->
+  <div class="panels-viewport">
+    <!-- basic page -->
+    <div class="page panel-list showing"><!-- 화면 show 경우 class="showing" -->
+      <div class="panel-header">
+        <div class="area-text  no-event panel-title">
+          <div class="marquee text">2depth title !@#$%^&*()_+|\][{}?/!@#$%^&*()_+|\][{}?/ !@#$%^&*()_+|\][{}?/ end</div>
+        </div>
+        <div class="panel-sub">
+          <div class="sub-text sub-title">Sub category</div><div class="bar-empty">|</div>
+          <div class="sub-text sub-sub-title">List 정렬 옵션항목 !@#$%^&*()_+|\][{}?/</div>
+        </div>
+      </div>
+      <div class="panel-menu"><!-- 20150619 accordion 애니메이션 추가되면서 수정 -->
+        <!-- category menu -->
+        <div class="blank menu-list">
+          <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">category menu</div></div>
+        </div>
+        <!-- //category menu -->
+        <!-- category menu -->
+        <div class="blank menu-list focus">
+          <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">category menu focus</div></div>
+        </div>
+        <!-- //category menu -->
+        <!-- category menu -->
+        <div class="blank menu-list on"><!-- 현재 선택된 메뉴 class="on" -->
+          <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">category menu on</div></div>
+        </div>
+        <!-- //category menu -->
+        <!-- category menu -->
+        <div class="blank menu-list on focus">
+          <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">category menu on focus</div></div>
+        </div>
+        <!-- //category menu -->
+        <!-- category menu accordion -->
+        <div class="menu-list menu-depth">
+          <div class="blank menu-depth-header">
+            <div class="area-text menu-text"><div class="marquee text">accordion</div></div><div class="icon icon-depth"></div>
+          </div>
+          <!-- menu-depth-drawer -->
+          <div class="menu-depth-drawer">
+            <div class="blank menu-list-depth">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">accordion One</div></div>
+            </div>
+            <div class="blank menu-list-depth">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">accordion Two</div></div>
+            </div>
+            <div class="blank menu-list-depth">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">accordion Three</div></div>
+            </div>
+          </div>
+          <!-- //menu-depth-drawer -->
+        </div>
+        <!-- //category menu accordion -->
+        <!-- category menu accordion -->
+        <div class="menu-list menu-depth depth-open"><!-- 해당 서브 메뉴 펼침 class="depth-open" 추가  -->
+          <div class="blank menu-depth-header">
+            <div class="area-text menu-text"><div class="marquee text">accordion menu end</div></div><div class="icon icon-depth"></div>
+          </div>
+          <!-- menu-depth-drawer -->
+          <div class="menu-depth-drawer">
+            <div class="blank menu-list-depth on">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">accordion sub on</div></div>
+            </div>
+            <div class="blank menu-list-depth focus">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">accordion sub focus</div></div>
+            </div>
+            <div class="blank menu-list-depth">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">accordion sub basic</div></div>
+            </div>
+            <div class="blank menu-list-depth on focus">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">accordion sub on focus</div></div>
+            </div>
+          </div>
+          <!-- //menu-depth-drawer -->
+        </div>
+        <!-- //category menu accordion -->
+      </div>
+      <div class="panel-body">
+        <div class="panel-cont">
+        <!-- content -->
+          <!-- <div class="sec-title list-title">shelf title</div> -->
+          <div class="list-cont"><!-- 20150609 수정 - 절대좌표 위치값 들어가면서 라인으로 아이템 묶음 -->
+            <!-- item -->
+            <div class="blank item item-list focus cp-hover">
+      			  <div class="item-badge"><div class="area-text badge-text"><div class="marquee text">You may like</div></div></div>
+      			  <!-- 20150827 수정 - GUI관련 추가작업 (bg-badeg에 배경 컬러값 삽입) -->
+      			  <div class="img-badge_wrap">
+        				<div class="img-badge">
+        				  <div class="bg-badge" style="background-color:#ff9900;"></div>
+        				  <img class="badge-img" src="../images/temp/temp_badge.JPG" />
+        				</div>
+        				<div class="img-badge">
+        				  <div class="bg-badge" style="background-color:#74b543;"></div>
+        				  <img class="badge-img" src="../images/temp/temp_badge01.JPG" />
+        				</div>
+        				<div class="img-badge">
+        				  <div class="bg-badge" style="background-color:#e42e28;"></div>
+        				  <img class="badge-img" src="../images/temp/temp_badge02.JPG" />
+        				</div>
+        				<div class="img-badge">
+        				  <div class="bg-badge" style="background-color:#752874;"></div>
+        				  <img class="badge-img" src="../images/temp/temp_badge03.JPG" />
+        				</div>
+        				<div class="img-badge">
+        				  <div class="bg-badge" style="background-color:#161617;"></div>
+        				  <img class="badge-img" src="../images/temp/temp_badge04.JPG" />
+        				</div>
+        				<div class="img-badge">
+        				  <div class="bg-badge" style="background-color:#161617;"></div>
+        				  <img class="badge-img" src="../images/temp/temp_badge04.JPG" />
+        				</div>
+        				<div class="img-badge">
+        				  <div class="bg-badge" style="background-color:#161617;"></div>
+        				  <img class="badge-img" src="../images/temp/temp_badge04.JPG" />
+        				</div>
+      			  </div>
+              <div class="item-thumb">
+                <img src="../images/thumb/default_tvshow_280x410.png" class="thumb-img">
+              </div>
+              <div class="item-info" style="">
+                <div class="wrap-title-item">
+                  <div class="area-text item-tit">
+                    <div class="marquee text">default_tvshow_280x410.png</div>
+                  </div>
+                  <div class="item-grade list-grade">
+                    <div class="icon percent-grade" style="width:50%;"></div>
+                    <div class="icon bg-grade"></div>
+                  </div>
+                </div>
+                <div class="blank icon icon-code btn-cp-play"></div><!-- 컨텐츠 Thumbnail에 info 버튼 -->
+              </div>
+              <div class="blank icon-player btn-cp-play" style="display:none"></div><!-- 컨텐츠 Thumbnail에 play 버튼 -->
+            </div><!-- //item --><!-- item --><div class="blank item item-list">
+              <div class="item-badge">
+                <div class="area-text badge-text"><div class="marquee text">You may like, 3D, Ultra HD, Free, Ultra HD + end</div></div>
+              </div>
+              <div class="item-thumb">
+                <img src="../images/temp/thum_h1.jpg" class="thumb-img">
+              </div>
+              <div class="item-info" style="">
+                <div class="wrap-title-item">
+                  <div class="area-text item-tit">
+                    <div class="marquee text">w ITEM title title title marquee end</div>
+                  </div>
+                  <div class="item-grade list-grade ng-hide">
+                    <div class="icon percent-grade" style="width:50%;"></div>
+                    <div class="icon bg-grade"></div>
+                  </div>
+                </div>
+                <div class="blank icon icon-code btn-cp-play"></div><!-- 컨텐츠 Thumbnail에 info 버튼 -->
+              </div>
+              <div class="blank icon-player btn-cp-play ng-hide" ></div><!-- 컨텐츠 Thumbnail에 play 버튼 -->
+            </div><!-- //item --><!-- item --><div class="blank item item-list">
+              <div class="item-badge"><div class="area-text badge-text"><div class="marquee text">You may like</div></div></div>
+              <div class="item-thumb">
+                <img src="../images/temp/thum_h2.jpg" class="thumb-img">
+              </div>
+              <div class="item-info" style="">
+                <div class="wrap-title-item">
+                  <div class="area-text item-tit">
+                    <div class="marquee text">w title title marquee end</div>
+                  </div>
+                  <div class="item-grade list-grade">
+                    <div class="icon percent-grade" style="width:100%;"></div>
+                    <div class="icon bg-grade"></div>
+                  </div>
+                </div>
+                <div class="blank icon icon-code btn-cp-play focus"></div><!-- 컨텐츠 Thumbnail에 info 버튼 -->
+              </div>
+
+              <div class="blank icon-player btn-cp-play focus ng-hide"></div><!-- 컨텐츠 Thumbnail에 play 버튼 -->
+            </div><!-- //item --><!-- item --><div class="blank item item-list">
+              <div class="item-thumb">
+                <img src="../images/temp/thum_h3.jpg" class="thumb-img">
+              </div>
+              <div class="item-info" style="">
+                <div class="wrap-title-item">
+                  <div class="area-text item-tit">
+                    <div class="marquee text">w title title marquee end</div>
+                  </div>
+                  <div class="item-grade list-grade">
+                    <div class="icon percent-grade" style="width:50%;"></div>
+                    <div class="icon bg-grade"></div>
+                  </div>
+                </div>
+                <div class="blank icon icon-code btn-cp-play"></div><!-- 컨텐츠 Thumbnail에 info 버튼 -->
+              </div>
+            </div><!-- //item --><!-- item --><div class="blank item item-list focus">
+              <div class="item-thumb">
+                <img src="../images/temp/thum_w1.jpg" class="thumb-img">
+              </div>
+              <div class="item-info" style="">
+                <div class="wrap-title-item">
+                  <div class="area-text item-tit">
+                    <div class="marquee text">w title title marquee end</div>
+                  </div>
+                  <div class="item-grade list-grade">
+                    <div class="icon percent-grade" style="width:50%;"></div>
+                    <div class="icon bg-grade"></div>
+                  </div>
+                </div>
+                <div class="blank icon icon-code btn-cp-play"></div><!-- 컨텐츠 Thumbnail에 info 버튼 -->
+              </div>
+            </div><!-- //item -->
+          </div>
+          <div class="list-cont"><!-- 20150609 수정 - 절대좌표 위치값 들어가면서 라인으로 아이템 묶음 -->
+            <!-- item -->
+            <div class="blank item item-list">
+              <div class="item-thumb">
+                <img src="../images/temp/thum_w2.jpg" class="thumb-img">
+              </div>
+              <div class="item-info" style="">
+                <div class="wrap-title-item">
+                  <div class="area-text item-tit">
+                    <div class="marquee text">w title title marquee end</div>
+                  </div>
+                  <div class="item-grade list-grade">
+                    <div class="icon percent-grade" style="width:50%;"></div>
+                    <div class="icon bg-grade"></div>
+                  </div>
+                </div>
+                <div class="blank icon icon-code btn-cp-play"></div><!-- 컨텐츠 Thumbnail에 info 버튼 -->
+              </div>
+            </div><!-- //item --><!-- item --><div class="blank item item-list">
+              <div class="item-thumb">
+                <img src="../images/temp/thum_w3.jpg" class="thumb-img">
+              </div>
+              <div class="item-info" style="">
+                <div class="wrap-title-item">
+                  <div class="area-text item-tit">
+                    <div class="marquee text">w title title marquee end</div>
+                  </div>
+                  <div class="item-grade list-grade">
+                    <div class="icon percent-grade" style="width:50%;"></div>
+                    <div class="icon bg-grade"></div>
+                  </div>
+                </div>
+                <div class="blank icon icon-code btn-cp-play"></div><!-- 컨텐츠 Thumbnail에 info 버튼 -->
+              </div>
+            </div><!-- //item --><!-- item --><div class="blank item item-list">
+              <div class="item-thumb">
+                <img src="../images/thumb/default_movie_280x410.png" class="thumb-img">
+              </div>
+              <div class="item-info" style="">
+                <div class="wrap-title-item">
+                  <div class="area-text item-tit">
+                    <div class="marquee text">default_movie_280x410.png</div>
+                  </div>
+                  <div class="item-grade list-grade">
+                    <div class="icon percent-grade" style="width:50%;"></div>
+                    <div class="icon bg-grade"></div>
+                  </div>
+                </div>
+                <div class="blank icon icon-code btn-cp-play"></div><!-- 컨텐츠 Thumbnail에 info 버튼 -->
+              </div>
+            </div><!-- //item --><!-- item --><div class="blank item item-list">
+              <div class="item-thumb">
+                <img src="../images/thumb/default_movie_280x410.png" class="thumb-img">
+              </div>
+              <div class="item-info" style="">
+                <div class="wrap-title-item">
+                  <div class="area-text item-tit">
+                    <div class="marquee text">default_movie_280x410.png</div>
+                  </div>
+                  <div class="item-grade list-grade">
+                    <div class="icon percent-grade" style="width:50%;"></div>
+                    <div class="icon bg-grade"></div>
+                  </div>
+                </div>
+                <div class="blank icon icon-code btn-cp-play"></div><!-- 컨텐츠 Thumbnail에 info 버튼 -->
+              </div>
+            </div><!-- //item --><!-- item --><div class="blank item item-list">
+              <div class="item-thumb">
+                <img src="../images/thumb/default_movie_280x410.png" class="thumb-img">
+              </div>
+              <div class="item-info" style="">
+                <div class="wrap-title-item">
+                  <div class="area-text item-tit">
+                    <div class="marquee text">default_movie_280x410.png</div>
+                  </div>
+                  <div class="item-grade list-grade">
+                    <div class="icon percent-grade" style="width:50%;"></div>
+                    <div class="icon bg-grade"></div>
+                  </div>
+                </div>
+                <div class="blank icon icon-code btn-cp-play"></div><!-- 컨텐츠 Thumbnail에 info 버튼 -->
+              </div>
+            </div><!-- //item -->
+          </div>
+
+          <div class="sec-title list-title">shelf title</div>
+          <div class="list-cont"><!-- 20150609 수정 - 절대좌표 위치값 들어가면서 라인으로 아이템 묶음 -->
+            <!-- item -->
+            <div class="blank item item-list item-list-width focus"><!-- 가로형 썸네일 class="item-list-width" 추가 -->
+              <div class="item-thumb">
+                <img src="../images/thumb/default_tvshow_352x262.png" class="thumb-img">
+              </div>
+              <div class="item-info" style="">
+                <div class="wrap-title-item">
+                  <div class="area-text item-tit">
+                    <div class="marquee text">default_tvshow_352x262.png</div>
+                  </div>
+                  <div class="item-grade list-grade">
+                    <div class="icon percent-grade" style="width:50%;"></div>
+                    <div class="icon bg-grade"></div>
+                  </div>
+                </div>
+                <div class="blank icon icon-code btn-cp-play focus"></div><!-- 컨텐츠 Thumbnail에 info 버튼 -->
+              </div>
+
+              <div class="blank icon-player btn-cp-play focus ng-hide"></div><!-- 컨텐츠 Thumbnail에 play 버튼 -->
+            </div><!-- //item --><!-- item --><div class="blank item item-list item-list-width">
+              <div class="item-thumb">
+                <img src="../images/thumb/default_movie_352x262.png" class="thumb-img">
+              </div>
+              <div class="item-info" style="">
+                <div class="wrap-title-item">
+                  <div class="area-text item-tit">
+                    <div class="marquee text">default_movie_352x262.png</div>
+                  </div>
+                  <div class="item-grade list-grade">
+                    <div class="icon percent-grade" style="width:50%;"></div>
+                    <div class="icon bg-grade"></div>
+                  </div>
+                </div>
+                <div class="blank icon icon-code btn-cp-play"></div><!-- 컨텐츠 Thumbnail에 info 버튼 -->
+              </div>
+            </div><!-- //item --><!-- item --><div class="blank item item-list item-list-width">
+              <div class="item-thumb">
+                <img src="../images/temp/thum_h3.jpg" class="thumb-img">
+              </div>
+              <div class="item-info" style="">
+                <div class="wrap-title-item">
+                  <div class="area-text item-tit">
+                    <div class="marquee text">w title title marquee end</div>
+                  </div>
+                  <div class="item-grade list-grade">
+                    <div class="icon percent-grade" style="width:50%;"></div>
+                    <div class="icon bg-grade"></div>
+                  </div>
+                </div>
+                <div class="blank icon icon-code btn-cp-play"></div><!-- 컨텐츠 Thumbnail에 info 버튼 -->
+              </div>
+
+            </div><!-- //item --><!-- item --><div class="blank item item-list item-list-width focus">
+              <div class="item-thumb">
+                <img src="../images/temp/thum_w1.jpg" class="thumb-img">
+              </div>
+              <div class="item-info" style="">
+                <div class="wrap-title-item">
+                  <div class="area-text item-tit">
+                    <div class="marquee text">w title title marquee end</div>
+                  </div>
+                  <div class="item-grade list-grade">
+                    <div class="icon percent-grade" style="width:50%;"></div>
+                    <div class="icon bg-grade"></div>
+                  </div>
+                </div>
+                <div class="blank icon icon-code btn-cp-play"></div><!-- 컨텐츠 Thumbnail에 info 버튼 -->
+              </div>
+            </div><!-- //item -->
+          </div>
+          <div class="list-cont"><!-- 20150609 수정 - 절대좌표 위치값 들어가면서 라인으로 아이템 묶음 -->
+            <!-- item -->
+            <div class="blank item item-list item-list-width">
+              <div class="item-thumb">
+                <img src="../images/temp/thum_w2.jpg" class="thumb-img">
+              </div>
+              <div class="item-info" style="">
+                <div class="wrap-title-item">
+                  <div class="area-text item-tit">
+                    <div class="marquee text">w title title marquee end</div>
+                  </div>
+                  <div class="item-grade list-grade">
+                    <div class="icon percent-grade" style="width:50%;"></div>
+                    <div class="icon bg-grade"></div>
+                  </div>
+                </div>
+                <div class="blank icon icon-code btn-cp-play"></div><!-- 컨텐츠 Thumbnail에 info 버튼 -->
+              </div>
+            </div><!-- //item --><!-- item --><div class="blank item item-list item-list-width">
+              <div class="item-thumb">
+                <img src="../images/temp/thum_w3.jpg" class="thumb-img">
+              </div>
+              <div class="item-info" style="">
+                <div class="wrap-title-item">
+                  <div class="area-text item-tit">
+                    <div class="marquee text">w title title marquee end</div>
+                  </div>
+                  <div class="item-grade list-grade">
+                    <div class="icon percent-grade" style="width:50%;"></div>
+                    <div class="icon bg-grade"></div>
+                  </div>
+                </div>
+                <div class="blank icon icon-code btn-cp-play"></div><!-- 컨텐츠 Thumbnail에 info 버튼 -->
+              </div>
+            </div><!-- //item -->
+          </div>
+        <!-- //content -->
+        </div>
+        <div class="scroll scroll-v">
+          <div class="blank icon scroll-prev focus"></div>
+          <div class="scroll-area"><div class="scroll-bar" style="height:454px; top 0px;"></div></div>
+          <div class="blank icon scroll-next"></div>
+        </div>
+      </div>
+    </div>
+    <!-- //basic page -->
+  </div>
+  <!-- //panels-viewport -->
+</div>
+<!-- //panels -->
+
+<!-- AD-banner -->
+<div class="blank ad-banner item-video focus"><!-- 영상인 경우 class="item-video" 추가 -->
+  <div class="thumb">
+    <img src="../images/temp/temp_01.jpg" class="thumb-img">
+    <div class="icon-player icon-video"></div>
+    <div class="bg-icon"></div>
+  </div>
+  <div class="area-text ban-text">
+    <div class="text">AD SPONSER</div>
+  </div>
+  <!-- Full / player -->
+  <!-- Video -->
+  <div class="info-time" style="display: none;">0:00<div class="blank btn btn-icon btn-pop-close"><div class="icon"></div></div></div>
+  <div class="blank ad-inset-ban" style="display: none;"><img src="../images/thumb/ad/278X157.png" class="thumb-img"></div><!-- 임시 이미지. 사이즈는 광고팀에 따름.  -->
+  <!--  //Video -->
+  <!-- Image  -->
+  <div class="blank btn btn-icon btn-pop-close" style="display: none;"><div class="icon"></div></div>
+  <div class="blank btn btn-ad btn-ad-more" style="display: none;"><div class="area-text"><div class="text marquee">more</div></div></div>
+  <!--  //Image  -->
+  <!-- Progress bar 사라질 경우, SKIP버튼이 하단으로 내려옴.  -->
+  <div class="player-cont" style="display: none;">
+    <div class="blank btn btn-icon btn-cancel"><div class="icon"></div></div>
+    <div class="blank btn btn-ad btn-ad-skip"><!-- SKIP 가능 대기 N초 버튼 비활성화 class="disabled" 추가 -->
+      <div class="area-text"><div class="text marquee">skip ad</div></div>
+    </div>
+    <!-- Progress Bar  -->
+    <div class="player-progress">
+      <div class="bar-buffering" style="width:60%;"></div>
+      <div class="bar-play" style="width:40%;"></div>
+      <div class="time time-play">0:00:00</div>
+      <div class="time time-remain">4:37:37</div>
+    </div>
+    <!-- //Progress Bar  -->
+  </div>
+  <!--  //Progress bar 사라질 경우, SKIP버튼이 하단으로 내려옴.  -->
+  <!-- Full / player -->
+</div>
+<!-- //AD-banner -->
+
+<!-- player -->
+<div class="player ng-hide"></div>
+<!-- //player -->
+
+<!-- help guide -->
+<div class="help-guide ng-hide"></div>
+<!-- //help guide -->
+
+<!-- search page -->
+<div class="page-search ng-hide"></div>
+<!-- //search page -->
+
+<!-- popup / basic -->
+<div class="popup-dialog" style="display:none">
+  <div class="popup-basic">
+    <!-- popup-header -->
+    <div class="popup-header">
+      <div class="wrap-title-popup">
+        <div class="area-text no-event popup-title">
+          <div class="marquee text marquee-start">popup title !@#$%^&amp;*()_+|\][{}?/!@#$%^&amp;*()_+|\][{}?/</div>
+        </div>
+      </div>
+      <div class="wrap-btn-popup">
+        <div class="blank btn-popup btn-small">
+          <div class="area-text"><div class="text marquee">ok</div></div>
+        </div>
+      </div>
+    </div>
+    <!-- //popup-header -->
+    <!-- popup-cont -->
+    <div class="popup-cont popup-error">
+      error text erro text error text erro texterror text erro texterror text erro texterror text erro texterror text erro texterror text erro texterror text erro texterror text erro text
+      <div class="blank icon icon-code"></div>
+    </div>
+    <!-- //popup-cont -->
+  </div>
+</div>
+<!-- //popup / basic -->
+
+<!-- popup / list action -->
+<div class="popup-list-option ng-hide"></div>
+<!-- //popup / list action -->
+
+<!-- popup / rating -->
+<div class="popup-contextual pop-rating ng-hide"></div>
+<!-- //popup / rating -->
+
+<!-- popup / season -->
+<div class="popup-contextual pop-season ng-hide"></div>
+<!-- //popup / season -->
+
+<!-- tooltip -->
+<div class="tooltip ng-hide"></div>
+<!-- //tooltip -->
+
+</body>
+</html>

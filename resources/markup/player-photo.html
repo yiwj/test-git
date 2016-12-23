@@ -1,0 +1,64 @@
+<!doctype html>
+<html ng-app="discoveryApp" class="ng-scope">
+<head>
+<style type="text/css">
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="../css/store17-common.css" rel="stylesheet">
+<link href="../css/store17-sub.css" rel="stylesheet">
+<link href="../css/store17-animation.css" rel="stylesheet"><!-- animation 분리 / Lite 에서는 store16-animation-lite.css 으로 변경  -->
+<script type="text/javascript" src="pub-dreadlocks.js"></script>
+<style type="text/css">
+/* html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+::-webkit-scrollbar{width:0;}
+.panel-body{overflow-y:scroll;pointer-events:auto;}
+/* end-html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+</style>
+</head>
+<body class="dir-rtl-"><!-- RTL 언어 class="dir-rtl" -->
+<!-- drawer -->
+<div class="drawer"><!-- 20150608 수정 -->
+  <div class="blank drawer-category drawer-featured"></div><div class="blank drawer-category drawer-tvshows"></div><div class="blank drawer-category drawer-movies"></div><div class="blank drawer-category drawer-premium"></div><div class="blank drawer-category drawer-appsngames"></div><div class="blank drawer-category drawer-mypage"></div><div class="blank drawer-category drawer-search"></div><div class="blank drawer-category drawer-close"></div>
+</div>
+<!-- //drawer -->
+
+<!-- basic page -->
+<div class="page panel-list showing"><!-- 화면 show 경우 class="showing" --></div>
+<!-- //basic page -->
+
+<!-- player - 동영상/이미지 뷰어 -->
+<div class="player">
+  <div class="player_thumb" style="display: block; background-image: url(../images/temp/temp_player.png);"></div><!-- 이미지 -->
+  <!-- player-header -->
+  <div class="player-header ng-hide"></div>
+  <!-- //player-header -->
+  <!-- player-cont -->
+  <div class="player-cont">
+    <!-- Feedback -->
+    <div class="player-feedback ng-hide"></div>
+    <!-- //Feedback -->
+    <!-- Playback Control -->
+    <div class="player-control" style="bottom:0">
+      <div class="blank icon-player btn-skipbackward"></div><div class="blank icon-player btn-pause"></div><div class="blank icon-player btn-skipforward"></div>
+      <div class="blank icon-player btn-back"></div>
+      <div class="blank icon-player btn-slide-show"></div>
+    </div>
+    <!-- //Playback Control -->
+    <!-- Progress Bar  -->
+    <div class="player-progress ng-hide"></div>
+    <!-- //Progress Bar  -->
+  </div>
+  <!-- //player-cont -->
+  <!-- Slide Show list -->
+  <div class="player-slide ng-hide"></div>
+  <!-- //Slide Show list -->
+</div>
+<!-- //player - 동영상/이미지 뷰어 -->
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/* ---------2. UI BASE--------- */
+/* ------2.2. LAYOUT------ */
+/*.panels .panels-breadcrumbs {
+  z-index: 2; 
+  background-color: #000;
+  }
+  .main-drawer + .panels .panels-breadcrumbs {
+    z-index: 0;
+  }*/
+/*.panels .panels-breadcrumbs .after {
+  display: none;
+  position: relative;
+  height: 100%;
+  background-color: #000;
+  }
+  .panels .panels-breadcrumbs.hide .after {display: block;}*/
+.panels .breadcrumb,
+.panels .page { 	
+	display: none;
+}
+.panels .direct,
+.panels .showing { 
+	display: block;
+}
+.panels .hiding { 
+	display: none;
+}
+.panels .direct,
+.panels .page .showing { 
+  display: block;
+}
+.panels .page .hiding { 
+  display: none;
+}
+/* ---2.2.5. LAYOUT > search--- */
+/* animation*/
+.page-search{top:-100%; display: none;}
+.page-search.search-show{top:0; display: block;}
+/* end-animation*/
+
+/* ------2.4. TEXT MARQUEE------ */
+/* animation */
+.area-text .marquee{left:0; transition-property:left; transition-timing-function:linear; -webkit-transition-delay:0.7s;}
+/* end-animation */
+/* animation - focus 영역은 아니지만 marquee 되어야 하는 텍스트 - marquee-start 클래스 추가 */
+.no-event .marquee{left:0; transition-property:left; transition-timing-function:linear; -webkit-transition-delay:0.7s;}
+.no-event .marquee-start{overflow:visible;position:relative;}
+/* end-animation */
+
+/* ------2.11. SUB MENU(CATEGORY)------ */
+/* accordion-animation */
+.menu-depth.depth-open .menu-depth-drawer {
+  height: auto;
+}
+/* end-animation */
+
+/* ---------3. DEPTH CONTENT--------- */
+
+/* ---------4. SEARCH--------- */
+
+/* ---------5. POPUP--------- */
+
+/* ------5.1 BASIC POPUP------ */
+/* animation */
+.popup-list-option {display: none;}
+.popup-list-option.popup-open {top:1.33rem; display: block;}
+/* end-animation */
+
+/* ---------6. MAIN--------- */
+/*.header-item {display: none;}
+.main-header .btn-icon {display: none;}*/
+
+/* ---------7. PLAYER--------- */
+
+/* ---------8. HELP GUIDE--------- */
+
+/* ---------9. LANGUAGE--------- */
+
+/* ---------10. ACCESSIBILITY--------- */
+
+/* ---------11. RTL--------- */

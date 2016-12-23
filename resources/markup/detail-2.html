@@ -1,0 +1,377 @@
+<!doctype html>
+<html ng-app="discoveryApp" class="ng-scope">
+<head>
+<style type="text/css">
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="../css/store17-common.css" rel="stylesheet">
+<link href="../css/store17-sub.css" rel="stylesheet">
+<link href="../css/store17-animation.css" rel="stylesheet"><!-- animation 분리 / Lite 에서는 store16-animation-lite.css 으로 변경  -->
+<script type="text/javascript" src="pub-dreadlocks.js"></script>
+<style type="text/css">
+/* html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+::-webkit-scrollbar{width:0;}
+.panel-body{overflow-y:scroll;pointer-events:auto;}
+/* end-html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+</style>
+</head>
+<body class="dir-rtl-"><!-- RTL 언어 class="dir-rtl" -->
+<!-- drawer -->
+<div class="drawer"><!-- 20151005 수정 -->
+  <div class="blank drawer-category drawer-featured"></div><div class="blank drawer-category drawer-tvshows"></div><div class="blank drawer-category drawer-movies"></div><div class="blank drawer-category drawer-premium"></div><div class="blank drawer-category drawer-appsngames"></div><div class="blank drawer-category drawer-mypage"></div><div class="blank drawer-category drawer-search"></div>
+  <!-- 2015-10-05 닫기 버튼 추가 -->
+  <div class="blank drawer-category drawer-close"></div>
+  <!-- 2015-10-05 닫기버튼 추가-->
+</div>
+<!-- //drawer -->
+
+<!-- panels -->
+<div class="panels">
+  <!-- panels-breadcrumbs -->
+  <div class="panels-breadcrumbs">
+    <div class="blank breadcrumb showing"><div class="breadcrumb-bar"></div><div class="step">02</div><div class="icon icon-panel-back"></div></div>
+    <div class="blank breadcrumb"><div class="breadcrumb-bar"></div><div class="step">01</div><div class="icon icon-panel-back"></div></div>
+  </div>
+  <!-- //panels-breadcrumbs -->
+  <!-- panels-viewport -->
+  <div class="panels-viewport">
+    <!-- basic page -->
+    <div class="page panel-detail panel-detail2 showing no-textTransform"><!-- Apps&Games와 premium 상세화면 class="panel-detail2" 추가 / class="showing" --> <!-- 프리미엄 상세, 테마 상세 no-textTransform 추가 -->
+      <div class="panel-header">
+        <div class="area-text no-event panel-title">
+          <div class="marquee text">2depth title !@#$%^&*()_+|\][{}?/!@#$%^&*()_+|\][{}?/!@#$%^&*()_+|\][{}?/!@#$%^&*()_+|\][{}?/!@#$%^&*()_+|\][{}?/!@#$%^&*()_+|\][{}?/</div>
+        </div>
+        <div class="panel-sub">
+          <div class="sub-text sub-title">sub category</div><div class="bar-empty">|</div>
+          <div class="sub-text sub-sub-title">list 정렬 옵션항목 !@#$%^&*()_+|\][{}?/</div>
+        </div>
+        <div class="wrap-btn-header">
+          <div class="blank btn btn-small">
+            <div class="btn-rating-cont">
+              <div class="blank icon btn-score on focus"></div>
+              <div class="blank icon btn-score on"></div>
+              <div class="blank icon btn-score on"></div>
+              <div class="blank icon btn-score"></div>
+              <div class="blank icon btn-score"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="detail-brief detail-apps-brief"><!-- Apps & Games 에서 class="detail-apps-brief" 추가 -->
+        <div class="item-thumb" style="background-color:#742873;"><!-- Premium app인 경우 배경색 추가 --><!-- 20151026 배경색이 검은색일경우 bg-black 클래스 추가 -->
+          <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+          <div class="spinner"></div><!-- Update, 설치 시 -->
+        </div>
+        <!-- Progress bar - Download 진행률 -->
+        <div class="progress-apps progress-down" style="display:block;">
+          <div class="progress-bar" style="width:10%;"></div>
+        </div>
+        <!-- //Progress bar - Download 진행률 / Update, 설치 시 spinner로 수정되면서 삭제 -->
+        <!-- Progress bar -  Install 진행률
+        <div class="progress-apps progress-install"></div> -->
+        <div class="blank btn btn-large">
+          <div class="area-text"><div class="text marquee">CANCEL</div></div>
+        </div>
+        <!-- 앱에 대한 정보 -->
+        <div class="brief-info">
+          <div class="info-tit">Event:</div>
+          <div class="info-cont">2013.07.15 - 2013.07.19</div>
+        </div>
+        <div class="brief-info">
+          <div class="info-tit">Price:</div>
+          <div class="info-cont">
+            <div class="item-price">$2.99</div>
+            <div class="list-price">$5.99<div class="price-empty"></div></div>
+          </div>
+        </div>
+        <div class="brief-info brief-info-storage">
+          <div class="info-tit">Available Internal Storage:</div>
+          <div class="info-cont">25/200MB</div>
+        </div>
+        <!-- //앱에 대한 정보 -->
+      </div>
+      <div class="panel-body">
+        <div class="panel-cont">
+        <!-- content -->
+          <!-- sec-info-brief -->
+          <div class="sec-info-brief">
+            <div class="info-brief">
+              <div class="sec-title detail-title">updated</div>
+              <div class="info-cont">2013</div>
+            </div>
+			<!-- 2015-10-05 남은 용량 표기 추가에 따른 class 및 요소 추가 -->
+            <div class="info-brief">
+              <div class="sec-title detail-title">size</div>
+              <div class="info-cont">120<div class="unit">kb</div></div>
+			  <div class="text-slash">/</div>
+			  <div class="info-cont all-cont">0000<div class="unit">kb</div></div>
+            </div>
+			<!-- //2015-10-05 남은 용량 표기 추가에 따른 class 및 요소 추가 -->
+            <div class="info-brief">
+              <div class="sec-title detail-title">version</div>
+              <div class="info-cont">pg 13</div>
+            </div>
+            <div class="info-brief">
+              <div class="sec-title detail-title">rating</div>
+              <div class="info-cont">18+</div>
+            </div>
+          </div>
+          <!-- //sec-info-brief -->
+          <!-- sec-info-detail -->
+          <div class="detail-section sec-info-detail more-open"><!-- more 버튼이 있는 경우에 class="more-open"추가 -->
+            <div class="sec-title detail-title">details</div>
+            <div class="detail-cont">
+              <div class="synopsis-info synopsis-category">Category</div><div class="bar-empty">|</div>
+              <div class="item-grade synopsis-grade">
+                <div class="icon percent-grade" style="width:70%;"></div>
+                <div class="icon bg-grade"></div>
+              </div>
+              <div class="synopsis-grade-num">128</div>
+              <div class="bar-empty">|</div>
+              <div class="synopsis-rating">
+                <div class="synopsis-grade-num">18+</div>
+                <div class="icon icon-grade-10"></div>
+              </div>
+              <div class="synopsis-info synopsis-name">Seller : Seller Name</div>
+              <div class="synopsis-info synopsis-name">Ask a seller : abd@ef.com</div>
+              <div class="synopsis-text synopsis-notice">Package avilable with discounted price.</div><!-- In-app 결제 앱인 경우/패키지 앱의 경우 -->
+              <div class="synopsis-text">
+                The story of Steve Jobs' ascension from college dropout into one of the most revered creative entrepreneurs of the 20th century. The story of Steve Jobs' ascension from college dropout into one of the most revered creative entrepreneurs of the 20th century. The story of Steve Jobs' ascension from college dropout into one of the most revered creative entrepreneurs of the 20th century.
+              </div>
+            </div>
+            <div class="blank btn-more">more<div class="icon icon-more-detail"></div></div>
+          </div>
+          <!-- //sec-info-detail -->
+          <!-- Screenshots -->
+          <div class="detail-section sec-detail-list">
+            <div class="sec-title detail-title">screenshots</div>
+            <div class="sec-cont detail-list-trailer">
+              <!-- item -->
+              <div class="blank item item-trailer-apps focus">
+                <div class="item-thumb">
+                  <img src="../images/thumb/app&games_default_screenshot.png" class="thumb-img">
+                </div>
+              </div><!-- //item --><!-- item --><div class="blank item item-trailer-apps">
+                <div class="item-thumb">
+                  <img src="../images/thumb/app&games_default_screenshot.png" class="thumb-img">
+                </div>
+              </div><!-- //item --><!-- item --><div class="blank item item-trailer-apps focus">
+                <div class="item-thumb">
+                  <img src="../images/thumb/app&games_default_screenshot.png" class="thumb-img">
+                </div>
+              </div><!-- //item -->
+            </div>
+          </div>
+          <!-- //Screenshots -->
+          <!-- System Requirements -->
+          <div class="detail-section">
+            <div class="sec-title detail-title">system Requirements</div>
+            <div class="sec-cont list-require">
+              <div class="item-require"><div class="icon icon-internet"></div>Internet</div>
+              <div class="item-require"><div class="icon icon-3D"></div>3D</div>
+              <div class="item-require"><div class="icon icon-magic-remote"></div>Magic Remote</div>
+              <div class="item-require"><div class="icon icon-camera"></div>Camera</div>
+              <div class="item-require"><div class="icon icon-gamepad"></div>Gamepad</div>
+            </div>
+          </div>
+          <!-- //System Requirements -->
+          <!-- Recommended Apps -->
+          <div class="detail-section more-open"><!-- more 버튼이 있는 경우에 class="more-open"추가 -->
+            <div class="sec-title detail-title">customers Also Bought</div>
+            <div class="sec-cont detail-list-apps">
+              <!-- item -->
+              <div class="blank item item-apps focus">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+                <div class="app-category">category</div>
+                <div class="item-price">$2.99</div>
+                <div class="list-price">$5.99<div class="price-empty"></div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-apps focus">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+                <div class="app-category">category</div>
+                <div class="item-price">$2.99</div>
+                <div class="list-price">$5.99<div class="price-empty"></div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-apps">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+                <div class="app-category">category</div>
+                <div class="item-price">$2.99</div>
+                <div class="list-price">$5.99<div class="price-empty"></div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-apps">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+                <div class="app-category">category</div>
+                <div class="item-price">$2.99</div>
+                <div class="list-price">$5.99<div class="price-empty"></div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-apps">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+                <div class="app-category">category</div>
+                <div class="item-price">$2.99</div>
+                <div class="list-price">$5.99<div class="price-empty"></div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-apps">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+                <div class="app-category">category</div>
+                <div class="item-price">$2.99</div>
+                <div class="list-price">$5.99<div class="price-empty"></div></div>
+              </div><!-- //item -->
+            </div>
+            <div class="blank btn-more">more<div class="icon icon-more-detail"></div></div>
+          </div>
+          <!-- //Recommended Apps -->
+          <!-- Recommended Apps -->
+          <div class="detail-section">
+            <div class="sec-title detail-title">seller Recommends</div>
+            <div class="sec-cont detail-list-apps">
+              <!-- item -->
+              <div class="blank item item-apps">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title</div></div>
+                <div class="app-category">category</div>
+                <div class="item-price">$2.99</div>
+                <div class="list-price">$5.99<div class="price-empty"></div></div>
+              </div><!-- //item -->
+            </div>
+          </div>
+          <!-- //Recommended Apps -->
+          <!-- Recommendation -->
+          <div class="detail-section sec-detail-list more-open"><!-- more 버튼이 있는 경우에 class="more-open"추가 -->
+            <div class="sec-title detail-title">movie List</div>
+            <div class="sec-cont detail-list">
+              <!-- item -->
+              <div class="blank item item-detail2 focus">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-detail2">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-detail2">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-detail2">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-detail2">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-detail2 focus">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+              </div><!-- //item -->
+            </div>
+            <div class="blank btn-more">more<div class="icon icon-more-detail"></div></div>
+          </div>
+          <!-- //Recommendation -->
+        <!-- //content -->
+        </div>
+        <div class="scroll scroll-v">
+          <div class="blank icon scroll-prev"></div>
+          <div class="scroll-area"><div class="scroll-bar" style="height:454px; top 0px;"></div></div>
+          <div class="blank icon scroll-next"></div>
+        </div>
+      </div>
+    </div>
+    <!-- //basic page -->
+  </div>
+  <!-- //panels-viewport -->
+</div>
+<!-- //panels -->
+
+<!-- AD-banner -->
+<div class="blank ad-banner ad-banner-detail">
+  <div class="ad-dim ng-scope" style="visibility:visible">
+    <div class="thumb" id="videothumb">
+      <img id="adDefaultImage" ng-src="./resources/images/thumb/default_ad_278X157.png" class="thumb-img" src="../images/thumb/default_ad_278X157.png">
+      <div class="icon-player icon-video"></div>
+      <div class="bg-icon"></div>
+    </div>
+    <div class="area-text ban-text">
+      <div class="text">AD SPONSER</div>
+    </div>
+    <div class="info-time" style="display:none;">
+      <div class="time-text"></div>
+      <div class="blank btn btn-icon btn-pop-close" ng-class="{'focus': closeFocus &amp;&amp; fullScreen}" item="close">
+        <div class="icon"></div>
+      </div>
+    </div>
+    <div class="blank btn btn-icon btn-pop-close img-close" style="display:none;" item="close">
+      <div class="icon"></div>
+    </div>
+    <div class="blank btn btn-ad btn-ad-more" style="display:none;">
+      <div class="area-text">
+        <div class="text marquee">more</div>
+      </div>
+    </div>
+    <div class="blank ad-inset-ban" style="display:none;" item="banner"><img ng-src="./resources/images/thumb/ad/278X157.png" class="thumb-img" src="./resources/images/thumb/ad/278X157.png"></div>
+  </div>
+</div>
+
+<div class="ad-player ng-hide"></div>
+<!-- //AD-banner -->
+
+<!-- player -->
+<div class="player ng-hide"></div>
+<!-- //player -->
+
+<!-- help guide -->
+<div class="help-guide ng-hide"></div>
+<!-- //help guide -->
+
+<!-- search page -->
+<div class="page-search ng-hide"></div>
+<!-- //search page -->
+
+<!-- popup / basic -->
+<div class="popup-basic ng-hide"></div>
+<!-- //popup / basic -->
+
+<!-- popup / list action -->
+<div class="popup-list-option ng-hide"></div>
+<!-- //popup / list action -->
+
+<!-- popup / rating -->
+<div class="popup-contextual pop-rating ng-hide"></div>
+<!-- //popup / rating -->
+
+<!-- popup / season -->
+<div class="popup-contextual pop-season ng-hide"></div>
+<!-- //popup / season -->
+
+<!-- tooltip -->
+<div class="tooltip ng-hide"></div>
+<!-- //tooltip -->
+</body>
+</html>

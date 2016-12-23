@@ -1,0 +1,152 @@
+<!doctype html>
+<html ng-app="discoveryApp" class="ng-scope">
+<head>
+<style type="text/css">
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="../css/store17-common.css" rel="stylesheet">
+<link href="../css/store17-sub.css" rel="stylesheet">
+<link href="../css/store17-animation.css" rel="stylesheet"><!-- animation 분리 / Lite 에서는 store16-animation-lite.css 으로 변경  -->
+<script type="text/javascript" src="pub-dreadlocks.js"></script>
+<style type="text/css">
+/* html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+::-webkit-scrollbar{width:0;}
+body{overflow-y:auto;}
+.pop-opt-cont{overflow-y:auto;pointer-events:auto;}
+.sec-episode .btn-season{margin-top:47.8rem;margin-left:6.6rem;margin-right:5rem;}
+.sec-episode .btn-season + .btn-season{margin-top:25rem;margin-left:-21rem;}
+
+.dir-rtl .sec-episode .btn-season{margin-left:5rem;margin-right:53.6rem;}
+.dir-rtl .sec-episode .btn-season + .btn-season{margin-left:0;margin-right:-21rem;}
+
+.popup-modal-rating,
+.popup-modal-season {position: static;}
+/* end-html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+</style>
+</head>
+<body class="dir-rtl-"><!-- RTL 언어 class="dir-rtl" -->
+
+<!-- popup / rating -->
+<div class="popup-modal-rating">
+  <div class="popup-contextual pop-rating" style="left:74.4rem;top:2.65rem;"><!-- 임시 좌표값 -->
+    <div class="pop-rating-title">Rating this movie</div>
+    <div class="pop-rating-cont">
+      <div class="blank icon btn-score on focus"></div>
+      <div class="blank icon btn-score on"></div>
+      <div class="blank icon btn-score on"></div>
+      <div class="blank icon btn-score"></div>
+      <div class="blank icon btn-score"></div>
+    </div>
+    <!-- rating/btn -->
+    <div class="wrap-btn-rating">
+      <div class="blank btn-popup btn-small">
+        <div class="area-text"><div class="text marquee">cancel</div></div>
+      </div><div class="blank btn-popup btn-small">
+        <div class="area-text"><div class="text marquee">ok</div></div>
+      </div>
+    </div>
+    <!-- rating/btn -->
+    <div class="bg-empty"><div class="bg-empty-inner"></div><div class="bg-empty-inner2"></div></div>
+  </div>
+</div>
+<!-- //popup / rating -->
+
+<!-- popup / rating / 평가 완료된 팝업 / 꼬리말이 왼쪽에 있는 경우 -->
+<div class="popup-modal-rating" style="display:none;">
+  <div class="popup-contextual pop-rating pop-rating-end" style="left:48.25rem;top:2.65rem;"><!-- 임시 좌표값 -->
+    <div class="pop-rating-title">You already rated this content.</div>
+    <div class="pop-rating-cont">
+      <div class="blank icon btn-score on"></div>
+      <div class="blank icon btn-score on"></div>
+      <div class="blank icon btn-score on"></div>
+      <div class="blank icon btn-score"></div>
+      <div class="blank icon btn-score"></div>
+    </div>
+    <div class="bg-empty"><div class="bg-empty-inner"></div><div class="bg-empty-inner2"></div></div>
+  </div>
+</div>
+<!-- //popup / rating / 평가 완료된 팝업 / 꼬리말이 왼쪽에 있는 경우 -->
+
+
+
+
+
+<div class="sec-episode">
+  <!-- season 버튼 -->
+  <div class="blank btn btn-small btn-season btn-open"><!-- 버튼 클릭시 class="btn-open"추가 -->
+    <div class="area-text"><div class="text marquee">SEASON 4</div></div><div class="icon"></div>
+  </div>
+  <div class="blank btn btn-small btn-season btn-open"><!-- 버튼 클릭시 class="btn-open"추가 -->
+    <div class="area-text"><div class="text marquee">SEASON 4</div></div><div class="icon"></div>
+  </div><!-- //season 버튼 -->
+</div>
+
+<!-- popup / Season / 스크롤 없는 경우  -->
+<div class="popup-modal-season">
+  <div class="popup-contextual pop-season" style="left: 24rem;top: 47rem;"><!-- 임시 좌표값 -->
+    <!-- pop-opt-cont -->
+    <div class="pop-opt-cont">
+      <div class="wrap-opt-list">
+        <!-- popup option -->
+        <div class="blank option-list focus">
+          <div class="icon-bullet"></div>
+          <div class="area-text"><div class="marquee text">Season</div></div>
+        </div>
+        <!-- //popup option -->
+      </div>
+    </div>
+    <!-- //pop-opt-cont -->
+    <div class="bg-empty bg-left"><div class="bg-empty-inner"></div><div class="bg-empty-inner2"></div></div>
+  </div>
+</div>
+<!-- //popup / Season / 스크롤 없는 경우 -->
+
+<!-- popup / Season / 스크롤 있는 경우 -->
+<div class="popup-modal-season">
+  <div class="popup-contextual pop-season" style="left: 24rem;top: 20rem;"><!-- 시즌 팝업 class="pop-season" 에피소드 class="pop-episode" / 임시 좌표값 -->
+    <!-- pop-opt-cont -->
+    <div class="pop-opt-cont">
+      <div class="wrap-opt-list">
+        <!-- popup option -->
+        <div class="blank option-list focus">
+          <div class="icon-bullet"></div>
+          <div class="area-text"><div class="marquee text">season 1 focus</div></div>
+        </div><!-- //popup option --><!-- popup option --><div class="blank option-list on">
+          <div class="icon-bullet"></div>
+          <div class="area-text"><div class="marquee text">season 2 on</div></div>
+        </div><!-- //popup option --><!-- popup option --><div class="blank option-list  on focus">
+          <div class="icon-bullet"></div>
+          <div class="area-text"><div class="marquee text">season 3 on focus</div></div>
+        </div><!-- //popup option --><!-- popup option --><div class="blank option-list">
+          <div class="icon-bullet"></div>
+          <div class="area-text"><div class="marquee text">season 4</div></div>
+        </div><!-- //popup option --><!-- popup option --><div class="blank option-list">
+          <div class="icon-bullet"></div>
+          <div class="area-text"><div class="marquee text">season 5</div></div>
+        </div><!-- //popup option --><!-- popup option --><div class="blank option-list">
+          <div class="icon-bullet"></div>
+          <div class="area-text"><div class="marquee text">season 6</div></div>
+        </div><!-- //popup option --><!-- popup option --><div class="blank option-list focus">
+          <div class="icon-bullet"></div>
+          <div class="area-text"><div class="marquee text">season 7</div></div>
+        </div><!-- //popup option -->
+      </div>
+      <div class="scroll scroll-v"><!-- 20150625위치 수정 -->
+        <div class="blank icon scroll-prev focus"></div>
+        <div class="scroll-area"><div class="scroll-bar" style="height:6.66rem; top 0px;"></div></div>
+        <div class="blank icon scroll-next"></div>
+      </div>
+    </div>
+    <!-- //pop-opt-cont -->
+    <div class="bg-empty bg-left" style="top:4.3rem;"><div class="bg-empty-inner"></div><div class="bg-empty-inner2"></div></div><!-- 꼬리말 위치는 버튼의 중앙 -->
+  </div>
+</div>
+<!-- //popup / Season / 스크롤 있는 경우 -->
+
+</body>
+</html>

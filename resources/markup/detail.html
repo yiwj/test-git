@@ -1,0 +1,363 @@
+<!doctype html>
+<html ng-app="discoveryApp" class="ng-scope">
+<head>
+<style type="text/css">
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="../css/store17-common.css" rel="stylesheet">
+<link href="../css/store17-sub.css" rel="stylesheet">
+<link href="../css/store17-animation.css" rel="stylesheet"><!-- animation 분리 / Lite 에서는 store16-animation-lite.css 으로 변경  -->
+<script type="text/javascript" src="pub-dreadlocks.js"></script>
+<style type="text/css">
+/* html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+::-webkit-scrollbar{width:0;}
+.panel-body{overflow-y:scroll;pointer-events:auto;}
+/* 컨텐츠 간략 side - 20150727 UX 변경 적용 - 개발 전까지 css 파일은 임시 주석 상태이기 때문에 페이지에서 확인 하기 위한 스타일. */
+/*.detail-brief .item-thumb{height:24rem !important;}
+.detail-brief .area-text{max-width:17.95rem;width:17.95rem !important;}*/
+/* RTL 확인 위한 임시 스타일 */
+.dir-rtl .pop-season{left:45rem !important;}
+/* end-html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+</style>
+</head>
+<body class="dir-rtl-"><!-- RTL 언어 class="dir-rtl" -->
+<!-- drawer -->
+<div class="drawer"><!-- 20150608 수정 -->
+  <div class="blank drawer-category drawer-featured"></div><div class="blank drawer-category drawer-tvshows"></div><div class="blank drawer-category drawer-movies"></div><div class="blank drawer-category drawer-premium"></div><div class="blank drawer-category drawer-appsngames"></div><div class="blank drawer-category drawer-mypage"></div><div class="blank drawer-category drawer-search"></div><div class="blank drawer-category drawer-close"></div>
+</div>
+<!-- //drawer -->
+
+
+<!-- panels -->
+<div class="panels">
+  <!-- panels-breadcrumbs -->
+  <div class="panels-breadcrumbs">
+    <div class="blank breadcrumb showing"><div class="breadcrumb-bar"></div><div class="step">02</div><div class="icon icon-panel-back"></div></div>
+    <div class="blank breadcrumb"><div class="breadcrumb-bar"></div><div class="step">01</div><div class="icon icon-panel-back"></div></div>
+  </div>
+  <!-- //panels-breadcrumbs -->
+  <!-- panels-viewport -->
+  <div class="panels-viewport">
+    <!-- basic page -->
+    <div class="page panel-detail showing"><!-- class="showing" -->
+      <div class="panel-header">
+        <div class="area-text no-event panel-title">
+          <div class="marquee text">2depth title !@#$%^&*()_+|\][{}?/!@#$%^&*()_+|\][{}?/</div>
+        </div>
+        <div class="panel-sub">
+          <div class="sub-text sub-title">Sub category</div><div class="bar-empty">|</div>
+          <div class="sub-text sub-sub-title">List 정렬 옵션항목 !@#$%^&*()_+|\][{}?/</div><div class="bar-empty">|</div>
+          <div class="item-grade sub-grade"><div class="icon percent-grade" style="width:70%;"></div><div class="icon bg-grade"></div></div>
+        </div>
+        <div class="wrap-btn-header">
+          <div class="blank btn btn-small">
+            <div class="btn-rating-cont">
+              <div class="blank icon btn-score on focus"></div>
+              <div class="blank icon btn-score on"></div>
+              <div class="blank icon btn-score on"></div>
+              <div class="blank icon btn-score"></div>
+              <div class="blank icon btn-score"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="detail-brief">
+        <div class="item-thumb">
+          <img src="../images/temp/temp_02.jpg" class="thumb-img">
+        </div>
+        <div class="blank btn btn-large">
+          <div class="area-text"><div class="text marquee">watch now</div></div>
+        </div>
+        <div class="blank btn btn-large"><!-- loading spinner -->
+          <div class="area-text">
+            <div class="text marquee"><!-- watch now2 --></div>
+            <div class="spinner"></div>
+          </div>
+        </div>
+        <!-- 2015-12-09 좌측 포스터 비율관련 높이값 유동 size로 인해 위치 변경
+		<div class="sec-title detail-title">Available in</div>
+        <div class="list-cp-icon">
+          <div class="icon-thumb disabled"><img src="../images/temp/temp_app_01.jpg" class="thumb-img"></div><!--  제공하지 않는 CP Icon은 비활성화
+          <div class="icon-thumb"><img src="../images/temp/temp_app_01.jpg" class="thumb-img"></div>
+        </div>-->
+      </div>
+      <div class="panel-body">
+        <div class="panel-cont">
+        <!-- content -->
+          <!-- sec-episode -->
+          <div class="detail-section sec-episode more-open"><!-- more 버튼이 있는 경우에 class="more-open"추가 -->
+            <div class="sec-title detail-title">Episode</div>
+            <div class="blank btn btn-small btn-season"><!-- 버튼 클릭시 class="btn-open"추가 -->
+              <div class="area-text"><div class="text marquee">SEASON 7</div></div><div class="icon"></div>
+            </div>
+            <!-- Episode 리스트 -->
+            <div class="sec-cont detail-episode-list">
+              <div class="blank btn btn-large">
+                <div class="area-text"><div class="text marquee">6 test marquee marquee test </div></div>
+              </div>
+              <div class="blank btn btn-large on"><!-- 해당 episode class="on" 추가 -->
+                <div class="area-text"><div class="text marquee">5</div></div>
+              </div>
+              <div class="blank btn btn-large">
+                <div class="area-text"><div class="text marquee">4</div></div>
+              </div>
+              <div class="blank btn btn-large">
+                <div class="area-text"><div class="text marquee">3</div></div>
+              </div>
+              <div class="blank btn btn-large">
+                <div class="area-text"><div class="text marquee">2</div></div>
+              </div>
+              <div class="blank btn btn-large">
+                <div class="area-text"><div class="text marquee">1</div></div>
+              </div>
+            </div>
+            <!-- //Episode 리스트 -->
+            <div class="blank btn-more">more<div class="icon icon-more-detail"></div></div>
+          </div>
+          <!-- //sec-episode -->
+          <!-- sec-info-brief -->
+          <div class="sec-info-brief focus">
+            <div class="info-brief">
+              <div class="sec-title detail-title">Release Date</div>
+              <div class="info-cont">2013</div>
+            </div>
+            <div class="info-brief">
+              <div class="sec-title detail-title">Running time</div>
+              <div class="info-cont">120<div class="unit">min</div></div>
+            </div>
+            <div class="info-brief">
+              <div class="sec-title detail-title">Rating</div>
+              <div class="info-cont">pg 13</div>
+            </div>
+            <div class="info-brief">
+              <div class="sec-title detail-title">Available in</div>
+			  <div class="list-cp-icon">
+			    <div class="icon-thumb disabled"><img src="../images/temp/temp_app_01.jpg" class="thumb-img"></div><!--  제공하지 않는 CP Icon은 비활성화 -->
+			    <div class="icon-thumb"><img src="../images/temp/temp_app_01.jpg" class="thumb-img"></div>
+			    <div class="icon-thumb"><img src="../images/temp/temp_app_01.jpg" class="thumb-img"></div>
+			    <div class="icon-thumb"><img src="../images/temp/temp_app_01.jpg" class="thumb-img"></div>
+			    <div class="icon-thumb"><img src="../images/temp/temp_app_01.jpg" class="thumb-img"></div>
+			  </div>
+            </div>
+			<div class="info-brief"><!-- 브라질향 등급 표기 방법-아이콘 L -->
+              <div class="sec-title detail-title info-tit">Rating</div>
+              <div class="info-cont icon icon-grade-l"></div>
+            </div>
+            <div class="info-brief">
+              <div class="sec-title detail-title info-tit">Rating 브라질향 등급 표기 방법 - 아이콘 모음</div>
+              <div class="info-cont icon icon-grade-l"></div><!-- 브라질향 등급 표기 방법-아이콘 L -->
+              <div class="info-cont icon icon-grade-10"></div><!-- 브라질향 등급 표기 방법-아이콘 10 -->
+              <div class="info-cont icon icon-grade-12"></div><!-- 브라질향 등급 표기 방법-아이콘 12 -->
+              <div class="info-cont icon icon-grade-14"></div><!-- 브라질향 등급 표기 방법-아이콘 14 -->
+              <div class="info-cont icon icon-grade-16"></div><!-- 브라질향 등급 표기 방법-아이콘 16 -->
+              <div class="info-cont icon icon-grade-18"></div><!-- 브라질향 등급 표기 방법-아이콘 18 -->
+            </div>
+          </div>
+          <!-- //sec-info-brief -->
+          <!-- sec-info-detail -->
+          <div class="detail-section sec-info-detail more-open"><!-- more 버튼이 있는 경우에 class="more-open"추가 -->
+            <div class="sec-title detail-title">Synopsis</div>
+            <div class="detail-cont">
+              <div class="synopsis-info synopsis-category">Category</div><div class="bar-empty">|</div>
+              <div class="item-grade synopsis-grade"><div class="icon percent-grade" style="width:70%;"></div><div class="icon bg-grade"></div></div><div class="bar-empty">|</div>
+              <div class="synopsis-info synopsis-name">name, name, name, name, name, name, name, name, name, name, name, name, name, name, name, name, name, name, name, name, name, name, name</div>
+              <div class="synopsis-text">
+                The story of Steve Jobs' ascension from college dropout into one of the most revered creative entrepreneurs of the 20th century. The story of Steve Jobs' ascension from college dropout into one of the most revered creative entrepreneurs of the 20th century. The story of Steve Jobs' ascension from college dropout into one of the most revered creative entrepreneurs of the 20th century.
+              </div>
+            </div>
+            <div class="blank btn-more">more<div class="icon icon-more-detail"></div></div>
+          </div>
+          <!-- //sec-info-detail -->
+          <!-- sec-info-detail -->
+          <div class="detail-section sec-info-detail "><!-- 더보기 버튼 클릭시 class="more-open"삭제 -->
+            <div class="sec-title detail-title">Synopsis</div>
+            <div class="detail-cont">
+              <div class="synopsis-info synopsis-category">Category</div><div class="bar-empty">|</div>
+              <div class="item-grade synopsis-grade"><div class="icon percent-grade" style="width:50%;"></div><div class="icon bg-grade"></div></div><div class="bar-empty">|</div>
+              <div class="synopsis-info synopsis-name">name, name</div>
+              <div class="synopsis-text">
+                The story of Steve Jobs' ascension from college dropout into one of the most revered creative entrepreneurs of the 20th century. The story of Steve Jobs' ascension from college dropout into one of the most revered creative entrepreneurs of the 20th century. The story of Steve Jobs' ascension from college dropout into one of the most revered creative entrepreneurs of the 20th century.
+              </div>
+            </div>
+            <div class="blank btn-more">less<div class="icon icon-more-detail"></div></div>
+          </div>
+          <!-- //sec-info-detail -->
+          <!-- sec-info-detail -->
+          <div class="detail-section sec-info-detail more-open"><!-- 더보기 버튼 클릭시 class="more-open"삭제 -->
+            <div class="sec-title detail-title">Details</div>
+            <div class="detail-cont">
+              <div class="synopsis-info synopsis-category">Category</div><div class="bar-empty">|</div>
+              <div class="item-grade synopsis-grade"><div class="icon percent-grade" style="width:30%;"></div><div class="icon bg-grade"></div></div><div class="bar-empty">|</div>
+              <div class="synopsis-info synopsis-name">name, name</div>
+              <div class="synopsis-text">
+                The story of Steve Jobs' ascension from college dropout into one of the most revered creative entrepreneurs of the 20th century. The story of Steve Jobs' ascension from college dropout into one of the most revered creative entrepreneurs of the 20th century. The story of Steve Jobs' ascension from college dropout into one of the most revered creative entrepreneurs of the 20th century.
+              </div>
+            </div>
+            <div class="blank btn-more focus">more<div class="icon icon-more-detail"></div></div>
+          </div>
+          <!-- //sec-info-detail -->
+          <!-- Recommendation - 가로 세로 혼용 -->
+          <div class="detail-section sec-detail-list"><!-- 더보기 버튼 클릭시 class="more-open"삭제 -->
+            <div class="sec-title detail-title">Recommendation</div>
+            <div class="sec-cont detail-list">
+              <!-- item -->
+              <div class="blank item item-detail item-detail-width focus"><!-- 가로형 썸네일 class="item-detail-width" 추가 -->
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-detail item-detail-width"><!-- 가로형 썸네일 class="item-detail-width" 추가 -->
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-detail">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-detail focus">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-detail">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-detail">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+              </div><!-- //item -->
+            </div>
+            <div class="blank btn-more focus">less<div class="icon icon-more-detail"></div></div>
+          </div>
+          <!-- //Recommendation - 가로 세로 혼용 -->
+          <!-- Recommendation -->
+          <div class="detail-section sec-detail-list more-open"><!-- more 버튼이 있는 경우에 class="more-open"추가 -->
+            <div class="sec-title detail-title">Recommendation</div>
+            <div class="sec-cont detail-list">
+              <!-- item -->
+              <div class="blank item item-detail focus">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-detail">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-detail">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-detail">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-detail">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-detail focus">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+              </div><!-- //item -->
+            </div>
+            <div class="blank btn-more">more<div class="icon icon-more-detail"></div></div>
+          </div>
+          <!-- //Recommendation -->
+          <!-- Trailor’s &amp; Photo -->
+          <div class="detail-section sec-detail-list">
+            <div class="sec-title detail-title">Trailer’s &amp; Photo</div>
+            <div class="sec-cont detail-list-trailer">
+              <!-- item -->
+              <div class="blank item item-trailer item-video focus"><!--  영상인 경우 class="item-video" 추가 -->
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="icon-player icon-video"></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-trailer">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="icon-player icon-video"></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-trailer item-video"><!--  영상인 경우 class="item-video" 추가 -->
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="icon-player icon-video"></div>
+              </div><!-- //item --><!-- item --><div class="blank item item-trailer focus">
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_02.jpg" class="thumb-img">
+                </div>
+                <div class="icon-player icon-video"></div>
+              </div><!-- //item -->
+            </div>
+          </div>
+          <!-- //Trailor’s &amp; Photo -->
+        <!-- //content -->
+        </div>
+        <div class="scroll scroll-v">
+          <div class="blank icon scroll-prev focus"></div>
+          <div class="scroll-area"><div class="scroll-bar"></div></div>
+          <div class="blank icon scroll-next disabled"></div>
+        </div>
+      </div>
+    </div>
+    <!-- //basic page -->
+  </div>
+  <!-- //panels-viewport -->
+</div>
+<!-- //panels -->
+
+<!-- tooltip-sesaon -->
+<div class="tooltip tooltip-flip tooltip-multiline" style="left:43.5rem; bottom:41.94rem; display:none;"> <!-- 버튼과 말풍선 사이의 위아래 여백 4px, 0.25rem -->
+  <div class="area-text">
+    <div class="text">First Tooptip season text long text no marquee and multiline</div><div class="bg-empty"></div>
+  </div>
+</div>
+<div  class="tooltip tooltip-multiline" style="right: 13rem; bottom:41.94rem; display:block;"> <!-- 버튼과 말풍선 사이의 위아래 여백 4px, 0.25rem -->
+  <div class="area-text">
+    <div class="text">Second Tooptip season text long text no marquee and multiline Second Tooptip season text long text no marquee and multiline</div><div class="bg-empty"></div>
+  </div>
+</div>
+<!-- <div  class="tooltip tooltip-season" style="right: 13rem; top:26.06rem; display:none;">
+    Second Tooptip season text long text marquee Tooptip season text long text marquee.
+</div> -->
+<!-- //tooltip-sesaon -->
+
+<!-- popup / Season / 스크롤 없는 경우 / 꼬리말이 위에 있는 경우 -->
+<div class="popup-contextual pop-season" style="left: 56.2rem;top: 24.4rem;"><!-- 임시 좌표값 -->
+  <!-- pop-opt-cont -->
+  <div class="pop-opt-cont">
+    <div class="wrap-opt-list">
+      <!-- popup option -->
+      <div class="blank option-list focus">
+        <div class="icon-bullet"></div>
+        <div class="area-text"><div class="marquee text">Season</div></div>
+      </div>
+      <!-- //popup option -->
+    </div>
+  </div>
+  <!-- //pop-opt-cont -->
+  <div class="bg-empty bg-left"><div class="bg-empty-inner"></div><div class="bg-empty-inner2"></div></div><!-- RTL 언어에서는 bg-left 삭제 -->
+</div>
+<!-- //popup / Season / 스크롤 없는 경우 -->
+
+</body>
+</html>

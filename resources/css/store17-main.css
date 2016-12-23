@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+/*
+1. RESET
+
+2. UI BASE
+  2.1. common
+  2.2. LAYOUT
+    2.2.4. LAYOUT > main
+  2.3. DRAWER
+
+6. MAIN
+
+11. RTL
+
+ANIMATION - FHD
+
+매직 리모컨 이동시 body에 .hover-mode 추가
+사방향키 이동시 body에서 .hover-mode 삭제
+body.hover-mode 'CP' 버튼에 마우스 오버시 "CP" 버튼이 있는 item (div)에 .cp-hover 추가.
+*/
+
+/* ---------2. UI BASE--------- */
+/* ------2.2. LAYOUT------ */
+.panels-viewport .page.panel-main{top:0;left:0;padding:0;}
+.panels-viewport .page:not(.panel-main):before {content: ''; display: block; height:0.17rem; margin-right: 1.33rem; background-color: #313131;}
+.panel-header{display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-pack:center;overflow:hidden;position:relative;height:8rem;margin-right:1.33rem;margin-top: -0.17rem; margin-left:1.33rem;border-bottom:0.4rem solid #313131;-webkit-transform: translateZ(0);}
+.panel-body{overflow:hidden;position:absolute;right:0;bottom:0;top:19.98rem;/*top:9.33rem;*/pointer-events:auto;}
+.panel-cont{position:absolute;left:0;top:0;min-height:100%;right:5rem;padding:0 0.34rem 2rem;}
+.panel-body > .panel-cont{left:0;padding-top:1rem;}
+.panel-body .scroll{right:1rem;top:0;bottom:0.66rem;} /* right:0.95rem, 20150731 Lite&Hd 에서 스크롤 버튼 잘림 */
+.main-body .scroll{right:0.1rem;top:-0.2rem;bottom:0.66rem;}
+
+/* ---2.2.4. LAYOUT > main--- */
+.main-header{display:-webkit-box;-webkit-box-align:center;overflow:hidden;position:absolute;left:0;top:0;z-index:0;width:100%;height:29.6rem;}
+.main-header .panel-cont{overflow:hidden;right:0;top:0rem;height:19.33rem;padding:9.6rem 0.67rem 0;}
+.main-body{position:absolute;left:0;bottom:0;width:100%;height:42.4rem;}
+.main-body .panel-cont{overflow:hidden;right:0;top:0;height:42.4rem;padding:0rem 0.67rem 0;}
+/* ------2.3. DRAWER------ */
+.main-drawer{height:9.93rem;}
+
+
+
+/* ---------6. MAIN--------- */
+/* main > Image Header 영역- Promotion Banner */
+.main-header>.thumb-img{position:absolute;left:0;top:0;z-index:-1;width:100%;height:100%;}
+.header-banner{}
+.header-banner{display:-webkit-box;-webkit-box-orient:vertical;width: 100%;height: 100%;padding:2.33rem 2.86rem;background-color: rgba(42,36,35,.6);}
+.header-banner .item-category{overflow:hidden;font-size:1.86rem;font-family: "Moon Museo Sans Medium", "LG Display-Light";line-height:1.33;color:#ffe958;white-space:nowrap;text-overflow:ellipsis;}
+.header-banner .item-tit{overflow:hidden;margin-top:-0.3rem;margin-bottom:0.53rem;font-size:2.53rem;font-family: "Moon Museo Sans Bold", "LG Display-Regular";line-height:1.5;color:#fff;white-space:nowrap;text-overflow:ellipsis;}
+.header-banner .item-text{overflow:hidden;font-size:1.86rem;font-family: "Moon Museo Sans Light", "LG Display-Light";line-height:1.13;color:#ddd;}
+
+.main-header .btn-icon{position:absolute;top:14.33rem;z-index:1;width:5.67rem;height:5.67rem;background-color:transparent;}
+.main-header .btn-icon .icon{opacity:0.5;}
+.main-header .btn-main-prev{left:0.47rem;}
+.main-header .btn-main-next{right:0.47rem;}
+.btn-main-prev .icon{background-position:-14.08rem -18rem;}
+.btn-main-next .icon{background-position:-36.0rem -16.37rem;}
+body.hover-mode .main-header .blank:hover .icon,
+body:not(.hover-mode) .main-header .focus .icon{opacity:1;}
+
+.header-mask{position:absolute;left:0;top:0;width:100%;height:100%;background-color:#000;opacity:0;}
+.mask-block{-webkit-animation:maskBlock 0.9s ease 1;-webkit-animation-fill-mode:forwards;}/* Image 영역 컨텐츠 바뀌는 동안 스타일 */
+@-webkit-keyframes maskBlock{
+  0%{opacity:0;}
+  80%{opacity:0.6;}
+  100%{opacity:0;}
+}
+.main-column .item{float:left;-webkit-transform: translateZ(0px);}
+.fade-block .item{-webkit-animation:fadeAni 0.5s steps(4, end) 1;-webkit-animation-fill-mode:forwards;}/* Image 영역 컨텐츠 바뀌는 동안 스타일 */
+.item-ad.item{-webkit-animation:none;}
+@-webkit-keyframes fadeAni{
+  0%{opacity:0.5;}
+  100%{opacity:1;}
+}
+
+/* Tier 1/2 국가 */
+.main-column{float:left;position:relative;width:100%;height:100%;}
+.column-1{width:25.33rem;}
+.column-2{width:50.66rem;}
+.column-3{width:76rem;}
+.column-4{width:101.33rem;}
+.column-5{width:126.67rem;}
+
+/* uk only - 컨텐츠 상단 category명 */
+.main-column > .tit-category{display:-webkit-box;overflow:hidden;position:absolute;left:0.34rem;top:-2.20rem;right:0.34rem;font-size:1.47rem;font-family: "Moon Museo Sans Light", "LG Display-Light";color:rgba(255,255,255,0.7);white-space:nowrap;text-overflow:ellipsis;}
+.tit-category .text{display:-webkit-box;margin-right:0.34rem;}
+.tit-category .bg-empty{display:-webkit-box;-webkit-box-flex:1;margin-top:1.05rem;border-top:0.15rem solid rgba(255,255,255,0.15);}
+
+/* main item */
+.item-main{float:left;width:25.3rem;margin-bottom:0.34rem;}
+.item-main .item-thumb{overflow:hidden;height:35.73rem;}
+.item-main .item-info{height: 5.33rem;padding: 0.667rem;}
+
+.main-column .item-main:nth-child(1) .item-info{background-color:#172621;}
+.main-column .item-main:nth-child(2) .item-info{background-color:#2c3234;}
+.main-column .item-main:nth-child(3) .item-info{background-color:#12222e;}
+.item-main .item-tit{margin-top:-.333rem;font-size:1.8rem;font-weight:700;font-family: "Moon Museo Sans Bold", "LG Display-Regular";/*line-height:1.3;*/color:#fff;}
+.item-main .vod-category{font-size:1.8rem;font-weight:500;font-family: "Moon Museo Sans Light", "LG Display-Light";line-height:1;color:rgba(255,255,255,0.8);}
+.item-main .icon-code{position: relative;-webkit-box-align: end;background-color:rgba(255,255,255,.3);margin-left:.667rem;margin-right:0;background-position: -8rem -25.666rem; }
+.item-main-width{margin-bottom:0.05rem;}
+.item-main-width .item-thumb{height:18rem;}
+.item-main-width .item-tit{height:2.33rem;font-size:1.6rem;line-height:1.4;}
+
+body.hover-mode .item-main:hover .item-info,
+body:not(.hover-mode) .focus.item-main .item-info{background-color:#cf0652;}
+body.hover-mode .item-main .btn-cp-play:hover,
+body:not(.hover-mode) .focus.item-main .btn-cp-play {background-position: -12rem -25.666rem;}
+
+/* ------Main Thumbnail CP추가------ */
+.item-main .img-badge .badge-text{margin:-4.35rem 0 0 0;position:relative;left:0.8rem;float:left;}
+.item-main .img-badge_wrap{width:27.5rem;margin-left:-0.9rem;position:absolute;top:0;overflow:hidden;display:none;}
+.item-main .img-badge{width:5.3rem;height:4.85rem;float:left;}
+.item-main .img-badge .badge-img{width:3.666rem;height:3.666rem;max-width:3.8rem;max-height:3.8rem;margin:-4.35rem 0 0 0;position:relative;left:0.8rem;float:left;}
+.item-main .img-badge .bg-badge{width:5.3rem;height:4.85rem;-webkit-transform: skew(-20deg);background-color:#161313;}
+body.hover-mode .blank:hover.item-main .img-badge_wrap,
+body:not(.hover-mode) .blank.item-main.focus .img-badge_wrap{display:block;}
+
+
+/* main item > banner */
+.item-main-banner{width:76rem;height:20rem;}
+
+
+/* main item > promotion */
+.item-main-promotion{width:25.33rem;height:20rem;}
+
+/* main item > apps */
+.item-main-apps{position:static;width:25.33rem;height:20.87rem;}
+.item-main-apps .item-thumb{height:100%;padding-top:4.03rem;-webkit-box-align:start;}
+.item-main-apps .thumb-img{position: static !important;width: 8.67rem !important;height: 8.67rem !important;margin: 0 !important;}
+.item-main-apps .item-info{display:block;position:absolute;left:0;bottom:0;width:100%;height:3.47rem;padding:0 0 0 0.67rem;background-color:rgba(0,0,0,0.5);}
+.item-main-apps .item-tit{/*margin-bottom:-0.2rem;padding-top:0.73rem;*/font-weight:700;font-size:1.73rem;font-family: "Moon Museo Sans Bold", "LG Display-Regular";line-height:1.7;color:#fff;}
+.item-main-apps .app-category{float:left;font-size:1.33rem;color:rgba(255,255,255,0.8);}
+.item-main-apps .item-info > .item-price{float:right;}
+.item-main-apps .item-price,
+.item-main-apps .list-price{font-size:1.33rem;font-family: "Moon Museo Sans Bold", "LG Display-Regular";color:rgba(255,255,255,0.8)}
+
+.column-ban{overflow:hidden;float:none;position:absolute;right:0.67rem;top:2.53rem;width:25.33rem;height:auto;}
+.item-ad, .item.theme-banner {width: 25.33rem}
+.item-ad .thumb-img, .item.theme-banner .thumb-img {display:block;width:100%;height:100%;}
+.item-ad{height:20.87rem;/*height:21.2rem;margin-bottom:-0.3rem;*/}
+.theme-banner .thumb{height:18rem;}
+.theme-banner .ban-text{height:2.2rem;font-size:1.13rem;border-left:0.67rem solid transparent;font-family: "Moon Museo Sans Bold", "LG Display-Regular";line-height:2.2;color:#ccc;background-color:rgba(255,255,255,0.1);}
+body.hover-mode .item-main:not(.cp-hover):hover .item-tit,
+body:not(.hover-mode) .focus.item-main .item-tit,
+body.hover-mode .theme-banner:hover .ban-text,
+body:not(.hover-mode) .focus.theme-banner .ban-text{background-color:transparent;}
+/* Tier 2 국가 */
+.main-tier2 .main-column{display:block;}
+/* Tier 3 국가 */
+.main-tier3 .main-body .scroll{top:0;}
+.main-tier3 .panel-cont{padding-top:0;border-top:0.56rem solid transparent;height:auto;top:0;}
+.main-tier3 .main-column{display:block;position:static;top:0;}
+.main-tier3 .item-main-apps{width:24.53rem;height:20.27rem;}
+
+/* 메인화면 오류 상황 */
+.popup-main-error {position:absolute;left:0;top:0;z-index:5;width:128rem;height:72rem;padding:0;background: url('../images/bg-main-error.jpg') no-repeat left top;background-size:100% auto;text-align:center;}
+.wrap-main-error{display:-webkit-box;-webkit-box-orient:vertical;-webkit-box-pack:center;width:82.73rem;height:30.87rem;margin:20.33rem auto 0;border:0.1rem solid #383839;border-left:none;border-right:none;}
+.wrap-main-error > .tit{font-size:6.0rem;font-family: "Moon Miso Medium", "Miso", "LG Display-Light";line-height:1.3;color:#fff;text-transform:uppercase;}
+.wrap-main-error > .text{margin:1.5rem 0 2rem;font-size:2rem;font-family: "Moon Museo Sans Bold", "LG Display-Regular";line-height:1.15;color:#a6a6a6;}
+.wrap-main-error .area-text{max-width:20rem;width:20rem;}
+
+/* ---------11. RTL--------- */
+/* ---------2. UI BASE--------- */
+
+/* ------2.2. LAYOUT------ */
+/* ---2.2.4. LAYOUT > main--- */
+.dir-rtl .main-header,
+.dir-rtl .main-body{left:auto;right:0;}
+.dir-rtl .main-header .panel-cont,
+.dir-rtl .main-body .panel-cont{left:0 !important;}
+
+/* ---------6. MAIN--------- */
+/* main > Image Header 영역- Promotion Banner */
+.dir-rtl .main-header .thumb-img{left:auto;right:0;}
+.dir-rtl .main-header .header-tit{left:auto;right:7.73rem;padding-right:0;padding-left:0.6rem;}
+.dir-rtl .header-banner{left:auto;right:64.4rem;padding-left:0;padding-right:2.86rem;border-left:none;border-right:0.15rem solid rgba(255,255,255,0.4);}
+.dir-rtl .header-banner .btn-small{margin-left:0;margin-right:-0.4rem;}
+.dir-rtl .header-banner .app-category,
+.dir-rtl .header-banner .bar-empty,
+.dir-rtl .header-banner .item-price,
+.dir-rtl .header-banner .list-price{float:none;}
+/* Tier 1/2 국가 */
+.dir-rtl .main-column{float:right;}
+.dir-rtl .main-column .item{float:right;}
+/* uk only - 컨텐츠 상단 category명 */
+.dir-rtl .tit-category .text{margin-right:0;margin-left:0.34rem;}
+/* main item */
+.dir-rtl .item-main .item-tit{border-left:none;border-right:0.67rem solid transparent;border:0;}
+.dir-rtl .item-main .icon-code{margin-left:0;margin-right:.667rem;}
+/* main item > apps */
+.dir-rtl .item-main-apps .item-info{left:auto;right:0;padding-right:0.67rem;padding-left:0;}
+.dir-rtl .item-main-apps .app-category{float:right;}
+.dir-rtl .item-main-apps .item-info > .item-price{float:left;}
+.dir-rtl .column-ban{float:none;right:auto;left:0.67rem;}
+.dir-rtl .theme-banner .ban-text{border-left:none;border-right:0.67rem solid transparent;}
+/* 메인화면 오류 상황 */
+.dir-rtl .wrap-main-error > .text {text-align: center;}
+
+
+/* ---------end-11. RTL--------- */
+
+/* ---------12. MEDIA QUERY - 1280 * 720--------- */
+@media (max-width:1300px){/* hd media Query로 구분 */
+    body.hover-mode .item-main .btn-cp-play:hover,
+    body:not(.hover-mode) .focus.item-main .btn-cp-play {background-position: -12.1rem -25.666rem;}
+}

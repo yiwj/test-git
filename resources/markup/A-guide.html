@@ -1,0 +1,369 @@
+<!doctype html>
+<html ng-app="discoveryApp" class="ng-scope">
+<head>
+<style type="text/css">
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="../css/store17-common.css" rel="stylesheet">
+<link href="../css/store17-sub.css" rel="stylesheet">
+<link href="../css/store17-animation.css" rel="stylesheet"><!-- animation 분리 / Lite 에서는 store16-animation-lite.css 으로 변경  -->
+<script type="text/javascript" src="pub-dreadlocks.js"></script>
+<style type="text/css">
+body{overflow-y:auto;height:100%;}
+.guide-tit{margin:10px;font-size:20px;font-family: "Moon Miso Light", "Miso", "LG Display-Light";color:#fff;}
+/* html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+.btn-more{position:static;}
+.tooltip{position:relative;}
+.scroll{width:100%;margin:10px;}
+.scroll, .scroll .icon{position:relative;}
+.btn-pop-close{position:relative;left:0;top:0;margin:0;}
+
+table{border-collapse: collapse;}
+.z-index-box{padding:50px;color:#333;background-color:#fff;}
+.z-index-box div:first-child{margin-bottom:10px;font-weight:bold;text-decoration:underline;}
+.z-index-box th{padding:5px;border:1px solid #bbb;text-align:right}
+.z-index-box td{width:50px;padding:5px;border:1px solid #bbb;text-align:center;}
+/* end-html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+</style>
+</head>
+<body class="dir-rtl-"><!-- RTL 언어 class="dir-rtl" -->
+
+<!-- 버튼 | 아이콘 -->
+<div class="guide-tit">버튼 | 아이콘 </div>
+<div class="guide-wrap">
+
+  <div class="blank btn btn-icon btn-list-option"><div class="icon"></div></div>
+  <div class="blank btn btn-icon btn-list-option focus"><div class="icon"></div></div>
+  <div class="blank btn btn-icon btn-list-option pressed"><div class="icon"></div></div>
+  <div class="blank btn btn-icon btn-list-option disabled"><div class="icon"></div></div>
+
+  <div class="blank btn btn-icon btn-del"><div class="icon"></div></div>
+  <div class="blank btn btn-icon btn-cancel"><div class="icon"></div></div>
+  <div class="blank btn btn-icon btn-interest"><div class="icon"></div></div>
+  <div class="blank btn btn-icon btn-pop-close"><div class="icon"></div></div>
+
+</div>
+<div class="guide-wrap">
+
+  <div class="blank btn-more">more<div class="icon icon-more-detail"></div></div>
+  <div class="blank btn-more focus">more<div class="icon icon-more-detail"></div></div>
+  <div class="more-open" style="display:inline-block;">
+    <div class="blank btn-more">more<div class="icon icon-more-detail"></div></div>
+    <div class="blank btn-more focus">more<div class="icon icon-more-detail"></div></div>
+  </div>
+
+</div>
+<div class="guide-wrap">
+
+  <div class="blank btn btn-icon btn-pop-close"><div class="icon"></div></div>
+  <div class="blank btn btn-icon btn-pop-close focus"><div class="icon"></div></div>
+  <div class="blank btn btn-icon btn-pop-close pressed"><div class="icon"></div></div>
+  <div class="blank btn btn-icon btn-pop-close pressed focus"><div class="icon"></div></div>
+
+</div>
+<div class="scroll scroll-v">
+  <!-- 세로 스크롤 - Vertical -->
+  <div class="blank icon scroll-prev"></div>
+  <div class="blank icon scroll-next"></div>
+  <div class="blank icon scroll-prev focus"></div>
+  <div class="blank icon scroll-next focus"></div>
+  <div class="blank icon scroll-prev pressed"></div>
+  <div class="blank icon scroll-next pressed"></div>
+  <div class="blank icon scroll-prev disabled"></div>
+  <div class="blank icon scroll-next disabled"></div>
+</div>
+<div class="scroll scroll-h">
+  <!-- 가로 스크롤 - Horizontal -->
+  <div class="blank icon scroll-prev"></div>
+  <div class="blank icon scroll-next"></div>
+  <div class="blank icon scroll-prev focus"></div>
+  <div class="blank icon scroll-next focus"></div>
+  <div class="blank icon scroll-prev pressed"></div>
+  <div class="blank icon scroll-next pressed"></div>
+  <div class="blank icon scroll-prev disabled"></div>
+  <div class="blank icon scroll-next disabled"></div>
+
+</div>
+<hr>
+
+<!-- loading spinner - btn -->
+<div class="guide-wrap">
+
+  <div class="blank btn btn-large"><!-- loading spinner -->
+    <div class="area-text"><div class="text marquee"><!-- loading --></div></div>
+    <div class="spinner"></div>
+  </div>
+
+<div>
+<!-- //loading spinner - btn -->
+<hr>
+
+<!-- 버튼 | 텍스트 작은 사이즈 -->
+<div class="guide-tit">버튼 | 텍스트 작은 사이즈</div>
+<div class="guide-wrap">
+
+  <div class="blank btn btn-small">
+    <div class="area-text"><div class="text marquee">Button Small</div></div>
+  </div>
+  <div class="blank btn btn-small disabled">
+    <div class="area-text"><div class="text marquee">Button Small Disabled</div></div>
+  </div>
+  <div class="blank btn btn-small focus">
+    <div class="area-text"><div class="text marquee">Button Small Focus</div></div>
+  </div>
+  <div class="blank btn btn-small pressed focus">
+    <div class="area-text"><div class="text marquee">Button Small Pressed</div></div>
+  </div>
+
+</div>
+<hr>
+
+<!-- 버튼 | 텍스트 큰 사이즈 -->
+<div class="guide-tit">버튼 | 텍스트 큰 사이즈</div>
+<div class="guide-wrap">
+
+  <div class="blank btn btn-large">
+    <div class="area-text"><div class="text marquee">Button large</div></div>
+  </div>
+  <div class="blank btn btn-large disabled">
+    <div class="area-text"><div class="text marquee">Button large Disabled</div></div>
+  </div>
+  <div class="blank btn btn-large focus">
+    <div class="area-text"><div class="text marquee">Button large Focus</div></div>
+  </div>
+  <div class="blank btn btn-large pressed focus">
+    <div class="area-text"><div class="text marquee">Button large Pressed</div></div>
+  </div>
+
+</div>
+<hr>
+
+<!-- 버튼 | 텍스트 - 아이콘 - 아이콘 위치 유동적 -->
+<div class="guide-tit">버튼 | 텍스트 - 아이콘 - 아이콘 위치 유동적</div>
+<div class="guide-wrap btn-width-fixed">
+
+  <div class="blank btn btn-small btn-text-icon">
+    <div class="area-text"><div class="text marquee">Button Small</div></div><div class="icon"></div>
+  </div>
+  <div class="blank btn btn-small btn-text-icon disabled">
+    <div class="area-text"><div class="text marquee">Button Small Disabled</div></div><div class="icon"></div>
+  </div>
+  <div class="blank btn btn-small btn-text-icon focus">
+    <div class="area-text"><div class="text marquee">Button Small Focus</div></div><div class="icon"></div>
+  </div>
+  <div class="blank btn btn-small btn-text-icon pressed focus">
+    <div class="area-text"><div class="text marquee">Button Small Pressed</div></div><div class="icon"></div>
+  </div>
+<!--
+  <div class="blank btn btn-small btn-text-icon btn-season">
+    <div class="area-text"><div class="text marquee">season btn</div></div><div class="icon"></div>
+  </div>
+  <div class="blank btn btn-small btn-text-icon btn-season btn-open">
+    <div class="area-text"><div class="text marquee">season Open</div></div><div class="icon"></div>
+  </div>
+  <div class="blank btn btn-small btn-text-icon btn-season btn-open focus">
+    <div class="area-text"><div class="text marquee">season Focus</div></div><div class="icon"></div>
+  </div>
+ -->
+
+</div>
+<hr>
+
+<!-- 버튼 | 텍스트 - 아이콘 - 아이콘 위치 고정 -->
+<div class="guide-tit">버튼 | 텍스트 - 아이콘 - 아이콘 위치 고정</div>
+<div class="guide-wrap">
+
+  <div class="blank btn btn-large btn-fixed-icon">
+    <div class="area-text"><div class="text marquee">Button large</div></div><div class="icon"></div>
+  </div>
+  <div class="blank btn btn-large btn-fixed-icon disabled">
+    <div class="area-text"><div class="text marquee">Button large Disabled</div></div><div class="icon"></div>
+  </div>
+  <div class="blank btn btn-large btn-fixed-icon focus">
+    <div class="area-text"><div class="text marquee">Button large Focus</div></div><div class="icon"></div>
+  </div>
+  <div class="blank btn btn-large btn-fixed-icon pressed focus">
+    <div class="area-text"><div class="text marquee">Button large Pressed</div></div><div class="icon"></div>
+  </div>
+<br>
+  <div class="blank btn btn-large btn-fixed-icon btn-open">
+    <div class="area-text"><div class="text marquee">btn Open</div></div><div class="icon"></div>
+  </div>
+  <div class="blank btn btn-large btn-fixed-icon btn-open disabled">
+    <div class="area-text"><div class="text marquee">btn Open disabled</div></div><div class="icon"></div>
+  </div>
+  <div class="blank btn btn-large btn-fixed-icon btn-open focus">
+    <div class="area-text"><div class="text marquee">btn Open focus</div></div><div class="icon"></div>
+  </div>
+  <div class="blank btn btn-large btn-fixed-icon btn-open pressed focus">
+    <div class="area-text"><div class="text marquee">btn Open pressed</div></div><div class="icon"></div>
+  </div>
+
+</div>
+<hr>
+
+<!-- 버튼 팝업 -->
+<div class="guide-tit">팝업 버튼</div>
+<div class="guide-wrap">
+
+  <div class="blank btn-popup btn-small">
+    <div class="area-text"><div class="text marquee">ok</div></div>
+  </div>
+  <div class="blank btn-popup btn-small disabled">
+    <div class="area-text"><div class="text marquee">Button popup Disabled</div></div>
+  </div>
+  <div class="blank btn-popup btn-small focus">
+    <div class="area-text"><div class="text marquee">Button popup Focus</div></div>
+  </div>
+  <div class="blank btn-popup btn-small pressed focus">
+    <div class="area-text"><div class="text marquee">Button popup Pressed</div></div>
+  </div>
+
+</div>
+<div class="guide-wrap">
+
+  <div class="blank btn-popup btn-large">
+    <div class="area-text"><div class="text marquee">ok</div></div>
+  </div>
+  <div class="blank btn-popup btn-large disabled">
+    <div class="area-text"><div class="text marquee">Button popup Disabled</div></div>
+  </div>
+  <div class="blank btn-popup btn-large focus">
+    <div class="area-text"><div class="text marquee">Button popup Focus</div></div>
+  </div>
+  <div class="blank btn-popup btn-large pressed focus">
+    <div class="area-text"><div class="text marquee">Button popup Pressed</div></div>
+  </div>
+
+</div>
+<hr>
+
+<!-- tooltip -->
+<div class="guide-tit">tooltip</div>
+<div class="guide-wrap" style="margin:20px;">
+
+  <div class="tooltip">error code: 10011001 말꼬리 하단/우측<div class="bg-empty"></div></div>
+  <div class="tooltip tooltip-flip">error code: 10011001 말꼬리 하단/좌측<div class="bg-empty"></div></div>
+
+</div>
+<div class="guide-wrap" style="margin:20px;">
+
+  <div class="tooltip tooltip-topR">error code: 10011001 말꼬리 상단/우측<div class="bg-empty"></div></div>
+  <div class="tooltip tooltip-topL">error code: 10011001 말꼬리 상단/좌측<div class="bg-empty"></div></div>
+
+</div>
+<!-- //tooltip -->
+<hr>
+
+<!-- tooltip-multiline : 시즌 -->
+<div class="guide-tit">tooltip season</div>
+<div class="guide-wrap" style="margin:20px;">
+  <div  class="tooltip tooltip-flip tooltip-multiline">
+    <div class="area-text">
+      <div class="text">First Season Tooltip</div><div class="bg-empty"></div>
+    </div>
+  </div>
+</div>
+<div class="guide-wrap" style="margin:20px;">
+  <div  class="tooltip tooltip-multiline">
+    <div class="area-text">
+      <div class="text">Season button Click > Tooltip Show And Not Marquee Multi line test</div><div class="bg-empty"></div>
+    </div>
+  </div>
+  <div  class="tooltip tooltip-flip tooltip-multiline">
+    <div class="area-text">
+      <div class="text">Season button Click > Tooltip Show And Not Marquee Multi line test</div><div class="bg-empty"></div>
+    </div>
+  </div>
+</div>
+<div class="guide-wrap" style="margin:20px;">
+  <div  class="tooltip tooltip-topR tooltip-multiline">
+    <div class="area-text">
+      <div class="text">Season button Click > Tooltip Show And Not Marquee Multi line test</div><div class="bg-empty"></div>
+    </div>
+  </div>
+  <div  class="tooltip tooltip-topL tooltip-multiline">
+    <div class="area-text">
+      <div class="text">Season button Click > Tooltip Show And Not Marquee Multi line test</div><div class="bg-empty"></div>
+    </div>
+  </div>
+</div>
+
+<div class="guide-wrap" style="margin:20px;">
+  <div  class="tooltip tooltip-multiline2">
+    <div class="area-text">
+      <div class="text">Season button Click > Tooltip Show And Not Marquee Multi line test</div><div class="bg-empty"></div>
+    </div>
+  </div>
+  <div  class="tooltip tooltip-flip tooltip-multiline2">
+    <div class="area-text">
+      <div class="text">Season button Click > Tooltip Show And Not Marquee Multi line test</div><div class="bg-empty"></div>
+    </div>
+  </div>
+</div>
+<div class="guide-wrap" style="margin:20px;">
+  <div  class="tooltip tooltip-topR tooltip-multiline2">
+    <div class="area-text">
+      <div class="text">Season button Click > Tooltip Show And Not Marquee Multi line test</div><div class="bg-empty"></div>
+    </div>
+  </div>
+  <div  class="tooltip tooltip-topL tooltip-multiline2">
+    <div class="area-text">
+      <div class="text">Season button Click > Tooltip Show And Not Marquee Multi line test</div><div class="bg-empty"></div>
+    </div>
+  </div>
+</div>
+
+
+<div class="z-index-box">
+  <div>z-index 정리</div>
+  <table>
+    <tr>
+      <th>Panels</th>
+      <td>-</td>
+    </tr>
+    <tr>
+      <th>AD(2depth 좌측 하단)</th>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>Search (drawer 방식)</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>Drawer (draver 방식의 search 고려)</th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Palyer (Full 화면)</th>
+      <td rowspan="2">5</td>
+    </tr>
+    <tr>
+      <th>Popup – Contextual</th>
+    </tr>
+    <tr>
+      <th>Popup – dialog</th>
+      <td rowspan="2">6</td>
+    </tr>
+    <tr>
+      <th>Popup – sort &amp; filters</th>
+    </tr>
+    <tr>
+      <th>Tooltip</th>
+      <td rowspan="3">7</td>
+    </tr>
+    <tr>
+      <th>Spinner (Full 화면)</th>
+    </tr>
+    <tr>
+      <th>Help Guide</th>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

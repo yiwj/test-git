@@ -1,0 +1,85 @@
+<!doctype html>
+<html ng-app="discoveryApp" class="ng-scope">
+<head>
+<style type="text/css">
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="../css/store17-common.css" rel="stylesheet">
+<link href="../css/store17-sub.css" rel="stylesheet">
+<link href="../css/store17-animation.css" rel="stylesheet"><!-- animation 분리 / Lite 에서는 store16-animation-lite.css 으로 변경  -->
+<script type="text/javascript" src="pub-dreadlocks.js"></script>
+<style type="text/css">
+/* html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+::-webkit-scrollbar{width:0;}
+.panel-body{overflow-y:scroll;pointer-events:auto;}
+/* end-html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+</style>
+</head>
+<body class="dir-rtl-"><!-- RTL 언어 class="dir-rtl" -->
+<!-- drawer -->
+<div class="drawer"><!-- 20150608 수정 -->
+  <div class="blank drawer-category drawer-featured"></div><div class="blank drawer-category drawer-tvshows"></div><div class="blank drawer-category drawer-movies"></div><div class="blank drawer-category drawer-premium"></div><div class="blank drawer-category drawer-appsngames"></div><div class="blank drawer-category drawer-mypage"></div><div class="blank drawer-category drawer-search"></div><div class="blank drawer-category drawer-close"></div>
+</div>
+<!-- //drawer -->
+
+<!-- basic page -->
+<div class="page panel-list showing"><!-- 화면 show 경우 class="showing" --></div>
+<!-- //basic page -->
+
+<!-- player - 동영상/이미지 뷰어 -->
+<div class="player">
+  <div class="player_thumb" style="display: block; background-image: url(../images/temp/temp_player.png);"></div><!-- 이미지 -->
+  <!-- <video controls="" autoplay="" name="media"><source src="http://media.w3.org/2010/05/bunny/movie.mp4" type="video/mp4"></video>video -->
+  <!-- player-header -->
+  <div class="player-header" style="display: none">
+    <div class="area-text no-event player-title">
+      <div class="marquee text">Video Name</div>
+    </div>
+    <div class="player-info-icon">icon1</div><div class="player-info-icon">icon2</div><div class="player-info-icon">icon3</div><div class="player-info-icon">icon4</div>
+  </div>
+  <!-- //player-header -->
+  <!-- player-cont -->
+  <div class="player-cont" style="display: none">
+    <!-- Feedback -->
+    <div class="player-feedback"><div class="icon-player btn-pause"></div>00:01:58</div>
+    <!-- //Feedback -->
+    <!-- Playback Control -->
+    <div class="player-control">
+      <div class="blank icon-player btn-rewind"></div><div class="blank icon-player btn-skipbackward"></div><div class="blank icon-player btn-pause"></div><div class="blank icon-player btn-skipforward"></div><div class="blank icon-player btn-fastforward"></div>
+      <div class="blank icon-player btn-back"></div>
+      <div class="blank icon-player btn-slide-show"></div>
+    </div>
+    <!-- //Playback Control -->
+    <!-- Progress Bar  -->
+    <div class="player-progress">
+      <div class="bar-buffering" style="width:60%;"></div>
+      <div class="bar-play" style="width:40%;"></div>
+      <div class="time time-play">0:00:00</div>
+      <div class="time time-remain">4:37:37</div>
+      <div class="empty-pointer" style="left:1200px"></div>
+    </div>
+    <!-- //Progress Bar  -->
+  </div>
+  <!-- //player-cont -->
+  <!-- Slide Show list - 20150713 추가(GUI 없이 임시 작업) -->
+  <div class="player-slide ng-hide"></div>
+  <div class="player-end">
+    <div class="blank btn btn-large">
+      <div class="area-text"><div class="text marquee">PLAY MOVIE</div></div>
+    </div><div class="blank btn btn-large">
+      <div class="area-text"><div class="text marquee">REPLAY TRAILER</div></div>
+    </div><div class="blank btn btn-large">
+      <div class="area-text"><div class="text marquee">CLOSE</div></div>
+    </div>
+  </div>
+  <!-- //Slide Show list -->
+</div>
+<!-- //player - 동영상/이미지 뷰어 -->
+
+</body>
+</html>
