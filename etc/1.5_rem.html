@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title> 1.5배 나누기 </title>
+<meta charset="utf-8">
+<style type="text/css">
+body,div,p,ul,ol,li,h1,h2,h3,h4,h5,h6,dl,dt,dd,table,form,fieldset,legend,th,td,span,em,strong,button,input,select,a,img{margin:0;padding:0;}
+body{font-size:12px;}
+input,select{}
+li{list-style:none;}
+a{border:none;}
+button{border-color:transparent;background:none;}
+img{vertical-align:top;}
+fieldset{border:none;}
+legend{overflow:hidden;width:1px;height:0;text-indent:-9999px;}
+/**/
+.calculation_box{display:inline-block;position:relative;margin:20px 0 10px 10px;border:1px solid #777;vertical-align:top;}
+.calculation_box input{border:none;line-height:2;background:#eee}
+.calculation_box .inp_num{width:50px;padding-right:5px;text-align:right;}
+.calculation_box .inp_num2{width:30px;text-align:center;}
+.calculation_box .inp_num3{padding-left:5px;}
+.calculation_box:before{display:block;position:absolute;left:10px;top:-15px;}
+.calculation_box:after{display:block;position:absolute;left:100px;top:-15px;}
+#calculationBox:before{content:'px';}
+#calculationBox:after{content:'rem';}
+#calculationBoxREM:before{content:'rem';}
+#calculationBoxREM:after{content:'px';}
+
+#listBox{width:1330px;margin: 10px 9px;border:1px solid gold;-webkit-column-count:5;moz-column-count:5;column-count: 5;-webkit-column-gap:5px;-moz-column-gap:5px;column-gap:5px;}
+#listBox li:nth-child(2n){background:#eee}
+#listBox span{display:inline-block;line-height:2;}
+#listBox .txt_num1{width:50px;padding-right:5px;font-weight:bold;text-align:right;}
+#listBox .txt_num2{width:20px;text-align:center;opacity:0.5}
+#listBox .txt_num3{padding-left:5px;}
+#listBox .txt_bar{width:20px;opacity:0.5;text-align:center;}
+
+.wrap_max{position:absolute;left:1150px;top:27px;}
+.num_max{width:80px;padding-right:5px;border:none;line-height:2;background:#ddd;text-align:right}
+</style>
+</head>
+<body>
+
+<div class="calculation_box" id="calculationBox">
+	<input type="text" class="inp_num" id="numInput">
+	<input type="text" value="1.5" readonly="readonly" class="inp_num2">
+	<input type="text" readonly="readonly" class="inp_num3">
+</div>
+<div class="calculation_box" id="calculationBoxREM">
+	<input type="text" class="inp_num" id="numInputREM">
+	<input type="text" value="1.5" readonly="readonly" class="inp_num2">
+	<input type="text" readonly="readonly" class="inp_num3">
+</div>
+
+<div class="wrap_max">
+	<label for="numMax" class="label_max">리스트 목록 갯수 : </label>
+	<input type="text" id="numMax" value="100" class="num_max">
+</div>
+<ul id="listBox">
+</ul>
+
+<script type="text/javascript">
+var calculationBox = document.getElementById('calculationBox');
+var calculationBoxREM = document.getElementById('calculationBoxREM');
+var calculationinp = calculationBox.getElementsByTagName('input');
+var calculationinpREM = calculationBoxREM.getElementsByTagName('input');
+// 입력해서 값 구하기
+function focusInFunc(){
+	this.value=null;
+};
+var enter, enter2;
+var test=0, test2=0;
+function focusOutFunc(){
+	//calculationinp[2].value = event.target.value / calculationinp[1].value;
+	inputREM = event.target.value / calculationinp[1].value;
+	calculationinp[2].value = inputREM/10;
+	//
+	console.log('입력값 : '+test2);
+	test2++;
+};
+
+// 입력해서 값 구하기 - REM
+function focusInFuncREM(){
+	this.value=null;
+};
+var enterREM, enter2REM;
+var testREM=0, test2REM=0;
+function focusOutFuncREM(){
+	inputREM = event.target.value * 10;
+	calculationinpREM[2].value = (inputREM * calculationinpREM[1].value).toFixed(0);
+	//
+	console.log('입력값 : '+test2REM);
+	test2REM++;
+};
+
+// 리스트 값
+function maxFunc(){
+	var listBox = document.getElementById('listBox');
+	var tag='', txt_sum, txt_sumREM;
+	var num=calculationinp[1].value;
+	var num_max = document.getElementById('numMax').value;
+	for(var i=1; i <= num_max; i++){
+		txt_sum = (i / num);
+		txt_sumREM = (txt_sum / 10);
+		tag +='<li><span class="txt_num1">'+ i +' </span>'+'<span class="txt_bar"> / </span>'+'<span class="txt_num2">'+ num +'</span>'+'<span class="txt_bar"> = </span>'+'<span class="txt_num3">'+ txt_sum.toFixed(3) +' / rem : ' + txt_sumREM.toFixed(3) +'</span></li>';
+	}
+	listBox.innerHTML = tag;
+	//
+	console.log('리스트 값 : '+test);
+	test++;
+};
+
+
+// 엔터시 함수 실행
+function enterFunc(event){
+	if(event.keyCode == 13){
+		switch(this.id){
+			case 'numMax':
+				maxFunc();
+				enter = true;
+				break;
+			case 'numInput':
+				focusOutFunc();
+				enter2 = true;
+				break;
+			case 'numInputREM':
+				focusOutFuncREM();
+				enter2REM = true;
+				break;
+			default:
+				break;
+		}
+		//console.log(this.id);
+	}
+};
+
+
+//
+window.onload=maxFunc;
+document.getElementById('numMax').onkeydown=enterFunc;
+//document.getElementById('numMax').onblur=maxFunc;
+document.getElementById('numMax').onblur=function(){
+	if(enter == true){
+		console.log('enter == true');
+		enter = false;
+	}else{
+		maxFunc();
+		console.log('enter == false');
+	}
+}
+
+
+document.getElementById('numInput').onfocus=focusInFunc;
+document.getElementById('numInput').onkeydown=enterFunc;
+//document.getElementById('numInput').onblur=focusOutFunc;
+document.getElementById('numInput').onblur=function(){
+	if(enter2 == true){
+		console.log('enter2 == true');
+		enter2 = false;
+	}else{
+		focusOutFunc();
+		console.log('enter2 == false');
+	}
+}
+
+document.getElementById('numInputREM').onfocus=focusInFuncREM;
+document.getElementById('numInputREM').onkeydown=enterFunc;
+document.getElementById('numInputREM').onblur=function(){
+	if(enter2REM == true){
+		console.log('enter2REM == true');
+		enter2REM = false;
+	}else{
+		focusOutFuncREM();
+		console.log('enter2REM == false');
+	}
+}
+
+/*
+ 1. 엔터를 치면 이벤트 실행.
+ 2. 엔터를 치지 않고 input 에서 포커스를 잃어버리면 이벤트 실행.
+ 3. 엔터를 쳐서 이벤트 실행된 상태에서 input에서 포커스를 잃어버리면서 다시 이벤트가 살행. 이게 문제임 한번만 실행될 함수가 불필요하게 두번 실행됨.
+
+*/
+</script>
+
+</html>
