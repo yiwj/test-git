@@ -1,0 +1,76 @@
+<!doctype html>
+<html ng-app="discoveryApp" class="ng-scope">
+<head>
+<style type="text/css">
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="../css/store16.css" rel="stylesheet">
+<link href="../css/store16-animation.css" rel="stylesheet"><!-- animation 분리 / Lite 에서는 store16-animation-lite.css 으로 변경  -->
+<script type="text/javascript" src="pub-dreadlocks.js"></script>
+<style type="text/css">
+/* html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+::-webkit-scrollbar{width:0;}
+.panel-body{overflow-y:scroll;pointer-events:auto;}
+/* end-html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+</style>
+</head>
+<body class="dir-rtl-"><!-- RTL 언어 class="dir-rtl" -->
+
+<!-- AD-banner -->
+<div class="ad-player item-video"><!-- 영상인 경우 class="item-video" 추가 -->
+  <div class="thumb">
+    <img src="../images/temp/temp_01.jpg" class="thumb-img">
+    <div class="icon-player icon-video"></div>
+    <div class="bg-icon"></div>
+  </div>
+  <div class="area-text ban-text">
+    <div class="text">AD SPONSER</div>
+  </div>
+  <!-- Full / player -->
+  <!-- Video -->
+  <!-- div class="info-time">0:00<div class="blank btn btn-icon btn-pop-close"><div class="icon"></div></div></div> -->
+  <div class="blank ad-inset-ban" style="display: none;"><img src="../images/thumb/ad/278X157.png" class="thumb-img"></div><!-- 임시 이미지. 사이즈는 광고팀에 따름.  -->
+  <!--  //Video -->
+  <!-- Image  -->
+  <div class="blank btn btn-icon btn-pop-close" style="display: none;"><div class="icon"></div></div>
+  <div class="blank btn btn-ad btn-ad-more" style="display: none;"><div class="area-text"><div class="text marquee">more</div></div></div>
+  <!--  //Image  -->
+  <!-- Progress bar 사라질 경우, SKIP버튼이 하단으로 내려옴.  -->
+  <div class="player-cont">
+    <!-- <div class="blank btn btn-icon btn-cancel"><div class="icon"></div></div> -->
+    <div class="blank btn btn-ad btn-ad-skip"><!-- SKIP 가능 대기 N초 버튼 비활성화 class="disabled" 추가 -->
+      <div class="area-text"><div class="text marquee">skip ad</div></div>
+    </div>
+	<!-- player-time -->
+	<div class="player-time-wrap">
+		<div class="time time-play">0:00:00</div>
+		<div class="time slash-bar-empty">/</div>
+		<div class="time time-remain">4:37:37</div>
+	</div>
+	<!-- //player-time -->
+	<!-- Progress Bar  -->
+	<div class="player-progress-wrap">
+		<div class="player-progress">
+		  <div class="bar-buffering" style="width:60%;"></div>
+		  <div class="bar-play" style="width:40%;"></div>
+		 <!-- <div class="pointer-wrap">
+			<div class="empty-pointer" style="left:1200px"></div>
+			<div class="current-time" style="left:1200px">0:00:00</div>
+		  </div> -->
+		</div>
+	</div>
+    <!-- //Progress Bar  -->
+  </div>
+  <!--  //Progress bar 사라질 경우, SKIP버튼이 하단으로 내려옴.  -->
+  <!-- Full / player -->
+</div>
+<!-- //AD-banner -->
+
+
+</body>
+</html>

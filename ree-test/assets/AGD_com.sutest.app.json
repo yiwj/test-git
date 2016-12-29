@@ -1,0 +1,53 @@
+{
+  "app" : {
+    "type" : "S",
+    "id" : "com.sutest.app",
+    "bPremium" : false,
+    "name" : "[webOS]SU Check",
+    "version" : "1.0.0",
+    "createDate" : "06-18-2014",
+    "updateDate" : "06-18-2014",
+    "categoryId" : "004",
+    "categoryName" : "생활",
+    "description" : "WSDK_VERSION: 2.0.0 WSDK_VERSION: 3.0.0 [webOS]SU Check[webOS]SU Check[webOS]SU Check[webOS]SU Check[webOS]SU Check[webOS]SU Check[webOS]SU Check[webOS]SU Check[webOS]SU Check[webOS]SU Check[webOS]SU Check[webOS]SU Check",
+    "bItem" : "N",
+    "currencyCode" : "USD",
+    "bFree" : "Y",
+    "price" : 0.0,
+    "displayPrice" : "$0.00",
+    "event" : "N",
+    "supportLanguage" : "English",
+    "evaluationYN" : "N",
+    "evaluationCount" : 1,
+    "evaluationAverage" : 6.0,
+    "ageType" : "0",
+    "adultYN" : "N",
+    "sellerId" : 26910,
+    "sellerName" : "testsellerqt",
+    "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20140618/1_130x130_webos.png",
+    "purchasable" : "N",
+    "bPurchased" : "Y",
+    "capability" : {
+      "useGamePad" : "N",
+      "useInternet" : "N",
+      "sdkVersion" : "2.0.0",
+      "use3d" : "N",
+      "useCamera" : "N",
+      "useMagic" : "N"
+    },
+    "appPreviewCount" : 2,
+    "appPreviewList" : [ {
+      "previewId" : 441424,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20140618/1.png"
+    }, {
+      "previewId" : 441426,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20140618/2.png"
+    } ],
+    "appFileCount" : 1,
+    "appFileList" : [ {
+      "fileId" : 441431,
+      "packFileSize" : 3561314,
+      "unpackFileSize" : 5180249
+    } ]
+  }
+}

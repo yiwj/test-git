@@ -1,0 +1,16 @@
+<div class="page panel-main main-error" ng-class="{'showing': showing, 'open': open}" ng-hide="hide">
+  <div  ng-if="isHeader">
+    <div header class="header"></div>
+  </div>
+  <div ng-if="isPopup" class="isPopup">
+    <div class="wrap-main-error">
+      <div class="tit" ng-bind="popOpts.lgContentStore"></div>
+      <div class="text">{{popOpts.title}}<br>{{popOpts.subTitle}}</div>
+      <div class="blank button btn btn-large" item="ok">
+        <div class="area-text">
+          <div class="text marquee" ng-bind="popOpts.button"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

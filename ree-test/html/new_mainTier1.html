@@ -1,0 +1,50 @@
+<div class="page panel-main main-tier1">
+  <div header></div>
+  <div class="main-body">
+    <div class="panel-cont">
+      <div class="main-column column-{{column.column}}" id="column{{$index}}" ng-repeat="column in columns">
+        <div class="tit-category" ng-if="column.category"><div class="text">{{column.category}}</div><div class="bg-empty"></div></div>
+        <!-- image AD template start -->
+        <div class="blank item item-ad" ng-if="showAD && item.type === 'ad'" type="{{adType}}" item="{{adResColumn}}-0" item-id='' adContextIndex="{{adRes.adContextIndex}}" assetId="{{adRes.assetId}}" ad-handler ng-repeat="item in column">
+          <img ng-src="{{adRes.srcUrl}}" class="thumb-img" tier1-image-resize-handler d-img-type="AD" ng-if="imageAD">
+        </div>
+        <!-- image AD template end -->
+        <!-- theme banner template start -->
+        <div class="blank item theme-banner" ng-if="item.type === 'banners'" type="banners" idx="{{item.idx}}" item="{{item.item}}" item-id="{{item.id}}" ng-repeat="item in column">
+          <div class="thumb">
+            <img ng-src="{{item.img}}" class="thumb-img" tier1-image-resize-handler d-img-type="TB" >
+          </div>
+          <div class="area-text ban-text"><div class="marquee text">{{item.name}}</div></div>
+        </div>
+        <!-- theme banner template end -->
+        <!-- tv shows & movies template start -->
+        <div class="blank item item-main" ng-if="item.type == 'tvshows' || item.type == 'movies'" type="{{item.type}}" idx="{{item.idx}}" item="{{item.item}}" item-id="{{item.id}}" item-type="{{item.item_type}}" ng-repeat="item in column">
+          <div class="img-badge_wrap" ng-hide="hideItem" item-id="{{id}}" item-type="{{type}}">
+            <div class="img-badge" ng-repeat="cpIconColor in item.execCpList.iconColor track by $index">
+              <div class="bg-badge" style="background-color:{{cpIconColor}};"></div>
+              <img class="badge-img" ng-src="{{item.execCpList.iconUrl[$index]}}"/>
+            </div>
+          </div>
+          <div class="item-thumb">
+            <img ng-src="{{item.img}}" style="display:none;" class="thumb-img" tier1-image-resize-handler d-img-type="PO">
+          </div>
+          <div class="area-text item-tit"><div class="marquee text">{{item.name}}</div></div>
+          <div class="blank icon-player btn-cp-play" item="{{item.item}}_play_btn" ng-if="item.type == 'tvshows' || item.type == 'movies'"></div>
+        </div>
+        <!-- tv shows & movies template end -->
+        <!-- apps & games(premium) template start -->
+        <div class="blank item item-main-apps" ng-if="item.type == 'appsngames' || item.type == 'appsngameshot' || item.type == 'appsngamesnew'" ng-class="{'item-white': item.white}" type="{{item.type}}" idx="{{item.idx}}" item="{{item.item}}" item-id="{{item.id}}" item-type="{{item.item_type}}" app-type="{{item.appType}}" ng-repeat="item in column">
+          <div class="item-thumb" ng-style="item.style">
+            <img ng-src="{{item.img}}" class="thumb-img" tier1-image-resize-handler d-img-type="AG">
+          </div>
+          <div class="item-info">
+            <div class="area-text item-tit"><div class="marquee text">{{item.name}}</div></div>
+            <div class="app-category">{{item.categoryName}}</div>
+            <div class="item-price">{{item.displayPrice}}</div>
+          </div>
+        </div>
+        <!-- apps & games(premium) template end -->
+      </div>
+    </div>
+  </div>
+</div>

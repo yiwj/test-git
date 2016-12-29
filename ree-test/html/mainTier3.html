@@ -1,0 +1,31 @@
+<div class="page panel-main main-tier3">
+  <div header></div>
+  <div class="main-body"><!-- 상단 이미지에 맞는 Hex컬러 -->
+    <div class="panel-cont">
+    <!-- content -->
+      <!-- Apps &amp; Games -->
+      <div class="main-column">
+        <!-- item -->
+        <div class="blank item item-main-apps" ng-class="{'item-white': item.white}" item="{{item.idx}}" itemid="{{item.id}}" ng-repeat="item in listData">
+          <div class="item-thumb" ng-style="item.style">
+            <img ng-src="{{item.img}}" class="thumb-img" tier3-image-resize-handler d-img-type="AG">
+          </div>
+          <div class="item-info">
+            <div class="area-text item-tit"><div class="marquee text" ng-bind="item.name"></div></div>
+            <div class="app-category" ng-bind="item.categoryName"></div>
+            <div class="item-price" ng-bind="item.displayPrice"></div>
+          </div>
+        </div>
+        <!-- //item -->
+      </div>
+      <!-- //Apps &amp; Games -->
+    <!-- //content -->
+    </div>
+    <div scroll class="scroll scroll-v">
+    </div>
+  </div>
+</div>
+
+
+
+

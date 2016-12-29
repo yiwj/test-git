@@ -1,0 +1,57 @@
+{
+  "@testversion": "20141009_001",
+  "message": "OK",
+  "item": {
+    "@pinup_able": "TEST",
+    "@type": "PERSON",
+    "item_id": "8591",
+    "item_name": "양현석",
+    "item_img": "",
+    "item_desc": "양현석(梁鉉錫, 1969년 12월 2일 ~ )은 YG 엔터테인먼트의 대표이사이다. 대한민국의 댄스 그룹 서태지와 아이들의 멤버로 활동하기도 하였다. [데이터제공: Cine21]",
+    "item_detail": {
+      "pinup_state": "FALSE",
+      "tab_vod": {
+        "items": [
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|43550",
+            "item_name": "서바이벌 오디션 K팝스타 시즌4",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2015_0116_16_26_05__54b8bd0da450e[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "TS"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|40684",
+            "item_name": "서바이벌 오디션 K팝스타 시즌3",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_1203_40684_529d94395e29b_screenshot_6[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "TS"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|34860",
+            "item_name": "K팝 스타",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0904_11_20_13__5407cc5dc9004[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "TS"
+          }
+        ]
+      },
+      "tab_tv": null
+    },
+    "person_role_type": "",
+    "person_role_name": "",
+    "person_birth_date": "1969-12-02",
+    "person_death_date": ""
+  }
+}

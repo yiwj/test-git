@@ -1,0 +1,524 @@
+{
+	"@testversion" : "20141009_001",
+	"message" : "OK",
+	"menu_list" : {
+		"menus" : [{
+				"@selected" : "FALSE",
+				"name" : "추천",
+				"code" : "ME2312"
+			}, {
+				"@selected" : "FALSE",
+				"name" : "최신",
+				"code" : "ME2314"
+			}, {
+				"@selected" : "TRUE",
+				"name" : "장르별",
+				"code" : "ME2310"
+			}, {
+				"@selected" : "FALSE",
+				"name" : "전체",
+				"code" : "ME2320"
+			}
+		]
+	},
+	"item_list" : {
+		"@list_title" : "",
+		"@total_item_cnt" : "31",
+		"@start_index" : "1",
+		"@skin_type" : "POSTER",
+		"@type" : "ALL",
+		"items" : [{
+				"@pinup_able" : "TEST",
+				"@type" : "SPLIT",
+				"item_id" : "",
+				"item_name" : "호러",
+				"item_img" : "",
+				"item_desc" : ""
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42099",
+				"item_name" : "내비게이션",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0617_14_32_40__539fd2f83318c[s282,414].jpg",
+				"item_img_size" : "V291X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"item_rating_disp" : "18세 관람가",
+				"conts_type" : "MV",
+				"item_rated_score" : "6",
+				"conts_make_year" : "2013",
+				"conts_duration" : "82"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42289",
+				"item_name" : "원 컷 – 어느 친절한 살인자의 기록",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0819_13_34_07__53f2d3bf08ab5[s282,414].jpg",
+				"item_img_size" : "V290X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"item_rating_disp" : "18세 관람가",
+				"conts_type" : "MV",
+				"conts_make_year" : "2014",
+				"conts_duration" : "86"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|39236",
+				"item_name" : "피막",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0804_14_15_12__53df16e05d9d8[s282,414].jpg",
+				"item_img_size" : "V291X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"item_rating_disp" : "12세 관람가",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.5",
+				"conts_make_year" : "2013",
+				"conts_duration" : "112"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42618",
+				"item_name" : "퍼즐",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0917_13_31_34__54190ea64794b[s282,414].jpg",
+				"item_img_size" : "V289X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"item_rating_disp" : "18세 관람가",
+				"conts_type" : "MV",
+				"conts_make_year" : "2014",
+				"conts_duration" : "85"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41340",
+				"item_name" : "소녀괴담",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0602_11_21_30__538bdfaaad483[s282,414].jpg",
+				"item_img_size" : "V291X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"item_rating_disp" : "15세 관람가",
+				"conts_type" : "MV",
+				"item_rated_score" : "3.8333",
+				"conts_make_year" : "2014",
+				"conts_duration" : "90"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42499",
+				"item_name" : "툼스톤",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0918_17_32_13__541a988d07203[s282,414].jpg",
+				"item_img_size" : "V289X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"item_rating_disp" : "18세 관람가",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.2",
+				"conts_make_year" : "2014",
+				"conts_duration" : "113"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42526",
+				"item_name" : "브레이킹",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0821_15_12_23__53f58dc7a1f2c[s282,414].jpg",
+				"item_img_size" : "V293X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"item_rating_disp" : "18세 관람가",
+				"conts_type" : "MV",
+				"conts_make_year" : "2013",
+				"conts_duration" : "85"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42255",
+				"item_name" : "라스트 패신저",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0702_15_22_20__53b3a51c722cc[s282,414].jpg",
+				"item_img_size" : "V276X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"item_rating_disp" : "15세 관람가",
+				"conts_type" : "MV",
+				"conts_make_year" : "2013",
+				"conts_duration" : "96"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|40879",
+				"item_name" : "안녕, 투이",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_1113_11_22_24__546415e05bfd4[s282,414].jpg",
+				"item_img_size" : "V285X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"item_rating_disp" : "15세 관람가",
+				"conts_type" : "MV",
+				"item_rated_score" : "8",
+				"conts_make_year" : "2013",
+				"conts_duration" : "106"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|43068",
+				"item_name" : "더스크: 죽음을 부르는 소녀",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_1029_15_54_25__54508f21dc02f[s282,414].jpg",
+				"item_img_size" : "V291X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"item_rating_disp" : "18세 관람가",
+				"conts_type" : "MV",
+				"conts_make_year" : "2013",
+				"conts_duration" : "65"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41551",
+				"item_name" : "에너미",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0429_13_33_35__535f2b9fdad48[s282,414].jpg",
+				"item_img_size" : "V289X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"item_rating_disp" : "18세 관람가",
+				"conts_type" : "MV",
+				"conts_make_year" : "2013",
+				"conts_duration" : "90"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41156",
+				"item_name" : "터널",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0715_10_26_38__53c4834eba52d[s282,414].jpg",
+				"item_img_size" : "V289X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"item_rating_disp" : "15세 관람가",
+				"conts_type" : "MV",
+				"item_rated_score" : "2.8571",
+				"conts_make_year" : "2014",
+				"conts_duration" : "86"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|39745",
+				"item_name" : "악령",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0616_14_36_00__539e82409a402[s282,414].jpg",
+				"item_img_size" : "V289X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"item_rating_disp" : "12세 관람가",
+				"conts_type" : "MV",
+				"item_rated_score" : "2",
+				"conts_make_year" : "2013",
+				"conts_duration" : "97"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41835",
+				"item_name" : "미국인 친구",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0529_14_15_54__5386c28addbe4[s282,414].jpg",
+				"item_img_size" : "V291X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"item_rating_disp" : "18세 관람가",
+				"conts_type" : "MV",
+				"conts_make_year" : "2013",
+				"conts_duration" : "85"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42374",
+				"item_name" : "벨라 키스",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0724_13_27_12__53d08b20d5da7[s282,414].jpg",
+				"item_img_size" : "V293X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"item_rating_disp" : "18세 관람가",
+				"conts_type" : "MV",
+				"item_rated_score" : "3",
+				"conts_make_year" : "2013",
+				"conts_duration" : "106"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|40985",
+				"item_name" : "파라노말 액티비티 : 더 마크드 원스",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_1119_15_49_47__546c3d8b5e10a[s282,414].jpg",
+				"item_img_size" : "V279X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"item_rating_disp" : "등급 정보 없음",
+				"conts_type" : "MV",
+				"item_rated_score" : "6",
+				"conts_make_year" : "2014",
+				"conts_duration" : "84"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|40990",
+				"item_name" : "솔로",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0207_17_40_45__52f49c0def6df[s282,414].jpg",
+				"item_img_size" : "V273X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"item_rating_disp" : "15세 관람가",
+				"conts_type" : "MV",
+				"conts_make_year" : "2013",
+				"conts_duration" : "83"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41562",
+				"item_name" : "리스본행 야간열차",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0429_16_26_36__535f542d00453[s282,414].jpg",
+				"item_img_size" : "V290X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"item_rating_disp" : "15세 관람가",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.8182",
+				"conts_make_year" : "2013",
+				"conts_duration" : "111"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42609",
+				"item_name" : "리들",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0915_13_52_57__541670aa00e0d[s282,414].jpg",
+				"item_img_size" : "V289X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"item_rating_disp" : "18세 관람가",
+				"conts_type" : "MV",
+				"conts_make_year" : "2013",
+				"conts_duration" : "99"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42516",
+				"item_name" : "심판자",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0820_13_54_58__53f42a22d546e[s282,414].jpg",
+				"item_img_size" : "V298X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"item_rating_disp" : "15세 관람가",
+				"conts_type" : "MV",
+				"conts_make_year" : "2014",
+				"conts_duration" : "86"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42150",
+				"item_name" : "헬베이비",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0619_14_17_53__53a272816993b[s282,414].jpg",
+				"item_img_size" : "V292X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"item_rating_disp" : "등급 정보 없음",
+				"conts_type" : "MV",
+				"conts_make_year" : "2013",
+				"conts_duration" : "98"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42649",
+				"item_name" : "맥카닉: 마지막 추격",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0924_15_30_56__54226520d500d[s282,414].jpg",
+				"item_img_size" : "V279X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"item_rating_disp" : "15세 관람가",
+				"conts_type" : "MV",
+				"conts_make_year" : "2013",
+				"conts_duration" : "92"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41883",
+				"item_name" : "피해자들",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0716_14_34_35__53c60eebd89e0[s282,414].jpg",
+				"item_img_size" : "V290X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"item_rating_disp" : "18세 관람가",
+				"conts_type" : "MV",
+				"item_rated_score" : "6",
+				"conts_make_year" : "2014",
+				"conts_duration" : "91"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|40282",
+				"item_name" : "사다코 2",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0219_12_58_29__53042be5bd03a[s282,414].jpg",
+				"item_img_size" : "V291X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"item_rating_disp" : "15세 관람가",
+				"conts_type" : "MV",
+				"conts_make_year" : "2013",
+				"conts_duration" : "96"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|43157",
+				"item_name" : "버진 스노우",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_1204_09_57_58__547fb19604c68[s282,414].jpg",
+				"item_img_size" : "V289X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"item_rating_disp" : "등급 정보 없음",
+				"conts_type" : "MV",
+				"item_rated_score" : "7",
+				"conts_make_year" : "2014",
+				"conts_duration" : "91"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41566",
+				"item_name" : "콰이어트 원",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0821_10_38_09__53f54d819b096[s282,414].jpg",
+				"item_img_size" : "V289X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"item_rating_disp" : "15세 관람가",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.6",
+				"conts_make_year" : "2014",
+				"conts_duration" : "97"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41578",
+				"item_name" : "SX 테잎",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0430_15_14_52__536094dc26884[s282,414].jpg",
+				"item_img_size" : "V291X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"item_rating_disp" : "18세 관람가",
+				"conts_type" : "MV",
+				"conts_make_year" : "2013",
+				"conts_duration" : "85"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42274",
+				"item_name" : "더 퍼지: 거리의 반란",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0715_11_17_29__53c48f3948b63[s282,414].jpg",
+				"item_img_size" : "V289X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"item_rating_disp" : "18세 관람가",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.5",
+				"conts_make_year" : "2014",
+				"conts_duration" : "103"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42487",
+				"item_name" : "애프터 파티",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0812_13_56_42__53e99e8a16f9e[s282,414].jpg",
+				"item_img_size" : "V289X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"item_rating_disp" : "18세 관람가",
+				"conts_type" : "MV",
+				"item_rated_score" : "5",
+				"conts_make_year" : "2013",
+				"conts_duration" : "79"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41527",
+				"item_name" : "방콕 킥복서",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0416_13_49_10__534e0bc697e0b[s282,414].jpg",
+				"item_img_size" : "V281X414",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"item_rating_disp" : "18세 관람가",
+				"conts_type" : "MV",
+				"conts_make_year" : "2013",
+				"conts_duration" : "93"
+			}
+		]
+	},
+	"filter_list" : {
+		"filters" : [{
+				"@type" : "SIDE",
+				"key" : "FILTER_CATEGORY",
+				"values" : [{
+						"code" : "-1",
+						"name" : "전체"
+					}, {
+						"code" : "드라마",
+						"name" : "드라마"
+					}, {
+						"code" : "액션",
+						"name" : "액션"
+					}, {
+						"code" : "코미디",
+						"name" : "코미디"
+					}, {
+						"code" : "로맨스",
+						"name" : "로맨스"
+					}, {
+						"@selected" : "TRUE",
+						"code" : "호러",
+						"name" : "호러"
+					}, {
+						"code" : "범죄",
+						"name" : "범죄"
+					}, {
+						"code" : "스릴러",
+						"name" : "스릴러"
+					}, {
+						"code" : "애니메이션",
+						"name" : "애니메이션"
+					}, {
+						"code" : "가족",
+						"name" : "가족"
+					}, {
+						"code" : "과학공상",
+						"name" : "과학공상"
+					}, {
+						"code" : "다큐멘터리",
+						"name" : "다큐멘터리"
+					}, {
+						"code" : "뮤직",
+						"name" : "뮤직"
+					}
+				]
+			}
+		]
+	}
+}

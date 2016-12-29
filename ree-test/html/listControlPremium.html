@@ -1,0 +1,51 @@
+<div ng-hide="hideListContent && drawed">
+  <div class="panel-cont">
+    <ng-switch on="isMyPage">
+
+      <span ng-switch-when="true">
+        <div class="list-scroller" style="padding-bottom: 5px;" ng-show="drawed">
+          <div class="list-split" ng-repeat="r in getPremiumSplits()" ng-class="{'split{{r}}': true}" ng-show="view['s' + r]">
+            <div class="museo-bold" ng-bind="getPremiumSplitDate(r)"></div>
+            <div class="premium-item" id="item{{r}}-{{$index}}" item="item{{r}}-{{$index}}" ng-repeat="item in getPremium(r)" item-id="{{item.id}}">
+              <div class="premium-thumb">
+                <div class="thumbchecksmall" id="thumbchecksmall{{item.id}}"></div>
+                <img ng-src="{{item.img}}">
+              </div>
+              <div class="premium-detail">
+                <div class="premium-item-title marquee ellipsis museo-bold" ng-bind="item.name"></div>
+                <div class="app-info museo-medium" ng-bind="item.categoryName"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </span>
+
+      <span ng-switch-default>
+        <div class="list-cont list-cont-premium">
+          <div class="blank item item-premium" id="item0-{{$index}}" item="item0-{{$index}}" ng-repeat="item in listData.premiumAppList" item-id="{{item.id}}" style="padding-right:0;"><!--  app* Hex�÷� -->
+              <div ng-class="{\'bg-black\': \'{{item.iconColor}}\' == \'#000000\'}">
+                <div class="item-thumb">
+                <img ng-src="{{item.iconURL}}" class="thumb-img" image-resize d-img-type="APP">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text" ng-bind="item.name"></div></div>
+                <div class="app-category" ng-bind="item.categoryName"></div>
+              </div>
+          </div>
+        </div>
+      </span>
+
+    </ng-switch>
+
+    <!-- content -->
+    <div class="wrap-no-data" ng-if="visibleNoDataMsg">
+      <div class="no-data-img no-premium"></div>
+      <div class="text" ng-bind="nodata"></div>
+    </div>
+    <!-- //content -->
+
+  </div>
+  <div scroll class="{{getPremiumListScrollBarClass()}}"></div>
+</div>
+
+
+

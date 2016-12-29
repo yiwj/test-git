@@ -1,0 +1,8 @@
+{
+    "returnValue": true,
+    "serverResponse": {
+        "code": "200",
+        "message": "OK",
+        "response": "{\n  \"authentication\" : {\n    \"deviceSecret\" : \"JsfxB57cVscypYjDOB5RmMP8W1P3liXKV0BCuCZo+xP81yToVCm2AV4Ky8GiY\/vporIBd4tdVCkqW\/Xiq9npZkkww3\/cu3Q7TnWGTAeDDVX9gLB4TN1OiTUbqRNDPKmOFS3rPKHIdRv1U2qbk1lUuQ==\",\n    \"sessionID\" : \"EbZT\/5s4Lre+GStnEvmXPn4geSo=\",\n    \"deviceUniqueID\" : \"42ec2059e8ca9fa59f92a1a6bf578f4c2483870a605e5aefbadc6063abbd2287519978aad4a90bd389a30cbd29d4b44826dfddf5cd79d7dd7a9740964b4f6143\"\n  }\n}"
+    }
+}

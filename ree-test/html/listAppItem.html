@@ -1,0 +1,14 @@
+<div class="blank item {{listClass}}" ng-hide="hideItem" item-id="{{id}}" item-type="{{type}}" item-age="{{ageType}}">
+  <div class="item-badge" ng-if="showBadge"><div class="area-text badge-text"><div class="marquee text">{{badge}}</div></div></div>
+  <div class="item-thumb">
+    <img ng-src="{{src}}" ng-hide="hideThumb" class="thumb-img" image-resize d-img-type="APP">
+  </div>
+  <div class="area-text item-tit" ng-if="!showPromotion">
+    <div class="marquee text">{{name}}</div>
+  </div>
+  <div class="app-category" ng-if="!showPromotion">{{categoryName}}</div>
+  <div class="item-price" ng-if="!showPromotion">{{dpPrice1}}</div>
+  <div class="list-price" ng-if="!showPromotion">{{dpPrice2}}
+    <div class="price-empty"></div>
+  </div>
+</div>

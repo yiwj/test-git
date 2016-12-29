@@ -1,0 +1,93 @@
+<div ng-class="{
+    'direct': direct,
+    'showing': showing,
+    'hiding': hiding
+  }" class="page">
+  <div class="detail">
+    <div class="detail-header">
+      <div class="detail-title ellipsis miso-medium">{{title}}</div>
+    </div>
+    <div class="detail-brief">
+      <div class="app-detail-thumb" style="background-color:{{detailData.iconColor}}">
+        <img style="display: block; top: -7px; left: 0px;" class="detail-poster" ng-src="{{detailData.iconURL}}" premium-app-img-recoverable/>
+      </div>
+      <div class="detail-button">
+        <div class="button" item="button">
+          <div class="button-box">
+            <div class="button-text miso-bold marquee ellipsis">{{actionBtnTitle}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="detail-content">
+      <div class="detail-scroller" style="padding-bottom: 5px;">
+        <div class="detail-section">
+          <div class="detail-info-item">
+            <div class="detail-info-title museo-bold">{{updateTitle}}</div>
+            <div class="detail-info-content museo-medium">{{detailData.updateDate}}</div>
+          </div>
+          <div class="detail-info-item">
+            <div class="detail-info-title museo-bold">{{sizeTitle}}</div>
+            <div class="detail-info-content museo-medium">{{appSize}}<div class="detain-info-unit">{{sizeUnit}}</div></div>
+          </div>
+          <div class="detail-info-item">
+            <div class="detail-info-title museo-bold">{{versionTitle}}</div>
+            <div class="detail-info-content museo-medium">{{detailData.version}}</div>
+          </div>
+          <div class="detail-info-item">
+            <div class="detail-info-title museo-bold">{{ratingTitle}}</div>
+            <div class="detail-info-content museo-medium">{{ageType}}</div>
+          </div>
+        </div>
+        <div class="detail-section" ng-class="{'clamp': clamp}">
+          <div class="detail-more-button" item="detail-more" ng-show="showMore">
+            <div class="detail-more-button-title museo-bold">{{clamp ? moreTitle : lessTitle}}</div>
+            <div class="detail-more-icon"></div>
+          </div>
+          <div class="detail-section-title museo-bold">{{detailTitle}}</div>
+          <div class="detail-detail-genre museo-bold">{{detailData.categoryName}}</div>
+          <div class="detail-detail-vline"></div>
+          <div class="detail-detail-seller-title museo-bold">{{sellerTitle}}</div>
+          <div class="detail-detail-seller museo-bold">{{detailData.sellerName}}</div>
+          <div class="detail-detail-inapp museo-bold" ng-show="inApp">{{inappMsg}}</div>
+          <div class="detail-detail-content-premium museo-light" id="detailDesc" style="line-height: 40px;">{{detailData.description}}</div>
+        </div>
+        <div class="detail-section" ng-class="{'clamp': photo.clamp}" ng-show="isSingleApp">
+          <div class="detail-section-title museo-bold">{{screenshotsTitle}}</div>
+          <div style="height: {{photoHeight}}px;" class="detail-photo-container">
+            <div class="detail-screenshot" item="photo{{$index}}" id="photo{{$index}}" ng-repeat="item in detailData.appPreviewList">
+              <div class="detail-screenshot-thumb">
+                <img class="detail-photo-poster" ng-src="{{item.previewURL}}" premium-thumb-resizable/>
+              </div>
+              <div ng-if="item.trailer" class="trailer-play"></div>
+            </div>
+          </div>
+        </div>
+        <div class="detail-section" id="systemRequirementSection" ng-show="isSingleApp">
+          <div class="detail-section-title museo-bold">{{requirementsTitle}}</div>
+          <div class="internet" ng-show="useInternet">
+            <div class="ico"></div>
+            <div class="txt museo-medium">{{capabilityInternet}}</div>
+          </div>
+          <div class="d3" ng-show="use3d">
+            <div class="ico"></div>
+            <div class="txt museo-medium">{{capability3D}}</div>
+          </div>
+          <div class="remote" ng-show="useMagic">
+            <div class="ico"></div>
+            <div class="txt museo-medium">{{capabilityMR}}</div>
+          </div>
+          <div class="camera" ng-show="useCamera">
+            <div class="ico"></div>
+            <div class="txt museo-medium">{{capabilityCamera}}</div>
+          </div>
+          <div class="gamepad" ng-show="useGamePad">
+            <div class="ico"></div>
+            <div class="txt museo-medium">{{capabilityGamePad}}</div>
+          </div>
+        </div>
+      </div>
+      <div scroll class="detail-scroll-bar"></div>
+    </div>
+  </div>
+</div>

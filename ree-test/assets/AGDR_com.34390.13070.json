@@ -1,0 +1,113 @@
+{
+  "recommendedApp": {
+    "rcmdCategoryCount": 3,
+    "rcmdCategoryList": [
+      {
+        "rcmdId": 0,
+        "rcmdName": "구매자들이 선택한 다른 앱",
+        "rcmdAppCount": 5,
+        "appList": [
+          {
+            "type": "S",
+            "id": "hln",
+            "bPremium": false,
+            "name": "HLN",
+            "categoryId": "003",
+            "categoryName": "엔터테인먼트",
+            "currencyCode": "KRW",
+            "price": 0.0,
+            "displayPrice": "￦0",
+            "event": "N",
+            "eventPrice": 0.0,
+            "displayEventPrice": "￦0",
+            "evaluationAverage": 0.0,
+            "ageType": "SL0801",
+            "iconColor": "#FE0000",
+            "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20140127/495_130x130_webos.png"
+          },
+          {
+            "type": "S",
+            "id": "hungama",
+            "bPremium": false,
+            "name": "Hungama",
+            "categoryId": "003",
+            "categoryName": "엔터테인먼트",
+            "currencyCode": "KRW",
+            "price": 0.0,
+            "displayPrice": "￦0",
+            "event": "N",
+            "eventPrice": 0.0,
+            "displayEventPrice": "￦0",
+            "evaluationAverage": 0.0,
+            "ageType": "SL0801",
+            "iconColor": "#181C30",
+            "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20140127/498_130x130_webos.png"
+          },
+          {
+            "type": "S",
+            "id": "redbox",
+            "bPremium": false,
+            "name": "Redbox",
+            "categoryId": "003",
+            "categoryName": "엔터테인먼트",
+            "currencyCode": "KRW",
+            "price": 0.0,
+            "displayPrice": "￦0",
+            "event": "N",
+            "eventPrice": 0.0,
+            "displayEventPrice": "￦0",
+            "evaluationAverage": 8.0,
+            "ageType": "SL0801",
+            "iconColor": "#B72B31",
+            "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150326/14_130x130_webos.png"
+          },
+          {
+            "type": "S",
+            "id": "filmbox.cz",
+            "bPremium": false,
+            "name": "Filmbox",
+            "categoryId": "003",
+            "categoryName": "엔터테인먼트",
+            "currencyCode": "KRW",
+            "price": 0.0,
+            "displayPrice": "￦0",
+            "event": "N",
+            "eventPrice": 0.0,
+            "displayEventPrice": "￦0",
+            "evaluationAverage": 0.0,
+            "ageType": "SL0801",
+            "iconColor": "#282627",
+            "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150424/12775727620453316filmbox_cz_130x130_130x130_webos.png"
+          },
+          {
+            "type": "S",
+            "id": "filmbox.pl",
+            "bPremium": false,
+            "name": "Filmbox",
+            "categoryId": "003",
+            "categoryName": "엔터테인먼트",
+            "currencyCode": "KRW",
+            "price": 0.0,
+            "displayPrice": "￦0",
+            "event": "N",
+            "eventPrice": 0.0,
+            "displayEventPrice": "￦0",
+            "evaluationAverage": 0.0,
+            "ageType": "SL0801",
+            "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20130830/78_130x130.png"
+          }
+        ]
+      },
+      {
+        "rcmdId": 1,
+        "rcmdName": "판매자 추천",
+        "rcmdAppCount": 0
+      },
+      {
+        "rcmdId": 2,
+        "rcmdName": "추천 패키지",
+        "rcmdAppCount": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+<div class="blank ad-banner item-video" ng-class="{'focus': adFocus && !fullScreen}" ng-show="show" item="depth2Ad" adContextIndex="{{adRes.adContextIndex}}" assetId="{{adRes.assetId}}"><!-- 영상인 경우 class="item-video" 추가 --> <!-- fullScreen일 경우 ad-player -->
+  <div ng-if="isDepth2AdPlayer">
+    <div class="ad-dim" style="visibility:visible">
+	    <div class="thumb" id="videothumb"> <!-- fullScreen 일 경우 player_thumb -->
+	      <video id="advideo" ng-src="{{src}}" preload="metadata" autoplay="" style="opacity: 1; width: 100%; height: 100%;" video-handler>
+	        <source type="video/mp4;mediaOption={{mediaOption}}">
+	      </video>
+	      <img id="adDefaultImage" ng-src="{{defaultImg}}" style="display:none;" class="thumb-img"/>
+	      <div class="icon-player icon-video"></div>
+	      <div class="bg-icon"></div>
+	    </div>
+	    <div class="area-text ban-text">
+	      <div class="text">AD SPONSER</div>
+	    </div>
+	    <div class="info-time" style="display:none;"><div class="time-text"></div><div class="blank btn btn-icon btn-pop-close" item="close"><div class="icon"></div></div></div>
+	    <!-- more -->
+	    <div class="blank btn btn-icon btn-pop-close img-close" style="display:none;" ng-class="{'focus': closeFocus && fullScreen}" item="close"><div class="icon"></div></div>
+	    <div class="blank btn btn-ad btn-ad-more" style="display:none;">
+	      <div class="area-text"><div class="text marquee">more</div></div>
+	    </div>
+	    <!-- //more -->
+	    <!-- banner -->
+	    <div class="blank ad-inset-ban" style="display:none;" item="banner"><img ng-src="{{bannerImg}}" class="thumb-img"></div><!-- 임시 이미지. 사이즈는 광고팀에 따름.  -->
+	    <!-- //banner -->
+    </div>
+  </div>
+</div>

@@ -1,0 +1,56 @@
+{
+  "app" : {
+    "type" : "S",
+    "id" : "com.test.app.sdlndltestbed0403ja",
+    "bPremium" : false,
+    "name" : "SDLNDLTEST",
+    "version" : "1.3.0",
+    "createDate" : "2015-04-14",
+    "updateDate" : "2015-04-14",
+    "categoryId" : "002",
+    "categoryName" : "게임",
+    "description" : "SDLNDLTEST for non 3D model\nSDLNDLTEST for non 3D model",
+    "bItem" : "Y",
+    "currencyCode" : "KRW",
+    "bFree" : "Y",
+    "price" : 0.0,
+    "displayPrice" : "￦0",
+    "event" : "N",
+    "supportLanguage" : "English",
+    "evaluationYN" : "N",
+    "evaluationCount" : 0,
+    "evaluationAverage" : 0.0,
+    "ageType" : "0",
+    "adultYN" : "N",
+    "sellerId" : 32790,
+    "sellerName" : "esgesg",
+    "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150414/11928749302208316icon_large_130x130_webos.png",
+    "purchasable" : "Y",
+    "bPurchased" : "N",
+    "capability" : {
+      "useGamePad" : "Y",
+      "useInternet" : "N",
+      "sdkVersion" : "1.0.0",
+      "use3d" : "N",
+      "useCamera" : "N",
+      "useMagic" : "N"
+    },
+    "appPreviewCount" : 3,
+    "appPreviewList" : [ {
+      "previewId" : 645045,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20150403/10.jpg"
+    }, {
+      "previewId" : 645046,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20150403/12.jpg"
+    }, {
+      "previewId" : 645047,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20150403/11.jpg"
+    } ],
+    "appFileCount" : 1,
+    "appFileList" : [ {
+      "fileId" : 647822,
+      "packFileSize" : 10824176,
+      "unpackFileSize" : 11448023
+    } ]
+  }
+}

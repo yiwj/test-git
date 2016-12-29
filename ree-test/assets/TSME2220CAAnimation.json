@@ -1,0 +1,347 @@
+{
+	"@testversion" : "20141009_001",
+	"message" : "OK",
+	"menu_list" : {
+		"menus" : [{
+				"@selected" : "FALSE",
+				"name" : "추천",
+				"code" : "ME2212"
+			}, {
+				"@selected" : "FALSE",
+				"name" : "장르별",
+				"code" : "ME2210"
+			}, {
+				"@selected" : "TRUE",
+				"name" : "전체",
+				"code" : "ME2220"
+			}
+		]
+	},
+	"item_list" : {
+		"@list_title" : "",
+		"@total_item_cnt" : "27",
+		"@start_index" : "1",
+		"@skin_type" : "POSTER",
+		"@type" : "PAGE",
+		"items" : [{
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|43570",
+				"item_name" : "과학 마술단",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2015_0119_15_15_10__54bca0ee0d891[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38570",
+				"item_name" : "도비도비",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0326_15_01_23__515139b32049f[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|43553",
+				"item_name" : "두다다 쿵",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2015_0116_16_52_12__54b8c32cf1f0d[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41672",
+				"item_name" : "두리둥실 뭉게공항",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0513_41672_5371b6fd1a12a_[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|35405",
+				"item_name" : "두리둥실 뭉게공항",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0418_03_05_38__4f8db0f25db86[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|40267",
+				"item_name" : "똑?똑! 키즈스쿨",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0905_40267_52282faf386c3_2013-09-05160240[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|40629",
+				"item_name" : "라이스 맨",
+				"item_img" : "",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41666",
+				"item_name" : "로보카폴리",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0609_17_26_57__53956fd1b1db3[s282,414].png",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41668",
+				"item_name" : "마법천자문 TV애니메이션",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0513_41668_5371c14960921_poster_d_final[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41670",
+				"item_name" : "바나나나 둥둥",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0513_15_22_09__5371ba11d8d15[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|43090",
+				"item_name" : "보글 쿡 원정대",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_1103_14_24_38__54571196632a1[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41667",
+				"item_name" : "비트파티",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0609_17_27_47__539570031f25f[s282,414].png",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|33333",
+				"item_name" : "빼꼼",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2011_0919_m0010014_[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS",
+				"item_rated_score" : "9.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41385",
+				"item_name" : "수빈 스토리",
+				"item_img" : "",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41669",
+				"item_name" : "시계마을 티키톡",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0609_17_28_34__539570326d04d[s282,414].png",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41673",
+				"item_name" : "아기공룡버디",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0609_17_29_42__53957076ba3c3[s282,414].png",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|43094",
+				"item_name" : "아웅다웅 동화나라 시즌2",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_1103_15_23_07__54571f4b8feb0[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38514",
+				"item_name" : "아이엠몽니",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0904_11_37_57__5407d085cc8aa[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|33926",
+				"item_name" : "안녕 자두야",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2011_1102_m0010002_[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS",
+				"item_rated_score" : "7.75"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37309",
+				"item_name" : "안녕 토토비",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0919_15_44_44__505969dcd8c90[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|35165",
+				"item_name" : "와라! 편의점",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0319_17_19_14__4f66ec021a914[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41671",
+				"item_name" : "우당탕탕 아이쿠",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0513_15_16_35__5371b8c36c332[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|43092",
+				"item_name" : "응까 소나타",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_1103_14_34_30__545713e6b08f9[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|43228",
+				"item_name" : "자동공부책상 위키",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_1231_16_46_46__54a3a9e6dcfe5[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|40606",
+				"item_name" : "최강! 탑플레이트",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_1120_40606_528c7e46f3e04_1[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|43079",
+				"item_name" : "키즈 CSI 과학수사대 - MBC만화마당",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2015_0204_18_20_49__54d1e4715c801[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41676",
+				"item_name" : "핑크퐁",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_1006_17_17_25__543250158793d[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "TS"
+			}
+		]
+	},
+	"filter_list" : {
+		"filters" : [{
+				"@type" : "SIDE",
+				"key" : "FILTER_ORDER",
+				"values" : [{
+						"code" : "PD",
+						"name" : "인기순"
+					}, {
+						"code" : "MD",
+						"name" : "최신순"
+					}, {
+						"@selected" : "TRUE",
+						"code" : "CA",
+						"name" : "가나다순"
+					}
+				]
+			}, {
+				"@type" : "SIDE",
+				"key" : "FILTER_GENRE",
+				"values" : [{
+						"code" : "All Genres",
+						"name" : "모든 장르"
+					}, {
+						"code" : "Drama",
+						"name" : "드라마"
+					}, {
+						"code" : "Recreation Entertainment",
+						"name" : "오락 & 연예"
+					}, {
+						"code" : "Culture & Information",
+						"name" : "교양 & 정보"
+					}, {
+						"code" : "Current Affairs & Documentary",
+						"name" : "시사 & 다큐"
+					}, {
+						"@selected" : "TRUE",
+						"code" : "Animation",
+						"name" : "애니메이션"
+					}, {
+						"code" : "Music",
+						"name" : "음악"
+					}
+				]
+			}
+		]
+	}
+}

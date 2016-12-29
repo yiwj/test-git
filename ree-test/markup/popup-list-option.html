@@ -1,0 +1,294 @@
+<!doctype html>
+<html ng-app="discoveryApp" class="ng-scope">
+<head>
+<style type="text/css">
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="../css/store16.css" rel="stylesheet">
+<link href="../css/store16-animation.css" rel="stylesheet"><!-- animation 분리 / Lite 에서는 store16-animation-lite.css 으로 변경  -->
+<script type="text/javascript" src="pub-dreadlocks.js"></script>
+<style type="text/css">
+/* html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+::-webkit-scrollbar{width:0;}
+body{overflow:visible}
+.popup-list-option{position:relative;top:0 !important;margin:20px 0;}
+/* end-html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+</style>
+</head>
+<body class="dir-rtl-"><!-- RTL 언어 class="dir-rtl" -->
+
+<!-- popup / list action -->
+<div class="popup-modal-list-option">
+<div class="popup-list-option popup-open"><!-- 팝업 show 경우 class="popup-open" 추가 -->
+  <div class="wrap-filter filter-column4"><!-- 가로방향 옵션목록 4칸 class="filter-column4" 추가 -->
+    <div class="sec-title list-title">Title 가로방향 옵션목록 4칸</div>
+    <!-- option items -->
+    <div class="blank option-list focus">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 1 itemitemitemitem end</div></div>
+    </div>
+    <div class="blank option-list check-on">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 2 check-on</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 3 itemitemitemitem end</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 4</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 5 itemitemitemitem end</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 6 itemitemitemitem end</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 7 itemitemitemitem end</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 8 itemitemitemitem end</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 9</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 10</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 11 itemitemitemitem end</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 12</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 13 itemitemitemitem end</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 14</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 15</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 16</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 17 itemitemitemitem end</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 18</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 19</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 200</div></div>
+    </div>
+    <!-- //option items -->
+  </div>
+  <div class="blank btn btn-icon btn-pop-close"><div class="icon"></div></div>
+</div>
+</div>
+<!-- //popup / list action -->
+
+
+<!-- popup / list action -->
+<div class="popup-list-option popup-open"><!-- class="popup-open" 추가 -->
+  <div class="wrap-filter filter-column2"><!-- 가로방향 옵션목록 2칸 class="filter-column2" 추가 -->
+    <div class="sec-title list-title">Title 가로방향 옵션목록 2칸</div>
+    <!-- option items -->
+    <div class="blank option-list focus">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 1 itemitemitemitemitem end</div></div>
+    </div>
+    <div class="blank option-list check-on">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 2 check-on</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 3  itemitemitemitemitem end</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 4</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 5</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 6</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 7</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 8</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 9</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 10</div></div>
+    </div>
+    <!-- //option items -->
+  </div>
+  <div class="wrap-filter filter-column2"><!-- 가로방향 옵션목록 2칸 class="filter-column2" 추가 -->
+    <div class="sec-title list-title">Title 가로방향 옵션목록 2칸</div>
+    <!-- option items -->
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 1  itemitemitemitemitem end</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 2</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 3  itemitemitemitemitem end</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 4</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 5</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 6</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 7</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 8 itemitemitemitemitem end</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 9</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 10</div></div>
+    </div>
+    <!-- //option items -->
+  </div>
+  <div class="blank btn btn-icon btn-pop-close"><div class="icon"></div></div>
+</div>
+<!-- //popup / list action -->
+
+
+<!-- popup / list action -->
+<div class="popup-list-option popup-open"><!-- class="popup-open" 추가 -->
+  <div class="wrap-filter"><!-- 가로방향 옵션목록 1칸 -->
+    <div class="sec-title list-title">Title 가로방향 옵션목록 1칸</div>
+    <!-- option items -->
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 1 itemitemitemitemitem end</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 2</div></div>
+    </div>
+    <!-- //option items -->
+  </div>
+  <div class="wrap-filter filter-column3"><!-- 가로방향 옵션목록 3칸 class="filter-column3" 추가 -->
+    <div class="sec-title list-title">Title 가로방향 옵션목록 3칸</div>
+    <!-- option items -->
+    <div class="blank option-list focus">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 1 itemitemitemitemitem end</div></div>
+    </div>
+    <div class="blank option-list check-on">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 2 check-on</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 3</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 4</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 5</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 6</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 7</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 8</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 9</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 10</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 11</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 12</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 13</div></div>
+    </div>
+    <!-- //option items -->
+  </div>
+  <div class="blank btn btn-icon btn-pop-close"><div class="icon"></div></div>
+</div>
+<!-- //popup / list action -->
+
+
+</body>
+</html>

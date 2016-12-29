@@ -1,0 +1,165 @@
+<!doctype html>
+<html ng-app="discoveryApp" class="ng-scope">
+<head>
+<style type="text/css">
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="../css/store16.css" rel="stylesheet">
+<link href="../css/store16-animation.css" rel="stylesheet"><!-- animation 분리 / Lite 에서는 store16-animation-lite.css 으로 변경  -->
+<script type="text/javascript" src="pub-dreadlocks.js"></script>
+<style type="text/css">
+/* html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+::-webkit-scrollbar{width:0;}
+.panel-body{overflow-y:scroll;pointer-events:auto;}
+/* end-html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+</style>
+</head>
+<body class="dir-rtl-"><!-- RTL 언어 class="dir-rtl" -->
+<!-- drawer -->
+<div class="drawer"><!-- 20150608 수정 -->
+  <div class="blank drawer-category drawer-featured"></div><div class="blank drawer-category drawer-tvshows"></div><div class="blank drawer-category drawer-movies"></div><div class="blank drawer-category drawer-premium"></div><div class="blank drawer-category drawer-appsngames"></div><div class="blank drawer-category drawer-mypage"></div><div class="blank drawer-category drawer-search"></div><div class="blank drawer-category drawer-close"></div>
+</div>
+<!-- //drawer -->
+
+<!-- panels -->
+<div class="panels">
+  <!-- panels-breadcrumbs -->
+  <div class="panels-breadcrumbs"></div>
+  <!-- //panels-breadcrumbs -->
+  <!-- panels-viewport -->
+  <div class="panels-viewport">
+    <!-- basic page -->
+    <div class="page"></div>
+    <!-- //basic page -->
+  </div>
+  <!-- //panels-viewport -->
+</div>
+<!-- //panels -->
+
+<!-- AD-banner -->
+<div class="blank ad-banner ng-hide"></div>
+<div class="ad-player ng-hide"></div>
+<!-- //AD-banner -->
+
+<!-- player - 동영상/이미지 뷰어 -->
+<div class="player ng-hide"></div>
+<!-- //player - 동영상/이미지 뷰어 -->
+
+<!-- help guide -->
+<div class="help-guide ng-hide"></div>
+<!-- //help guide -->
+
+<!-- search page -->
+<div class="page-search ng-hide"></div>
+<!-- //search page -->
+
+<!-- popup / dialog -->
+<div class="popup-dialog">
+  <div class="popup-basic">
+    <!-- popup-header -->
+    <div class="popup-header">
+      <div class="wrap-title-popup">
+        <div class="area-text no-event popup-title">
+          <div class="marquee text">popup title !@#$%^&amp;*()_+|\][{}?/!@#$%^&amp;*()_+|\][{}?/</div>
+        </div>
+      </div>
+      <div class="wrap-btn-popup">
+        <div class="blank btn-popup btn-small">
+          <div class="area-text"><div class="text marquee">ok</div></div>
+        </div>
+      </div>
+    </div>
+    <!-- //popup-header -->
+    <!-- popup-cont -->
+    <div class="popup-cont popup-error">
+      error text erro text error text erro texterror text erro texterror text erro texterror text erro texterror text erro texterror text erro texterror text erro texterror text erro text
+      <div class="blank icon icon-code"></div>
+    </div>
+    <!-- //popup-cont -->
+  </div>
+</div>
+<!-- //popup / dialog -->
+
+<!-- popup / list action -->
+<div class="popup-list-option popup-open"><!-- 팝업 show 경우 class="popup-open" 추가 -->
+  <div class="wrap-filter">
+    <div class="sec-title list-title">Title</div>
+    <!-- option items -->
+    <div class="blank option-list focus">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 1 itemitemitemitemitemitemitemitemitemitemitemitemitem</div></div>
+    </div>
+    <div class="blank option-list check-on">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 2</div></div>
+    </div>
+    <!-- //option items -->
+  </div>
+  <div class="wrap-filter filter-column2"><!-- cell-2 에서 class="filter-column2" 추가 -->
+    <div class="sec-title list-title">Title cell-2</div>
+    <!-- option items -->
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 1 itemitemitemitemitemitemitemitemitemitemitemitemitem</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 2</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 3 itemitemitemitemitemitemitemitemitemitemitemitemitem</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 4</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 5</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 6</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 7</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 8</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 9</div></div>
+    </div>
+    <div class="blank option-list">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text">item 10</div></div>
+    </div>
+    <!-- //option items -->
+  </div>
+  <div class="blank btn btn-icon btn-pop-close"><div class="icon"></div></div>
+</div>
+<!-- //popup / list action -->
+
+<!-- popup / rating -->
+<div class="popup-contextual pop-rating ng-hide"></div>
+<!-- //popup / rating -->
+
+<!-- popup / season -->
+<div class="popup-contextual pop-season ng-hide"></div>
+<!-- //popup / season -->
+
+<!-- tooltip -->
+<div class="tooltip ng-hide"></div>
+<!-- //tooltip -->
+
+</body>
+</html>

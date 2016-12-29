@@ -1,0 +1,4 @@
+{ "state": "Active", "processing": "Request Screen Saver" }
+{ "state": "Screen Saver" }
+{ "state": "Screen Saver", "processing": "Screen On" }
+{ "state": "Active" }

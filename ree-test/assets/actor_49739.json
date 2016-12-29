@@ -1,0 +1,57 @@
+{
+  "@testversion": "20141009_001",
+  "message": "OK",
+  "item": {
+    "@pinup_able": "TEST",
+    "@type": "PERSON",
+    "item_id": "49739",
+    "item_name": "제니퍼 카펜터",
+    "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/2013_0124_17_28_54__5100f0c649287.jpg",
+    "item_desc": "브로드웨이 무대에서 자신의 재능을 인정받은 제니퍼 카펜터는 2005년 웨이언스 형제의 코미디 히트작 <화이트 칙스>에서 인상적인 코미디 연기를 선보인 바 있으며, <엑소시즘 오브 에밀리 로즈>에선 악령들린 19세 여대생 에밀리 로즈를 맡아 최고의 연기를 보여줬다. 천재적인 연기력 이외에도 실제 줄리어드대를 졸업한 재원인 제니퍼 카펜터는 브로드웨이의 명연출가 리처드 아이어가 감독한 <크루서블>에서 리암 니슨, 로라 리니와 함께 공연, 갈채를 받기도 했다. [데이터제공: Cine21]",
+    "item_detail": {
+      "pinup_state": "FALSE",
+      "tab_vod": {
+        "items": [
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|35118",
+            "item_name": "로스트",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0917_35118_5056b37a21cdd_poster[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "MV"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|38616",
+            "item_name": "더 팩토리",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0403_09_49_30__515b7c9a55f58[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "18",
+            "conts_type": "MV"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|43544",
+            "item_name": "어벤져스 컨피덴셜: 블랙 위도우 앤 퍼니셔",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2015_0116_15_35_31__54b8b1331d25e[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "MV"
+          }
+        ]
+      },
+      "tab_tv": null
+    },
+    "person_role_type": "",
+    "person_role_name": "",
+    "person_birth_date": "1979-12-07",
+    "person_death_date": ""
+  }
+}

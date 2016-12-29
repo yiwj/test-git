@@ -1,0 +1,31 @@
+<div class="page panel-list">
+
+  <div class="panel-header">
+    <div class="area-text no-event panel-title">
+      <div class="marquee text" ng-bind="title"></div>
+    </div>
+    <div class="panel-sub">
+      <div class="sub-text sub-title" ng-bind="subtitle"></div><div class="bar-empty" ng-if="sort">|</div><!-- 카테고리 | SORT & FILTERS -->
+      <div class="sub-text sub-sub-title" ng-show="sort">{{sort}}</div>
+    </div>
+  </div>
+
+   <div class="panel-menu">
+     <div class="menu-list" ng-class="{'depth-open': focusedMenu == '{{menu.code}}' && menu.length > 0, 'blank left-menu' : menu.length == 0, 'menu-depth':menu.length > 0, 'on' : menu.code == selectedMenu && !selectedCategory}" ng-repeat="menu in listData.menuList" item="{{menu.code}}">
+      <div class="icon-bullet" ng-if="menu.length == 0"></div>
+      <div class="area-text menu-text" ng-if="menu.length == 0"><div class="marquee text" ng-bind="menu.name"></div></div>
+      <div class="blank menu-depth-header left-menu" ng-if="menu.length > 0" item="{{menu.code}}">
+        <div class="area-text menu-text"><div class="marquee text" ng-bind="menu.name"></div></div><div class="icon icon-depth"></div>
+      </div>
+      <!-- menu-depth-drawer -->
+      <div class="menu-depth-drawer" item="{{menu.code}}" ng-if="menu.length > 0">
+        <div class="blank menu-list-depth" ng-repeat="filter in listData.filterList[0].values" ng-show="focusedMenu == menu.code" ng-class="{'on': selectedCategory == '{{filter.code}}' && selectedMenu == '{{menu.code}}', 'left-menu': focusedMenu == menu.code}" item="submenu{{filter.code}}" item-catg="{{listData.filterList[0].key}}">
+          <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text" ng-bind="filter.name"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- item -->
+  <div list-control-tvshow name="tvshowsList" itemPerRow="5" itemH="480" listtype="tvshow"></div>
+
+</div>

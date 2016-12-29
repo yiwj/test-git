@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>web os 16년 page list</title>
+    <style type="text/css">
+        html,body{width:100%;height:100%;margin:0;padding:0;}
+        body{overflow:hidden;overflow-y:scroll;min-width:1400px;font-family:Verdana,Arial,sans-serif;font-size:12px;color:#333;}
+        div,table,tr,th,td,span,em,strong,h1{margin:0;padding:0;font-family:inherit;font-size:inherit;color:inherit;}
+        table{border-collapse: collapse;border-spacing:0;width:100%;}
+        th, td{padding:5px;border:1px solid gray;box-sizing:border-box;}
+        tr:hover{background-color:rgba(0,255,0,0.07)}
+        th{background-color:rgba(0,0,0,0.1)}
+        table .num{text-align:center;}
+        table .date{position:relative;}
+        /*
+        td.date:before{content:'';position:absolute;right:5px;top:50%;width:13px;height:13px;margin:-8px 0 0 5px;border:2px solid #555;border-radius:50%;background-color:#fff;vertical-align:middle;}
+        td.date.end:before{border-color:green;background-color:green;box-shadow:0 0 2px 1px #fff inset;}
+        */
+        .header{position:relative;}
+        h1{padding:30px 0 10px;font-size:25px;text-align:center;}
+        .header .date{display:inline-block;position:absolute;left:0;top:35px;width:65px;padding:5px 25px 5px 0;font-weight:bold;line-height:1.5;text-align:right;}
+        .header .ing{margin-left:50px;}
+        .header .end{margin-left:150px;}
+
+        .date:before{content:'';position:absolute;right:0;top:0;z-index:1;width:0;height:0;border:7px solid transparent;}
+        .date:after{content:'';position:absolute;right:0;top:0;z-index:0;width:0;height:0;border:10px solid transparent;opacity:0.5}
+        .end:before{border-top-color:green;border-right-color:green}
+        .end:after{border-top-color:green;border-right-color:green;}
+        .ing:before{border-top-color:gold;border-right-color:gold}
+        .ing:after{border-top-color:gold;border-right-color:gold;}
+        .del:before{content:'';position:absolute;left:0;top:0;width:1090px;/*width:890px;*/min-height:20px;height:100%;border:none;background-color:rgba(0,0,0,0.6)}
+        .del:after{content:'SPEC OUT';position:absolute;left:0;top:0;z-index:1;width:850px;font-weight:bold;color:#fff;text-align:right;opacity:1;}
+        /**/
+        .wrapper table{margin-bottom:50px;border-bottom:2px solid darkseagreen;}
+        .wrapper thead{position:fixed;left:0;right:0;top:0;z-index:2;min-width:1400px;width:100%;border-bottom:2px solid darkseagreen;background-color:#fff;}
+        .wrapper thead tr{display:block;}
+        .wrapper thead th{display:block;float:left;border:none;border-right:1px solid darkseagreen;background:none;}
+        .wrapper thead th:last-child{border-right:none;}
+        .wrapper thead th.etc{float:none;}
+        td{height:35px;}
+        .wrapper tbody td{border:none;border-right:1px solid darkseagreen;border-top:1px dashed darkseagreen;word-break:break-all}
+        .wrapper tbody td:last-child{border-right:none;}
+        .wrapper .line td{border-top:1px solid darkseagreen;}/*deeppink*/
+        .wrapper .depth1{font-weight:bold;}
+        .wrapper td:nth-child(odd){background-color:rgba(0,0,0,0.1)}
+        #idTbody tr:first-child td{border-top:2px solid darkseagreen}
+
+        .num{width:50px}
+        .date{width:90px}
+        .depth1{width:200px}
+        .depth2{width:200px}
+        .depth3{width:200px}
+        .depth4{width:200px}
+        .popup{width:200px}
+        .link{width:200px}
+        .etc{width:;}
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>web os 16년 page list</h1>
+        <div class="date ing">작업중</div>
+        <div class="date end">작업 완료</div>
+    </div>
+    <div class="wrapper">
+        <table>
+            <colgroup>
+                <col style="width:50px;">
+                <col style="width:90px;">
+                <col style="width:200px;">
+                <col style="width:200px;">
+                <col style="width:200px;">
+                <col style="width:200px;">
+                <col style="width:200px;">
+                <col style="width:*;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th class="num">No.</th>
+                    <th class="date">Date.</th>
+                    <th class="depth1">depth 1</th>
+                    <th class="depth2">depth 2</th>
+                    <th class="depth3">depth 3</th>
+                    <th class="popup">popup</th>
+                    <th class="link">link</th>
+                    <th class="etc">Etc.</th>
+                </tr>
+            </thead>
+            <tbody id="idTbody">
+                <!--  -->
+            </tbody>
+        </table>
+    </div>
+    <script type="text/javascript">
+
+        var tag_tbody=document.getElementById('idTbody');
+        var row='';
+        var targetLink='./markup/';
+
+        function addLine(t_depth1,t_depth2,t_depth3,t_popup,t_url,t_etc,t_date,t_condition){
+            var TdAlign={
+                date: t_date,
+                depth1: t_depth1,
+                depth2: t_depth2,
+                depth3: t_depth3,
+                popup: t_popup,
+                link: t_url,
+                etc: t_etc,
+                condition: t_condition,
+                toString:function(){
+                    var testTest='';
+                    for(var i in this){
+                        if((i != 'toString') && (i != 'condition')){
+                            if(i == 'date'){
+                                testTest += '<td class="'+i+' '+this['condition']+'">';
+                            }else{
+                                testTest += '<td class="'+i+'">';
+                            };
+                            if(i === 'link'){
+                                testTest +='<a href="'+ targetLink + this[i] +'" target="_blank">'+this[i]+'</a>'
+                            }else{
+                                testTest += this[i]
+                            };
+                            testTest +='</td>'
+                        }
+                    }
+                    return testTest;
+                }
+            };
+            return TdAlign;
+        };
+
+    // 함수를 사용하여 생성
+    var obj=[];
+    addContent();
+
+    // 출력
+    for(var key in obj){
+        row += '<tr><td class="num">'+ (parseInt(key)+1) + '</td>' + obj[key].toString() +'</tr>'+'\n';
+    }
+    tag_tbody.innerHTML=row;
+    //
+    function depthLine(){
+        var depth1Line = document.getElementsByClassName('depth1');
+        for(var i=0; i<depth1Line.length; i++){
+            if(depth1Line[i].firstChild){
+                depth1Line[i].parentElement.setAttribute('class','line');
+            }
+        }
+    }
+    depthLine();
+
+    function addContent(){
+        obj.push(addLine(
+            /*depth1*/  'GUIDE',
+            /*depth2*/  '',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'A-guide.html',
+            /*etc*/         '',
+            /*date*/        '2015.05.06',
+            /*condition*/   'ing'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'accordion(side menu)',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'accordion.html',
+            /*etc*/         '애니메이션 확인 위한 페이지',
+            /*date*/        '',
+            /*condition*/   ''
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'panels',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'panels.html',
+            /*etc*/         '화면 전환 애니메이션 확인 위한 페이지',
+            /*date*/        '',
+            /*condition*/   ''
+            ));
+        obj.push(addLine(
+            /*depth1*/  'MAIN',
+            /*depth2*/  'Tier 1 국가',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'main-tier-1.html',
+            /*etc*/         '상단 추천 컨텐츠 영역 > Additional Information 기준 TV Show/Movie',
+            /*date*/        '2015.06.05',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'Tier 2 국가',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'main-tier-2.html',
+            /*etc*/         '상단 추천 컨텐츠 영역 > Additional Information 기준 TV Show/Movie',
+            /*date*/        '2015.06.05',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'Tier 3 국가',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'main-tier-3.html',
+            /*etc*/         '상단 추천 컨텐츠 영역 > Additional Information 기준 Apps & Games/Premium',
+            /*date*/        '2015.06.05',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  '',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'main-guide.html',
+            /*etc*/         '상단 추천 컨텐츠 width 정리 / uk only - 컨텐츠 상단 category명 노출 확인 위한 페이지',
+            /*date*/        '2015.06.05',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'Main page 오류 상황',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'main-error.html',
+            /*etc*/         '',
+            /*date*/        '2015.06.05',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '2DEPTH - LIST',
+            /*depth2*/  'basic style(tvshow / movie)',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'list.html',
+            /*etc*/         '',
+            /*date*/        '2015.05.18',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'Apps&amp;Games',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'list-appsGames.html',
+            /*etc*/         'apps&game',
+            /*date*/        '2015.05.18',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'Premium',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'list-premium.html',
+            /*etc*/         '',
+            /*date*/        '2015.05.18',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'My Page',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'list-mypage.html',
+            /*etc*/         '로그인 O',
+            /*date*/        '2015.06.05',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  '',
+            /*depth3*/  '로그인 하지 않은 경우',
+            /*popup*/   '',
+            /*link*/            'list-mypage-noLogin.html',
+            /*etc*/         'My Apps > Filter 항목 “Sign-In ID”인 경우 대표화면 _ 로그인 x',
+            /*date*/        '2015.06.05',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  '',
+            /*depth3*/  'Recent History> Delete mode 대표화면',
+            /*popup*/   '',
+            /*link*/            'list-mypage-delete-mode.html',
+            /*etc*/         '<span style="color:red">Recent History [SPEC OUT, 5/26]</span> | 0722 관련 CSS 삭제.',
+            /*date*/        '2015.06.05',
+            /*condition*/   'del'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  '',
+            /*depth3*/  'Recent History> Delete mode 대표화면',
+            /*popup*/   '',
+            /*link*/            'list-mypage-delete-mode-2.html',
+            /*etc*/         '<span style="color:red">Recent History [SPEC OUT, 5/26]</span> | 0722 관련 CSS 삭제.',
+            /*date*/        '2015.06.05',
+            /*condition*/   'del'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  '선호 CP 등록',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'list-mypage-cp.html',
+            /*etc*/         '',
+            /*date*/        '2015.06.25',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  '컨텐츠 없는 경우',
+            /*depth3*/  'TV show',
+            /*popup*/   '',
+            /*link*/            'list-noData-tvShow.html',
+            /*etc*/         '',
+            /*date*/        '2015.06.05',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  '',
+            /*depth3*/  'Movie',
+            /*popup*/   '',
+            /*link*/            'list-noData-movie.html',
+            /*etc*/         '',
+            /*date*/        '2015.06.05',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  '',
+            /*depth3*/  'Premium',
+            /*popup*/   '',
+            /*link*/            'list-noData-premium.html',
+            /*etc*/         '',
+            /*date*/        '2015.06.05',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  '',
+            /*depth3*/  'Apps &amp; Games',
+            /*popup*/   '',
+            /*link*/            'list-noData-appsGames.html',
+            /*etc*/         '',
+            /*date*/        '2015.06.05',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '3DEPTH - DETAIL',
+            /*depth2*/  'basic style(tvshow / movie)',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'detail.html',
+            /*etc*/         '',
+            /*date*/        '2015.07.27',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'Apps &amp; Games / premium',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'detail-2.html',
+            /*etc*/         '',
+            /*date*/        '2015.05.18',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'Apps &amp; Games - theme',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'detail-3.html',
+            /*etc*/         '',
+            /*date*/        '2015.07.06',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'theme',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'theme.html',
+            /*etc*/         '',
+            /*date*/        '2015.09.11',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  'SEARCH',
+            /*depth2*/  '',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'search.html',
+            /*etc*/         '<span style="color:red">[6/25의사결정사항] Search 메뉴 선택 시, Universal Search 로 이동 되면서 스토어 검색 삭제됨</span> | 0722 관련 CSS 삭제.',
+            /*date*/        '2015.06.05',
+            /*condition*/   'del'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'Recent Results 없는 화면',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'search-2.html',
+            /*etc*/         '',
+            /*date*/        '2015.06.05',
+            /*condition*/   'del'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'search 제안 검색어',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'search-3.html',
+            /*etc*/         '',
+            /*date*/        '2015.06.05',
+            /*condition*/   'del'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'delete mode',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'search-delete-mode.html',
+            /*etc*/         '',
+            /*date*/        '2015.06.05',
+            /*condition*/   'del'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  '',
+            /*depth3*/  'Recent Results 없는 delete mode',
+            /*popup*/   '',
+            /*link*/            'search-delete-mode-2.html',
+            /*etc*/         '',
+            /*date*/        '2015.06.05',
+            /*condition*/   'del'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'Result 대표화면',
+            /*depth3*/  'All Results / Special Keyword',
+            /*popup*/   '',
+            /*link*/            'search-result.html',
+            /*etc*/         'All Results 본문 검색결과만 존재할 경우 / 각 Category results 대표화면',
+            /*date*/        '2015.06.05',
+            /*condition*/   'del'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'Result 대표화면',
+            /*depth3*/  'All Results / Special Keyword',
+            /*popup*/   '',
+            /*link*/            'search-result-2.html',
+            /*etc*/         'web search 버튼 위치',
+            /*date*/        '2015.06.05',
+            /*condition*/   'del'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  '',
+            /*depth3*/  '검색결과에서 more 화면',
+            /*popup*/   '',
+            /*link*/            'search-result-moreList.html',
+            /*etc*/         'All Results 본문 검색결과만 존재할 경우 / 각 Category results 대표화면',
+            /*date*/        '2015.06.05',
+            /*condition*/   'del'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  '',
+            /*depth3*/  '검색 결과 미 존재 시',
+            /*popup*/   '',
+            /*link*/            'search-result-noSearch.html',
+            /*etc*/         '',
+            /*date*/        '2015.06.05',
+            /*condition*/   'del'
+            ));
+        obj.push(addLine(
+            /*depth1*/  'POPUP',
+            /*depth2*/  '',
+            /*depth3*/  '',
+            /*popup*/   '팝업 위치',
+            /*link*/            'popup.html',
+            /*etc*/         '기본 팝업 *알림팝업 RTL은 body가 아닌 .popup-basic에 RTL 관련 클래스 추가',
+            /*date*/        '2015.05.18',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  '',
+            /*depth3*/  '',
+            /*popup*/   '기본',
+            /*link*/            'popup-dialog.html',
+            /*etc*/         '기본 팝업 모음, 메시지, 에러 코드, CP List, Package app, 외부 저장장치',
+            /*date*/        '2015.05.18',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  '',
+            /*depth3*/  '',
+            /*popup*/   'SORT & FILTERS',
+            /*link*/            'popup-list-option.html',
+            /*etc*/         '',
+            /*date*/        '2015.05.18',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  '',
+            /*depth3*/  '',
+            /*popup*/   'SORT & FILTERS',
+            /*link*/            'popup-list-option-animation.html',
+            /*etc*/         'sort &amp; filters 버튼 클릭시 팝업 애니메이션 확인 위한 페이지',
+            /*date*/        '',
+            /*condition*/   ''
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  '',
+            /*depth3*/  '',
+            /*popup*/   '별점평가, 시즌 팝업',
+            /*link*/            'popup-contextual.html',
+            /*etc*/         '',
+            /*date*/        '2015.05.18',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  'PLAYER',
+            /*depth2*/  '',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'player-guide.html',
+            /*etc*/         'player 모든 버튼 확인 위한 페이지',
+            /*date*/        '2015.05.20',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'Trailer Player / video',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'player-video.html',
+            /*etc*/         '',
+            /*date*/        '2015.05.20',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'Trailer Player / video / UI 없을 경우 리모컨 조작 Feedback',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'player-video-2.html',
+            /*etc*/         '',
+            /*date*/        '2015.06.09',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'Trailer Player / Photo',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'player-photo.html',
+            /*etc*/         '',
+            /*date*/        '2015.05.20',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'Trailer Player / Slide Show(Video & Photo list)',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'player-slide.html',
+            /*etc*/         '',
+            /*date*/        '2015.05.20',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'Trailer 재생 완료 후, 영화 보기/예고편 다시 보기/닫기 버튼제공',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'player-trailer-end.html',
+            /*etc*/         '',
+            /*date*/        '2015.07.13',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'AD player (Video)',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'player-ad.html',
+            /*etc*/         '2depth 광고 Full - Video (로딩 중일 경우, Time remaining은 0:00표시함)',
+            /*date*/        '2015.05.20',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'AD player (Image)',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'player-ad-2.html',
+            /*etc*/         '2depth 광고 Full - Image (Image일 경우, Time remaining 없이 X 로만 버튼 제공함(GUI))',
+            /*date*/        '2015.06.26',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  'AD player pre-roll(for Trailer)',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'player-ad-3.html',
+            /*etc*/         '2depth 광고 Full - Progress bar 사라질 경우, SKIP버튼이 하단으로 내려옴.',
+            /*date*/        '2015.06.26',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  'HEIP GUIDE',
+            /*depth2*/  '',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'help-guide.html',
+            /*etc*/         '',
+            /*date*/        '2015.06.05',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  'SPINNER',
+            /*depth2*/  '',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'spinner-page.html',
+            /*etc*/         '전체화면 spinner',
+            /*date*/        '2015.06.05',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  '',
+            /*depth2*/  '',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'A-guide.html',
+            /*etc*/         '버튼 spinner',
+            /*date*/        '2015.06.05',
+            /*condition*/   'end'
+            ));
+        obj.push(addLine(
+            /*depth1*/  'Error',
+            /*depth2*/  '',
+            /*depth3*/  '',
+            /*popup*/   '',
+            /*link*/            'network-error.html',
+            /*etc*/         '네트워크 에러 / 내부 스타일 시트(Internal Style Sheet), 미사용(2.0에서 올린 코드 그대로 사용중)',
+            /*date*/        '2015.06.24',
+            /*condition*/   'end'
+            ));
+    }
+    </script>
+
+</body>
+</html>

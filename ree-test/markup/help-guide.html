@@ -1,0 +1,81 @@
+<!doctype html>
+<html ng-app="discoveryApp" class="ng-scope">
+<head>
+<style type="text/css">
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="../css/store16.css" rel="stylesheet">
+<link href="../css/store16-animation.css" rel="stylesheet"><!-- animation 분리 / Lite 에서는 store16-animation-lite.css 으로 변경  -->
+<script type="text/javascript" src="pub-dreadlocks.js"></script>
+<style type="text/css">
+/* html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+::-webkit-scrollbar{width:0;}
+.panel-body{overflow-y:scroll;pointer-events:auto;}
+/* end-html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+</style>
+</head>
+<body class="dir-rtl-"><!-- RTL 언어 class="dir-rtl" -->
+<!-- drawer -->
+<div class="drawer"><!-- 20150608 수정 -->
+  <div class="blank drawer-category drawer-featured"></div><div class="blank drawer-category drawer-tvshows"></div><div class="blank drawer-category drawer-movies"></div><div class="blank drawer-category drawer-premium"></div><div class="blank drawer-category drawer-appsngames"></div><div class="blank drawer-category drawer-mypage"></div><div class="blank drawer-category drawer-search"></div><div class="blank drawer-category drawer-close"></div>
+</div>
+<!-- //drawer -->
+
+<!-- help guide -->
+<div class="help-guide">
+  <div class="guide-box guide-box-1">
+    <div class="guide-tit">Quick Access Menu</div>
+    <div class="guide-text">Go directly to the Main, Categories or Search pages to find the content you want.</div>
+  </div>
+  <div class="guide-box guide-box-2">
+    <div class="guide-tit">Promotion Content</div>
+    <div class="guide-text">Click arrow buttons to see more available content.</div>
+  </div>
+  <div class="guide-box guide-box-3">
+    <div class="guide-tit">Updated Content</div>
+    <div class="guide-text">Discover the latest and most popular content and apps.</div>
+  </div>
+  <div class="guide-box guide-box-4">
+    <div class="guide-text">Access this screen at any time from My Page > Guide.<br>For more detailed information, click Go To User Guide.</div>
+    <div class="blank btn btn-large">
+      <div class="area-text"><div class="text marquee">CLOSE</div></div>
+    </div>
+  </div>
+</div>
+<!-- //help guide -->
+
+
+<!-- popup / basic - 기본1 -->
+<div class="popup-basic dir-ltr-"><!-- LTR화면 → 설정에서 RTL 국가 선택했을때, body에 dir-rtl 클래스 추가전. 공지 팝업 class="dir-rtl" 추가 / RTL화면 → 설정에서 LRT 국가 선택했을때,  body에 dir-rtl 클래스 제거전. 공지 팝업 class="dir-ltr" 추가 -->
+  <!-- popup-header -->
+  <div class="popup-header">
+    <div class="wrap-title-popup">
+      <div class="area-text no-event popup-title">
+        <div class="marquee text">Common popup - Header without Subtitle (Optional Close Button)</div>
+      </div>
+      <div class="popup-sub-text ng-hide">popup sub text !@#$%^&amp;*()_+|\][{}?/!@#$%^&amp;*()_+|\][{}?/</div>
+    </div>
+    <div class="wrap-btn-popup">
+      <div class="blank btn-popup btn-small">
+        <div class="area-text"><div class="text marquee">ok</div></div>
+      </div><div class="blank btn-popup btn-small">
+        <div class="area-text"><div class="text marquee">cancel</div></div>
+      </div>
+    </div>
+  </div>
+  <!-- //popup-header -->
+  <!-- popup-cont -->
+  <div class="popup-cont">
+    Common popup text
+  </div>
+  <!-- //popup-cont -->
+</div>
+<!-- //popup / basic - 기본1 -->
+
+</body>
+</html>

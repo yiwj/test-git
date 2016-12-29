@@ -1,0 +1,136 @@
+{
+	"@testversion" : "20141009_001",
+	"message" : "OK",
+	"menu_list" : {
+		"menus" : [{
+				"@selected" : "FALSE",
+				"name" : "추천",
+				"code" : "ME2312"
+			}, {
+				"@selected" : "FALSE",
+				"name" : "최신",
+				"code" : "ME2314"
+			}, {
+				"@selected" : "FALSE",
+				"name" : "장르별",
+				"code" : "ME2310"
+			}, {
+				"@selected" : "TRUE",
+				"name" : "전체",
+				"code" : "ME2320"
+			}
+		]
+	},
+	"item_list" : {
+		"@list_title" : "",
+		"@total_item_cnt" : "4",
+		"@start_index" : "1",
+		"@skin_type" : "POSTER",
+		"@type" : "PAGE",
+		"items" : [{
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|27932",
+				"item_name" : "청아",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0915_14_11_48__54167514b43d7[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|36844",
+				"item_name" : "코스모폴리스",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0613_13_22_26__51b949027ab35[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.4286"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38504",
+				"item_name" : "사랑한다면 이들처럼",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0315_15_30_18__5142bffa6d7f3[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|36067",
+				"item_name" : "장화신은 고양이 디 오리지널",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0503_12_09_23__4fa1f6e3e73ec[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.0"
+			}
+		]
+	},
+	"filter_list" : {
+		"filters" : [{
+				"@type" : "SIDE",
+				"key" : "FILTER_ORDER",
+				"values" : [{
+						"code" : "PD",
+						"name" : "인기순"
+					}, {
+						"@selected" : "TRUE",
+						"code" : "MD",
+						"name" : "최신순"
+					}, {
+						"code" : "CA",
+						"name" : "가나다순"
+					}
+				]
+			}, {
+				"@type" : "SIDE",
+				"key" : "FILTER_GENRE",
+				"values" : [{
+						"code" : "All Genres",
+						"name" : "모든 장르"
+					}, {
+						"code" : "Drama",
+						"name" : "드라마"
+					}, {
+						"code" : "Melodrama Romance",
+						"name" : "멜로 로맨스"
+					}, {
+						"code" : "Comedy",
+						"name" : "코미디"
+					}, {
+						"code" : "Thriller",
+						"name" : "스릴러"
+					}, {
+						"code" : "Animation",
+						"name" : "애니메이션"
+					}, {
+						"code" : "Action & Adventure",
+						"name" : "액션 & 어드벤쳐"
+					}, {
+						"code" : "Mystery",
+						"name" : "미스터리"
+					}, {
+						"code" : "Music",
+						"name" : "음악"
+					}, {
+						"code" : "Family",
+						"name" : "가족"
+					}, {
+						"code" : "Fantasy",
+						"name" : "판타지"
+					}, {
+						"@selected" : "TRUE",
+						"code" : "ETC",
+						"name" : "기타 장르"
+					}
+				]
+			}
+		]
+	}
+}

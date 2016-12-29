@@ -1,0 +1,9 @@
+{
+    "wifiInfo": {
+        "macAddress": "10:08:C1:B8:24:64"
+    },
+    "wiredInfo": {
+        "macAddress": "3C:CD:93:06:0C:3A"
+    },
+    "returnValue": true
+}

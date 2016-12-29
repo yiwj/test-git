@@ -1,0 +1,54 @@
+{
+  "app" : {
+    "type" : "S",
+    "id" : "pooq",
+    "bPremium" : true,
+    "name" : "pooq",
+    "version" : "1.2.0",
+    "createDate" : "2014-02-07",
+    "updateDate" : "2014-11-18",
+    "categoryId" : "003",
+    "categoryName" : "엔터테인먼트",
+    "description" : "Experience a whole new world of Smart TV.\nSmart TV connects you to the content that you and your family want.\nCreate a premium entertainment experience at home.",
+    "bItem" : "N",
+    "currencyCode" : "KRW",
+    "bFree" : "Y",
+    "price" : 0.0,
+    "displayPrice" : "￦0",
+    "event" : "N",
+    "supportLanguage" : "English",
+    "evaluationYN" : "N",
+    "evaluationCount" : 3,
+    "evaluationAverage" : 5.0,
+    "ageType" : "0",
+    "adultYN" : "N",
+    "sellerId" : 138660,
+    "sellerName" : "appqaadmin",
+    "iconColor" : "#DEDFDF",
+    "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20141028/10736729836784463pooq_130x130_130x130_webos.png",
+    "purchasable" : "Y",
+    "bPurchased" : "N",
+    "capability" : {
+      "useGamePad" : "N",
+      "useInternet" : "Y",
+      "sdkVersion" : "1.0.0",
+      "use3d" : "N",
+      "useCamera" : "N",
+      "useMagic" : "N"
+    },
+    "appPreviewCount" : 2,
+    "appPreviewList" : [ {
+      "previewId" : 400740,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20140127/1330.jpg"
+    }, {
+      "previewId" : 400744,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20140127/1332s.jpg"
+    } ],
+    "appFileCount" : 1,
+    "appFileList" : [ {
+      "fileId" : 498594,
+      "packFileSize" : 58208,
+      "unpackFileSize" : 2179212
+    } ]
+  }
+}

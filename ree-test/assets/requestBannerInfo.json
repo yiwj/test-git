@@ -1,0 +1,13 @@
+{
+	"contextIndex" : 1,
+	"returnValue" : true,
+	"assets" : [{
+			"id" : 1,
+			"parentId" : -1,
+			"type" : "image",
+			"contentData" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=CMS&func_code=CMS_ASSET&file_path=/cms/asset/1394088946867_3.png",
+			"isCached" : false,
+			"duration" : 0
+		}
+	]
+}

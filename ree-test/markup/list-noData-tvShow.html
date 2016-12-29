@@ -1,0 +1,155 @@
+<!doctype html>
+<html ng-app="discoveryApp" class="ng-scope">
+<head>
+<style type="text/css">
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="../css/store16.css" rel="stylesheet">
+<link href="../css/store16-animation.css" rel="stylesheet"><!-- animation 분리 / Lite 에서는 store16-animation-lite.css 으로 변경  -->
+<script type="text/javascript" src="pub-dreadlocks.js"></script>
+<style type="text/css">
+/* html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+::-webkit-scrollbar{width:0;}
+.panel-body{overflow-y:scroll;pointer-events:auto;}
+/* end-html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+</style>
+</head>
+<body class="dir-rtl-"><!-- RTL 언어 class="dir-rtl" -->
+<!-- drawer -->
+<div class="drawer"><!-- 20150608 수정 -->
+  <div class="blank drawer-category drawer-featured"></div><div class="blank drawer-category drawer-tvshows"></div><div class="blank drawer-category drawer-movies"></div><div class="blank drawer-category drawer-premium"></div><div class="blank drawer-category drawer-appsngames"></div><div class="blank drawer-category drawer-mypage"></div><div class="blank drawer-category drawer-search"></div><div class="blank drawer-category drawer-close"></div>
+</div>
+<!-- //drawer -->
+
+<!-- panels -->
+<div class="panels">
+  <!-- panels-breadcrumbs -->
+  <div class="panels-breadcrumbs">
+    <div class="blank breadcrumb"><div class="breadcrumb-bar"></div><div class="step"></div><div class="icon icon-panel-back"></div></div>
+    <div class="blank breadcrumb showing"><div class="breadcrumb-bar"></div><div class="step">01</div><div class="icon icon-panel-back"></div></div>
+  </div>
+  <!-- //panels-breadcrumbs -->
+  <!-- panels-viewport -->
+  <div class="panels-viewport">
+    <!-- basic page -->
+    <div class="page panel-list showing"><!-- 화면 show 경우 class="showing" -->
+      <!-- <div class="blank panel-back focus">01<div class="icon icon-panel-back"></div></div> -->
+      <div class="panel-header">
+        <div class="area-text no-event panel-title">
+          <div class="marquee text">MY PAGE</div>
+        </div>
+        <div class="panel-sub">
+          <div class="sub-text sub-title">My Apps</div><div class="bar-empty">|</div>
+          <div class="sub-text sub-sub-title">Sign-In ID</div>
+        </div>
+        <div class="wrap-btn-header">
+          <div class="blank btn btn-icon btn-list-option"><div class="icon"></div></div>
+        </div>
+      </div>
+      <div class="panel-menu"><!-- 20150619 accordion 애니메이션 추가되면서 수정 -->
+        <!-- category menu -->
+        <div class="blank menu-list">
+          <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">My Apps</div></div>
+        </div>
+        <!-- //category menu -->
+        <!-- category menu accordion -->
+        <div class="menu-list menu-depth depth-open"><!-- 해당 서브 메뉴 펼침 class="depth-open" 추가  -->
+          <div class="blank menu-depth-header">
+            <div class="area-text menu-text"><div class="marquee text">Recent History</div></div><div class="icon icon-depth"></div>
+          </div>
+          <!-- menu-depth-drawer -->
+          <div class="menu-depth-drawer">
+            <div class="blank menu-list-depth on">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">TV Shows</div></div>
+            </div>
+            <div class="blank menu-list-depth">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">Movies</div></div>
+            </div>
+            <div class="blank menu-list-depth">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">Premium</div></div>
+            </div>
+            <div class="blank menu-list-depth">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">Apps &amp; Games</div></div>
+            </div>
+          </div>
+          <!-- //menu-depth-drawer -->
+        </div>
+        <!-- //category menu accordion -->
+        <!-- category menu -->
+        <div class="blank menu-list menu-paymentInquiry">
+          <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">Payment Inquiry</div></div>
+        </div>
+        <!-- //category menu -->
+        <!-- category menu -->
+        <div class="blank menu-list menu-paymentInquiry">
+          <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">Guide</div></div>
+        </div>
+        <!-- //category menu -->
+      </div>
+      <div class="panel-body">
+        <div class="panel-cont">
+        <!-- content -->
+          <div class="wrap-no-data">
+            <div class="no-data-img no-tvShow"></div>
+            <div class="text">No Recent History.</div>
+          </div>
+        <!-- //content -->
+        </div>
+        <div class="scroll scroll-v ng-hide">
+          <div class="blank icon scroll-prev"></div>
+          <div class="scroll-area"><div class="scroll-bar"></div></div>
+          <div class="blank icon scroll-next"></div>
+        </div>
+      </div>
+    </div>
+    <!-- //basic page -->
+  </div>
+  <!-- //panels-viewport -->
+</div>
+<!-- //panels -->
+
+<!-- AD-banner -->
+<div class="blank ad-banner item-video ng-hide"></div>
+<div class="ad-player ng-hide"></div>
+<!-- //AD-banner -->
+
+<!-- player -->
+<div class="player ng-hide"></div>
+<!-- //player -->
+
+<!-- help guide -->
+<div class="help-guide ng-hide"></div>
+<!-- //help guide -->
+
+<!-- search page -->
+<div class="page-search ng-hide"></div>
+<!-- //search page -->
+
+<!-- popup / basic -->
+<div class="popup-basic ng-hide"></div>
+<!-- //popup / basic -->
+
+<!-- popup / list action -->
+<div class="popup-list-option ng-hide"></div>
+<!-- //popup / list action -->
+
+<!-- popup / rating -->
+<div class="popup-contextual pop-rating ng-hide"></div>
+<!-- //popup / rating -->
+
+<!-- popup / season -->
+<div class="popup-contextual pop-season ng-hide"></div>
+<!-- //popup / season -->
+
+<!-- tooltip -->
+<div class="tooltip ng-hide">error code: 10011001<div class="bg-empty"></div></div>
+<div class="tooltip tooltip-flip ng-hide">error code: 10011001<div class="bg-empty"></div></div>
+<!-- //tooltip -->
+
+</body>
+</html>

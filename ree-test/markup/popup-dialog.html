@@ -1,0 +1,454 @@
+<!doctype html>
+<html ng-app="discoveryApp" class="ng-scope">
+<head>
+<style type="text/css">
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="../css/store16.css" rel="stylesheet">
+<link href="../css/store16-animation.css" rel="stylesheet"><!-- animation 분리 / Lite 에서는 store16-animation-lite.css 으로 변경  -->
+<script type="text/javascript" src="pub-dreadlocks.js"></script>
+<style type="text/css">
+/* html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+::-webkit-scrollbar{width:0;}
+body{overflow-y:auto}
+.popup-dialog{position:relative;margin:20px 0;}
+.popup-basic {position: relative;}
+.wrap-title-popup{outline:1px solid rgba(255,0,0,0.5);}
+.wrap-btn-popup{outline:1px solid rgba(0,255,0,0.5)}
+/* end-html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+</style>
+</head>
+<body class="dir-rtl-"><!-- RTL 언어 class="dir-rtl" -->
+<!-- 
+LTR화면. body에 dir-rtl 클래스 추가전.
+<body>
+<div class="popup-dialog">
+
+RTL화면. body에 dir-rtl 클래스 추가후.
+<body class="dir-rtl">
+<div class="popup-dialog">
+
+LTR화면 → 설정에서 RTL 국가 선택했을때, body에 dir-rtl 클래스 추가전. 공지 팝업 class="dir-rtl" 추가
+<body>
+<div class="popup-dialog dir-rtl">
+
+RTL화면 → 설정에서 LRT 국가 선택했을때,  body에 dir-rtl 클래스 제거전. 공지 팝업 class="dir-ltr" 추가
+<body class="dir-rtl">
+<div class="popup-dialog dir-ltr">
+-->
+<!-- popup / basic - 기본1 -->
+<div class="popup-dialog dir-rtl-"> <!-- LTR화면 → 설정에서 RTL 국가 선택했을때, body에 dir-rtl 클래스 추가전. 공지 팝업 class="dir-rtl" 추가 / RTL화면 → 설정에서 LRT 국가 선택했을때,  body에 dir-rtl 클래스 제거전. 공지 팝업 class="dir-ltr" 추가 -->
+  <div class="popup-basic">
+    <!-- popup-header -->
+    <div class="popup-header">
+      <div class="wrap-title-popup">
+        <div class="area-text no-event popup-title">
+          <div class="marquee text">Common popup - Header without Subtitle (Optional Close Button)</div>
+        </div>
+        <div class="popup-sub-text ng-hide">popup sub text !@#$%^&amp;*()_+|\][{}?/!@#$%^&amp;*()_+|\][{}?/</div>
+      </div>
+      <div class="wrap-btn-popup">
+        <div class="blank btn-popup btn-small">
+          <div class="area-text"><div class="text marquee">ok</div></div>
+        </div><div class="blank btn-popup btn-small">
+          <div class="area-text"><div class="text marquee">cancel</div></div>
+        </div>
+      </div>
+    </div>
+    <!-- //popup-header -->
+    <!-- popup-cont -->
+    <div class="popup-cont">
+      Common popup text
+    </div>
+    <!-- //popup-cont -->
+  </div>
+</div>
+<!-- //popup / basic - 기본1 -->
+
+<!-- popup / basic - 기본2 -->
+<div class="popup-dialog">
+  <div class="popup-basic"><!-- LTR화면 → 설정에서 RTL 국가 선택했을때, body에 dir-rtl 클래스 추가전. 공지 팝업 class="dir-rtl" 추가 / RTL화면 → 설정에서 LRT 국가 선택했을때,  body에 dir-rtl 클래스 제거전. 공지 팝업 class="dir-ltr" 추가 -->
+    <!-- popup-header -->
+    <div class="popup-header">
+      <div class="wrap-title-popup">
+        <div class="area-text no-event popup-title">
+          <div class="marquee text">Common popup - Header without Subtitle (Optional Close Button)</div>
+        </div>
+        <div class="popup-sub-text">popup sub text !@#$%^&amp;*()_+|\][{}?/!@#$%^&amp;*()_+|\][{}?/</div>
+      </div>
+      <div class="wrap-btn-popup">
+        <div class="blank btn-popup btn-small">
+          <div class="area-text"><div class="text marquee">ok</div></div>
+        </div><div class="blank btn-popup btn-small">
+          <div class="area-text"><div class="text marquee">ok okokokokokokokokokokokokokokokokok</div></div>
+        </div>
+      </div>
+    </div>
+    <!-- //popup-header -->
+    <!-- popup-cont -->
+    <div class="popup-cont">
+      Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text
+    </div>
+    <!-- //popup-cont -->
+  </div>
+</div>
+<!-- //popup / basic - 기본2 -->
+
+<!-- popup / basic - 기본3 -->
+<div class="popup-dialog"><!-- LTR화면 → 설정에서 RTL 국가 선택했을때, body에 dir-rtl 클래스 추가전. 공지 팝업 class="dir-rtl" 추가 / RTL화면 → 설정에서 LRT 국가 선택했을때,  body에 dir-rtl 클래스 제거전. 공지 팝업 class="dir-ltr" 추가 -->
+  <div class="popup-basic">
+    <!-- popup-header -->
+    <div class="popup-header">
+      <div class="wrap-title-popup">
+        <div class="area-text no-event popup-title">
+          <div class="marquee text">Common popup - Header without Subtitle</div>
+        </div>
+      </div>
+      <div class="wrap-btn-popup">
+        <div class="blank btn btn-icon btn-pop-close"><div class="icon"></div></div>
+      </div>
+    </div>
+    <!-- //popup-header -->
+    <!-- popup-cont -->
+    <div class="popup-cont">
+      Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text
+    </div>
+    <!-- //popup-cont -->
+  </div>
+</div>
+<!-- //popup / basic - 기본3 -->
+
+<!-- popup / basic - 기본4 -->
+<div class="popup-dialog"><!-- LTR화면 → 설정에서 RTL 국가 선택했을때, body에 dir-rtl 클래스 추가전. 공지 팝업 class="dir-rtl" 추가 / RTL화면 → 설정에서 LRT 국가 선택했을때,  body에 dir-rtl 클래스 제거전. 공지 팝업 class="dir-ltr" 추가 -->
+  <div class="popup-basic">
+    <!-- popup-header -->
+    <div class="popup-header">
+      <div class="wrap-title-popup">
+        <div class="area-text no-event popup-title">
+          <div class="marquee text">Common popup - Header without Subtitle</div>
+        </div>
+        <div class="popup-sub-text">popup sub text !@#$%^&amp;*()_+|\][{}?/!@#$%^&amp;*()_+|\][{}?/</div>
+      </div>
+      <div class="wrap-btn-popup">
+        <div class="blank btn btn-icon btn-pop-close"><div class="icon"></div></div>
+      </div>
+    </div>
+    <!-- //popup-header -->
+    <!-- popup-cont -->
+    <div class="popup-cont">
+      Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common popup text Common
+    </div>
+    <!-- //popup-cont -->
+  </div>
+</div>
+<!-- //popup / basic - 기본4 -->
+
+<!-- popup / basic - 기본5 -->
+
+<div class="popup-dialog"><!-- LTR화면 → 설정에서 RTL 국가 선택했을때, body에 dir-rtl 클래스 추가전. 공지 팝업 class="dir-rtl" 추가 / RTL화면 → 설정에서 LRT 국가 선택했을때,  body에 dir-rtl 클래스 제거전. 공지 팝업 class="dir-ltr" 추가 -->
+  <div class="popup-basic">
+    <!-- popup-header -->
+    <div class="popup-header popup-update"><!-- 업데이트 필요 팝업 class="popup-update"추가 -->
+      <div class="wrap-title-popup">
+        <div class="area-text no-event popup-title">
+          <div class="marquee text">UPDATE AVAILABLE - 업데이트 필요 앱</div>
+        </div>
+      </div>
+      <div class="wrap-btn-popup">
+        <div class="blank btn-popup btn-small">
+          <div class="area-text"><div class="text marquee">LAUNCH</div></div>
+        </div><div class="blank btn-popup btn-small">
+          <div class="area-text"><div class="text marquee">UPDATE</div></div>
+        </div>
+        <div class="blank btn btn-icon btn-pop-close focus"><div class="icon"></div></div>
+      </div>
+    </div>
+    <!-- //popup-header -->
+    <!-- popup-cont -->
+    <div class="popup-cont">
+      업데이트 필요 앱
+    </div>
+    <!-- //popup-cont -->
+  </div>
+</div>
+<!-- //popup / basic - 기본5 -->
+
+<!-- popup / basic - 에러 팝업 -->
+<div class="popup-dialog"><!-- LTR화면 → 설정에서 RTL 국가 선택했을때, body에 dir-rtl 클래스 추가전. 공지 팝업 class="dir-rtl" 추가 / RTL화면 → 설정에서 LRT 국가 선택했을때,  body에 dir-rtl 클래스 제거전. 공지 팝업 class="dir-ltr" 추가 -->
+  <div class="popup-basic">
+    <!-- popup-header -->
+    <div class="popup-header">
+      <div class="wrap-title-popup">
+        <div class="area-text no-event popup-title">
+          <div class="marquee text">error popup</div>
+        </div>
+      </div>
+      <div class="wrap-btn-popup">
+        <div class="blank btn-popup btn-small">
+          <div class="area-text"><div class="text marquee">ok</div></div>
+        </div>
+      </div>
+    </div>
+    <!-- //popup-header -->
+    <!-- popup-cont -->
+    <div class="popup-cont popup-error">
+      error text erro text error text erro texterror text erro texterror text erro texterror text erro texterror text erro texterror text erro texterror text erro texterror text erro text
+      <div class="blank icon icon-code focus"></div>
+    </div>
+    <!-- //popup-cont -->
+  </div>
+</div>
+<!-- //popup / basic - 에러 팝업 -->
+
+<!-- popup / basic - CP List -->
+<div class="popup-dialog">
+  <div class="popup-basic">
+    <!-- popup-header -->
+    <div class="popup-header">
+      <div class="wrap-title-popup">
+        <div class="area-text no-event popup-title">
+          <div class="marquee text">open with</div>
+        </div>
+        <div class="popup-sub-text">You can choose the application to play this content.</div>
+      </div>
+      <div class="wrap-btn-popup">
+        <div class="blank btn-popup btn-small">
+          <div class="area-text"><div class="text marquee">PREFERRED APP SETTING</div></div>
+        </div><div class="blank btn-popup btn-small">
+          <div class="area-text"><div class="text marquee">CLOSE</div></div>
+        </div>
+      </div>
+    </div>
+    <!-- //popup-header -->
+    <!-- popup-cont -->
+    <div class="pop-list-cp">
+      <!-- item -->
+      <div class="blank item item-apps focus">
+        <div class="item-thumb">
+          <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+        </div>
+        <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+        <div class="item-attribute">SD</div>
+        <div class="item-attribute">HD</div>
+        <div class="item-attribute">UHD</div>
+        <div class="item-attribute">HD+</div>
+        <div class="item-price">$2.99</div>
+      </div>
+      <!-- //item -->
+      <!-- item -->
+      <div class="blank item item-apps">
+        <div class="item-thumb">
+          <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+        </div>
+        <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+        <div class="item-attribute">SD</div>
+        <div class="item-price">$2.99</div>
+      </div>
+      <!-- //item -->
+      <!-- item -->
+      <div class="blank item item-apps">
+        <div class="item-thumb">
+          <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+        </div>
+        <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+        <div class="item-price">$2.99</div>
+      </div>
+      <!-- //item -->
+      <!-- item -->
+      <div class="blank item item-apps">
+        <div class="item-thumb">
+          <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+        </div>
+        <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+        <div class="item-price">$2.99</div>
+      </div>
+      <!-- //item -->
+      <!-- item -->
+      <div class="blank item item-apps focus">
+        <div class="item-thumb">
+          <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+        </div>
+        <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+        <div class="item-attribute">SD</div>
+        <div class="item-attribute">HD</div>
+        <div class="item-attribute">UHD</div>
+        <div class="item-attribute">HD+</div>
+        <div class="item-price">$2.99</div>
+      </div>
+      <!-- //item -->
+      <!-- item -->
+      <div class="blank item item-apps">
+        <div class="item-thumb">
+          <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+        </div>
+        <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+        <div class="item-attribute">SD</div>
+        <div class="item-price">$2.99</div>
+      </div>
+      <!-- //item -->
+      <!-- item -->
+      <div class="blank item item-apps">
+        <div class="item-thumb">
+          <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+        </div>
+        <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+        <div class="item-price">$2.99</div>
+      </div>
+      <!-- //item -->
+      <!-- item -->
+      <div class="blank item item-apps">
+        <div class="item-thumb">
+          <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+        </div>
+        <div class="area-text item-tit"><div class="marquee text">w ITEM title title title title title title title title title title title</div></div>
+        <div class="item-price">$2.99</div>
+      </div>
+      <!-- //item -->
+    </div>
+    <!-- //popup-cont -->
+  </div>
+</div>
+<!-- //popup / basic - CP List -->
+
+<!-- popup / basic - Package 중 구매한 앱 있을 경우 / Package app >설치된 앱 중 선택하여 실행 -->
+<div class="popup-dialog">
+  <div class="popup-basic">
+    <!-- popup-header -->
+    <div class="popup-header">
+      <div class="wrap-title-popup">
+        <div class="area-text no-event popup-title">
+          <div class="marquee text">PURCHASED APP LIST</div>
+        </div>
+        <div class="popup-sub-text">Among package apps, the following have already been purchased. Do you want to continue?</div>
+      </div>
+      <div class="wrap-btn-popup">
+        <div class="blank btn-popup btn-small">
+          <div class="area-text"><div class="text marquee">no</div></div>
+        </div><div class="blank btn-popup btn-small">
+          <div class="area-text"><div class="text marquee">yes</div></div>
+        </div>
+      </div>
+    </div>
+    <!-- //popup-header -->
+    <!-- popup-cont -->
+    <div class="pop-list-package">
+      <!-- item -->
+      <div class="blank item item-apps focus">
+        <div class="item-thumb">
+          <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+        </div>
+        <div class="area-text item-tit"><div class="marquee text">@#$%^&amp;*()_+|\][{}?/!@#$%^&amp;*()_+|\][{}?/</div></div>
+      </div><!-- //item --><!-- item --><div class="blank item item-apps">
+        <div class="item-thumb">
+          <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+        </div>
+        <div class="area-text item-tit"><div class="marquee text">*()_+|\][{}?/</div></div>
+      </div><!-- //item -->
+    </div>
+    <!-- //popup-cont -->
+  </div>
+</div>
+<!-- //popup / basic - Package 중 구매한 앱 있을 경우 / Package app >설치된 앱 중 선택하여 실행 -->
+
+
+<!-- popup / basic - Package 중 구매한 앱 있을 경우 / Package app >설치된 앱 중 선택하여 실행 > blank가 빠진 경우 -->
+<div class="popup-dialog">
+  <div class="popup-basic">
+    <!-- popup-header -->
+    <div class="popup-header">
+      <div class="wrap-title-popup">
+        <div class="area-text no-event popup-title">
+          <div class="marquee text">PURCHASED APP LIST</div>
+        </div>
+        <div class="popup-sub-text">Among package apps, the following have already been purchased. Do you want to continue?</div>
+      </div>
+      <div class="wrap-btn-popup">
+        <div class="blank btn-popup btn-small">
+          <div class="area-text"><div class="text marquee">no</div></div>
+        </div><div class="blank btn-popup btn-small">
+          <div class="area-text"><div class="text marquee">yes</div></div>
+        </div>
+      </div>
+    </div>
+    <!-- //popup-header -->
+    <!-- popup-cont -->
+    <div class="pop-list-package">
+      <!-- item -->
+      <div class="item item-apps focus">
+        <div class="item-thumb">
+          <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+        </div>
+        <div class="area-text item-tit"><div class="marquee text">@#$%^&amp;*()_+|\][{}?/!@#$%^&amp;*()_+|\][{}?/</div></div>
+      </div><!-- //item --><!-- item --><div class="item item-apps">
+        <div class="item-thumb">
+          <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+        </div>
+        <div class="area-text item-tit"><div class="marquee text">*()_+|\][{}?/</div></div>
+      </div><!-- //item -->
+    </div>
+    <!-- //popup-cont -->
+  </div>
+</div>
+<!-- //popup / basic - Package 중 구매한 앱 있을 경우 / Package app >설치된 앱 중 선택하여 실행 > blank가 빠진 경우 -->
+
+
+
+<!-- popup / basic - 내부 메모리 저장공간 없을 시, 외부 저장장치가 연결 되어있는 경우 -->
+<div class="popup-dialog">
+  <div class="popup-basic">
+    <!-- popup-header -->
+    <div class="popup-header">
+      <div class="wrap-title-popup">
+        <div class="area-text no-event popup-title">
+          <div class="marquee text">STORAGE SELECTION</div>
+        </div>
+        <div class="popup-sub-text">Select storage device to install app.</div>
+      </div>
+      <div class="wrap-btn-popup">
+        <div class="blank btn-popup btn-small">
+          <div class="area-text"><div class="text marquee">CANCEL</div></div>
+        </div><div class="blank btn-popup btn-small">
+          <div class="area-text"><div class="text marquee">OK</div></div>
+        </div>
+      </div>
+    </div>
+    <!-- //popup-header -->
+    <!-- popup-cont -->
+    <div class="pop-external-memory">
+      <div class="blank memory-depth depth-open"><!-- class="depth-open" 추가 -->
+        <div class="icon icon-depth"></div>
+        <div class="area-text"><div class="marquee text">Storage Device 1 열린상태</div></div>
+      </div>
+      <div class="blank memory-list">
+        <div class="icon icon-check"></div>
+        <div class="area-text"><div class="marquee text">USB1 : [999GB Free] ABCDEFGHIJKLMNOPQRSTUVWXYZ (B:)</div></div>
+      </div>
+      <div class="blank memory-list check-on"><!-- class="check-on" 추가 -->
+        <div class="icon icon-check"></div>
+        <div class="area-text"><div class="marquee text">USB2 : Seagate_HDD_1</div></div>
+      </div>
+      <div class="blank memory-list">
+        <div class="icon icon-check"></div>
+        <div class="area-text"><div class="marquee text">USB3 : No Name</div></div>
+      </div>
+      <div class="blank memory-depth">
+        <div class="icon icon-depth"></div>
+        <div class="area-text"><div class="marquee text">Storage Device 2 접힌상태</div></div>
+      </div>
+    </div>
+    <!-- //popup-cont -->
+  </div>
+</div>
+<!-- //popup / basic - 내부 메모리 저장공간 없을 시, 외부 저장장치가 연결 되어있는 경우 -->
+
+<!-- tooltip -->
+<!-- <div class="tooltip" style="left:1570px; top:1800px;">error code: 10011001<div class="bg-empty"></div></div>확인을 위한 임시좌표값 -->
+<div class="tooltip tooltip-flip" style="left:80px; top:1800px;">RTL 국가 확인을 위한 error code: 10011001<div class="bg-empty"></div></div><!-- 확인을 위한 임시좌표값 -->
+<!-- //tooltip -->
+</body>
+</html>

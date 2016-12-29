@@ -1,0 +1,169 @@
+<!doctype html>
+<html ng-app="discoveryApp" class="ng-scope">
+<head>
+<style type="text/css">
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="../css/store16.css" rel="stylesheet">
+<link href="../css/store16-animation.css" rel="stylesheet"><!-- animation 분리 / Lite 에서는 store16-animation-lite.css 으로 변경  -->
+<script type="text/javascript" src="pub-dreadlocks.js"></script>
+<style type="text/css">
+/* html 파일에서 확인하기 위한 스타일 */
+::-webkit-scrollbar{width:0;}
+.panel-body{overflow-y:scroll;pointer-events:auto;}
+.panel-list .list-title{left:0;right:0;}
+.panel-list .list-title,
+.panel-list .list-cont{position:relative;}
+/* end-html 파일에서 확인하기 위한 스타일 */
+</style>
+</head>
+<body class="dir-rtl-"><!-- RTL 언어 class="dir-rtl" -->
+<!-- drawer -->
+<div class="drawer"><!-- 20150608 수정 -->
+  <div class="blank drawer-category drawer-featured"></div><div class="blank drawer-category drawer-tvshows"></div><div class="blank drawer-category drawer-movies"></div><div class="blank drawer-category drawer-premium"></div><div class="blank drawer-category drawer-appsngames"></div><div class="blank drawer-category drawer-mypage"></div><div class="blank drawer-category drawer-search"></div><div class="blank drawer-category drawer-close"></div>
+</div>
+<!-- //drawer -->
+
+<!-- panels -->
+<div class="panels">
+  <!-- panels-breadcrumbs -->
+  <div class="panels-breadcrumbs">
+    <div class="blank breadcrumb"><div class="breadcrumb-bar"></div><div class="step"></div><div class="icon icon-panel-back"></div></div>
+    <div class="blank breadcrumb showing"><div class="breadcrumb-bar"></div><div class="step">01</div><div class="icon icon-panel-back"></div></div>
+  </div>
+  <!-- //panels-breadcrumbs -->
+  <!-- panels-viewport -->
+  <div class="panels-viewport">
+    <!-- basic page -->
+    <div class="page panel-premium showing"><!-- 화면 show 경우 class="showing" -->
+      <!-- <div class="blank panel-back focus">01<div class="icon icon-panel-back"></div></div> -->
+      <div class="panel-header">
+        <div class="area-text no-event panel-title">
+          <div class="marquee text">premium</div>
+        </div>
+        <div class="panel-sub">
+          <div class="sub-text sub-title">Sub category</div><div class="bar-empty">|</div>
+          <div class="sub-text sub-sub-title">List 정렬 옵션항목 !@#$%^&amp;*()_+|\][{}?/</div>
+        </div>
+        <div class="wrap-btn-header">
+          <div class="blank btn btn-icon btn-list-option"><div class="icon"></div></div>
+        </div>
+      </div>
+      <div class="panel-body">
+        <div class="panel-cont">
+        <!-- content -->
+          <div class="list-cont list-cont-premium"><!-- 20150609 수정 - 절대좌표 위치값 들어가면서 라인으로 아이템 묶음 -->
+            <!-- item -->
+            <div class="blank item item-premium focus" style="background-color:#742873;"><!--  app* Hex컬러 -->
+			  <div>
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">AccuWeather</div></div>
+                <div class="app-category">Utility</div>
+			  </div>
+            </div><!-- //item --><!-- item --><div class="blank item item-premium item-white" style="background-color:#f2f2f2;"><!--  app* Hex컬러/ app* Hex컬러가 밝은색 class="item-white" -->
+			  <div>
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_app_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">AccuWeather !@#$%^&*()_+|\][{}?/!@#$%^&*()_+|\][{}?/</div></div>
+                <div class="app-category">Utility</div>
+			  </div>
+            </div><!-- //item --><!-- item --><div class="blank item item-premium focus" style="background-color:#742873;"><!--  app* Hex컬러 -->
+			  <div>
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">AccuWeather</div></div>
+                <div class="app-category">Utility</div>
+			  </div>
+            </div><!-- //item -->
+          </div>
+          <div class="list-cont list-cont-premium"><!-- 20150609 수정 - 절대좌표 위치값 들어가면서 라인으로 아이템 묶음 -->
+            <!-- item -->
+            <div class="blank item item-premium item-white" style="background-color:#f2f2f2;"><!--  app* Hex컬러 -->
+			  <div>
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_app_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">AccuWeather</div></div>
+                <div class="app-category">Utility</div>
+		  	  </div>
+            </div><!-- //item --><!-- item --><div class="blank item item-premium item-white" style="background-color:#f2f2f2;"><!--  app* Hex컬러 -->
+			  <div>
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_app_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">AccuWeather</div></div>
+                <div class="app-category">Utility</div>
+			  </div>
+            </div><!-- //item --><!-- item 20151022 배경색이 black일경우 --><div class="blank item item-premium item-white" style="background-color:#000;padding-right:0;"><!--  app Hex컬러 배경색이 black으로 될 경우 padding:0 추가 -->
+			  <div class="bg-black"><!-- (배경색이 black일경우 라인생성 이슈로 div요소 추가)app Hex컬러가 black일 경우 bg-black 클래스 추가-->
+                <div class="item-thumb">
+                  <img src="../images/temp/temp_app_02.jpg" class="thumb-img">
+                </div>
+                <div class="area-text item-tit"><div class="marquee text">AccuWeather</div></div>
+                <div class="app-category">Utility</div>
+			  </div><!-- //app Hex컬러가 black일 경우 추가-->
+            </div>
+			<!-- //item 20151022 배경색이 black일경우 -->
+          </div>
+        <!-- //content -->
+        </div>
+        <div class="scroll scroll-v">
+          <div class="blank icon scroll-prev focus"></div>
+          <div class="scroll-area"><div class="scroll-bar" style="height:454px; top 0px;"></div></div>
+          <div class="blank icon scroll-next"></div>
+        </div>
+      </div>
+    </div>
+    <!-- //basic page -->
+  </div>
+  <!-- //panels-viewport -->
+</div>
+<!-- //panels -->
+
+<!-- AD-banner -->
+<div class="blank ad-banner ng-hide"></div>
+<div class="ad-player ng-hide"></div>
+<!-- //AD-banner -->
+
+<!-- player -->
+<div class="player ng-hide"></div>
+<!-- //player -->
+
+<!-- help guide -->
+<div class="help-guide ng-hide"></div>
+<!-- //help guide -->
+
+<!-- search page -->
+<div class="page-search ng-hide"></div>
+<!-- //search page -->
+
+<!-- popup / basic -->
+<div class="popup-basic ng-hide"></div>
+<!-- //popup / basic -->
+
+<!-- popup / list action -->
+<div class="popup-list-option ng-hide"></div>
+<!-- //popup / list action -->
+
+<!-- popup / rating -->
+<div class="popup-contextual pop-rating ng-hide"></div>
+<!-- //popup / rating -->
+
+<!-- popup / season -->
+<div class="popup-contextual pop-season ng-hide"></div>
+<!-- //popup / season -->
+
+<!-- tooltip -->
+<div class="tooltip ng-hide"></div>
+<!-- //tooltip -->
+</body>
+</html>

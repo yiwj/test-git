@@ -1,0 +1,167 @@
+{
+  "response": {
+    "version": "v1",
+    "query_information": "params={\"query\":\"겨울왕국\",\"startindex\":\"1\",\"maxresults\":\"12\",\"domain\":[\"livetv\",\"tvshow\",\"movie\",\"app\",\"youtube\",\"3d\",\"premium\",\"cp\"],\"version\":\"v1\",\"epgcode\":[\"794\",\"795\",\"796\",\"798\",\"797\"],\"sortby\":[\"\"],\"filterby\":{}}",
+    "time": "392 ms",
+    "code": "JEDI-200",
+    "message": "OK",
+    "engine_url": "165.244.145.185:15100",
+    "totalcount": 181348,
+    "hitcount": 14,
+    "results": [
+      {
+        "code": "movie",
+        "value": "movie",
+        "totalcount": 1,
+        "hitcount": 1,
+        "doc": [
+          {
+            "genre": "Family, Animation, Adventure",
+            "thumbnailsize": "V291X414",
+            "score": "KR",
+            "appid": "ocncatchon-_-ocncatchon",
+            "rank": "1042010016",
+            "title": "겨울왕국",
+            "providername": null,
+            "description": "얼어붙은 세상을 녹일 자매가 온다! 서로가 최고의 친구였던 자매 ‘엘사’와 ‘안나’. 하지만 언니 ‘엘사’에게는 하나뿐인 동생에게조차 말 못할 비밀이 있다. 모든 것을 얼려버리는 신비로운 힘이 바로 그것. ‘엘사’는 통제할 수 없는 자신의 힘이 두려워 왕국을 떠나고, 얼어버린 왕국의 저주를 풀기 위해 ‘안나’는 언니를 찾아 환상적인 여정을 떠나는데...... [데이터제공: Cine21]",
+            "age": "0",
+            "grade": "전체 관람가",
+            "freeflag": "N",
+            "hdflag": null,
+            "contentssetid": "com.lge.meta.crawler.cine21.Cine21Crawler",
+            "contentsid": "40093",
+            "makeyear": "2013",
+            "ranklevel": "XS",
+            "code": "movie",
+            "threedflag": "N",
+            "director": "제니퍼 리-_-크리스 벅",
+            "duration": "108",
+            "price": null,
+            "thumbnail": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0103_11_33_51__52c62190002d5[s282,414].jpg",
+            "cast": "최원형-_-박지윤-_-박혜나-_-윤승욱-_-장민혁-_-정상윤-_-정영주-_-산티노 폰타나-_-앨런 투딕-_-조쉬 게드-_-시아란 힌즈-_-이디나 멘젤-_-크리스틴 벨-_-스티븐 앤더슨-_-조나단 그로프-_-소연",
+            "movietype": "CONTENT",
+            "mappingflag": "Y"
+          }
+        ]
+      },
+      {
+        "code": "youtube",
+        "value": "youtube",
+        "totalcount": 181346,
+        "hitcount": 12,
+        "doc": [
+          {
+            "rank": "100000",
+            "title": "겨울왕국Ost",
+            "contentsid": "7d9i8Hste1Y",
+            "thumbnail": "https://i.ytimg.com/vi/7d9i8Hste1Y/hqdefault.jpg",
+            "makeyear": "2014-02-11T05:58:09.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "포핀쿠킨 겨울왕국 케이크 아이스크림 장난감 만들기 점토 클레이 미니어쳐 식완 일본 소꿉 요리 놀이 whipple ホイップる Disney Frozen Cake Cooking Toys",
+            "contentsid": "r3oZptugyKY",
+            "thumbnail": "https://i.ytimg.com/vi/r3oZptugyKY/hqdefault.jpg",
+            "makeyear": "2015-01-30T07:55:42.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 열기  FROZEN FEVER  공식 예고편 (한국어 CC)",
+            "contentsid": "dpY6Vlvl5wg",
+            "thumbnail": "https://i.ytimg.com/vi/dpY6Vlvl5wg/hqdefault.jpg",
+            "makeyear": "2015-02-25T21:54:53.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "플레이도우 겨울왕국 엘사 안나 공주 인형 장난감 Play Doh Disney Frozen Princess Elsa Anna Dress Up Magic Clip Dolls Toys",
+            "contentsid": "--FTytVFxUc",
+            "thumbnail": "https://i.ytimg.com/vi/--FTytVFxUc/hqdefault.jpg",
+            "makeyear": "2014-09-17T08:35:09.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 뷰티킷 & 이벤트 영상 (Frozen Beauty Kit)",
+            "contentsid": "pveHsL4QgAE",
+            "thumbnail": "https://i.ytimg.com/vi/pveHsL4QgAE/hqdefault.jpg",
+            "makeyear": "2014-02-16T12:15:38.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 아쿠아비즈 또봇 카봇 타요 폴리 뽀로로 장난감 Disney Frozen Beads Princess Elsa Toys Игрушки アクア ビーズアート",
+            "contentsid": "QqiIo5HiujI",
+            "thumbnail": "https://i.ytimg.com/vi/QqiIo5HiujI/hqdefault.jpg",
+            "makeyear": "2015-01-09T12:09:19.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 뮤지컬",
+            "contentsid": "TSojNGixv3A",
+            "thumbnail": "https://i.ytimg.com/vi/TSojNGixv3A/hqdefault.jpg",
+            "makeyear": "2014-10-18T09:00:04.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "아렌델의 성!! [New겨울왕국 모드: 쇼케이스 #1편] - Frozen Mod in Arendelle - 마인크래프트 Minecraft [도티]",
+            "contentsid": "RC3nVkzOt9U",
+            "thumbnail": "https://i.ytimg.com/vi/RC3nVkzOt9U/hqdefault.jpg",
+            "makeyear": "2014-11-04T04:30:02.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "점토 플레이도우 클레이 디즈니 공주 인형 겨울왕국 엘사 타요 폴리 뽀로로 장난감 Play Doh Disney Princess Dress Up Magic Clip Doll Toys",
+            "contentsid": "uwk-dOW1woQ",
+            "thumbnail": "https://i.ytimg.com/vi/uwk-dOW1woQ/hqdefault.jpg",
+            "makeyear": "2015-01-16T19:22:50.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 레고 엘사 타요 폴리 뽀로로 장난감 Lego Disney Frozen Princess Elsa Anna Toys Игрушки アナと雪の女王 レゴ",
+            "contentsid": "dSv2PYWfKz0",
+            "thumbnail": "https://i.ytimg.com/vi/dSv2PYWfKz0/hqdefault.jpg",
+            "makeyear": "2015-01-06T19:18:05.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "수다쟁이 엘사와 휴가보내기(비서 올라프ㅋ) * 카일TV 겨울왕국게임 애니메이션 * Talkative Elsa summer vacation!",
+            "contentsid": "Pwr0WREyz6g",
+            "thumbnail": "https://i.ytimg.com/vi/Pwr0WREyz6g/hqdefault.jpg",
+            "makeyear": "2015-02-23T12:54:01.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 패러디 고등학생들의 [입시왕국]",
+            "contentsid": "DQAQGZ27WPg",
+            "thumbnail": "https://i.ytimg.com/vi/DQAQGZ27WPg/hqdefault.jpg",
+            "makeyear": "2014-03-02T15:19:52.000Z",
+            "code": "youtube"
+          }
+        ]
+      },
+      {
+        "code": "web",
+        "value": "web",
+        "totalcount": 1,
+        "hitcount": 1,
+        "doc": [
+          {
+            "rank": "0",
+            "ranklevel": "L",
+            "code": "web",
+            "url": "http://search.daum.net/search?w=tot&rtupcoll=NNS&nil_ch=30&q="
+          }
+        ]
+      }
+    ]
+  }
+}

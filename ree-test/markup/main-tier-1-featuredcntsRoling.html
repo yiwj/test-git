@@ -1,0 +1,199 @@
+<!doctype html>
+<html ng-app="discoveryApp" class="ng-scope">
+<head>
+<style type="text/css">
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="../css/store16.css" rel="stylesheet">
+<link href="../css/store16-animation.css" rel="stylesheet"><!-- animation 분리 / Lite 에서는 store16-animation-lite.css 으로 변경  -->
+<script type="text/javascript" src="pub-dreadlocks.js"></script>
+<style type="text/css">
+/* html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+/* end-html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+
+/* Featured Contents Rolling Animation */
+.item-main-wrap {
+  position: relative;
+  opacity: 1;
+  -webkit-transition-property: opacity;
+  /*-webkit-transition-timing-function:ease-in-out;*/ /* ease, linear, ease-in, ease-out, ease-in-out */
+}
+.item-main-wrap.show {
+  opacity: 1;
+  -webkit-transition-delay:0.2s;
+  -webkit-transition-duration:0.7s; 
+  -webkit-transition-timing-function:ease-in-out;
+}
+.item-main-wrap.hide {
+  opacity: 0;
+  -webkit-transition-duration:0.5s; 
+  -webkit-transition-timing-function:linear;
+}
+</style>
+</head>
+<body>
+<!-- drawer -->
+<div class="drawer main-drawer"><!-- 20150608 수정 / main화면에서 class="main-drawer"추가 -->
+  <div class="blank drawer-category drawer-featured focus"></div><div class="blank drawer-category drawer-tvshows"></div><div class="blank drawer-category drawer-movies"></div><div class="blank drawer-category drawer-premium"></div><div class="blank drawer-category drawer-appsngames"></div><div class="blank drawer-category drawer-mypage"></div><div class="blank drawer-category drawer-search"></div><div class="blank drawer-category drawer-close"></div>
+</div>
+<!-- //drawer -->
+
+<!-- basic page -->
+<div class="page panel-main main-tier1 showing"><!-- Tier 1 국가 class="main-tier1" 추가 / 화면 show 경우 class="showing" -->
+  <div class="blank panel-back ng-hide">01<div class="icon icon-panel-back"></div></div>
+  <div class="main-header">
+    <div class="header-tit">LG CONTENT STORE</div>
+    <img src="../images/thumb/main/genre_19_e.png" class="thumb-img">
+    <!-- TV Shows -->
+    <div class="header-item">
+      <div class="item-category">TV Shows</div>
+      <div class="item-tit">Game of Thrones</div>
+      <div class="item-text">1line1line1line1line1line1line1line1line1line1line1line1line1line</div>
+      <div class="blank btn btn-small">
+        <div class="area-text"><div class="text marquee">more...</div></div>
+      </div>
+    </div>
+    <!-- //TV Shows -->
+    <!-- Apps &amp; Games -->
+    <div class="header-item" style="display: none">
+      <div class="item-category">Apps &amp; Games</div>
+      <div class="item-tit">App Title</div>
+      <div class="app-category">Entertainment</div><div class="bar-empty">|</div><div class="item-price">$2.99</div><div class="list-price">$5.99<div class="price-empty"></div></div>
+      <div class="blank btn btn-small">
+        <div class="area-text"><div class="text marquee">more...</div></div>
+      </div>
+    </div>
+    <!-- //Apps &amp; Games -->
+    <div class="blank btn btn-icon btn-main-prev"><div class="icon"></div></div>
+    <div class="blank btn btn-icon btn-main-next"><div class="icon"></div></div>
+    <div class="header-mask"></div><!-- Image Header 영역 컨텐츠 바뀌는 동안 class="mask-block" 추가했다가 완료시 삭제 -->
+  </div>
+  <div class="main-body" style="background-color:#3f3024"><!-- 상단 이미지에 맞는 Hex컬러 -->
+    <div class="panel-cont">
+    <!-- content -->
+      <!-- vod -->
+      <div class="main-column column-1"><!-- 가로방향 컨텐츠 1칸 class="column-1" -->
+        <div class="tit-category"><div class="text">New Release[TBD]</div><div class="bg-empty"></div></div><!-- uk only -->
+        <!-- item -->
+        <div class="blank item item-main">
+          <div class="item-main-wrap">
+            <div class="item-thumb">
+              <img src="../images/thumb/default_tvshow_370x542.png" class="thumb-img">
+            </div>
+            <div class="area-text item-tit"><div class="marquee text">default_tvshow_370x542.png</div></div>
+            <div class="blank icon-player btn-cp-play"></div>
+          </div>
+        </div><!-- //item -->
+      </div>
+      <!-- //vod -->
+      <!-- vod -->
+      <div class="main-column column-1"><!-- 가로방향 컨텐츠 1칸 class="column-1" -->
+        <div class="tit-category"><div class="text">New Release[TBD]</div><div class="bg-empty"></div></div><!-- uk only -->
+        <!-- item -->
+        <div class="blank item item-main item-main-width"><!-- 가로형 썸네일 class="item-main-width" 추가 -->
+          <div class="item-main-wrap">
+            <div class="item-thumb">
+              <img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img">
+            </div>
+            <div class="area-text item-tit"><div class="marquee text">default_tvshow_370x277.png</div></div>
+            <div class="blank icon-player btn-cp-play"></div><!-- 컨텐츠 Thumbnail에 play 버튼 -->
+          </div>
+        </div><!-- //item -->
+        <!-- item -->
+        <div class="blank item item-main item-main-width"><!-- 가로형 썸네일 class="item-main-width" 추가 -->
+          <div class="item-main-wrap">
+            <div class="item-thumb">
+              <img src="../images/thumb/default_movie_370x277.png" class="thumb-img">
+            </div>
+            <div class="area-text item-tit"><div class="marquee text">default_movie_370x277.png</div></div>
+          </div>
+        </div><!-- //item -->
+      </div>
+      <!-- //vod -->
+      <!-- vod -->
+      <div class="main-column column-2"><!-- 가로방향 컨텐츠 2칸 class="column-2" -->
+        <div class="tit-category"><div class="text">Trending[TBD]</div><div class="bg-empty"></div></div><!-- uk only -->
+        <!-- item -->
+          <div class="blank item item-main">
+            <div class="item-main-wrap">
+              <div class="item-thumb">
+                <img src="../images/thumb/default_movie_370x542.png" class="thumb-img">
+              </div>
+              <div class="area-text item-tit"><div class="marquee text">default_movie_370x542.png</div></div>
+            </div>
+        </div><!-- //item --><!-- item --><div class="blank item item-main">
+            <div class="item-main-wrap">
+              <div class="item-thumb">
+                <img src="../images/temp/temp_02.jpg" class="thumb-img">
+              </div>
+              <div class="area-text item-tit"><div class="marquee text">w ITEM title title title marquee end</div></div>
+            </div>
+          </div><!-- //item -->
+      </div>
+      <!-- //vod -->
+      <!-- Apps &amp; Games -->
+      <div class="main-column column-1"><!-- 가로방향 컨텐츠 1칸 class="column-1" -->
+        <!-- item -->
+        <div class="blank item item-main-apps">
+          <div class="item-main-wrap">
+            <div class="item-thumb">
+              <img src="../images/thumb/default_app.png" class="thumb-img">
+            </div>
+            <div class="item-info">
+              <div class="area-text item-tit"><div class="marquee text">default_app.png</div></div>
+              <div class="app-category">category</div>
+              <div class="item-price">$2.99</div>
+            </div>
+          </div>
+        </div><!-- //item --><!-- item --><div class="blank item item-main-apps">
+          <div class="item-main-wrap">
+            <div class="item-thumb" style="background-color:#742873;"><!-- app* Hex컬러 있는 경우 -->
+              <img src="../images/temp/temp_app_01.jpg" class="thumb-img">
+            </div>
+            <div class="item-info">
+              <div class="area-text item-tit"><div class="marquee text">Facebook Apps Apps end</div></div>
+              <div class="app-category">category</div>
+              <div class="item-price">$2.99</div>
+            </div>
+          </div>
+        </div><!-- //item -->
+      </div>
+      <!-- //Apps &amp; Games -->
+      <!-- 광고 -->
+      <div class="main-column column-ban"><!-- 광고 컨텐츠 class="column-ban" -->
+        <!-- AD -->
+        <div class="blank item item-ad"><img src="../images/temp/temp-ad.png" class="thumb-img"></div>
+        <!-- //AD -->
+        <!-- theme banner -->
+        <div class="blank item theme-banner">
+          <div class="item-main-wrap">
+            <div class="thumb">
+              <img src="../images/temp/temp-theme-banner.png" class="thumb-img">
+            </div>
+            <div class="area-text ban-text"><div class="text">Theme banner</div></div>
+          </div>
+        </div>
+        <!-- //theme banner -->
+      </div>
+      <!-- //광고 -->
+    <!-- //content -->
+    </div>
+    <div class="scroll scroll-v ng-hide">
+      <div class="blank icon scroll-prev"></div>
+      <div class="scroll-area"><div class="scroll-bar" style="height:300px; top 0px;"></div></div>
+      <div class="blank icon scroll-next"></div>
+    </div>
+  </div>
+</div>
+<!-- //basic page -->
+
+<!-- tooltip -->
+<div class="tooltip tooltip-topR" style="left: 30.47rem;top: 9.33rem;">main<div class="bg-empty"></div></div><!-- 확인을 위한 임시좌표값 -->
+<!-- //tooltip -->
+</body>
+</html>

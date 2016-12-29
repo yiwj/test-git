@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+/* ---------2. UI BASE--------- */
+/* ------2.2. LAYOUT------ */
+/* animation */
+/* 2015-11-04 특정 보드에서 애니메이션이 동작하지 않는 문제로 -moz- 스타일 추가 */
+body > .page{left:100%;-webkit-transition-property:top, left;-webkit-transition-duration:0.31s/*0.14s 임시로 변경*/; -webkit-transition-timing-function:linear;-moz-transition-property:top, left;-moz-transition-duration:0.31s/*0.14s 임시로 변경*/;-moz-transition-timing-function:linear;transition-property:top, left;transition-duration:0.31s/*0.14s 임시로 변경*/;transition-timing-function:linear;}/*  20150715-화면 레이아웃 panels 로 변경 되면서 주석. */
+/*.page{margin-top: 0;  -webkit-transition-property:margin-top, top, left;}*/ /* Lite Ver */
+body > .page.direct{left:0;-webkit-transition-property:top;-moz-transition-property:top;transition-property:top;}/* 첫로딩시 메인 *//* 20150715-화면 레이아웃 panels 로 변경 되면서 주석. */
+body > .page.showing{left:0;/*-webkit-transition-property:left;*/}/* 보여질 page *//* 20150715-화면 레이아웃 panels 로 변경 되면서 주석. */
+body > .page.hiding{/*top:-100%;-webkit-transition-property:top;*/}/* 숨길 page *//* 20150715-화면 레이아웃 panels 로 변경 되면서 주석. */
+body > .hiding .panel-back{position:fixed;top:10.67rem;}/* 20150715-화면 레이아웃 panels 로 변경 되면서 주석. */
+ 
+/* panel animation 3.0 */
+.panels .panels-breadcrumbs {
+  z-index: 2; 
+  background-color: #000;
+  }
+  .main-drawer + .panels .panels-breadcrumbs {
+    z-index: 0;
+  }
+/*.panels .panels-breadcrumbs .after {
+  display: none;
+  position: relative;
+  height: 100%;
+  background-color: #000;
+  }
+  .panels .panels-breadcrumbs.hide .after {display: block;}*/
+
+.panels .breadcrumb,
+.panels .page { 
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transform: translateX(100%) translateZ(0);
+  -moz-transition-property: -moz-transform;
+  -moz-transform: translateX(100%) translateZ(0);
+  transition-property:transform;
+  transform: translateX(100%) translateZ(0);
+}
+.panels.transition-backward .breadcrumb,
+.panels.transition-backward .page {
+  -webkit-transform: translateX(-100%) translateZ(0);
+  -moz-transform: translateX(-100%) translateZ(0);
+  transform: translateX(-100%) translateZ(0);
+}
+.panels .page.direct {-webkit-transition-property: none;-moz-transition-property: none;transition-property: none;}
+.panels .direct,
+.panels .showing { 
+  -webkit-transform: translateX(0) translateZ(0) !important;
+  -moz-transform: translateX(0) translateZ(0) !important;
+  transform: translateX(0) translateZ(0) !important;
+}
+.panels .hiding { 
+  -webkit-transform: translateX(-100%) translateZ(0) !important;
+  -moz-transform: translateX(-100%) translateZ(0) !important;
+  transform: translateX(-100%) translateZ(0) !important;
+}
+.panels.transition-backward .hiding { 
+  -webkit-transform: translateX(100%) translateZ(0) !important;
+  -moz-transform: translateX(100%) translateZ(0) !important;
+  transform: translateX(100%) translateZ(0) !important;
+}
+.panels .breadcrumb.showing,
+.panels .breadcrumb.hiding {  
+  -webkit-transition-delay:0.1s/*0.23s 임시로 변경*/; /*0.5s 15년향*/
+  -webkit-transition-duration:0.2s/*0.07s 임시로 변경*/;
+  -webkit-transition-timing-function : cubic-bezier(.46,.28,.76,.57);  
+  -moz-transition-delay:0.1s/*0.23s 임시로 변경*/; /*0.5s 15년향*/
+  -moz-transition-duration:0.2s/*0.07s 임시로 변경*/;
+  -moz-transition-timing-function : cubic-bezier(.46,.28,.76,.57);  
+  transition-delay:0.1s/*0.23s 임시로 변경*/; /*0.5s 15년향*/
+  transition-duration:0.2s/*0.07s 임시로 변경*/;
+  transition-timing-function : cubic-bezier(.46,.28,.76,.57);  
+}
+.panels.transition-backward .breadcrumb.showing,
+.panels.transition-backward .breadcrumb.hiding {
+  -webkit-transition-delay:0.32s/*0.15s 임시로 변경*/; 
+  -webkit-transition-duration:0.32s/*0.15s 임시로 변경*/;
+  -webkit-transition-timing-function : cubic-bezier(.08,.51,.24,.99);
+  -moz-transition-delay:0.32s/*0.15s 임시로 변경*/; 
+  -moz-transition-duration:0.32s/*0.15s 임시로 변경*/;
+  -moz-transition-timing-function : cubic-bezier(.08,.51,.24,.99);
+  transition-delay:0.32s/*0.15s 임시로 변경*/; 
+  transition-duration:0.32s/*0.15s 임시로 변경*/;
+  transition-timing-function : cubic-bezier(.08,.51,.24,.99);
+}
+.panels .page.showing,
+.panels .page.hiding {  
+  -webkit-transition-duration:0.5s/*0.23s 임시로 변경*/;
+  -webkit-transition-timing-function : cubic-bezier(.69,.01,.97,.59); 
+  -moz-transition-duration:0.5s/*0.23s 임시로 변경*/;
+  -moz-transition-timing-function : cubic-bezier(.69,.01,.97,.59); 
+  transition-duration:0.5s/*0.23s 임시로 변경*/;
+  transition-timing-function : cubic-bezier(.69,.01,.97,.59); 
+}
+.panels.transition-backward .page.showing,
+.panels.transition-backward .page.hiding {
+  -webkit-transition-duration:0.47s/*0.3s 임시로 변경*/;
+  -webkit-transition-timing-function : cubic-bezier(.06,.53,.38,.99);
+  -moz-transition-duration:0.47s/*0.3s 임시로 변경*/;
+  -moz-transition-timing-function : cubic-bezier(.06,.53,.38,.99);
+  transition-duration:0.47s/*0.3s 임시로 변경*/;
+  transition-timing-function : cubic-bezier(.06,.53,.38,.99);
+}
+
+
+/* ---2.2.5. LAYOUT > search--- */
+/* animation*/
+.page-search{top:-100%;-webkit-transition:top 0.33s linear;-moz-transition:top 0.33s linear;transition:top 0.33s linear;}
+.page-search.search-show{top:0;}
+/* end-animation*/
+
+/* ------2.4. TEXT MARQUEE------ */
+.area-text.item-tit {-webkit-transform:translateZ(0);-moz-transform:translateZ(0);transform:translateZ(0);} /* marquee시 엘리먼트 떨림 수정 */
+
+/* animation */
+.area-text .marquee{-webkit-transform:translateX(0); -webkit-transition-property:-webkit-transform; transition-timing-function:linear; -webkit-transition-delay:0.7s;-moz-transform:translateX(0); -moz-transition-property:-moz-transform; transition-timing-function:linear; -moz-transition-delay:0.7s;transform:translateX(0);transition-property:transform; transition-timing-function:linear;transition-delay:0.7s;}
+/* end-animation */
+/* animation - focus 영역은 아니지만 marquee 되어야 하는 텍스트 - marquee-start 클래스 추가 */
+.no-event .marquee{-webkit-transform:translateX(0); -webkit-transition-property:-webkit-transform; transition-timing-function:linear; -webkit-transition-delay:0.7s;-moz-transform:translateX(0); -moz-transition-property:-moz-transform; transition-timing-function:linear; -moz-transition-delay:0.7s;transform:translateX(0);transition-property:transform; transition-timing-function:linear;transition-delay:0.7s;}
+.no-event .marquee-start{overflow:visible;position:relative;}
+/* end-animation */
+
+/* ------2.11. SUB MENU(CATEGORY)------ */
+/* accordion-animation */
+.menu-depth-drawer {
+  -webkit-transition-property:height;
+  -webkit-transition-duration:0.23s;
+  -webkit-transition-timing-function:linear;
+  -moz-transition-property:height;
+  -moz-transition-duration:0.23s;
+  -moz-transition-timing-function:linear;
+  transition-property:height;
+  transition-duration:0.23s;
+  transition-timing-function:linear;
+}
+.menu-text {-webkit-transform:translateZ(0);-moz-transform:translateZ(0);transform:translateZ(0);} /* marquee시 엘리먼트 떨림 수정 */
+/* end-animation */
+
+/* ---------3. DEPTH CONTENT--------- */
+
+/* ---------4. SEARCH--------- */
+
+/* ---------5. POPUP--------- */
+
+/* ------5.1 BASIC POPUP------ */
+/* animation */
+.popup-list-option {-webkit-transition:top 0.225s linear;-moz-transition:top 0.225s linear;transition:top 0.225s linear;}
+.popup-list-option.popup-open {top:1.33rem;}
+/* end-animation */
+
+/* ---------6. MAIN--------- */
+
+/* ---------7. PLAYER--------- */
+
+/* ---------8. HELP GUIDE--------- */
+
+/* ---------9. LANGUAGE--------- */
+
+/* ---------10. ACCESSIBILITY--------- */
+
+/* ---------11. RTL--------- */

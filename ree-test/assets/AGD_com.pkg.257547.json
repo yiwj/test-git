@@ -1,0 +1,95 @@
+{
+  "app" : {
+    "type" : "P",
+    "id" : "com.pkg.257547",
+    "bPremium" : false,
+    "name" : "EventTest",
+    "createDate" : "2014-12-15",
+    "updateDate" : "2014-12-12",
+    "categoryId" : "005",
+    "categoryName" : "어학/교육",
+    "description" : "EventTest EventTest EventTest EventTest",
+    "currencyCode" : "KRW",
+    "bFree" : "N",
+    "price" : 13000.0,
+    "displayPrice" : "￦13,000",
+    "event" : "Y",
+    "eventPrice" : 2000.0,
+    "displayEventPrice" : "￦2,000",
+    "evaluationYN" : "N",
+    "evaluationCount" : 0,
+    "evaluationAverage" : 0.0,
+    "ageType" : "0",
+    "adultYN" : "N",
+    "sellerId" : 85850,
+    "sellerName" : "fd9020sel",
+    "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20141212/1_130x130_webos.png",
+    "capability" : {
+      "useGamePad" : "N",
+      "useInternet" : "N",
+      "sdkVersion" : "1.0.0",
+      "use3d" : "N",
+      "useCamera" : "N",
+      "useMagic" : "N"
+    },
+    "appPreviewCount" : 2,
+    "appPreviewList" : [ {
+      "previewId" : 505350,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20140731/8.png"
+    }, {
+      "previewId" : 505352,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20130825/4.png"
+    } ],
+    "appCount" : 2,
+    "appList" : [ {
+      "id" : "com.85850.174542",
+      "bPremium" : false,
+      "name" : "FD_PRICE_MAX",
+      "categoryName" : "어학/교육",
+      "bItem" : "N",
+      "price" : 13000.0,
+      "displayPrice" : "￦13,000",
+      "event" : "N",
+      "eventPrice" : 13000.0,
+      "displayEventPrice" : "￦13,000",
+      "evaluationCount" : 1,
+      "evaluationAverage" : 6.0,
+      "ageType" : "0",
+      "adultYN" : "N",
+      "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20130825/2_130x130_webos.png",
+      "purchasable" : "Y",
+      "bPurchased" : "N",
+      "appFileCount" : 1,
+      "appFileList" : [ {
+        "fileId" : 493560,
+        "packFileSize" : 59602,
+        "unpackFileSize" : 78094
+      } ]
+    }, {
+      "id" : "com.palmdts.devmode",
+      "bPremium" : false,
+      "name" : "Developer Mode",
+      "categoryName" : "어학/교육",
+      "bItem" : "N",
+      "price" : 0.0,
+      "displayPrice" : "￦0",
+      "event" : "N",
+      "eventPrice" : 0.0,
+      "displayEventPrice" : "￦0",
+      "evaluationCount" : 5,
+      "evaluationAverage" : 6.0,
+      "ageType" : "0",
+      "adultYN" : "N",
+      "iconColor" : "#BB3F3F",
+      "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150331/10711648804451316developer_130_130x130_webos.png",
+      "purchasable" : "Y",
+      "bPurchased" : "N",
+      "appFileCount" : 1,
+      "appFileList" : [ {
+        "fileId" : 623252,
+        "packFileSize" : 4822828,
+        "unpackFileSize" : 92454
+      } ]
+    } ]
+  }
+}

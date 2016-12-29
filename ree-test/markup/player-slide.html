@@ -1,0 +1,174 @@
+<!doctype html>
+<html ng-app="discoveryApp" class="ng-scope">
+<head>
+<style type="text/css">
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="../css/store16.css" rel="stylesheet">
+<link href="../css/store16-animation.css" rel="stylesheet"><!-- animation 분리 / Lite 에서는 store16-animation-lite.css 으로 변경  -->
+<script type="text/javascript" src="pub-dreadlocks.js"></script>
+<style type="text/css">
+/* html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+::-webkit-scrollbar{width:0;}
+.panel-body{overflow-y:scroll;pointer-events:auto;}
+/* end-html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+</style>
+</head>
+<body class="dir-rtl-"><!-- RTL 언어 class="dir-rtl" -->
+<!-- drawer -->
+<div class="drawer"><!-- 20150608 수정 -->
+  <div class="blank drawer-category drawer-featured"></div><div class="blank drawer-category drawer-tvshows"></div><div class="blank drawer-category drawer-movies"></div><div class="blank drawer-category drawer-premium"></div><div class="blank drawer-category drawer-appsngames"></div><div class="blank drawer-category drawer-mypage"></div><div class="blank drawer-category drawer-search"></div><div class="blank drawer-category drawer-close"></div>
+</div>
+<!-- //drawer -->
+
+<!-- basic page -->
+<div class="page panel-list showing"><!-- 화면 show 경우 class="showing" --></div>
+<!-- //basic page -->
+
+<!-- player - 동영상/이미지 뷰어 -->
+<div class="player">
+  <div class="player_thumb" style="display: block; background-image: url(../images/temp/temp_player.png);"></div><!-- 이미지 -->
+  <!-- player-header -->
+  <div class="player-header ng-hide"></div>
+  <!-- //player-header -->
+  <!-- player-cont -->
+  <div class="player-cont ng-hide"></div>
+  <!-- //player-cont -->
+  <!-- Slide Show list -->
+  <div class="player-slide">
+    <div class="player-slide-head">
+      <div class="area-text no-event slide-title">
+        <div class="marquee text">contents title</div>
+      </div>
+      <div class="wrap-btn-slide">
+        <!-- player-slide-speed -->
+        <div class="player-slide-speed">
+          <div class="blank btn btn-large btn-fixed-icon btn-player-opt btn-open"><!-- 옵션창 보이는 경우 class="btn-open" 추가 -->
+            <div class="area-text"><div class="text marquee">SPEED</div></div><div class="icon"></div>
+          </div>
+          <!-- 현재 속도 -->
+          <div class="txt-speed">Medium</div>
+          <!-- pop-play-opt -->
+          <div class="popup-contextual pop-play-opt">
+            <div class="pop-play-cont">
+              <div class="blank option-list">
+                <div class="icon-bullet"></div>
+                <div class="area-text"><div class="marquee text">Fast</div></div>
+              </div>
+              <div class="blank option-list on focus">
+                <div class="icon-bullet"></div>
+                <div class="area-text"><div class="marquee text">Medium</div></div>
+              </div>
+              <div class="blank option-list">
+                <div class="icon-bullet"></div>
+                <div class="area-text"><div class="marquee text">Slow</div></div>
+              </div>
+            </div>
+            <div class="bg-empty bg-bottom"><div class="bg-empty-inner"></div><div class="bg-empty-inner2"></div></div><!-- 꼬리말이 아래에 있는 경우 class="bg-bottom"추가 -->
+          </div>
+          <!-- //pop-play-opt -->
+        </div> 
+        <!-- //player-slide-speed -->
+        <div class="blank btn btn-large">
+          <div class="area-text"><div class="text marquee">close</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="player-slide-cont">
+      <div class="player-scroller" style="left:0;width:2000px;"><!-- 임시 임의값 -->
+        <!-- 개발단에 썸네일 리사이징 적용 위해 썸네일 영역 값 전달 
+              일반 : 140 * 104, 라이트 : 93 * 69 -->
+        <!-- item-slide -->
+        <div class="blank item-slide">
+          <img src="../images/thumb/default_tvshow_280x410.png" class="thumb-img">
+          <div class="frame-empty"></div>
+          <div class="icon-player icon-video"></div>
+        </div>
+        <!-- //item-slide -->
+        <!-- item-slide -->
+        <div class="blank item-slide">
+          <img src="http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/still_2014_0609_17_03_55__53956a6b8a364[s500,500].jpg" class="thumb-img">
+          <div class="frame-empty"></div>
+          <div class="icon-player icon-video"></div>
+        </div>
+        <!-- //item-slide -->
+        <!-- item-slide -->
+        <div class="blank item-slide">
+          <img src="../images/temp/thum_w2.jpg" class="thumb-img">
+          <div class="frame-empty"></div>
+          <div class="icon-player icon-video"></div>
+        </div>
+        <!-- //item-slide -->
+        <!-- item-slide -->
+        <div class="blank item-slide">
+          <img src="../images/temp/thum_w3.jpg" class="thumb-img">
+          <div class="frame-empty"></div>
+          <div class="icon-player icon-video"></div>
+        </div>
+        <!-- //item-slide -->
+        <!-- item-slide -->
+        <div class="blank item-slide">
+          <img src="http://image.cine21.com/cine21/still/2014/0206/10_39_09__52f2e7bdb2bf1.jpg" class="thumb-img">
+          <div class="frame-empty"></div>
+          <div class="icon-player icon-video"></div>
+        </div>
+        <!-- //item-slide -->
+        <!-- item-slide -->
+        <div class="blank item-slide">
+          <img src="http://image.cine21.com/cine21/still/2014/0206/10_39_09__52f2e7bdb2bf1.jpg" class="thumb-img">
+          <div class="frame-empty"></div>
+          <div class="icon-player icon-video"></div>
+        </div>
+        <!-- //item-slide -->
+        <!-- item-slide -->
+        <div class="blank item-slide focus"><!-- focus -->
+          <img src="http://image.cine21.com/cine21/still/2014/0206/10_39_09__52f2e7bdb2bf1.jpg" class="thumb-img">
+          <div class="frame-empty"></div>
+          <div class="icon-player icon-video"></div>
+        </div>
+        <!-- //item-slide -->
+        <!-- item-slide -->
+        <div class="blank item-slide on"><!-- 보여지고 있는 컨텐츠 class="on" -->
+          <img src="../images/thumb/default_photo.png" class="thumb-img">
+          <div class="frame-empty"></div>
+          <div class="icon-player icon-video"></div>
+        </div>
+        <!-- //item-slide -->
+        <!-- item-slide -->
+        <div class="blank item-slide on focus">
+          <img src="../images/thumb/default_photo_invalid.png" class="thumb-img">
+          <div class="frame-empty"></div>
+          <div class="icon-player icon-video"></div>
+        </div>
+        <!-- //item-slide -->
+        <!-- item-slide -->
+        <div class="blank item-slide item-video"><!-- 영상인 경우 class="item-video" 추가 -->
+          <img src="../images/thumb/default_video_invalid.png" class="thumb-img">
+          <div class="frame-empty"></div>
+          <div class="icon-player icon-video"></div>
+        </div>
+        <div class="blank item-slide item-video focus"><!-- 영상인 경우 class="item-video" 추가 -->
+          <img src="../images/thumb/default_video.png" class="thumb-img">
+          <div class="frame-empty"></div>
+          <div class="icon-player icon-video"></div>
+        </div>
+        <!-- //item-slide -->
+      </div>
+    </div>
+    <div class="scroll scroll-h">
+      <div class="blank icon scroll-prev focus"></div>
+      <div class="scroll-area"><div class="scroll-bar" style="width: 454px; left: 0px;"></div></div>
+      <div class="blank icon scroll-next"></div>
+    </div>
+  </div>
+  <!-- //Slide Show list -->
+</div>
+<!-- //player - 동영상/이미지 뷰어 -->
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+<div class="page panel-detail">
+  <div class="panel-header">
+    <div class="area-text no-event panel-title">
+      <div class="marquee text" ng-bind="title"></div>
+    </div>
+    <!--div class="panel-sub">
+      <div class="sub-text sub-title">{{labelData.episodeUnit}}</div><div class="bar-empty">|</div>
+      <div class="sub-text sub-sub-title">List 정렬 옵션항목 !@#$%^&*()_+|\][{}?/</div><div class="bar-empty">|</div>
+      <div class="item-grade sub-grade"><div class="icon percent-grade" style="width:70%;"></div><div class="icon bg-grade"></div></div>
+    </div>
+    <div class="wrap-btn-header">
+      <div class="blank btn btn-small">
+        <div class="area-text"><div class="text marquee">rating this</div></div>
+      </div>
+    </div-->
+  </div>
+  <div id="subTitle" class="panel-sub" ng-if="isSubTitle">
+    <div class="sub-text sub-title" ng-bind="subTitle"></div>
+  </div>
+  <div class="detail-brief">
+    <div class="item-thumb">
+      <img ng-src="{{posterURL}}" style="{{posterStyle}}" class="thumb-img" image-loader d-img-type="{{module}}">
+    </div>
+    <div class="blank btn btn-large" item="watch" ng-if="isWatchable()">
+      <div class="area-text"><div class="text marquee" ng-bind="labelData.watchBtn"></div></div>
+    </div>
+    <div class="blank btn btn-large" item="trailer" ng-if="isAdPlayer">
+      <div class="area-text"><div class="text marquee" ng-bind="labelData.trailorBtn"></div></div>
+    </div>
+  </div>
+
+  <div class="panel-body">
+    <div class="panel-cont detail-scroller" ng-show="drawed">
+
+    <!-- content -->
+      <!-- sec-episode -->
+      <div class="detail-section sec-episode" ng-if="isSeasonData||isEpisodeData" detail-section-handle>
+        <div class="sec-title detail-title" ng-bind="labelData.seasonEpisode"></div>
+
+        <div class="blank btn btn-small btn-season item-seasonBtn-0" ng-class="{'btn-open' : $root.season.hide == false && type == 'season'}" ng-if="isSeasonData" item="item-seasonBtn-0">
+          <div class="area-text"><div class="text marquee" ng-bind="selSeasonName"></div></div><div class="icon"></div>
+        </div>
+
+        <!-- Episode 리스트 -->
+        <div class="sec-cont detail-episode-list">
+          <div class="blank btn btn-large item-episodeBtn-{{$index}}" ng-class="{'on': item.isSelect == true}" item="item-episodeBtn-{{$index}}" ng-repeat="item in episode.items" ng-if="isEpisodeData" item-id="{{item.id}}">
+            <div class="area-text"><div class="text marquee" ng-bind="item.name">&nbsp;</div></div>
+          </div>
+        </div>
+
+        <div class="blank btn-more item-episodeMore-0" item="item-episodeMore-0" ng-if="useEpisodeMore" more-button-handle></div>
+      </div>
+      <!-- //sec-episode -->
+
+      <!-- sec-info-brief -->
+      <div class="sec-info-brief">
+        <div class="info-brief" ng-if="isYearData">
+          <div class="sec-title detail-title" ng-bind="labelData.yearTitle"></div>
+          <div class="info-cont" ng-bind="year.content"></div>
+        </div>
+        <div class="info-brief" ng-if="isRunningTime">
+          <div class="sec-title detail-title" ng-bind="labelData.runningTitle"></div>
+          <div class="info-cont" ng-bind="runningTime.content"><div class="unit" ng-bind="labelData.runningUnit"></div></div>
+        </div>
+        <div class="info-brief" ng-if="isRating && !isBrazil">
+          <div class="sec-title detail-title" ng-bind="labelData.gradeTitle"></div>
+          <div class="info-cont" ng-bind="grade.content"></div>
+        </div>
+        <div class="info-brief" ng-if="isRating && isBrazil">
+          <div class="sec-title detail-title info-tit" ng-bind="labelData.gradeTitle"></div>
+          <div class="info-cont icon icon-grade-{{grade.content}}"></div>
+        </div>
+        <div class="info-brief">
+          <div class="sec-title detail-title" ng-bind="labelData.availableIn"></div>
+          <div class="list-cp-icon">
+            <div class="icon-thumb" ng-repeat="cp in detailData.item_detail.exec_list.execs"><img ng-src="{{cp.img_url_cp}}" class="thumb-img" auto-item-id="{{cp.exec_app_id}}"></div>
+          </div>
+        </div>
+      </div>
+      <!-- //sec-info-brief -->
+
+      <!-- sec-info-detail -->
+      <div class="detail-section sec-info-detail" ng-if="detail" detail-section-handle>
+        <div class="sec-title detail-title" ng-bind="labelData.detailTitle"></div>
+        <div class="detail-cont">
+          <div class="synopsis-info synopsis-category" ng-bind="detail.genre"></div><div class="bar-empty" ng-if="isScore">|</div>
+          <div class="item-grade synopsis-grade" ng-if="isScore"><div class="icon percent-grade" style="width: {{detail.score * 10}}%;"></div><div class="icon bg-grade"></div></div><div class="bar-empty">|</div>
+          <div class="synopsis-info synopsis-name" ng-bind="director"></div>
+          <div class="synopsis-info synopsis-name" ng-bind="actors"></div>
+          <div class="synopsis-text" ng-bind="detail.content"></div>
+        </div>
+        <div class="blank btn-more item-descBtn-0" item="item-descBtn-0" ng-if="useDescMore" more-button-handle></div>
+      </div>
+      <!-- //sec-info-detail -->
+
+      <div class="detail-section sec-detail-list" ng-if="isRecommendData" detail-section-handle>
+        <div class="sec-title detail-title" ng-bind="labelData.recommendTitle"></div>
+        <div class="sec-cont detail-list">
+          <!-- item -->
+          <div class="blank item item-detail {{getSkinClass()}} item-recommend-{{$index}}" item="item-recommend-{{$index}}" ng-repeat="item in recommend.items" ng-if="item.showRecommend" item-type="recommend" item-id="{{item.id}}"><!-- 가로형 썸네일 class="item-detail-width" 추가 -->
+            <div class="item-thumb">
+              <img class="detail-item-poster detail-item-recommend" ng-src="{{item.img}}" class="thumb-img" image-resize d-img-type="{{module}}" >
+            </div>
+            <div class="area-text item-tit"><div class="marquee text" ng-bind="item.title"></div></div>
+          </div>
+        </div>
+        <div class="blank btn-more item-recommendBtn-0" item="item-recommendBtn-0" ng-if="recommendData.length > recommColCount" more-button-handle></div>
+      </div>
+      <!-- //Recommendation -->
+
+      <!-- Trailor’s &amp; Photo -->
+      <div class="detail-section sec-detail-list" ng-if="isPhotoData" detail-section-handle>
+        <div class="sec-title detail-title" ng-bind="labelData.photoTitle"></div>
+        <div class="sec-cont detail-list-trailer">
+          <!-- item -->
+          <div class="blank item item-trailer item-video item-photo-{{$index}}" item="item-photo-{{$index}}" ng-repeat="item in photo.items" ng-if="item.showPhoto" item-type="photo" item-id="{{item.id}}"><!--  영상인 경우 class="item-video" 추가 -->
+            <div class="item-thumb">
+              <img class="detail-photo-poster" ng-src="{{item.img}}" class="thumb-img" image-resize d-img-type="{{item.type ? 'VD' : 'PT'}}">
+            </div>
+            <div ng-if="item.type" class="icon-player icon-video"></div>
+          </div>
+        </div>
+        <div class="blank btn-more item-photoBtn-0" item="item-photoBtn-0" ng-if="photoData.length > 4" more-button-handle></div>
+      </div>
+      <!-- //Trailor’s &amp; Photo -->
+    <!-- //content -->
+
+    </div>
+    <div scroll class="scroll scroll-v"></div>
+  </div>
+</div>

@@ -1,0 +1,311 @@
+{"scopeName": "featured", "contentsList": [
+  {
+    "column": "2",
+    "category": "appsngameshot",
+    "contentsTitle": "Apps & Games",
+    "contents": [
+      {
+        "id": "netflix",
+        "img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150924/1376609436440191LARGE_APP_ICON_130x130_webos.png",
+        "name": "Netflix",
+        "categoryName": "엔터테인먼트",
+        "price": "￦0",
+        "iconColor": "#FFFFFF",
+        "appType": "HOT"
+      },
+      {
+        "id": "com.nabiesoft.bobblepong",
+        "img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=…th=/appstore/app/icon/20150820/2243551611104253largeIcon_130x130_webos.png",
+        "name": "Bobble Pong",
+        "categoryName": "게임",
+        "price": "￦0",
+        "iconColor": "#40A7D2",
+        "appType": "HOT"
+      },
+      {
+        "id": "com.palmdts.devmode",
+        "img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=…appstore/app/icon/20160112/6660749289290255developer_130_130x130_webos.png",
+        "name": "Developer Mode",
+        "categoryName": "어학/교육",
+        "price": "￦0",
+        "iconColor": "#BB3F3F",
+        "appType": "HOT"
+      },
+      {
+        "id": "com.test.app.webds4",
+        "img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=…ath=/appstore/app/icon/20150821/2308865369324253icon_big_130x130_webos.png",
+        "name": "TestDS4",
+        "categoryName": "게임",
+        "price": "￦0",
+        "appType": "HOT"
+      },
+      {
+        "id": "com.cjpowercast.uhdapp",
+        "img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=…store/app/icon/20150922/1218837140770191logo_kor_130X130_130x130_webos.png",
+        "name": "울트라 HD 월드",
+        "categoryName": "엔터테인먼트",
+        "price": "￦0",
+        "iconColor": "#000000",
+        "appType": "HOT"
+      },
+      {
+        "id": "com.mvpd.app.swptest",
+        "img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150714/4_130x130_webos.png",
+        "name": "swp.test.mvpd",
+        "categoryName": "뉴스 & 정보",
+        "price": "￦0",
+        "iconColor": "#F4C33D",
+        "appType": "HOT"
+      },
+      {
+        "id": "uptest",
+        "img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150709/2_130x130_webos.png",
+        "name": "app up test ",
+        "categoryName": "엔터테인먼트",
+        "price": "￦0",
+        "appType": "HOT"
+      },
+      {
+        "id": "com.test.app.testndk0713",
+        "img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=…le_path=/appstore/app/icon/20151224/5028125302185255icon_130x130_webos.png",
+        "name": "[TEST]TESTNDK(DRD4TV) ",
+        "categoryName": "게임",
+        "price": "￦0",
+        "appType": "HOT"
+      },
+      {
+        "id": "netflix",
+        "img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150924/1376609436440191LARGE_APP_ICON_130x130_webos.png",
+        "name": "Netflix추가",
+        "categoryName": "엔터테인먼트",
+        "price": "￦0",
+        "iconColor": "#FFFFFF",
+        "appType": "HOT"
+      },
+      {
+        "id": "com.nabiesoft.bobblepong",
+        "img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=…th=/appstore/app/icon/20150820/2243551611104253largeIcon_130x130_webos.png",
+        "name": "Bobble Pong추가",
+        "categoryName": "게임",
+        "price": "￦0",
+        "iconColor": "#40A7D2",
+        "appType": "HOT"
+      },
+      {
+        "id": "com.palmdts.devmode",
+        "img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=…appstore/app/icon/20160112/6660749289290255developer_130_130x130_webos.png",
+        "name": "Developer Mode추가",
+        "categoryName": "어학/교육",
+        "price": "￦0",
+        "iconColor": "#BB3F3F",
+        "appType": "HOT"
+      },
+      {
+        "id": "com.test.app.webds4",
+        "img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=…ath=/appstore/app/icon/20150821/2308865369324253icon_big_130x130_webos.png",
+        "name": "TestDS4추가",
+        "categoryName": "게임",
+        "price": "￦0",
+        "appType": "HOT"
+      },
+      {
+        "id": "com.cjpowercast.uhdapp",
+        "img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=…store/app/icon/20150922/1218837140770191logo_kor_130X130_130x130_webos.png",
+        "name": "울트라 HD 월드추가",
+        "categoryName": "엔터테인먼트",
+        "price": "￦0",
+        "iconColor": "#000000",
+        "appType": "HOT"
+      },
+      {
+        "id": "com.mvpd.app.swptest",
+        "img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150714/4_130x130_webos.png",
+        "name": "swp.test.mvpd추가",
+        "categoryName": "뉴스 & 정보",
+        "price": "￦0",
+        "iconColor": "#F4C33D",
+        "appType": "HOT"
+      },
+      {
+        "id": "uptest",
+        "img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150709/2_130x130_webos.png",
+        "name": "app up test 추가",
+        "categoryName": "엔터테인먼트",
+        "price": "￦0",
+        "appType": "HOT"
+      },
+      {
+        "id": "com.test.app.testndk0713",
+        "img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=…le_path=/appstore/app/icon/20151224/5028125302185255icon_130x130_webos.png",
+        "name": "[TEST]TESTNDK(DRD4TV) 추가",
+        "categoryName": "게임",
+        "price": "￦0",
+        "appType": "HOT"
+      }
+    ],
+    "banners": []
+  },
+  {
+    "column": "3",
+    "category": "tvshows",
+    "contentsTitle": "TV 다시보기1111",
+    "contents": [
+      {
+        "id": "com.lge.meta.crawler.cine21.Cine21Crawler|tv_6885",
+        "img": "http://kic-qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/cine21/program/poster_2015_1109_6885_5640380c8a364[S282,414].jpg",
+        "size": "V292X414",
+        "name": "응답하라 1988",
+        "execCpListString": "com.lge.meta.crawler.cjenm.CJENMCrawler"
+      },
+      {
+        "id": "com.lge.meta.crawler.cine21.Cine21Crawler|tv_1614",
+        "img": "http://kic-qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/cine21/program/poster_2015_0522_15_02_18__555ec66a619e0[S282,414].jpg",
+        "size": "V285X414",
+        "name": "무한도전",
+        "execCpListString": "com.lge.meta.crawler.pooq2.Pooq2Crawler"
+      },
+      {
+        "id": "com.lge.meta.crawler.cine21.Cine21Crawler|tv_5730",
+        "img": "http://kic-qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/cine21/program/poster_2015_0311_13_39_13__54ffc6f16a736[S282,414].jpg",
+        "size": "V377X414",
+        "name": "마이 리틀 텔레비전",
+        "execCpListString": "com.lge.meta.crawler.pooq2.Pooq2Crawler"
+      },
+      {
+        "id": "com.lge.meta.crawler.cine21.Cine21Crawler|tv_6781",
+        "img": "http://kic-qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/cine21/program/poster_2015_1001_6781_560cf0c2be487[S282,414].jpg",
+        "size": "V291X414",
+        "name": "육룡이 나르샤",
+        "execCpListString": "com.lge.meta.crawler.pooq2.Pooq2Crawler"
+      },
+      {
+        "id": "com.lge.meta.crawler.cine21.Cine21Crawler|tv_6776",
+        "img": "http://kic-qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/cine21/program/poster_2015_0922_6776_5600f93b22437[S282,414].jpg",
+        "size": "V292X414",
+        "name": "장사의 신 - 객주 2015",
+        "execCpListString": "com.lge.meta.crawler.pooq2.Pooq2Crawler"
+      },
+      {
+        "id": "com.lge.meta.crawler.cine21.Cine21Crawler|tv_6724",
+        "img": "http://kic-qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/cine21/program/poster_2015_0904_6724_55e959d36b373[S282,414].jpg",
+        "size": "V278X414",
+        "name": "내 딸, 금사월",
+        "execCpListString": "com.lge.meta.crawler.pooq2.Pooq2Crawler"
+      },
+      {
+        "id": "com.lge.meta.crawler.cine21.Cine21Crawler|tv_5027",
+        "img": "http://kic-qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/cine21/program/poster_2013_1018_40475_5260eeb3b0f7e_l_2013101102000555800139351_59_20131011225002[S282,414].jpg",
+        "size": "V293X414",
+        "name": "응답하라 1994",
+        "execCpListString": "com.lge.meta.crawler.cjenm.CJENMCrawler"
+      },
+      {
+        "id": "com.lge.meta.crawler.cine21.Cine21Crawler|tv_1786",
+        "img": "http://kic-qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/cine21/program/poster_2012_0202_M0010045_2012-02-0210-59-14[S282,414].jpg",
+        "size": "V345X414",
+        "name": "런닝맨",
+        "execCpListString": "com.lge.meta.crawler.pooq2.Pooq2Crawler"
+      },
+      {
+        "id": "com.lge.meta.crawler.cine21.Cine21Crawler|tv_6776",
+        "img": "http://kic-qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/cine21/program/poster_2015_0922_6776_5600f93b22437[S282,414].jpg",
+        "size": "V292X414",
+        "name": "장사의 신 - 객주 2015 추가",
+        "execCpListString": "com.lge.meta.crawler.pooq2.Pooq2Crawler"
+      },
+      {
+        "id": "com.lge.meta.crawler.cine21.Cine21Crawler|tv_6724",
+        "img": "http://kic-qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/cine21/program/poster_2015_0904_6724_55e959d36b373[S282,414].jpg",
+        "size": "V278X414",
+        "name": "내 딸, 금사월 추가",
+        "execCpListString": "com.lge.meta.crawler.pooq2.Pooq2Crawler"
+      },
+      {
+        "id": "com.lge.meta.crawler.cine21.Cine21Crawler|tv_5027",
+        "img": "http://kic-qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/cine21/program/poster_2013_1018_40475_5260eeb3b0f7e_l_2013101102000555800139351_59_20131011225002[S282,414].jpg",
+        "size": "V293X414",
+        "name": "응답하라 1994 추가",
+        "execCpListString": "com.lge.meta.crawler.cjenm.CJENMCrawler"
+      },
+      {
+        "id": "com.lge.meta.crawler.cine21.Cine21Crawler|tv_1786",
+        "img": "http://kic-qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/cine21/program/poster_2012_0202_M0010045_2012-02-0210-59-14[S282,414].jpg",
+        "size": "V345X414",
+        "name": "런닝맨 추가",
+        "execCpListString": "com.lge.meta.crawler.pooq2.Pooq2Crawler"
+      }
+    ],
+    "banners": [
+      {
+        "column": "1",
+        "order": "1",
+        "img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=PREMIUM&func_code=RECOMM_BANNER_IMAGE&file_path=/premium/recomm/banner/5_1.png",
+        "id": "5547",
+        "name": "특정CP테마테스트"
+      }
+    ]
+  }
+], "headRollingInterval": "30", "contentsRollingInterval": 10, "headList": [
+  {
+    "category": "tvshows",
+    "categoryText": "TV 다시보기",
+    "title": "응답하라 1988",
+    "genreId": " 2",
+    "image": "https://qt2-kr.lgrecommends.lgappstv.com/gi-image/genreimage/genre_19_a.png",
+    "bgHexCode": "#222522",
+    "description": "쌍팔년도 쌍문동, 한 골목 다섯 가족의 왁자지껄 코믹 가족극    [데이터제공: Cine21]",
+    "id": "com.lge.meta.crawler.cine21.Cine21Crawler|tv_6885"
+  },
+  {
+    "category": "movies",
+    "categoryText": "영화",
+    "title": "베테랑",
+    "genreId": " 2, 6",
+    "image": "https://qt2-kr.lgrecommends.lgappstv.com/gi-image/genreimage/genre_19_b.png",
+    "bgHexCode": "#281d2e",
+    "description": "한 번 꽂힌 것은 무조건 끝을 보는 행동파 ‘서도철’(황정민), 20년 경력의 승부사 ‘오팀장’(오달수), 위장 전문 홍일점 ‘미스봉’(장윤주), 육체파 ‘왕형사’(오대환), 막내 ‘윤형사’(김시후)까지  겁 없고, 못 잡는 것 없고, 봐주는 것 없는 특수 강력사건 담",
+    "id": "com.lge.meta.crawler.cine21.Cine21Crawler|41344"
+  },
+  {
+    "category": "premium",
+    "categoryText": "프리미엄",
+    "title": "채널 플러스",
+    "genreId": "003",
+    "image": "https://qt2-kr.lgrecommends.lgappstv.com/gi-image/genreimage/genre_17_a.png",
+    "bgHexCode": "#36190a",
+    "price": "￦0",
+    "id": "channelplus"
+  },
+  {
+    "category": "appsngames",
+    "categoryText": "앱 & 게임",
+    "title": "Internet Speed",
+    "genreId": "004",
+    "image": "https://qt2-kr.lgrecommends.lgappstv.com/gi-image/genreimage/genre_26_a.png",
+    "bgHexCode": "#070611",
+    "genreName": "생활",
+    "price": "￦0",
+    "id": "com.lgerp.speedtest"
+  }
+], "menuList": [
+  {
+    "menuText": "TV 다시보기",
+    "serviceCode": "tvshows"
+  },
+  {
+    "menuText": "영화",
+    "serviceCode": "movies"
+  },
+  {
+    "menuText": "프리미엄",
+    "serviceCode": "premium"
+  },
+  {
+    "menuText": "앱 & 게임",
+    "serviceCode": "appsngames"
+  },
+  {
+    "menuText": "마이 페이지",
+    "serviceCode": "mypage"
+  }
+], "cpMetadataFlag": "N"}

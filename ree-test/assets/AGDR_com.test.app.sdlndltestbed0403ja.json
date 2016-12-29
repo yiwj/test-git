@@ -1,0 +1,99 @@
+{
+  "recommendedApp" : {
+    "rcmdCategoryCount" : 3,
+    "rcmdCategoryList" : [ {
+      "rcmdId" : 0,
+      "rcmdName" : "구매자들이 선택한 다른 앱",
+      "rcmdAppCount" : 0
+    }, {
+      "rcmdId" : 1,
+      "rcmdName" : "판매자 추천",
+      "rcmdAppCount" : 5,
+      "appList" : [ {
+        "type" : "S",
+        "id" : "com.test.app.sdlndltestbed0401h",
+        "bPremium" : false,
+        "name" : "SDLNDLTEST",
+        "categoryId" : "002",
+        "categoryName" : "게임",
+        "currencyCode" : "KRW",
+        "price" : 0.0,
+        "displayPrice" : "￦0",
+        "event" : "N",
+        "eventPrice" : 0.0,
+        "displayEventPrice" : "￦0",
+        "evaluationAverage" : 0.0,
+        "ageType" : "SL0801",
+        "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150408/11470812162601316icon_large_130x130_webos.png"
+      }, {
+        "type" : "S",
+        "id" : "com.test.app.sdlndltestbed0401",
+        "bPremium" : false,
+        "name" : "SDLNDLTEST",
+        "categoryId" : "002",
+        "categoryName" : "게임",
+        "currencyCode" : "KRW",
+        "price" : 0.0,
+        "displayPrice" : "￦0",
+        "event" : "N",
+        "eventPrice" : 0.0,
+        "displayEventPrice" : "￦0",
+        "evaluationAverage" : 0.0,
+        "ageType" : "SL0801",
+        "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150401/10784467639918316icon_large_130x130_webos.png"
+      }, {
+        "type" : "S",
+        "id" : "com.test.app.testmedia",
+        "bPremium" : false,
+        "name" : "TestMedia",
+        "categoryId" : "002",
+        "categoryName" : "게임",
+        "currencyCode" : "KRW",
+        "price" : 0.0,
+        "displayPrice" : "￦0",
+        "event" : "N",
+        "eventPrice" : 0.0,
+        "displayEventPrice" : "￦0",
+        "evaluationAverage" : -2.5,
+        "ageType" : "SL0801",
+        "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20141023/10310725110038146icon_large_130x130_webos.png"
+      }, {
+        "type" : "S",
+        "id" : "com.test.app.media0422",
+        "bPremium" : false,
+        "name" : "TestMedia",
+        "categoryId" : "002",
+        "categoryName" : "게임",
+        "currencyCode" : "KRW",
+        "price" : 0.0,
+        "displayPrice" : "￦0",
+        "event" : "N",
+        "eventPrice" : 0.0,
+        "displayEventPrice" : "￦0",
+        "evaluationAverage" : 0.0,
+        "ageType" : "SL0801",
+        "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20140722/2256272166540114icon_large_130x130_webos.png"
+      }, {
+        "type" : "S",
+        "id" : "com.test.app.maelstrom0418",
+        "bPremium" : false,
+        "name" : "Maelstrom0418",
+        "categoryId" : "002",
+        "categoryName" : "게임",
+        "currencyCode" : "KRW",
+        "price" : 0.0,
+        "displayPrice" : "￦0",
+        "event" : "N",
+        "eventPrice" : 0.0,
+        "displayEventPrice" : "￦0",
+        "evaluationAverage" : 4.0,
+        "ageType" : "SL0801",
+        "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20140418/5342873800581868large_image_130x130_webos.png"
+      } ]
+    }, {
+      "rcmdId" : 2,
+      "rcmdName" : "추천 패키지",
+      "rcmdAppCount" : 0
+    } ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "appUpdateList" : {
+    "appCount" : 1,
+    "appUpdateCheck" : [ {
+      "id" : "webos.test.girafficava",
+      "bPremium" : false,
+      "bPurchased" : false,
+      "prohibitYN" : "N",
+      "updateYN" : "Y",
+      "nsuYN" : "N"
+    } ]
+  }
+}

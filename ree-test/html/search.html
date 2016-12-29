@@ -1,0 +1,67 @@
+<div class="page panel-search-main" ng-class="{
+    'direct': direct,
+    'showing': showing,
+    'hiding': hiding
+  }">
+  <div class="blank panel-back" item="back">01<div class="icon icon-panel-back"></div></div><!-- 20150615 추가 -->
+  <div class="search-header">
+    <input id="search_value" type="text" class="blank inp-text focus" maxlength="64" placeholder="{{searchTitle}}" item="searchInp" dir="auto" ng-hide="del_mode">
+    <div class="wrap-btn-header">
+      <div class="blank btn btn-icon btn-del" item="delBtn" ng-show="!input" ng-hide="del_mode"><div class="icon"></div></div>
+      <div class="blank btn btn-small" ng-show="del_mode" item="delTextBtn" ng-disabled="disableDel">
+        <div class="area-text"><div class="text marquee">{{deletebtnText}}</div></div>
+      </div>
+      <div class="blank btn btn-icon btn-cancel" item="cancelBtn" ng-show="del_mode"><div class="icon"></div></div>
+    </div>
+  </div>
+
+  <div class="search-body" ng-show="!input">
+    <!-- Popular Keywords -->
+    <div class="search-keywords" ng-class="{'del-exclude': del_mode}">
+      <div class="sec-title searchMain-title">{{popularkeywords}}</div>
+      <div class="blank area-text" item="popular{{$index}}" ng-repeat="item in searchPopular | limitTo : 5"><div class="marquee text">{{item.keyword}}</div></div>
+    </div>
+    <!-- //Popular Keywords -->
+
+    <!-- Recent Searches -->
+    <div class="search-keywords" ng-show="showRecent" ng-class="{'list-check': del_mode}">
+      <div class="sec-title searchMain-title">{{RecentSearches}}</div>
+      <!-- recent-keyword -->
+      <div class="blank recent-keyword" item="recent{{$index}}" ng-repeat="item in recentSearch">
+        <div class="area-text"><div class="marquee text">{{item.query}}</div></div>
+        <div class="icon icon-check"></div>
+      </div>
+      <!-- //recent-keyword -->
+    </div>
+    <!-- //Recent Searches -->
+
+    <!-- Recent Results -->
+    <div class="search-recent-results" ng-show="showResult" ng-class="{'list-check': del_mode}">
+      <div class="sec-title searchMain-title">{{recentResults}}</div>
+      <div class="recent-cont">
+        <!-- item -->
+        <div class="blank item item-recent" item="result{{$index}}" modulename="{{item.moduleName}}" storkeyword="{{item.keyword}}" item-type={{item.item_type}} item-id="{{item.item_id}}" mappingflag="{{item.mappingflag}}" item_age="{{item.item_age}}" ng-repeat="item in recentResult">
+          <div class="item-thumb">
+            <img ng-src="{{item.thumbnail}}" class="thumb-img" search-thumb-resizable>
+          </div>
+          <div class="area-text item-tit"><div class="marquee text">{{item.title}}</div></div>
+          <div class="icon icon-thumb-check"></div>
+        </div>
+        <!-- //item -->
+      </div>
+    </div>
+    <!-- //Recent Results -->
+  </div>
+
+  <div class="search-body" ng-show="input">
+  <!-- content -->
+    <!--Suggest Keywords -->
+    <div class="search-keywords">
+      <div class="sec-title searchMain-title">{{suggestedKeyword}}</div>
+      <div class="blank area-text" item="suggest{{$index}}" ng-repeat="item in searchSuggest | limitTo : 5"><div class="marquee text">{{item.keyword}}</div></div>
+    </div>
+    <!-- //Suggest Keywords -->
+  <!-- //content -->
+  </div>
+
+</div>

@@ -1,0 +1,68 @@
+{
+  "recommendedApp" : {
+    "rcmdCategoryCount" : 3,
+    "rcmdCategoryList" : [ {
+      "rcmdId" : 0,
+      "rcmdName" : "구매자들이 선택한 다른 앱",
+      "rcmdAppCount" : 1,
+      "appList" : [ {
+        "type" : "S",
+        "id" : "com.14070.6870",
+        "bPremium" : false,
+        "name" : "Food Timer",
+        "categoryId" : "004",
+        "categoryName" : "생활",
+        "currencyCode" : "KRW",
+        "price" : 0.0,
+        "displayPrice" : "￦0",
+        "event" : "N",
+        "eventPrice" : 0.0,
+        "displayEventPrice" : "￦0",
+        "evaluationAverage" : 0.0,
+        "ageType" : "SL0801",
+        "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20110616/8.png"
+      } ]
+    }, {
+      "rcmdId" : 1,
+      "rcmdName" : "판매자 추천",
+      "rcmdAppCount" : 2,
+      "appList" : [ {
+        "type" : "S",
+        "id" : "com.14070.7075",
+        "bPremium" : false,
+        "name" : "XS엑세스 2권",
+        "categoryId" : "003",
+        "categoryName" : "엔터테인먼트",
+        "currencyCode" : "KRW",
+        "price" : 0.0,
+        "displayPrice" : "￦0",
+        "event" : "N",
+        "eventPrice" : 0.0,
+        "displayEventPrice" : "￦0",
+        "evaluationAverage" : 0.0,
+        "ageType" : "SL0803",
+        "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=null"
+      }, {
+        "type" : "S",
+        "id" : "com.14070.6870",
+        "bPremium" : false,
+        "name" : "Food Timer",
+        "categoryId" : "004",
+        "categoryName" : "생활",
+        "currencyCode" : "KRW",
+        "price" : 0.0,
+        "displayPrice" : "￦0",
+        "event" : "N",
+        "eventPrice" : 0.0,
+        "displayEventPrice" : "￦0",
+        "evaluationAverage" : 0.0,
+        "ageType" : "SL0801",
+        "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20110616/8.png"
+      } ]
+    }, {
+      "rcmdId" : 2,
+      "rcmdName" : "추천 패키지",
+      "rcmdAppCount" : 0
+    } ]
+  }
+}

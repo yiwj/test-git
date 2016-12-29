@@ -1,0 +1,179 @@
+<!doctype html>
+<html ng-app="discoveryApp" class="ng-scope">
+<head>
+<style type="text/css">
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="../css/store16.css" rel="stylesheet">
+<link href="../css/store16-animation.css" rel="stylesheet"><!-- animation 분리 / Lite 에서는 store16-animation-lite.css 으로 변경  -->
+<script type="text/javascript" src="pub-dreadlocks.js"></script>
+<style type="text/css">
+/* html 파일에서 확인하기 위한 스타일 */
+::-webkit-scrollbar{width:0;}
+.panel-body{overflow-y:scroll;pointer-events:auto;}
+.panel-list .list-title{left:0;right:0;}
+.panel-list .list-title,
+.panel-list .list-cont{position:relative;}
+/* end-html 파일에서 확인하기 위한 스타일 */
+</style>
+</head>
+<body>
+<!-- drawer -->
+<div class="drawer"><!-- 20150608 수정 -->
+  <div class="blank drawer-category drawer-featured"></div><div class="blank drawer-category drawer-tvshows"></div><div class="blank drawer-category drawer-movies"></div><div class="blank drawer-category drawer-premium"></div><div class="blank drawer-category drawer-appsngames"></div><div class="blank drawer-category drawer-mypage"></div><div class="blank drawer-category drawer-search"></div><div class="blank drawer-category drawer-close"></div>
+</div>
+<!-- //drawer -->
+
+<div class="panels">
+  <!-- panels-breadcrumbs -->
+  <div class="panels-breadcrumbs">
+    <div class="breadcrumb blank showing"> 
+      <div class="breadcrumb-bar"></div><div class="step">01</div><div class="icon icon-panel-back"></div>
+    </div>
+    <div class="breadcrumb blank"> 
+      <div class="breadcrumb-bar"></div><div class="step">01</div><div class="icon icon-panel-back"></div>
+    </div>
+  </div>
+  <!-- //panels-breadcrumbs -->
+  <div class="panels-viewport">
+    <!-- basic page -->
+    <div class="page panel-list showing"><!-- 화면 show 경우 class="showing" -->
+      <div class="panel-header">
+        <div class="area-text no-event panel-title">
+          <div class="marquee text">MY PAGE</div>
+        </div>
+        <div class="panel-sub">
+          <div class="sub-text sub-title">My Apps</div><div class="bar-empty">|</div>
+          <div class="sub-text sub-sub-title">Purchased ID</div>
+          <div class="text-login">Log in ID:</div><div class="text-login">ABCD@lge.com</div>
+        </div>
+        <div class="wrap-btn-header">
+          <div class="blank btn btn-small">
+            <div class="area-text"><div class="text marquee">UPDATE ALL</div></div>
+          </div>
+          <div class="blank btn btn-icon btn-list-option"><div class="icon"></div></div>
+        </div>
+      </div>
+      <div class="panel-menu">
+        <div class="menu-list blank on">
+          <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">My Apps</div></div>
+        </div>
+        <!-- menu-depth -->
+        <div class="menu-list menu-depth">
+          <div class="blank menu-depth-header">
+            <div class="area-text menu-text"><div class="marquee text">This is an accordion</div></div><div class="icon icon-depth"></div>
+          </div>
+          <div class="menu-depth-drawer">
+            <div class="blank menu-list-depth">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">Item One</div></div>
+            </div>
+            <div class="blank menu-list-depth">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">Item Two</div></div>
+            </div>
+            <div class="blank menu-list-depth">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">Item Three</div></div>
+            </div>
+          </div> 
+        </div>
+        <!-- //menu-depth -->
+        <!-- menu-depth -->
+        <div class="menu-list menu-depth depth-open">
+          <div class="blank menu-depth-header">
+            <div class="area-text menu-text"><div class="marquee text">Pre-expanded accordion</div></div><div class="icon icon-depth"></div>
+          </div>
+          <div class="menu-depth-drawer">
+            <div class="blank menu-list-depth">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">Item One</div></div>
+            </div>
+            <div class="blank menu-list-depth">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">Item Two</div></div>
+            </div>
+            <div class="blank menu-list-depth">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">Item Three</div></div>
+            </div>
+            <div class="blank menu-list-depth">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">Item Four</div></div>
+            </div>
+            <div class="blank menu-list-depth">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">Item Five</div></div>
+            </div>
+            <div class="blank menu-list-depth">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">Item Six</div></div>
+            </div>
+            <div class="blank menu-list-depth">
+              <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">Item Seven</div></div>
+            </div>
+          </div> 
+        </div>
+        <!-- //menu-depth -->
+        
+        <div class="blank menu-list menu-paymentInquiry">
+          <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">Payment Inquiry</div></div>
+        </div>
+        <div class="blank menu-list menu-guide">
+          <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text">Guide</div></div>
+        </div>
+
+      </div>
+      <div class="panel-body">
+        <div class="panel-cont">
+        <!-- content -->
+         
+        <!-- //content -->
+        </div>
+        <div class="scroll scroll-v">
+          <div class="blank icon scroll-prev"></div>
+          <div class="scroll-area"><div class="scroll-bar" style="height:454px; top 0px;"></div></div>
+          <div class="blank icon scroll-next"></div>
+        </div>
+      </div>
+    </div>
+    <!-- //basic page -->
+  </div>
+</div>
+
+<!-- AD-banner -->
+<div class="blank ad-banner item-video ng-hide"></div>
+<div class="ad-player ng-hide"></div>
+<!-- //AD-banner -->
+
+<!-- player -->
+<div class="player ng-hide"></div>
+<!-- //player -->
+
+<!-- help guide -->
+<div class="help-guide ng-hide"></div>
+<!-- //help guide -->
+
+<!-- search page -->
+<div class="page-search ng-hide"></div>
+<!-- //search page -->
+
+<!-- popup / basic -->
+<div class="popup-basic ng-hide"></div>
+<!-- //popup / basic -->
+
+<!-- popup / list action -->
+<div class="popup-list-option ng-hide"></div>
+<!-- //popup / list action -->
+
+<!-- popup / rating -->
+<div class="popup-contextual pop-rating ng-hide"></div>
+<!-- //popup / rating -->
+
+<!-- popup / season -->
+<div class="popup-contextual pop-season ng-hide"></div>
+<!-- //popup / season -->
+
+<!-- tooltip -->
+<div class="tooltip ng-hide">error code: 10011001<div class="bg-empty"></div></div>
+<div class="tooltip tooltip-flip ng-hide">error code: 10011001<div class="bg-empty"></div></div>
+<!-- //tooltip -->
+
+</body>
+</html>

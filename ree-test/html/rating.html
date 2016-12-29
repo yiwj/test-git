@@ -1,0 +1,19 @@
+<div class="popup-modal-rating" ng-class="{\'open\': open}" ng-hide="hide">
+  <div class="popup-contextual pop-rating" ng-mouseenter="onMouseEnter($event)"
+       ng-mouseleave="onMouseLeave($event)" style="left: 83.30rem;top: 12rem;z-index: 1;"><!-- 임시 좌표값 -->
+    <div class="pop-rating-title" ng-bind="title"></div>
+    <div class="pop-rating-cont">
+      <div class="blank icon btn-score star{{$index}}" ng-class="{'on': star.point}" ng-repeat="star in starList" item="star{{$index}}"></div>
+    </div>
+    <!-- rating/btn -->
+    <div class="wrap-btn-rating" ng-if="!alreadyRating">
+      <div class="blank btn-popup btn-small btn01" item="btn01" ng-if="button1">
+        <div class="area-text"><div class="text marquee" ng-bind="button1"></div></div>
+      </div><div class="blank btn-popup btn-small btn02" item="btn02" ng-if="button2">
+      <div class="area-text"><div class="text marquee" ng-bind="button2"></div></div>
+    </div>
+    </div>
+    <!-- rating/btn -->
+    <div class="bg-empty"><div class="bg-empty-inner"></div><div class="bg-empty-inner2"></div></div>
+  </div>
+</div>

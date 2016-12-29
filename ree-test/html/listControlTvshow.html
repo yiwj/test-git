@@ -1,0 +1,15 @@
+<div class="panel-body" ng-hide="hideListContent">
+  <div class="panel-cont list-scroller" ng-hide="hideListContent" ng-show="drawed">
+    <!-- content -->
+    <div class="sec-title list-title" ng-repeat="r in getSplits()" ng-class="{'split{{r}}': true}" ng-show="view['s' + r]"></div>
+    <div class="list-cont" ng-repeat="r in getRows()" ng-class="{'row{{r}}': true}" ng-show="view['r' + r]">
+      <!-- item -->
+      <div class="blank item item-list" ng-repeat="c in getRowItems()" ng-class="{'item{{r}}-{{c}}': true}" item="item{{r}}-{{c}}" list-item></div>
+    </div>
+    <div class="wrap-no-data" ng-show="drawed && !listData.total" style="display: none;">
+      <div class="no-data-img no-tvShow"></div>
+      <div class="text" ng-bind="nodata"></div>
+    </div>
+  </div>
+  <div scroll class="scroll scroll-v"></div>
+</div>

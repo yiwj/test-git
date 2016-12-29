@@ -1,0 +1,51 @@
+﻿<div class="page panel-main main-tier2">
+  <div header></div>
+  <div class="main-body"><!-- 상단 이미지에 맞는 Hex컬러 -->
+    <div class="panel-cont">
+      <!-- contents -->
+      <div class="main-column column-{{numOfPremiumCols}}">
+        <!-- items -->
+        <div class="blank item item-main-apps" ng-show="item.type == 'appsngames' || item.type == 'premium'" ng-class="{'item-white': item.white}" type="{{item.type}}" idx="{{item.idx}}" item="{{item.item}}" item-id="{{item.id}}" item-type="{{item.item_type}}" ng-repeat="item in itemsApp">
+          <div class="item-thumb" ng-style="item.style">
+            <img ng-src="{{item.img}}" class="thumb-img" tier2-image-resize-handler d-img-type="AG">
+          </div>
+          <div class="item-info">
+            <div class="area-text item-tit"><div class="marquee text" ng-bind="item.name"></div></div>
+            <div class="app-category" ng-bind="item.categoryName"></div>
+            <div class="item-price" ng-bind="item.displayPrice"></div>
+          </div>
+        </div>
+        <!-- //items -->
+      </div>
+      <!-- 광고 -->
+      <div class="main-column column-ban">
+        <!-- AD -->
+        <div class="blank item item-ad" ng-if="showAD" type="ad" item="{{adResColumn}}-0" item-id='' adContextIndex="{{adRes.adContextIndex}}" assetId="{{adRes.assetId}}" ng-if="showAD" ad-handler>
+          <img ng-src="{{adRes.srcUrl}}" class="thumb-img" tier2-image-resize-handler d-img-type="AD">
+        </div>
+        <!-- //AD -->
+        <!-- theme banner -->
+        <div class="blank item theme-banner" ng-if="showBanner" type="banners" idx="{{item.idx}}" item="{{item.item}}" item-id="{{item.id}}" ng-repeat="item in banners">
+          <div class="thumb">
+            <img ng-src="{{item.img}}" class="thumb-img" tier2-image-resize-handler d-img-type="TB">
+          </div>
+          <div class="area-text ban-text"><div class="marquee text" ng-bind="item.name"></div></div>
+        </div>
+        <!-- //theme banner -->
+        <!-- theme banner off 및 광고 off 일 경우 appngame 노출 -->
+        <div class="blank item item-main-apps" ng-show="(item.type == 'appsngames' || item.type == 'premium') && appsNew.length > 0" ng-class="{'item-white': item.white}" type="{{item.type}}" idx="{{item.idx}}" item="{{item.item}}" item-id="{{item.id}}" item-type="{{item.item_type}}" ng-repeat="item in appsNew">
+          <div class="item-thumb" ng-style="item.style">
+            <img ng-src="{{item.img}}" class="thumb-img" tier2-image-resize-handler d-img-type="AG">
+          </div>
+          <div class="item-info">
+            <div class="area-text item-tit"><div class="marquee text" ng-bind="item.name"></div></div>
+            <div class="app-category" ng-bind="item.categoryName"></div>
+            <div class="item-price" ng-bind="item.displayPrice"></div>
+          </div>
+        </div>
+      </div>
+      <!-- //광고 -->
+      <!-- //contents -->
+    </div>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+{
+  "appstoreApps": {
+    "categoryCount": 2,
+    "rankTypeCount": 3,
+    "categoryList": [
+      {
+        "id": "000100",
+        "name": "All"
+      },
+      {
+        "id": "002",
+        "name": "Sign-In ID"
+      }
+    ],
+    "rankTypeList": [
+      {
+        "id": 1,
+        "name": "My Apps",
+        "tierType":3
+      },
+      {
+        "id": 3,
+        "name": "Payment Inquiry",
+        "menuType":"menu-paymentInquiry",
+        "tierType":3
+      },
+      {
+        "id": 4,
+        "name": "Guide",
+        "menuType":"menu-guide",
+        "tierType":2
+      }
+    ]
+  }
+}

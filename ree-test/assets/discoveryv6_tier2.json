@@ -1,0 +1,207 @@
+{
+  "lgrecommendations": {
+    "Title": "LG RECOMMENDATIONS",
+    "appId": "com.webos.app.discovery",
+    "generationTime": "1433918988712",
+    "headRollingInterval": "30",
+    "menuList": [
+      {
+        "menuText": "Premium",
+        "textLangCode": "en-US",
+        "serviceCode": "premium",
+        "linkApp": "com.webos.app.discovery",
+        "linkParam": "--premium",
+        "hdrDplyFlag": "Y"
+      },
+      {
+        "menuText": "Apps & Games",
+        "textLangCode": "en-US",
+        "serviceCode": "appsngames",
+        "linkApp": "com.webos.app.discovery",
+        "linkParam": "--appsngames",
+        "hdrDplyFlag": "Y"
+      }
+    ],
+    "contentsList": [
+      {
+        "contentsTitle": "Premium",
+        "titleLangCode": "en-US",
+        "contentsCategory": "premium",
+        "contentsNumber": "7",
+        "arrayNumber": "4",
+        "maxContentsNumber": "20",
+        "contents": {
+          "cpList": {
+            "categoryType": "APP",
+            "rankTypeList": [
+              {
+                "name": "premiumAppList",
+                "appCount": 7,
+                "appList": [
+                  {
+                    "id": "youtube.leanback.v4",
+                    "bPremium": true,
+                    "name": "YouTube",
+                    "categoryId": "003",
+                    "currencyCode": "USD",
+                    "price": 0.0,
+                    "displayPrice": "$0.00",
+                    "evaluationAverage": 0.0,
+                    "ageType": "0",
+                    "iconColor": "#E42E28",
+                    "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150323/10022379715402316youtube_leanback_v4_130x130_130x130_webos.png"
+                  },
+                  {
+                    "id": "vtuner",
+                    "bPremium": true,
+                    "name": "vTuner",
+                    "categoryId": "003",
+                    "currencyCode": "USD",
+                    "price": 0.0,
+                    "displayPrice": "$0.00",
+                    "evaluationAverage": 0.0,
+                    "ageType": "0",
+                    "iconColor": "#000000",
+                    "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150320/3_130x130_webos.png"
+                  },
+                  {
+                    "id": "orf",
+                    "bPremium": true,
+                    "name": "ORF",
+                    "categoryId": "003",
+                    "currencyCode": "USD",
+                    "price": 0.0,
+                    "displayPrice": "$0.00",
+                    "evaluationAverage": 0.0,
+                    "ageType": "0",
+                    "iconColor": "#364063",
+                    "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20140127/597_130x130_webos.png"
+                  },
+                  {
+                    "id": "deezer",
+                    "bPremium": true,
+                    "name": "Deezer",
+                    "categoryId": "003",
+                    "currencyCode": "EUR",
+                    "price": 0.0,
+                    "displayPrice": "$0.00",
+                    "evaluationAverage": 0.0,
+                    "ageType": "0",
+                    "iconColor": "#000000",
+                    "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150412/1_130x130_webos.png"
+                  },
+                  {
+                    "id": "maxdome",
+                    "bPremium": true,
+                    "name": "Maxdome",
+                    "categoryId": "003",
+                    "currencyCode": "USD",
+                    "price": 0.0,
+                    "displayPrice": "$0.00",
+                    "evaluationAverage": 0.0,
+                    "ageType": "0",
+                    "iconColor": "#1C292F",
+                    "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20140127/544_130x130_webos.png"
+                  },
+                  {
+                    "id": "euronews",
+                    "bPremium": true,
+                    "name": "Euronews",
+                    "categoryId": "003",
+                    "currencyCode": "USD",
+                    "price": 0.0,
+                    "displayPrice": "$0.00",
+                    "evaluationAverage": 0.0,
+                    "ageType": "0",
+                    "iconColor": "#000000",
+                    "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150320/4_130x130_webos.png"
+                  },
+                  {
+                    "id": "die.presse",
+                    "bPremium": true,
+                    "name": "Die Presse",
+                    "categoryId": "003",
+                    "currencyCode": "USD",
+                    "price": 0.0,
+                    "displayPrice": "$0.00",
+                    "evaluationAverage": 0.0,
+                    "ageType": "0",
+                    "iconColor": "#024372",
+                    "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20140127/439_130x130_webos.png"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "headList": [
+      {
+        "headTitle": "Die Presse",
+        "genreId": "003",
+        "contentsCategory": "premium",
+        "contentsCategoryText": "Premium",
+        "price": "$0.00",
+        "contents": {
+          "premiumList": {
+            "categoryType": "APP",
+            "rankTypeList": [
+              {
+                "name": "premiumAppList",
+                "appCount": 1,
+                "appList": [
+                  {
+                    "id": "die.presse",
+                    "bPremium": true,
+                    "name": "Die Presse",
+                    "categoryId": "003",
+                    "currencyCode": "USD",
+                    "price": 0.0,
+                    "displayPrice": "$0.00",
+                    "evaluationAverage": 0.0,
+                    "ageType": "0",
+                    "iconColor": "#024372",
+                    "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20140127/439_130x130_webos.png"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "headTitle": "Test Plugin",
+        "genreName": "Life",
+        "genreId": "004",
+        "contentsCategory": "appsngames",
+        "contentsCategoryText": "Apps & Games",
+        "price": "$0.00",
+        "contents": {
+          "appList": {
+            "categoryType": "APP",
+            "rankTypeList": [
+              {
+                "appCount": 1,
+                "appList": [
+                  {
+                    "type": "HOT",
+                    "id": "testplugin",
+                    "bPremium": false,
+                    "name": "Test Plugin",
+                    "categoryId": "004",
+                    "categoryName": "Life",
+                    "displayPrice": "$0.00",
+                    "event": "N",
+                    "displayEventPrice": "$0.00",
+                    "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150327/4_130x130_webos.png"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

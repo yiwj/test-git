@@ -1,0 +1,1184 @@
+{
+	"@testversion" : "20141009_001",
+	"message" : "OK",
+	"menu_list" : {
+		"menus" : [{
+				"@selected" : "FALSE",
+				"name" : "추천",
+				"code" : "ME2312"
+			}, {
+				"@selected" : "FALSE",
+				"name" : "최신",
+				"code" : "ME2314"
+			}, {
+				"@selected" : "FALSE",
+				"name" : "장르별",
+				"code" : "ME2310"
+			}, {
+				"@selected" : "TRUE",
+				"name" : "전체",
+				"code" : "ME2320"
+			}
+		]
+	},
+	"item_list" : {
+		"@list_title" : "",
+		"@total_item_cnt" : "100",
+		"@start_index" : "1",
+		"@skin_type" : "POSTER",
+		"@type" : "PAGE",
+		"items" : [{
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|40372",
+				"item_name" : "폼페이: 최후의 날",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0213_10_19_03__52fc1d87efd84[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|40093",
+				"item_name" : "겨울왕국",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0103_11_33_51__52c62190002d5[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "8.1412"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|36891",
+				"item_name" : "설국열차",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0610_36891_51b52792adfcb_02_namgoong[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.8795"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41513",
+				"item_name" : "루시",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0822_15_22_12__53f6e1941799d[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.8"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|39879",
+				"item_name" : "드래곤 길들이기 2",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0708_11_04_38__53bb51b629b38[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.5294"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|40173",
+				"item_name" : "신의 한 수",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0603_13_06_35__538d49cb7d9dc[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.6667"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42499",
+				"item_name" : "툼스톤",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0918_17_32_13__541a988d07203[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.2"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42342",
+				"item_name" : "원피스 : 에피소드 오브 메리 ~ 또 하나의 동료 이야기 ~",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0807_15_03_30__53e316b2ed721[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|30742",
+				"item_name" : "어벤져스",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0319_19_50_28__4f670f744c37b[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.75"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37511",
+				"item_name" : "아이언맨 3",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0311_15_41_11__513d7c87a2be4[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.8861"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38016",
+				"item_name" : "군도:민란의 시대",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0627_13_21_46__53acf15a8affa[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.2609"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42269",
+				"item_name" : "익스펜더블 3",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0808_15_24_36__53e46d247e23c[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.25"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41442",
+				"item_name" : "사보타지",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0721_11_22_21__53cc795d93a92[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.6667"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41933",
+				"item_name" : "더 시그널",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0707_10_51_57__53b9fd3d1b756[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41568",
+				"item_name" : "레이드 2",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0611_10_48_50__5397b5823079c[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41620",
+				"item_name" : "브릭 맨션: 통제불능 범죄구역",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0724_16_15_08__53d0b27c209e9[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|20474",
+				"item_name" : "씬 시티: 다크히어로의 부활",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0827_17_13_31__53fd932b3fcfa[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41291",
+				"item_name" : "니드 포 스피드",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0410_10_21_53__5345f2318b930[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.4286"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|43544",
+				"item_name" : "어벤져스 컨피덴셜: 블랙 위도우 앤 퍼니셔",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2015_0116_15_35_31__54b8b1331d25e[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|39189",
+				"item_name" : "토니 스토리: 깡통제국의 비밀",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0617_10_42_46__51be6996d8f57[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "10.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|39547",
+				"item_name" : "끝까지 간다",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0424_14_01_52__53589ac0d9ffa[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.5965"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|40640",
+				"item_name" : "황제를 위하여",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0519_11_00_39__537965c7a892b[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "5.4167"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|40540",
+				"item_name" : "표적",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0422_09_55_52__5355be188fed9[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "4.3704"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41559",
+				"item_name" : "창문넘어 도망친 100세 노인",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0616_11_48_54__539e5b16a8449[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.3889"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38617",
+				"item_name" : "천하칠검 양가장",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0409_10_19_29__51636ca1eafe3[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "8.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38529",
+				"item_name" : "론 레인저",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0604_38529_51ad3a098c2a2_m_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.625"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42262",
+				"item_name" : "터키",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0703_14_06_04__53b4e4bc6cdef[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.75"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|28059",
+				"item_name" : "감기",
+				"item_img" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0724_11_36_45__51ef3dbd02931[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.2857"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38544",
+				"item_name" : "레드: 더 레전드",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0610_38544_51b52ab40c62d_01[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.5652"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42324",
+				"item_name" : "늑대인간 – 더 오리지널",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0717_13_17_29__53c74e598f121[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42074",
+				"item_name" : "오드 토머스",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0707_13_12_14__53ba1e1ed8717[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|39808",
+				"item_name" : "극장판 포켓몬스터 베스트위시: 신의 속도 게노세크트 뮤츠의 각성",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_1122_14_42_56__528eeee0e8669[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37907",
+				"item_name" : "오즈 그레이트 앤드 파워풀",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0109_10_47_32__50eccc345dec4[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.6111"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|39093",
+				"item_name" : "짚의 방패",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0808_18_17_48__5203623c65e48[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.8"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38049",
+				"item_name" : "화이 : 괴물을 삼킨 아이",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0902_38049_5223e868b49d0_mainposter[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "10.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|39170",
+				"item_name" : "팬텀 : 라스트 커맨더",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0605_39170_51ae8c0d3a1b0_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.5"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38552",
+				"item_name" : "백악관 최후의 날",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0502_11_17_49__5181cccd23877[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.375"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|40237",
+				"item_name" : "겟어웨이",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_1119_15_42_00__546c3bb84c321[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41636",
+				"item_name" : "빙봉협: 중생지문",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0626_13_10_57__53ab9d5126cde[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "2.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|34493",
+				"item_name" : "스파이",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0816_16_02_32__520dce88b581e[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "5.75"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42435",
+				"item_name" : "램페이지2-워싱턴 심판의 날",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0731_13_35_37__53d9c7997af4b[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "2.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41193",
+				"item_name" : "몽키킹:손오공의 탄생",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_1111_13_35_56__5461922c0f0b9[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "1.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41882",
+				"item_name" : "찰리 컨트리맨",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0722_11_16_48__53cdc990b2ab6[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "5.5"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42287",
+				"item_name" : "위키드 블러드",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0709_13_53_24__53bccac4ca188[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "1.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38266",
+				"item_name" : "테이크다운",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0318_09_35_03__5146613759ac8[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "5.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41486",
+				"item_name" : "넥스트 제네레이션 패트레이버",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0411_16_30_37__53479a1d63bfa[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38036",
+				"item_name" : "조선미녀삼총사",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0109_11_21_51__52ce07bfeaca4[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41447",
+				"item_name" : "몬스터 왕국",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0403_11_21_24__533cc5a4be589[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41099",
+				"item_name" : "파이어 스톰",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0627_10_11_04__53acc4a8df365[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "4.5"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|30859",
+				"item_name" : "일대종사",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0722_30859_51ec88d9a3562_s1[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "8.0526"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37880",
+				"item_name" : "니코 : 산타비행단의 모험",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_1210_09_25_51__50c52c0fe5624[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "8.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38155",
+				"item_name" : "극장판 : 타이거 앤 버니",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0129_38155_51077786eb513_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "8.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|39346",
+				"item_name" : "디스 이즈 디 엔드",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0617_10_11_09__51be622d12149[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "4.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38207",
+				"item_name" : "후세: 말하지 못한 내 사랑",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0227_19_30_48__512de05805c46[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "8.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38940",
+				"item_name" : "마약전쟁",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0211_15_52_25__52f9c8a96e468[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "8.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|36835",
+				"item_name" : "런닝맨",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0308_14_43_11__51397a6fd3754[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.0968"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|35396",
+				"item_name" : "베를린",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0128_09_46_00__5105ca4889ca1[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.8687"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|31272",
+				"item_name" : "타워",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_1206_31272_50c019d8f0945__(2)[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.7027"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42535",
+				"item_name" : "비포 : 불가사의한 피라미드",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0825_15_53_49__53fadd7de0668[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42516",
+				"item_name" : "심판자",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0820_13_54_58__53f42a22d546e[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37320",
+				"item_name" : "엔드 오브 왓치",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_1107_37320_5099bf61cc0d4_1[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.6667"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41194",
+				"item_name" : "주윤발의 도성풍운",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0219_13_03_37__53042d19e5d94[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|35149",
+				"item_name" : "전설의 주먹",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0409_35149_51636aef740fb_s1[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.54"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37293",
+				"item_name" : "저지 드레드",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_1116_14_19_38__50a5ccea41bb7[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.5"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|33268",
+				"item_name" : "헝거게임 : 판엠의 불꽃",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0402_17_34_39__4f79649f6a138[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.5238"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38274",
+				"item_name" : "초한지 : 영웅의 부활",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0304_14_16_49__51342e4146724[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "3.6667"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37966",
+				"item_name" : "콜렉션",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0329_10_12_27__5154ea7bb59b4[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.5"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38034",
+				"item_name" : "해양경찰 마르코",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0115_38034_50f4f4bda39ec_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37048",
+				"item_name" : "나이트폴",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0827_14_08_46__503b00dece320[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.2"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38174",
+				"item_name" : "웜 바디스",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0221_11_12_39__51258297c337e[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.9259"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37248",
+				"item_name" : "바람의 검심",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_1213_15_34_54__50c9770e4f5d0[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.125"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38025",
+				"item_name" : "북극의 후예 이누크",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0809_15_14_22__520488be76794[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|35195",
+				"item_name" : "백설공주",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0409_22_13_38__4f82e082c4353[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.25"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|34451",
+				"item_name" : "토르 : 마법망치의 전설",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2011_1222_m0010001_po[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.5"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|35386",
+				"item_name" : "캐빈 인 더 우즈",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0515_11_22_29__4fb1bde5b8f6a[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.9048"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|34500",
+				"item_name" : "세이프 하우스",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0102_m0010001_poster_m[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.9333"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38013",
+				"item_name" : "라스트 스탠드",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0129_16_38_11__51077c63ab4ce[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.9333"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|30691",
+				"item_name" : "맨 온 렛지",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0220_m0010007_main_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.7857"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37237",
+				"item_name" : "로우리스: 나쁜 영웅들",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0917_10_57_31__5056838b1755c[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.9"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37617",
+				"item_name" : "개들의 전쟁",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_1107_15_34_39__509a00ffebbed[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.8333"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|39092",
+				"item_name" : "도서관 전쟁",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0220_12_32_25__53057749186f5[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "3.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37064",
+				"item_name" : "영건 탐정사무소",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0813_37064_5028951c4b35d_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.6667"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|35031",
+				"item_name" : "본 레거시",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0730_35031_5015e0f7b7f6a_main_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.7059"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|34539",
+				"item_name" : "더 그레이",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0209_m0010014_main_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.7"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42374",
+				"item_name" : "벨라 키스",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0724_13_27_12__53d08b20d5da7[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "3.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37595",
+				"item_name" : "트랜짓",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_1106_09_37_11__50985bb716d27[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.5"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38041",
+				"item_name" : "더 자이언트",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0125_38041_5102100c8ff19_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.3333"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37460",
+				"item_name" : "코드네임 제로니모",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_1122_13_57_44__50adb0c8d6249[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.5"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37112",
+				"item_name" : "간첩",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0917_15_26_31__5056c29782ee9[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.2778"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|36118",
+				"item_name" : "세이프",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0912_36118_505014e79b830_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|32737",
+				"item_name" : "스노우 화이트 앤 더 헌츠맨",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0529_11_04_45__4fc42ebde5a88[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.1333"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37457",
+				"item_name" : "알렉스 크로스",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0222_15_58_47__512717275a3dc[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38135",
+				"item_name" : "극장판 헌터X헌터 : 팬텀루즈",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0605_16_05_54__51aee352a78af[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37427",
+				"item_name" : "타이치0 3D",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0709_14_01_06__51db99124f528[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "5.8"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42263",
+				"item_name" : "파이어 : 테러와의 전쟁",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0703_14_22_52__53b4e8acf26c9[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "2.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|42209",
+				"item_name" : "비포 : 치즈와 초콜릿을 찾아서",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0623_15_31_50__53a7c9d6389e5[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "2.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|34694",
+				"item_name" : "존 카터 : 바숨 전쟁의 서막",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0213_34694_4f38972159ee6_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "5.4444"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38073",
+				"item_name" : "빌리와 용감한 녀석들 2",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0121_10_27_23__50fc997bdeaf3[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "5.3333"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37412",
+				"item_name" : "킬링 소프틀리",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0314_14_43_24__5141637c2c2b1[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "5.3333"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|32163",
+				"item_name" : "스킬스",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2011_0613_m0010022_1[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "9.0"
+			}
+		]
+	},
+	"filter_list" : {
+		"filters" : [{
+				"@type" : "SIDE",
+				"key" : "FILTER_ORDER",
+				"values" : [{
+						"@selected" : "TRUE",
+						"code" : "PD",
+						"name" : "인기순"
+					}, {
+						"code" : "MD",
+						"name" : "최신순"
+					}, {
+						"code" : "CA",
+						"name" : "가나다순"
+					}
+				]
+			}, {
+				"@type" : "SIDE",
+				"key" : "FILTER_GENRE",
+				"values" : [{
+						"code" : "All Genres",
+						"name" : "모든 장르"
+					}, {
+						"code" : "Drama",
+						"name" : "드라마"
+					}, {
+						"code" : "Melodrama Romance",
+						"name" : "멜로 로맨스"
+					}, {
+						"code" : "Comedy",
+						"name" : "코미디"
+					}, {
+						"code" : "Thriller",
+						"name" : "스릴러"
+					}, {
+						"code" : "Animation",
+						"name" : "애니메이션"
+					}, {
+						"@selected" : "TRUE",
+						"code" : "Action & Adventure",
+						"name" : "액션 & 어드벤쳐"
+					}, {
+						"code" : "Mystery",
+						"name" : "미스터리"
+					}, {
+						"code" : "Music",
+						"name" : "음악"
+					}, {
+						"code" : "Family",
+						"name" : "가족"
+					}, {
+						"code" : "Fantasy",
+						"name" : "판타지"
+					}, {
+						"code" : "ETC",
+						"name" : "기타 장르"
+					}
+				]
+			}
+		]
+	}
+}

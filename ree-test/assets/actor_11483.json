@@ -1,0 +1,35 @@
+{
+  "@testversion": "20141009_001",
+  "message": "OK",
+  "item": {
+    "@pinup_able": "TEST",
+    "@type": "PERSON",
+    "item_id": "11483",
+    "item_name": "이주현",
+    "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/person_2013_0325_13713.jpg",
+    "item_desc": "1996년 KBS 슈퍼탤러트 선발대회에서 금상을 수상했다. 그 후 <첫사랑>, <온달왕자님>, <왕꽃 선녀님>, <달콤한 스파이>, <자명고>, <분홍 립스틱>등의 드라마와 영화에 출연했다. [데이터제공: Cine21]",
+    "item_detail": {
+      "pinup_state": "FALSE",
+      "tab_vod": {
+        "items": [
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|42813",
+            "item_name": "압구정 백야",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_1006_16_59_15__54324bd390564[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "TS"
+          }
+        ]
+      },
+      "tab_tv": null
+    },
+    "person_role_type": "",
+    "person_role_name": "",
+    "person_birth_date": "1976-04-05",
+    "person_death_date": ""
+  }
+}

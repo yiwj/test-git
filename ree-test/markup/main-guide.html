@@ -1,0 +1,258 @@
+<!doctype html>
+<html ng-app="discoveryApp" class="ng-scope">
+<head>
+<style type="text/css">
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="../css/store16.css" rel="stylesheet">
+<link href="../css/store16-animation.css" rel="stylesheet"><!-- animation 분리 / Lite 에서는 store16-animation-lite.css 으로 변경  -->
+<script type="text/javascript" src="pub-dreadlocks.js"></script>
+<style type="text/css">
+/* html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+body{overflow:scroll;}
+::-webkit-scrollbar{width:0;}
+.main-header{position:relative;}
+.main-body{position:relative;bottom:auto;height:450px;border-top:50px solid transparent;}
+.main-body .panel-cont{height:100%}
+.item-main .item-thumb{height:100px;}
+
+.panels{position:relative;bottom:auto;padding:0;}
+.panels-viewport{position:relative;bottom:auto;}
+.panels-viewport .page{position:relative;bottom:auto;}
+.panel-back{display:none}
+/* end-html 파일에서 여러 팝업을 확인하기 위한 스타일 */
+</style>
+</head>
+<body class="dir-rtl-"><!-- RTL 언어 class="dir-rtl" -->
+<!-- drawer -->
+<div class="drawer main-drawer"><!-- 20150608 수정 / main화면에서 class="main-drawer"추가 -->
+  <div class="blank drawer-category drawer-featured focus"></div><div class="blank drawer-category drawer-tvshows"></div><div class="blank drawer-category drawer-movies"></div><div class="blank drawer-category drawer-premium"></div><div class="blank drawer-category drawer-appsngames"></div><div class="blank drawer-category drawer-mypage"></div><div class="blank drawer-category drawer-search"></div><div class="blank drawer-category drawer-close"></div>
+</div>
+<!-- //drawer -->
+
+<!-- panels -->
+<div class="panels">
+  <!-- panels-breadcrumbs -->
+  <div class="panels-breadcrumbs">
+    <div class="blank breadcrumb"><div class="breadcrumb-bar"></div><div class="step"></div><div class="icon icon-panel-back"></div></div>
+    <div class="blank breadcrumb"><div class="breadcrumb-bar"></div><div class="step"></div><div class="icon icon-panel-back"></div></div>
+  </div>
+  <!-- //panels-breadcrumbs -->
+  <!-- panels-viewport -->
+  <div class="panels-viewport">
+    <!-- basic page -->
+    <div class="page panel-main main-tier1 showing"><!-- Tier 1 국가 class="main-tier1" 추가 / 화면 show 경우 class="showing" -->
+      <div class="blank panel-back ng-hide">01<div class="icon icon-panel-back"></div></div>
+
+      <!-- 상단 추천 컨텐츠 타입별 정리 -->
+      <div class="main-header">
+        <div class="header-tit">LG CONTENT STORE</div>
+        <img src="../images/thumb/main/genre_19_e.png" class="thumb-img">
+        <!-- TV Shows 3줄 이하 -->
+        <div class="header-item">
+          <div class="item-category">TV Shows</div>
+          <div class="item-tit">Game of Thrones</div>
+          <div class="item-text">1line1line1line1line1line1line1line1line1line1line1line1line1line end</div>
+          <div class="blank btn btn-small focus">
+            <div class="area-text"><div class="text marquee">more...</div></div>
+          </div>
+        </div>
+        <!-- //TV Shows 3줄 이하 -->
+        <div class="blank btn btn-icon btn-main-prev focus"><div class="icon"></div></div>
+        <div class="blank btn btn-icon btn-main-next focus"><div class="icon"></div></div>
+      </div>
+
+      <div class="main-header">
+	    <div class="blank drawer-category drawer-close"></div>
+        <div class="header-tit">LG CONTENT STORE 0123456789!@#$%^&*()_+|+</div>
+        <img src="../images/thumb/main/genre_19_e.png" class="thumb-img">
+        <!--TV Shows 3줄 이상  -->
+        <div class="header-item">
+          <div class="item-category">TV Shows</div>
+          <div class="item-tit">Game of Thrones</div>
+          <div class="item-text">Max3linesMax3linesMax3linesMax3linesMax3linesMax3linesMax3linesMax3linesMax3linesMax3linesMax3linesMax3linesMax3linesMax3linesMax3linesMax3linesMax3linesMax</div>
+          <div class="blank btn btn-small">
+            <div class="area-text"><div class="text marquee">more...</div></div>
+          </div>
+        </div>
+        <!-- //TV Shows 3줄 이상 -->
+        <div class="blank btn btn-icon btn-main-prev"><div class="icon"></div></div>
+        <div class="blank btn btn-icon btn-main-next"><div class="icon"></div></div>
+      </div>
+
+      <div class="main-header">
+	    <div class="blank drawer-category drawer-close"></div>
+        <div class="header-tit">LG CONTENT STORE</div>
+        <img src="../images/thumb/main/genre_19_e.png" class="thumb-img">
+        <!-- Apps &amp; Games -->
+        <div class="header-item">
+          <div class="item-category">Apps &amp; Games</div>
+          <div class="item-tit">App Title</div>
+          <div class="item-text"><div class="app-category">Entertainment</div><div class="bar-empty">|</div><div class="item-price">$2.99</div><div class="list-price">$5.99<div class="price-empty"></div></div></div><!-- 20150722 - item-text 추가 -->
+          <div class="blank btn btn-small">
+            <div class="area-text"><div class="text marquee">more...</div></div>
+          </div>
+        </div>
+        <!-- //Apps &amp; Games -->
+        <div class="blank btn btn-icon btn-main-prev"><div class="icon"></div></div>
+        <div class="blank btn btn-icon btn-main-next"><div class="icon"></div></div>
+      </div>
+      <!-- //상단 추천 컨텐츠 타입별 정리 -->
+
+      <!-- uk only - 컨텐츠 상단 category명 타입별 정리 -->
+      <div class="main-body" style="background-color:#3f3024">
+        <div class="panel-cont">
+        <!-- content -->
+          <!-- main-column -->
+          <div class="main-column column-1"><!-- 가로방향 컨텐츠 1칸 class="column-1" -->
+            <div class="tit-category"><div class="text">가로방향 컨텐츠 1칸 class="column-1"</div><div class="bg-empty"></div></div>
+            <!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-1/1 columnCCC end</div></div>
+            </div><!-- //item -->
+          </div>
+          <!-- //main-column -->
+          <!-- main-column -->
+          <div class="main-column column-4"><!-- 가로방향 컨텐츠 4칸 class="column-4" -->
+            <div class="tit-category"><div class="text">가로방향 컨텐츠 4칸 class="column-4"</div><div class="bg-empty"></div></div>
+            <!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-4/1 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-4/2 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-4/3 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-4/4 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-4/5 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-4/6 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-4/7 columnCCC end</div></div>
+            </div><!-- //item -->
+          </div>
+          <!-- //main-column -->
+        <!-- //content -->
+        </div>
+        <div class="scroll scroll-v ng-hide">
+          <div class="blank icon scroll-prev"></div>
+          <div class="scroll-area"><div class="scroll-bar" style="height:300px; top 0px;"></div></div>
+          <div class="blank icon scroll-next"></div>
+        </div>
+      </div>
+
+      <div class="main-body" style="background-color:#3f3024">
+        <div class="panel-cont">
+        <!-- content -->
+          <!-- main-column -->
+          <div class="main-column column-2"><!-- 가로방향 컨텐츠 2칸 class="column-2" -->
+            <div class="tit-category"><div class="text">가로방향 컨텐츠 2칸 class="column-2"</div><div class="bg-empty"></div></div>
+            <!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-2/1 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-2/2 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-2/3 columnCCC end</div></div>
+            </div><!-- //item -->
+          </div>
+          <!-- //main-column -->
+          <!-- main-column -->
+          <div class="main-column column-3"><!-- 가로방향 컨텐츠 3칸 class="column-3" -->
+            <div class="tit-category"><div class="text">가로방향 컨텐츠 3칸 class="column-3"</div><div class="bg-empty"></div></div>
+            <!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-3/1 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-3/2 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-3/3 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-3/4 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-3/5 columnCCC end</div></div>
+            </div><!-- //item -->
+          </div>
+          <!-- //main-column -->
+        <!-- //content -->
+        </div>
+        <div class="scroll scroll-v ng-hide">
+          <div class="blank icon scroll-prev"></div>
+          <div class="scroll-area"><div class="scroll-bar" style="height:300px; top 0px;"></div></div>
+          <div class="blank icon scroll-next"></div>
+        </div>
+      </div>
+
+      <div class="main-body" style="background-color:#3f3024">
+        <div class="panel-cont">
+        <!-- content -->
+          <!-- main-column -->
+          <div class="main-column column-5"><!-- 가로방향 컨텐츠 5칸 class="column-5" -->
+            <div class="tit-category"><div class="text">가로방향 컨텐츠 5칸 class="column-5"</div><div class="bg-empty"></div></div>
+            <!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-5/1 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-5/2 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-5/3 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-5/4 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-5/5 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-5/6 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-5/7 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-5/8 columnCCC end</div></div>
+            </div><!-- //item --><!-- item --><div class="blank item item-main">
+              <div class="item-thumb"><img src="../images/thumb/default_tvshow_370x277.png" class="thumb-img"></div>
+              <div class="area-text item-tit"><div class="marquee text">column-5/9 columnCCC end</div></div>
+            </div><!-- //item -->
+          </div>
+          <!-- //main-column -->
+        <!-- //content -->
+        </div>
+        <div class="scroll scroll-v ng-hide">
+          <div class="blank icon scroll-prev"></div>
+          <div class="scroll-area"><div class="scroll-bar" style="height:300px; top 0px;"></div></div>
+          <div class="blank icon scroll-next"></div>
+        </div>
+      </div>
+      <!-- //uk only - 컨텐츠 상단 category명 타입별 정리 -->
+
+    </div>
+    <!-- //basic page -->
+  </div>
+  <!-- //panels-viewport -->
+</div>
+<!-- //panels -->
+
+</body>
+</html>

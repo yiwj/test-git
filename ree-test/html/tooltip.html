@@ -1,0 +1,12 @@
+<div class="tooltip" ng-hide="hide" ng-style="style" ng-class="customClass()">
+  <div ng-switch on="isSeason">
+    <span ng-switch-when="true">
+    <div class="area-text">
+      <div class="text marquee">{{title}}<br>{{seasonDate}}</div><div class="bg-empty"></div>
+    </div>
+    </span>
+    <span ng-switch-default>
+      {{title}}<div class = "bg-empty"></div>
+    </span>
+  </div>
+</div>

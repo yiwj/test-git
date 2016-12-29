@@ -1,0 +1,72 @@
+{
+  "response": {
+    "query_information": "{\"maxresults\":\"20\",\"version\":\"v1\",\"service\":\"lgstore\"}",
+    "time": "40 ms",
+    "code": "JEDI-200",
+    "message": "OK",
+    "totalcount": "20",
+    "hitcount": "20",
+    "results": [
+      {
+        "keyword": "개그 콘서트"
+      },
+      {
+        "keyword": "씨스타"
+      },
+      {
+        "keyword": "3d world"
+      },
+      {
+        "keyword": "3d영화"
+      },
+      {
+        "keyword": "결혼해주세요"
+      },
+      {
+        "keyword": "근초고왕"
+      },
+      {
+        "keyword": "현아"
+      },
+      {
+        "keyword": "빅뱅"
+      },
+      {
+        "keyword": "유튜브"
+      },
+      {
+        "keyword": "비스트"
+      },
+      {
+        "keyword": "짱구는못말려"
+      },
+      {
+        "keyword": "셔플댄스"
+      },
+      {
+        "keyword": "로보카폴리"
+      },
+      {
+        "keyword": "tv다시보기"
+      },
+      {
+        "keyword": "코코몽"
+      },
+      {
+        "keyword": "버스커버스커"
+      },
+      {
+        "keyword": "지나"
+      },
+      {
+        "keyword": "앵그리버드"
+      },
+      {
+        "keyword": "아이유 너랑나"
+      },
+      {
+        "keyword": "슈퍼스타k3 tonight 6회"
+      }
+    ]
+  }
+}

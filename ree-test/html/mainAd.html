@@ -1,0 +1,16 @@
+<div class="blank ad-banner ad-banner-main item-video ad-banner-autoPlay" ng-class="{\'focus\': adFocus && !fullScreen}" ng-show="show" item="mainAd">
+  <div class="ad-dim" style="visibility:visible">
+	  <div class="thumb" id="mainvideothumb">
+	    <video preload="metadata" autoplay="" style="opacity: 1;" data-time="' + new Date().getTime() + '" video-handler></video>
+	    <img id="adDefaultImage" ng-src="{{defaultImg}}" style="display:none;" class="thumb-img"/>
+	    <div class="icon-player icon-video"></div>
+	    <div class="bg-icon"></div>
+	  </div>
+	  <div class="info-time" style="display:none;"><div class="time-text"></div><div class="blank btn btn-icon btn-pop-close" ng-class="{\'focus\': closeFocus && fullScreen}" item="close"><div class="icon"></div></div></div>
+	  <div class="blank btn btn-icon btn-pop-close img-close" style="display:none;" item="close"><div class="icon"></div></div>
+	  <div class="blank btn btn-ad btn-ad-more" style="display:none;">
+	    <div class="area-text"><div class="text marquee">more</div></div>
+	  </div>
+	  <div class="blank ad-inset-ban" style="display:none;" item="banner"><img ng-src="{{bannerImg}}" class="thumb-img"></div>
+  </div>
+</div>

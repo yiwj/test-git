@@ -1,0 +1,55 @@
+<div ng-class="{
+    'direct': direct,
+    'showing': showing,
+    'hiding': hiding
+  }" class="page panel-list">
+  <div class="panel-header">
+    <div class="area-text no-event panel-title">
+      <div class="marquee text" ng-bind="title"></div>
+    </div>
+    <div class="panel-sub">
+      <div class="sub-text sub-title" ng-bind="subtitle"></div>
+      <div class="bar-empty">|</div>
+      <div class="sub-text sub-sub-title" ng-bind="subtitle2"></div>
+      <div class="text-login" ng-if="showLoginId" ng-bind="subtitle_loginid"></div>
+    </div>
+    <div class="wrap-btn-header">
+      <div class="blank btn btn-small btn-update-all" ng-class="{'disabled': !isUpdateAvailable || isUpdating() || hideListContent}" item="updateall">
+        <div class="area-text"><div class="text marquee" ng-bind="updateall"></div></div>
+      </div>
+      <div class="blank btn btn-icon btn-list-option" item="option"><div class="icon"></div></div>
+    </div>
+  </div>
+
+  <div class="panel-menu">
+    <div class="blank mypage-menu menu-list {{menu.menuType}}" ng-class="{'on': selectedMenu == '{{menu.code}}'}" ng-repeat="menu in listData.menuList"
+        item="{{menu.code}}">
+      <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text" ng-bind="getMenuName(menu.name)"></div></div>
+    </div>
+  </div>
+
+  <div class="list">
+    <div ng-switch on="getSelectedMenu()" ng-hide="hideListContent">
+      <!-- myApps -->
+      <span ng-switch-when="1">
+        <div list-control-app name="myappList" itemPerRow="3" itemH="160" listtype="appngame" isMyPage="true"></div>
+      </span>
+      <!-- Preferred App Setting -->
+      <span ng-switch-when="2">
+        <div list-control-cp name="cpList" itemPerRow="3" itemH="160" listtype="appngame" isMyPage="true"></div>
+      </span>
+    </div>
+
+    <div class="panel-body" ng-hide="!hideListContent">
+      <div class="panel-cont">
+        <div class="wrap-no-login">
+          <div class="no-data-img"></div>
+          <div class="text" ng-bind="signin_text"></div>
+          <div class="blank btn btn-large signin-button" item="signin">
+            <div class="area-text"><div class="text marquee" ng-bind="signin_btn"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

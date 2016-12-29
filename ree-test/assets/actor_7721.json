@@ -1,0 +1,112 @@
+{
+  "@testversion": "20141009_001",
+  "message": "OK",
+  "item": {
+    "@pinup_able": "TEST",
+    "@type": "PERSON",
+    "item_id": "7721",
+    "item_name": "송새벽",
+    "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/person_2012_0405_15_42_06__4f7d3ebeb971e.jpg",
+    "item_desc": "2010 제13회 디렉터스 컷 어워즈 신인남우상 <방자전>\n2010 제6회 대한민국 대학 영화제 신인남우상 <방자전>\n2010 제19회 부일영화상 신인남자연기상 <방자전>\n\n1998년 연극 <피고지고피고지고>를 통해 무대에 데뷔하여 10년간 연극무대에서 무명으로 지내왔다. <마더>(2009)에서 원빈이 입에 물고 있는 사과를 발로 차서 날리는 형사역으로 강렬한 인상을 남기며 이름을 알렸다. 그 다음해인 2010년 <방자전>에서 성적 호기심이 왕성한 '변학도'역을 맡아 조연임에도 주연만큼의 존재감을 뽐내며 각종 시상식에서 신인남우상을 휩쓸었다. 같은 해, <시라노:연애조작단>(2010), <부당거래>(2010), <해결사>(2010)등 성적이 좋았던 영화들에서 단역을 맡아 제 역할을 해내며 활발한 활동을 펼쳤다. 그는 연극 무대에서 다져온 연기력으로 관객들에게 깊은 인상을 남기며 자신의 존재를 알리고 있다. 앞으로가 기대되는 배우이다. [데이터제공: Cine21]",
+    "item_detail": {
+      "pinup_state": "FALSE",
+      "tab_vod": {
+        "items": [
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|40246",
+            "item_name": "도희야",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0428_11_04_50__535db742db0e6[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "18",
+            "conts_type": "MV"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|27424",
+            "item_name": "시라노; 연애조작단",
+            "item_img": "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2010_0909_m0010003_crn_mnpo2_2copy[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "MV"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|28329",
+            "item_name": "부당거래",
+            "item_img": "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2010_1012_m0010006__[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "18",
+            "conts_type": "MV"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|25030",
+            "item_name": "마더",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2009_0507_m0010003__main_poster[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "18",
+            "conts_type": "MV"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|36038",
+            "item_name": "음치클리닉",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_1105_09_49_53__50970d318df5a[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "MV"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|24395",
+            "item_name": "방자전",
+            "item_img": "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2010_0507_m0010001_2a_web[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "18",
+            "conts_type": "MV"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|28300",
+            "item_name": "해결사",
+            "item_img": "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2010_0817_m0010001____0814[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "MV"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|34632",
+            "item_name": "아부의 왕",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0111_15_44_23__50efb4c758e63[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "MV"
+          }
+        ]
+      },
+      "tab_tv": null
+    },
+    "person_role_type": "",
+    "person_role_name": "",
+    "person_birth_date": "1979-12-26",
+    "person_death_date": ""
+  }
+}

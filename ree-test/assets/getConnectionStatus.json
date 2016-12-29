@@ -1,0 +1,23 @@
+{
+    "wifi": {
+        "state": "disconnected"
+    },
+    "isInternetConnectionAvailable": true,
+    "wan": {
+        "state": "disconnected"
+    },
+    "returnValue": true,
+    "wired":{
+        "netmask": "255.255.254.0",
+        "dns1": "156.147.135.180",
+        "ipAddress": "10.177.166.49",
+        "onInternet": "yes",
+        "method": "manual",
+        "state": "connected",
+        "gateway": "10.177.166.1",
+        "interfaceName": "eth0"
+    },
+    "wifiDirect": {
+        "state": "disconnected"
+    }
+}

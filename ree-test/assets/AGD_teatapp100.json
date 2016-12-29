@@ -1,0 +1,55 @@
+{
+  "app": {
+    "type": "S",
+    "id": "teatapp100",
+    "bPremium": false,
+    "name": "Push Test App for webOS New_kor",
+    "version": "1.0.2",
+    "createDate": "2013-12-05",
+    "updateDate": "2013-12-06",
+    "categoryId": "003",
+    "categoryName": "엔터테인먼트",
+    "description": "Push Test App for webOS!!!!!!!!",
+    "bItem": "N",
+    "currencyCode": "KRW",
+    "bFree": "Y",
+    "price": 0.0,
+    "displayPrice": "￦0",
+    "event": "N",
+    "evaluationYN": "N",
+    "evaluationCount": 18,
+    "evaluationAverage": 5.67,
+    "ageType": "0",
+    "adultYN": "N",
+    "sellerId": 899,
+    "sellerName": "K Group",
+    "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20131205/12.png",
+    "capability": {
+      "useGamePad": "N",
+      "useInternet": "N",
+      "sdkVersion": "1.0.0",
+      "use3d": "N",
+      "useCamera": "N",
+      "useMagic": "N"
+    },
+    "appPreviewCount": 2,
+    "appPreviewList": [
+      {
+        "previewId": 317466,
+        "previewURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20131205/19.png"
+      },
+      {
+        "previewId": 317468,
+        "previewURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20131205/20.png"
+      }
+    ],
+    "appFileCount": 1,
+    "appFileList": [
+      {
+        "fileId": 317471,
+        "packFileSize": 1209464,
+        "unpackFileSize": 1430111
+      }
+    ]
+  }
+}

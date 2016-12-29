@@ -1,0 +1,148 @@
+{
+  "subscribed": true,
+  "returnValue": true,
+  "devices": [
+    {
+      "deviceUri": "/tmp/usb/sda",
+      "deviceName": "a225w",
+      "subDevices": [
+        {
+          "deviceId": "31343037303330303430303930383531_1",
+          "performanceTest": [
+            {
+              "requestType": "camera",
+              "result": "unchecked"
+            },
+            {
+              "requestType": "dvr",
+              "result": "unchecked"
+            }
+          ],
+          "deviceUri": "/tmp/usb/sda/sda1",
+          "fileSystem": "tfat",
+          "lgSmartTvUri": "/tmp/usb/sda/sda1/LG Smart TV",
+          "deviceName": "A:"
+        }
+      ],
+      "deviceId": "USB_31343037303330303430303930383531",
+      "physicalType": "FLASH",
+      "deviceNum": 1,
+      "transferProtocol": "USB_STORAGE",
+      "vendorName": "HP",
+      "deviceType": "usb",
+      "productName": "a225w",
+      "portNum": 1
+    },
+    {
+      "deviceUri": "/tmp/usb/sda",
+      "deviceName": "b225w",
+      "subDevices": [
+        {
+          "deviceId": "31343037303330303430303930383532_1",
+          "performanceTest": [
+            {
+              "requestType": "camera",
+              "result": "unchecked"
+            },
+            {
+              "requestType": "dvr",
+              "result": "unchecked"
+            }
+          ],
+          "deviceUri": "/tmp/usb/sda/sda1",
+          "fileSystem": "tfat",
+          "lgSmartTvUri": "/tmp/usb/sda/sda1/LG Smart TV",
+          "deviceName": "B:"
+        }
+      ],
+      "deviceId": "USB_31343037303330303430303930383532",
+      "physicalType": "FLASH",
+      "deviceNum": 2,
+      "transferProtocol": "USB_STORAGE",
+      "vendorName": "HP",
+      "deviceType": "usb",
+      "productName": "b225w",
+      "portNum": 2
+    },
+    {
+      "deviceUri": "/tmp/usb/sda",
+      "deviceName": "c225w",
+      "subDevices": [
+        {
+          "deviceId": "31343037303330303430303930383533_1",
+          "performanceTest": [
+            {
+              "requestType": "camera",
+              "result": "unchecked"
+            },
+            {
+              "requestType": "dvr",
+              "result": "unchecked"
+            }
+          ],
+          "deviceUri": "/tmp/usb/sda/sda1",
+          "fileSystem": "tfat",
+          "lgSmartTvUri": "/tmp/usb/sda/sda1/LG Smart TV",
+          "deviceName": "C:"
+        }
+      ],
+      "deviceId": "USB_31343037303330303430303930383533",
+      "physicalType": "FLASH",
+      "deviceNum": 3,
+      "transferProtocol": "USB_STORAGE",
+      "vendorName": "HP",
+      "deviceType": "usb",
+      "productName": "c225w",
+      "portNum": 3
+    },
+    {
+      "deviceUri": "/tmp/usb/sda",
+      "deviceName": "d225w",
+      "subDevices": [
+        {
+          "deviceId": "31343037303330303430303930383534_1",
+          "performanceTest": [
+            {
+              "requestType": "camera",
+              "result": "unchecked"
+            },
+            {
+              "requestType": "dvr",
+              "result": "unchecked"
+            }
+          ],
+          "deviceUri": "/tmp/usb/sda/sda1",
+          "fileSystem": "tfat",
+          "lgSmartTvUri": "/tmp/usb/sda/sda1/LG Smart TV",
+          "deviceName": "D:"
+        }
+      ],
+      "deviceId": "USB_31343037303330303430303930383534",
+      "physicalType": "FLASH",
+      "deviceNum": 4,
+      "transferProtocol": "USB_STORAGE",
+      "vendorName": "HP",
+      "deviceType": "usb",
+      "productName": "d225w",
+      "portNum": 4
+    },
+    {
+      "deviceId": "INTERNAL_STORAGE_DVR",
+      "deviceUri": "/mnt/lg/appstore/",
+      "deviceType": "internal dvr",
+      "deviceName": "DVR_INTERNAL STORAGE"
+    },
+    {
+      "deviceId": "INTERNAL_STORAGE_CAMERA",
+      "deviceUri": "/mnt/lg/appstore/cam",
+      "deviceType": "internal camera",
+      "deviceName": "CAMERA_INTERNAL STORAGE"
+    },
+    {
+      "deviceId": "INTERNAL_STORAGE_CAPTURE_TV",
+      "deviceUri": "/mnt/lg/appstore/captureTV",
+      "deviceType": "internal capture tv",
+      "deviceName": "CAPTURE TV_INTERNAL STORAGE"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "@testversion": "20141009_001",
+  "message": "OK",
+  "item": {
+    "@pinup_able": "TEST",
+    "@type": "PERSON",
+    "item_id": "6843",
+    "item_name": "배두나",
+    "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/still_2013_0829_18_26_15__521f13b716f3b.jpg",
+    "item_desc": "1979년 출생, 1998년 한양대 연극영화과 입학(휴학 후 2002년 제적), 98년 잡지 모델로 활동을 시작. 잡지와 CF 모델로 활동하면서 당시 신세대 최고의 스타로 불리며 스타덤에 올랐다. 일본 공포 영화의 리메이크작이었던 ＜링＞으로 데뷔한 이후 ＜플란다스의 개＞＜고양이를 부탁해＞＜복수는 나의 것＞＜봄날의 곰을 좋아하세요＞＜괴물＞등에 출연했고, 일본영화 ＜린다린다린다＞와 ＜공기인형＞에도 출연해 국내외적으로 배우로서의 입지를 쌓아가고 있다. \n\n평소 사진에 관심이 많은 것으로 알려진 배두나는 ＜두나의 런던놀이＞, ＜두나의 도쿄놀이＞, ＜두나의 서울놀이＞ 등 사진과 에세이가 담긴 책을 발간하기도 해 베스트셀러 작가 반열에 합류했다. [데이터제공: Cine21]",
+    "item_detail": {
+      "pinup_state": "FALSE",
+      "tab_vod": {
+        "items": [
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|40246",
+            "item_name": "도희야",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0428_11_04_50__535db742db0e6[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "18",
+            "conts_type": "MV"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|28013",
+            "item_name": "공부의 신",
+            "item_img": "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0417_02_22_24__4f8c5550bdf8a[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "TS"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|34552",
+            "item_name": "코리아",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0509_09_35_32__4fa9bbd43e5a3[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "MV"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|5353",
+            "item_name": "고양이를 부탁해",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2005_0511_m0010003_[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "MV"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|5162",
+            "item_name": "청춘",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2001_0206_large_231921_a01[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "18",
+            "conts_type": "MV"
+          }
+        ]
+      },
+      "tab_tv": null
+    },
+    "person_role_type": "",
+    "person_role_name": "",
+    "person_birth_date": "1979-10-11",
+    "person_death_date": ""
+  }
+}

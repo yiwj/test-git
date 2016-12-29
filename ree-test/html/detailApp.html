@@ -1,0 +1,166 @@
+<div class="page panel-detail panel-detail2" ng-mouseup="onMouseUp($event)">
+    <div class="panel-header">
+    <div class="area-text no-event panel-title">
+      <div class="marquee text" ng-class="{'premium-title' : !useRating}">{{detailAppData.name}}</div>
+    </div>
+    <div class="panel-sub">
+      <div class="sub-text sub-title"></div><div class="bar-empty"></div>
+      <div class="sub-text sub-sub-title"></div>
+    </div>
+    <div class="wrap-btn-header">
+      <div class="blank btn btn-small" ng-if="useRating" item="rating">
+        <div class="area-text"><div class="text marquee">{{ratingTxt | uppercase}}</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="detail-brief detail-apps-brief"><!-- Apps & Games 에서 class="detail-apps-brief" 추가 -->
+    <div class="item-thumb" style="background-color:{{detailAppData.iconColor}};"><!-- Premium app인 경우 배경색 추가 -->
+      <img ng-src="{{detailAppData.iconURL}}" class="thumb-img" image-resize d-img-type="APR">
+      <div class="spinner" ng-if="spinner"></div>
+    </div>
+    <!-- Progress bar - Download 진행률 -->
+    <div class="progress-apps progress-down" style="display:block;" ng-if="useProgressbar">
+      <div class="progress-bar" style="width:{{progressPercent}}%;"></div>
+    </div>
+    <!-- //Progress bar - Download 진행률 -->
+    <!-- Progress bar -  Install 진행률 -->
+    <div class="progress-apps progress-install"></div>
+    <!-- //Progress bar -  Install 진행률 -->
+    <div class="blank btn btn-large" item="button">
+      <div class="area-text">
+        <div class="text marquee">{{actBtntxt}}</div>
+      </div>
+    </div>
+    <!-- 앱에 대한 정보 -->
+    <div class="brief-info" ng-if="detailAppData.eventDate">
+      <div class="info-tit">{{eventDateTxt}}:</div>
+      <div class="info-cont">{{detailAppData.eventStartDate}} - {{detailAppData.eventEndDate}}</div>
+    </div>
+    <div class="brief-info" ng-if="isEvent">
+      <div class="info-tit">{{appPriceTxt}}:</div>
+      <div class="info-cont">
+        <div class="item-price">{{detailAppData.dpPrice1}}</div>
+        <div class="list-price">{{detailAppData.dpPrice2}}<div class="price-empty"></div></div>
+      </div>
+    </div>
+    <div class="brief-info">
+      <div class="info-tit">{{availableStorageTxt}}:</div>
+      <div class="info-cont text">{{spaceAvailableSize}}/{{spaceTotalSize}}</div>
+    </div>
+    <!-- //앱에 대한 정보 -->
+  </div>
+  <div class="panel-body">
+    <div class="panel-cont detail-scroller" style="padding-bottom: 5px;" ng-show="drawed">
+      <!-- content -->
+      <!-- sec-info-brief -->
+      <div class="sec-info-brief">
+        <div class="info-brief" ng-if="!usePackageApp">
+          <div class="sec-title detail-title">{{updateTxt}}</div>
+          <div class="info-cont">{{detailAppData.updateDate | date :'yyyy.MM.dd'}}</div>
+        </div>
+        <div class="info-brief" ng-if="!usePackageApp">
+          <div class="sec-title detail-title">{{sizeTxt}}</div>
+          <div class="info-cont">{{detailAppData.appSize}}<div class="unit">{{detailAppData.appSizeUnit}}</div></div>
+        </div>
+        <div class="info-brief" ng-if="!usePackageApp">
+          <div class="sec-title detail-title">{{versionTxt}}</div>
+          <div class="info-cont">{{detailAppData.version}}</div>
+        </div>
+        <div class="info-brief">
+          <div class="sec-title detail-title">{{rateTxt}}</div>
+          <div ng-switch on="countryCode">
+            <div ng-switch-when="BR">
+              <div class="info-cont icon icon-grade-l" ng-if="detailAppData.ageType == 0"></div><!-- 브라질향 등급 표기 방법-아이콘 L -->
+              <div class="info-cont icon icon-grade-{{detailAppData.ageType}}" ng-if="detailAppData.ageType != 0"></div><!-- 브라질향 등급 표기 방법-아이콘 ageType -->
+            </div>
+            <div ng-switch-default>
+              <div class="info-cont">{{detailAppData.ageTypeTxt}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- //sec-info-brief -->
+      <!-- sec-info-detail -->
+      <div class="detail-section sec-info-detail" detail-section-handle><!-- more 버튼이 있는 경우에 class="more-open"추가 -->
+        <div class="sec-title detail-title">{{detailsTxt}}</div>
+        <div class="detail-cont">
+          <div class="synopsis-info synopsis-category">{{detailAppData.categoryName}}</div><div class="bar-empty" ng-if="!detailAppData.bItem && useRating">|</div>
+          <div class="item-grade synopsis-grade" ng-if="!detailAppData.bItem && useRating"><div class="icon percent-grade" style="width:{{detailAppData.evaluationAverage * 10 | number : 0}}%;"></div><div class="icon bg-grade"></div></div>
+          <div class="synopsis-grade-num" ng-if="!detailAppData.bItem && useRating">{{ratingsTxt}} : {{detailAppData.evaluationCount}}</div>
+          <div class="synopsis-info synopsis-name" ng-if="detailAppData.sellerName">{{sellerNameTxt}} : &lrm;{{detailAppData.sellerName}}&lrm;</div>
+          <div class="synopsis-info synopsis-name" ng-if="detailAppData.sellerEmail">{{sellerEmailTxt}} : {{detailAppData.sellerEmail}}</div>
+          <div class="synopsis-text synopsis-notice" ng-if="usePackageApp">{{packageDescTxt}}</div>
+          <div class="synopsis-text synopsis-notice" ng-if="detailAppData.bItem">{{apps_inapp_1_1Txt}}</div><!-- In-app 결제 앱인 경우/패키지 앱의 경우 -->
+          <div style="max-height: none;line-height: 40px;" class="synopsis-text app-detail-text" ng-bind-html="detailAppData.description | nl2br"></div>
+        </div>
+        <div class="btn-more item-descBtn-0" item="item-descBtn-0" ng-if="useDescMore" more-button-handle></div>
+      </div>
+      <!-- //sec-info-detail -->
+      <!-- Package Apps -->
+      <div class="detail-section" ng-if="packageData.length > 0">
+        <div class="sec-title detail-title">{{packageTitle}}</div>
+        <div class="sec-cont detail-list-apps">
+          <!-- item -->
+          <div class="blank item item-apps packapp item-package-{{$index}}" ng-repeat="packageData in packageData" item="item-package-{{$index}}" item-id="{{packageData.id}}" item-age="{{packageData.ageType}}">
+            <div class="item-thumb">
+              <img ng-src="{{packageData.iconURL}}" class="thumb-img" image-resize d-img-type="APP">
+            </div>
+            <div class="area-text item-tit"><div class="marquee text">{{packageData.name}}</div></div>
+            <div class="app-category">{{packageData.categoryName}}</div>
+            <div class="item-price">{{packageData.dpPrice1}}</div>
+            <div class="list-price">{{packageData.dpPrice2}}<div class="price-empty"></div></div>
+          </div><!-- //item -->
+        </div>
+      </div>
+      <!-- //Package Apps -->
+      <!-- Screenshots -->
+      <div class="detail-section sec-detail-list" ng-show="useScreenShot" detail-section-handle>
+        <div class="sec-title detail-title">{{screenshotsTxt}}</div>
+        <div class="sec-cont detail-list-trailer">
+          <!-- item -->
+          <div class="blank item item-trailer-apps item-preview-{{$index}}" item="item-preview-{{$index}}" ng-repeat="previewList in detailAppData.appPreviewList" ng-if="previewList.showPreview" item-id="{{previewList.previewId}}">
+            <div class="item-thumb screenshot">
+              <img ng-src="{{previewList.previewURL}}" class="thumb-img" image-resize d-img-type="SC">
+            </div>
+          </div>
+          <!-- //item -->
+        </div>
+        <div class="blank btn-more item-previewBtn-0" item="item-previewBtn-0" ng-if="detailAppData.appPreviewCount > 3" more-button-handle></div>
+      </div>
+      <!-- //Screenshots -->
+      <!-- System Requirements -->
+      <div class="detail-section" ng-show="useSingleApp && useCapability">
+        <div class="sec-title detail-title">{{systemRequireTxt}}</div>
+        <div class="sec-cont list-require">
+          <div class="item-require" ng-show="useInternet"><div class="icon icon-internet"></div>{{capabilityInternetTxt}}</div>
+          <div class="item-require" ng-show="use3d"><div class="icon icon-3D"></div>{{capability3dTxt}}</div>
+          <div class="item-require" ng-show="useMagic"><div class="icon icon-magic-remote"></div>{{capabilityMagicTxt}}</div>
+          <div class="item-require" ng-show="useCamera"><div class="icon icon-camera"></div>{{capabilityCameraTxt}}</div>
+          <div class="item-require" ng-show="useGamePad"><div class="icon icon-gamepad"></div>{{capabilityGamePadTxt}}</div>
+        </div>
+      </div>
+      <!-- //System Requirements -->
+      <!-- Recommended Apps -->
+      <div class="detail-section" ng-repeat="(parentIndex, recommCategory) in recommendData.rcmdCategoryList"
+           ng-if="recommCategory.rcmdAppCount > 0" detail-section-handle>
+        <div class="sec-title detail-title">{{recommCategory.rcmdName}}</div>
+        <div class="sec-cont detail-list-apps">
+          <!-- item -->
+          <div class="blank item item-apps item-recomm{{parentIndex}}-{{$index}}" ng-repeat="appList in recommCategory.appList" ng-if="appList.showApp" item="item-recomm{{parentIndex}}-{{$index}}" item-id="{{appList.id}}" item-age="{{appList.ageType}}">
+            <div class="item-thumb">
+              <img ng-src="{{appList.iconURL}}" class="thumb-img" image-resize d-img-type="APP">
+            </div>
+            <div class="area-text item-tit"><div class="marquee text">{{appList.name}}</div></div>
+            <div class="app-category">{{appList.categoryName}}</div>
+            <div class="item-price">{{appList.dpPrice1}}</div>
+            <div class="list-price">{{appList.dpPrice2}}<div class="price-empty"></div></div>
+          </div><!-- //item -->
+        </div>
+        <div class="blank btn-more item-recommBtn{{parentIndex}}-0" item="item-recommBtn{{parentIndex}}-0" ng-if="recommCategory.rcmdAppCount > 6" more-button-handle></div>
+      </div>
+      <!-- //Recommended Apps -->
+      <!-- //content -->
+    </div>
+    <div scroll class="scroll scroll-v"></div>
+  </div>
+</div>

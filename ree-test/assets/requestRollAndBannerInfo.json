@@ -1,0 +1,13 @@
+{
+	"contextIndex" : 1,
+	"returnValue" : true,
+	"assets" : [{
+			"id" : 1,
+			"parentId" : -1,
+			"type" : "video",
+			"contentData" : "http://cdn.c.ooyala.com/5xYzNuZzoU6fB5n3WlR8WBeVyLgz-rrS/DOcJ-FxaFrRg4gtDEwOjRqaDowczE7Tm.mp4",
+			"isCached" : false,
+			"duration" : 120
+		}
+	]
+}

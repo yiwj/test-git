@@ -1,0 +1,32 @@
+{
+  "subscribed":true,
+  "returnValue":true,
+  "results":[
+    {
+      "category":"3d",
+      "vtype":"ArrayExt",
+      "dbtype":"G",
+      "valueCheck":true,
+      "key":"_3dNormalImageView",
+      "volatile":true,
+      "dimension":[],
+      "ui":{
+        "active":false,
+        "visible":true,
+        "widget":"None",
+        "displayName":"_3dNormalImageView"
+      },
+      "values":{
+        "arrayExt":[
+          {
+            "active":true,"visible":true,"value":"on"
+          },
+          {
+            "active":true,"visible":true,"value":"off"
+          }
+        ]
+      }
+    }
+  ],
+  "method":"getSystemSettingDesc"
+}

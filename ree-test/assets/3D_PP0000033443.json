@@ -1,0 +1,50 @@
+{
+  "sscr_avg":"0",
+  "sscr_user_count":"0",
+  "length":"5017000",
+  "prdtLists":[
+    {
+      "display_price":"￦6,600",
+      "price":"6600",
+      "tag":"_dubbing",
+      "prdtId":"PS0000033401"
+    },
+    {
+      "display_price":"￦6,600",
+      "price":"6600",
+      "tag":"_subtitles",
+      "prdtId":"PS0000033434"
+    }
+  ],
+  "retCode":"0000",
+  "prdt_tp":"P",
+  "id":"PP0000033443",
+  "videoStillURL":"http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=CMS&func_code=CMS_ASSET&file_path=/cms/asset/dp0000187683_20141013051115_7.jpg",
+  "thumbnailURL":"http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=CMS&func_code=CMS_ASSET&file_path=/cms/asset/dp0000187683_20141013051115_7.jpg",
+  "errMsg":"Success",
+  "customFields":{
+    "performer":"",
+    "display_price":"￦6,600",
+    "members":"",
+    "category":"Disney",
+    "currency":"KRW|￦",
+    "director":"로버츠 개너웨이",
+    "billing_sub_cat":"002",
+    "sorting":"1",
+    "debut":"",
+    "company":"",
+    "prcenc":"ff02054bd90d95c547360fc08924e6fd",
+    "studio":"Walt Disney",
+    "price":"6600",
+    "genre":"애니메이션",
+    "billing_high_cat":"003",
+    "tv_rating":"all"
+  },
+  "tags":[
+    "_disney",
+    "_top5"
+  ],
+  "usedMultiLang":"KO",
+  "name":"비행기2 : 소방구조대",
+  "longDescription":"세계적으로 유명한 초고속 레이싱 비행기인 더스티는 엔진 고장으로 더 이상 레이싱을 할 수 없게 된다. 하는 수 없이 고향으로 돌아오지만 실수로 화재 사고를 일으키게 되고, 낙후된 장비 때문에 작은 불은 큰 불로 번지고 만다. 결국 고향을 위해 소방 구조대의 길로 뛰어들게 된 더스티는 베테랑 소방 구조대인 블레이드 레인저의 팀에 합류해 차차 구조대의 일을 익히게 된다. 용감한 동료들과 함께 거대한 불길 속으로 뛰어들면서 조금씩 성장하는 더스티. 과연 더스티는 진정한 영웅이 될 수 있을까."
+}

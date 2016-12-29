@@ -1,0 +1,36 @@
+<div class="ad-player item-video" ng-show="show" item="prerollAd">
+
+  <video id="prerollvideo"  ng-if="show" ng-src="{{src}}" preload="metadata" autoplay="" style="opacity: 1; width:100%;height:100%" >
+    <source type="video/mp4;mediaOption={{mediaOption}}">
+  </video>
+
+  <!-- player-cont -->
+  <!-- Progress bar 사라질 경우, SKIP버튼이 하단으로 내려옴.  -->
+  <div class="player-cont">
+    <!-- <div class="blank btn btn-icon btn-cancel"><div class="icon"></div></div> -->
+    <div id="skipbtn" item="skipbtn" ng-show="skipshow" class="blank btn btn-ad btn-ad-skip"><!-- SKIP 가능 대기 N초 버튼 비활성화 class="disabled" 추가 -->
+      <div id="skip" class="area-text"><div id="skipText" class="text marquee">skip ad</div></div>
+    </div>
+    <!-- player-time -->
+    <div class="player-time-wrap">
+      <div class="time time-play">0:00:00</div>
+      <div class="time slash-bar-empty">/</div>
+      <div class="time time-remain">00:00:00</div>
+    </div>
+    <!-- //player-time -->
+    <!-- Progress Bar  -->
+    <div id="progress" class="player-progress-wrap">
+      <div item="progresss" class="player-progress">
+        <div class="bar-buffering" style="width:60%;"></div>
+        <div class="bar-play" style="width:40%;"></div>
+        <!-- <div class="pointer-wrap">
+         <div class="empty-pointer" style="left:1200px"></div>
+         <div class="current-time" style="left:1200px">0:00:00</div>
+         </div> -->
+      </div>
+    </div>
+    <!-- //Progress Bar  -->
+  </div>
+  <!--  //Progress bar 사라질 경우, SKIP버튼이 하단으로 내려옴.  -->
+  <!-- //player-cont -->
+</div>

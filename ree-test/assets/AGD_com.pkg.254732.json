@@ -1,0 +1,148 @@
+{
+  "app" : {
+    "type" : "P",
+    "id" : "com.pkg.254732",
+    "bPremium" : false,
+    "name" : "package test 2",
+    "createDate" : "2014-12-18",
+    "updateDate" : "2015-02-02",
+    "categoryId" : "003",
+    "categoryName" : "엔터테인먼트",
+    "description" : "package test 2\npackage test 2\npackage test 2",
+    "currencyCode" : "KRW",
+    "bFree" : "N",
+    "price" : 370000.0,
+    "displayPrice" : "￦370,000",
+    "event" : "Y",
+    "eventPrice" : 185000.0,
+    "displayEventPrice" : "￦185,000",
+    "evaluationYN" : "N",
+    "evaluationCount" : 0,
+    "evaluationAverage" : 0.0,
+    "ageType" : "0",
+    "adultYN" : "N",
+    "sellerId" : 26910,
+    "sellerName" : "testsellerqt",
+    "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20141201/4_130x130_webos.png",
+    "capability" : {
+      "useGamePad" : "N",
+      "useInternet" : "N",
+      "sdkVersion" : "1.0.0",
+      "use3d" : "N",
+      "useCamera" : "N",
+      "useMagic" : "N"
+    },
+    "appPreviewCount" : 4,
+    "appPreviewList" : [ {
+      "previewId" : 501600,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20141130/1.jpg"
+    }, {
+      "previewId" : 501602,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20141130/3.jpg"
+    }, {
+      "previewId" : 501604,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20141201/1.jpg"
+    }, {
+      "previewId" : 501606,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20141201/3.jpg"
+    } ],
+    "appCount" : 4,
+    "appList" : [ {
+      "id" : "package.test.4",
+      "bPremium" : false,
+      "name" : "package test 4",
+      "categoryName" : "게임",
+      "bItem" : "N",
+      "price" : 233000.0,
+      "displayPrice" : "￦233,000",
+      "event" : "N",
+      "eventPrice" : 233000.0,
+      "displayEventPrice" : "￦233,000",
+      "evaluationCount" : 0,
+      "evaluationAverage" : 0.0,
+      "ageType" : "0",
+      "adultYN" : "N",
+      "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20141201/3_130x130_webos.png",
+      "purchasable" : "Y",
+      "bPurchased" : "N",
+      "appFileCount" : 1,
+      "appFileList" : [ {
+        "fileId" : 501568,
+        "packFileSize" : 62674,
+        "unpackFileSize" : 78627
+      } ]
+    }, {
+      "id" : "package.test.3",
+      "bPremium" : false,
+      "name" : "package test 3",
+      "categoryName" : "게임",
+      "bItem" : "N",
+      "price" : 116000.0,
+      "displayPrice" : "￦116,000",
+      "event" : "N",
+      "eventPrice" : 116000.0,
+      "displayEventPrice" : "￦116,000",
+      "evaluationCount" : 0,
+      "evaluationAverage" : 0.0,
+      "ageType" : "0",
+      "adultYN" : "N",
+      "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20141201/2_130x130_webos.png",
+      "purchasable" : "Y",
+      "bPurchased" : "N",
+      "appFileCount" : 1,
+      "appFileList" : [ {
+        "fileId" : 503217,
+        "packFileSize" : 62676,
+        "unpackFileSize" : 78627
+      } ]
+    }, {
+      "id" : "package.test.2",
+      "bPremium" : false,
+      "name" : "package test 2",
+      "categoryName" : "생활",
+      "bItem" : "N",
+      "price" : 9000.0,
+      "displayPrice" : "￦9,000",
+      "event" : "N",
+      "eventPrice" : 9000.0,
+      "displayEventPrice" : "￦9,000",
+      "evaluationCount" : 0,
+      "evaluationAverage" : 0.0,
+      "ageType" : "0",
+      "adultYN" : "N",
+      "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20141130/3_130x130_webos.png",
+      "purchasable" : "Y",
+      "bPurchased" : "N",
+      "appFileCount" : 1,
+      "appFileList" : [ {
+        "fileId" : 503204,
+        "packFileSize" : 74244,
+        "unpackFileSize" : 90013
+      } ]
+    }, {
+      "id" : "package.test.1",
+      "bPremium" : false,
+      "name" : "package test 1",
+      "categoryName" : "게임",
+      "bItem" : "N",
+      "price" : 12000.0,
+      "displayPrice" : "￦12,000",
+      "event" : "N",
+      "eventPrice" : 12000.0,
+      "displayEventPrice" : "￦12,000",
+      "evaluationCount" : 0,
+      "evaluationAverage" : 0.0,
+      "ageType" : "0",
+      "adultYN" : "N",
+      "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20141130/2_130x130_webos.png",
+      "purchasable" : "Y",
+      "bPurchased" : "N",
+      "appFileCount" : 1,
+      "appFileList" : [ {
+        "fileId" : 503140,
+        "packFileSize" : 62074,
+        "unpackFileSize" : 77522
+      } ]
+    } ]
+  }
+}

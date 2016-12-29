@@ -1,0 +1,55 @@
+{
+  "app" : {
+    "type" : "S",
+    "id" : "arirang.tv",
+    "bPremium" : true,
+    "name" : "arirang TV",
+    "version" : "1.0.2",
+    "createDate" : "2013-09-02",
+    "updateDate" : "2015-02-27",
+    "categoryId" : "003",
+    "categoryName" : "엔터테인먼트",
+    "description" : "arirang TV Netcast CP migration....",
+    "bItem" : "N",
+    "currencyCode" : "KRW",
+    "bFree" : "Y",
+    "price" : 0.0,
+    "displayPrice" : "￦0",
+    "event" : "N",
+    "supportLanguage" : "English",
+    "evaluationYN" : "N",
+    "evaluationCount" : 0,
+    "evaluationAverage" : 0.0,
+    "ageType" : "0",
+    "adultYN" : "N",
+    "sellerId" : 138660,
+    "sellerName" : "appqaadmin",
+    "iconColor" : "#FFFFFF",
+    "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20140127/385_130x130_webos.png",
+    "capability" : {
+      "useGamePad" : "N",
+      "useInternet" : "Y",
+      "sdkVersion" : "1.0.0",
+      "use3d" : "N",
+      "useCamera" : "N",
+      "useMagic" : "N"
+    },
+    "appPreviewCount" : 3,
+    "appPreviewList" : [ {
+      "previewId" : 395074,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20140127/837.png"
+    }, {
+      "previewId" : 594028,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20150227/9.png"
+    }, {
+      "previewId" : 395076,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20140127/838.png"
+    } ],
+    "appFileCount" : 1,
+    "appFileList" : [ {
+      "fileId" : 594050,
+      "packFileSize" : 29106,
+      "unpackFileSize" : 2099174
+    } ]
+  }
+}

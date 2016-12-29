@@ -1,0 +1,34 @@
+<div ng-class="{
+    'direct': direct,
+    'showing': showing,
+    'hiding': hiding
+  }" class="page">
+  <div class="back" item="back">
+    <div class="back-button"></div>
+  </div>
+  <div class="list">
+    <div class="list-header">
+      <div class="list-title ellipsis miso-medium">{{title}}</div>
+    </div>
+    <div class="search-list-content">
+      <div class="search-list-scroller">
+        <div class="premium-item" id="item{{$index}}" item="item{{$index}}" ng-repeat="item in listData.premiumAppList" item-id="{{item.id}}">
+          <div class="premium-thumb">
+            <img ng-src="{{item.iconURL}}" app-recoverable>
+          </div>
+          <div class="premium-detail">
+            <div class="premium-item-title marquee ellipsis museo-bold">{{item.name}}</div>
+            <div class="app-info museo-medium">{{item.categoryName}}</div>
+          </div>
+        </div>
+      </div>
+      <div scroll class="search-list-scroll-bar"></div>
+      <div class="wrap-nodata type-premium" ng-show="!listData.appCount">
+        <div class="box-nodata">
+          <div class="icon"></div>
+          <div class="msg museo-bold">{{nodata}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

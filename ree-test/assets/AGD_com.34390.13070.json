@@ -1,0 +1,54 @@
+{
+  "app": {
+    "type": "S",
+    "id": "com.34390.13070",
+    "bPremium": false,
+    "name": "K-POP ZONE_KR",
+    "version": "1.0.0",
+    "createDate": "2011-11-23",
+    "updateDate": "2012-01-05",
+    "categoryId": "003",
+    "categoryName": "엔터테인먼트",
+    "description": "[2012-01-05 LTH] Ad Add\n안방에서 체험하고 즐기는 \"K-POP HD HOME LIVE CONCERT\" 1) \"K-POP HD HOME LIVE CONCERT\" 를 3D / 2D로 콘서트장처럼 느끼고 즐긴다. 2) K-POP STAR들의 \"메이킹영상\", \"팬미팅영상\" 등의 비하인드스토리를 생생하게 전한다. 3) 글로벌 프리미엄컨텐츠로 \"3D콘서트\", \"라이브콘서트\", \"메이킹영상\", \"팬미팅영상\", \"멀티앵글영상\", \"뮤직비디오\" 등으로 구성되어 있고, 무료맛보기 서비스를 지원한다. - 3D Concert : 빅뱅,카라,비스트 등 한국 인기아이돌 가수의 3D 라이브콘서트를 감상할 수 있는 코너 - Live Concert : Rain(비), 서태지, 빅뱅, 카라 등 최신 라이브콘서트가 있는 메뉴로 콘서트 현장에 있는 것처럼 생생하게 라이브영상을 즐길 수 있는 코너 - FanMeeting : 한국 인기 아이돌 가수의 팬미팅 현장을 소개하는 코너 - Making Film : K-POP Singer의 인터뷰, 제작현장, 스케치영상, 길거리영상 등 TV에서 볼수 없는 비하인드 스토리를 감상할 수 있는 코너 - MultiAngle Clip : 라이브콘서트 영상 중 메인 영상외에 번외편 영상을 감상할 수 있는 코너 - Hot Star : K-POP Singer 중에서 Hot Star를 소개하는 코너 - Music Video : K-POP Singer의 뮤직비디오 영상 소개하는 코너 - Video Clip : K-POP Singer의 기타 비디오 클립을 보여주는 코너 - Sample Video : 각 컨텐츠의 미리보기 영상을 보여주는 코너",
+    "bItem": "N",
+    "currencyCode": "KRW",
+    "bFree": "Y",
+    "price": 0.0,
+    "displayPrice": "￦0",
+    "event": "N",
+    "evaluationYN": "N",
+    "evaluationCount": 6,
+    "evaluationAverage": 4.17,
+    "ageType": "0",
+    "adultYN": "N",
+    "sellerId": 34390,
+    "sellerName": "K-POP",
+    "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20110902/5.jpg",
+    "capability": {
+      "useInternet": "Y",
+      "sdkVersion": "1.0.0",
+      "use3d": "N",
+      "useCamera": "N",
+      "useMagic": "N"
+    },
+    "appPreviewCount": 2,
+    "appPreviewList": [
+      {
+        "previewId": 191715,
+        "previewURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20110902/11.jpg"
+      },
+      {
+        "previewId": 191717,
+        "previewURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20110902/13.jpg"
+      }
+    ],
+    "appFileCount": 1,
+    "appFileList": [
+      {
+        "fileId": 287385,
+        "packFileSize": 17338,
+        "unpackFileSize": 293465
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "@testversion": "20141009_001",
+  "message": "OK",
+  "item": {
+    "@pinup_able": "TEST",
+    "@type": "PERSON",
+    "item_id": "1268",
+    "item_name": "현빈",
+    "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/2011_0211_p0000016_shj_1792.jpg",
+    "item_desc": "본명 :  김태평\n\n2003년 KBS 드라마 <보디가드>를 통해 연기자로 데뷔한 현빈은 MBC 시트콤 ＜논스톱 4＞로 본격적인 연기자의 길을 걷게 된 후, MBC드라마 ＜아일랜드＞와＜내 이름은 김삼순＞을 통해서 스타로 발돋움했다. 특히 삼순이의 남자친구 진헌 역을 맡아 열연했던 드라마 ＜내 이름은 김삼순＞의 인기로 한국 뿐 아니라 일본, 중국 등 아시아에서도 많은 인기를 얻게 됐다. 내면의 상처를 안은 열혈 청년 PD로 등장한 노희경, 표민수 콤비의 드라마＜그들이 사는 세상＞에서 만난 송혜교와 공식 연인 사이이기도 한 그는 곽경택 감독의 동명 영화를 드라마로 제작한 ＜친구, 우리들의 전설＞에서 영화 속 장동건이 맡았던 동수역을 맡아서 좋은 연기를 보여주었다. 2010년에는 중국의 여배우 탕웨이와 함께 김태용 감독의 리메이크작 ＜만추＞에 출연했으며, SBS <시크릿 가든>의 까칠한 백화점 사장 김주원 역으로 큰 사랑을 받고 있다. 드라마 <시크릿 가든>을 마지막으로 2011년 3월 입대 예정이다. [데이터제공: Cine21]",
+    "item_detail": {
+      "pinup_state": "FALSE",
+      "tab_vod": {
+        "items": [
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|29029",
+            "item_name": "시크릿 가든",
+            "item_img": "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2011_0523_m0010007_[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "TS"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|25962",
+            "item_name": "나는 행복합니다",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2009_1105_m0010001_[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "MV"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|30814",
+            "item_name": "사랑한다, 사랑하지 않는다",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2011_0128_m0010001__poster[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "MV"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|11742",
+            "item_name": "내 이름은 김삼순",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0402_14_33_24__4f793a2462568[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "TS"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|27981",
+            "item_name": "만추",
+            "item_img": "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2011_0124_27981_4d3cdea8cbdb4_main_poster_2[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "MV"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|38945",
+            "item_name": "역린",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0404_16_09_51__533e5abf1f779[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "MV"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|43615",
+            "item_name": "하이드 지킬, 나",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2015_0121_13_59_12__54bf322055ecf[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "TS"
+          }
+        ]
+      },
+      "tab_tv": null
+    },
+    "person_role_type": "",
+    "person_role_name": "",
+    "person_birth_date": "1982-09-25",
+    "person_death_date": ""
+  }
+}
