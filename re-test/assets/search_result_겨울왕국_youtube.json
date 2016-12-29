@@ -1,0 +1,436 @@
+{
+  "response": {
+    "version": "v1",
+    "query_information": "params={\"query\":\"겨울왕국\",\"startindex\":\"1\",\"maxresults\":\"200\",\"domain\":[\"youtube\"],\"version\":\"v1\",\"epgcode\":[\"794\",\"795\",\"796\",\"798\",\"797\"],\"sortby\":[\"\"],\"filterby\":{}}",
+    "time": "451 ms",
+    "code": "JEDI-200",
+    "message": "OK",
+    "engine_url": "165.244.145.185:15100",
+    "totalcount": 177469,
+    "hitcount": 51,
+    "results": [
+      {
+        "code": "youtube",
+        "value": "youtube",
+        "totalcount": 177468,
+        "hitcount": 50,
+        "doc": [
+          {
+            "rank": "100000",
+            "title": "겨울왕국Ost",
+            "contentsid": "7d9i8Hste1Y",
+            "thumbnail": "https://i.ytimg.com/vi/7d9i8Hste1Y/hqdefault.jpg",
+            "makeyear": "2014-02-11T05:58:09.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "포핀쿠킨 겨울왕국 케이크 아이스크림 장난감 만들기 점토 클레이 미니어쳐 식완 일본 소꿉 요리 놀이 whipple ホイップる Disney Frozen Cake Cooking Toys",
+            "contentsid": "r3oZptugyKY",
+            "thumbnail": "https://i.ytimg.com/vi/r3oZptugyKY/hqdefault.jpg",
+            "makeyear": "2015-01-30T07:55:42.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 열기  FROZEN FEVER  공식 예고편 (한국어 CC)",
+            "contentsid": "dpY6Vlvl5wg",
+            "thumbnail": "https://i.ytimg.com/vi/dpY6Vlvl5wg/hqdefault.jpg",
+            "makeyear": "2015-02-25T21:54:53.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "플레이도우 겨울왕국 엘사 안나 공주 인형 장난감 Play Doh Disney Frozen Princess Elsa Anna Dress Up Magic Clip Dolls Toys",
+            "contentsid": "--FTytVFxUc",
+            "thumbnail": "https://i.ytimg.com/vi/--FTytVFxUc/hqdefault.jpg",
+            "makeyear": "2014-09-17T08:35:09.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 뷰티킷 & 이벤트 영상 (Frozen Beauty Kit)",
+            "contentsid": "pveHsL4QgAE",
+            "thumbnail": "https://i.ytimg.com/vi/pveHsL4QgAE/hqdefault.jpg",
+            "makeyear": "2014-02-16T12:15:38.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 아쿠아비즈 또봇 카봇 타요 폴리 뽀로로 장난감 Disney Frozen Beads Princess Elsa Toys Игрушки アクア ビーズアート",
+            "contentsid": "QqiIo5HiujI",
+            "thumbnail": "https://i.ytimg.com/vi/QqiIo5HiujI/hqdefault.jpg",
+            "makeyear": "2015-01-09T12:09:19.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 뮤지컬",
+            "contentsid": "TSojNGixv3A",
+            "thumbnail": "https://i.ytimg.com/vi/TSojNGixv3A/hqdefault.jpg",
+            "makeyear": "2014-10-18T09:00:04.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "아렌델의 성!! [New겨울왕국 모드: 쇼케이스 #1편] - Frozen Mod in Arendelle - 마인크래프트 Minecraft [도티]",
+            "contentsid": "RC3nVkzOt9U",
+            "thumbnail": "https://i.ytimg.com/vi/RC3nVkzOt9U/hqdefault.jpg",
+            "makeyear": "2014-11-04T04:30:02.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "점토 플레이도우 클레이 디즈니 공주 인형 겨울왕국 엘사 타요 폴리 뽀로로 장난감 Play Doh Disney Princess Dress Up Magic Clip Doll Toys",
+            "contentsid": "uwk-dOW1woQ",
+            "thumbnail": "https://i.ytimg.com/vi/uwk-dOW1woQ/hqdefault.jpg",
+            "makeyear": "2015-01-16T19:22:50.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 레고 엘사 타요 폴리 뽀로로 장난감 Lego Disney Frozen Princess Elsa Anna Toys Игрушки アナと雪の女王 レゴ",
+            "contentsid": "dSv2PYWfKz0",
+            "thumbnail": "https://i.ytimg.com/vi/dSv2PYWfKz0/hqdefault.jpg",
+            "makeyear": "2015-01-06T19:18:05.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "수다쟁이 엘사와 휴가보내기(비서 올라프ㅋ) * 카일TV 겨울왕국게임 애니메이션 * Talkative Elsa summer vacation!",
+            "contentsid": "Pwr0WREyz6g",
+            "thumbnail": "https://i.ytimg.com/vi/Pwr0WREyz6g/hqdefault.jpg",
+            "makeyear": "2015-02-23T12:54:01.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 패러디 고등학생들의 [입시왕국]",
+            "contentsid": "DQAQGZ27WPg",
+            "thumbnail": "https://i.ytimg.com/vi/DQAQGZ27WPg/hqdefault.jpg",
+            "makeyear": "2014-03-02T15:19:52.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "구슬 아이스크림 만들기 겨울왕국 뽀로로 타요 폴리 미니특공대 포핀쿠킨 가루쿡 장난감 Ice Cream Frozen Dots Maker Toy つぶつぶアイス",
+            "contentsid": "qmiNc46obsI",
+            "thumbnail": "https://i.ytimg.com/vi/qmiNc46obsI/hqdefault.jpg",
+            "makeyear": "2015-03-27T16:18:29.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "불량소녀 엘사 치료하기 ㅋㅋ 카일TV 겨울왕국게임 * Frozen Elsa hospital recovery",
+            "contentsid": "yhWmEMdVCAA",
+            "thumbnail": "https://i.ytimg.com/vi/yhWmEMdVCAA/hqdefault.jpg",
+            "makeyear": "2015-02-12T23:51:41.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "Disney's Frozen \"Let It Go\" Sequence Performed by Idina Menzel",
+            "contentsid": "moSFlvxnbgk",
+            "thumbnail": "https://i.ytimg.com/vi/moSFlvxnbgk/hqdefault.jpg",
+            "makeyear": "2013-12-06T17:00:01.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "렛잇고 Let It Go (c) 겨울 왕국 - 어린이 노래 ( 렉시 워커 )",
+            "contentsid": "sb1X43jWkAY",
+            "thumbnail": "https://i.ytimg.com/vi/sb1X43jWkAY/hqdefault.jpg",
+            "makeyear": "2014-02-19T08:43:28.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "성우 지망생의 겨울왕국 ost (같이 눈사람 만들래?) 더빙",
+            "contentsid": "5nI3rxsA9M4",
+            "thumbnail": "https://i.ytimg.com/vi/5nI3rxsA9M4/hqdefault.jpg",
+            "makeyear": "2014-02-04T15:51:36.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 Frozen 매드무비 . 엘사와 안나가 만났을때",
+            "contentsid": "rwo-YlBlyno",
+            "thumbnail": "https://i.ytimg.com/vi/rwo-YlBlyno/hqdefault.jpg",
+            "makeyear": "2014-03-16T01:27:42.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "엘사의 마법!! [New겨울왕국 모드: 쇼케이스 #2편] (완결) - Frozen Mod in Arendelle - 마인크래프트 Minecraft [도티]",
+            "contentsid": "j_4rGFB8xgU",
+            "thumbnail": "https://i.ytimg.com/vi/j_4rGFB8xgU/hqdefault.jpg",
+            "makeyear": "2014-11-04T05:00:01.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "주방놀이 미니어쳐 리멘트 겨울왕국 장난감 요리놀이 식완 소꿉 놀이 만들기 Re-ment Cook Kitchen キッチン おもちゃ món ăn đồ chơi Make Toys",
+            "contentsid": "e9ivG4qVSLE",
+            "thumbnail": "https://i.ytimg.com/vi/e9ivG4qVSLE/hqdefault.jpg",
+            "makeyear": "2015-04-16T16:25:27.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "[겨울왕곰 실사판] 겨울왕국 패러디의 종결판!! - [Frozen Bear] Frozen Parody's Ultimador!!",
+            "contentsid": "oQQOZKU-TTU",
+            "thumbnail": "https://i.ytimg.com/vi/oQQOZKU-TTU/hqdefault.jpg",
+            "makeyear": "2014-02-11T11:55:04.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 아쿠아 네일아트, 뽀로로 4 타요 파워레인저 다이노포스 또봇 뽀로로4기 장난감 Frozen Nail Art Toy",
+            "contentsid": "HTNxE7XWHak",
+            "thumbnail": "https://i.ytimg.com/vi/HTNxE7XWHak/hqdefault.jpg",
+            "makeyear": "2015-01-23T10:22:57.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "플레이도우 컵케이크 겨울왕국 타요 뽀로로 폴리 미니특공대 장난감 Play Doh Cupcake Cook Toys Плей До Игрушки プレイ・ドー",
+            "contentsid": "BmtRZ_qzH18",
+            "thumbnail": "https://i.ytimg.com/vi/BmtRZ_qzH18/hqdefault.jpg",
+            "makeyear": "2015-03-14T12:39:01.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "[겨울왕국]더빙 ost -다잊어(let it go)",
+            "contentsid": "SmreMU9weEk",
+            "thumbnail": "https://i.ytimg.com/vi/SmreMU9weEk/hqdefault.jpg",
+            "makeyear": "2015-01-25T06:30:07.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "안나의 모험! (Disney infinity 2 Anna) * 카일TV 겨울왕국 게임 애니메이션",
+            "contentsid": "Lp0OyxLiJAY",
+            "thumbnail": "https://i.ytimg.com/vi/Lp0OyxLiJAY/hqdefault.jpg",
+            "makeyear": "2015-03-25T15:30:17.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "무서운 안나누님 치료하기* 카일TV 겨울왕국게임* Taking care of Frozen Anna",
+            "contentsid": "SsS0xyI1Io0",
+            "thumbnail": "https://i.ytimg.com/vi/SsS0xyI1Io0/hqdefault.jpg",
+            "makeyear": "2015-02-14T16:12:11.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 보너스 영상 묶음",
+            "contentsid": "U4sbJMoAEyA",
+            "thumbnail": "https://i.ytimg.com/vi/U4sbJMoAEyA/hqdefault.jpg",
+            "makeyear": "2014-01-20T17:08:57.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "HISHE- 겨울왕국이 이렇게 끝났으면 좋았을걸",
+            "contentsid": "qoG1gndu0E8",
+            "thumbnail": "https://i.ytimg.com/vi/qoG1gndu0E8/hqdefault.jpg",
+            "makeyear": "2014-04-18T14:45:09.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "엘사,안나를 마인크래프트에서??] 마인크래프트 희바 (겨울왕국 모드)모드소개 [Disney’s Frozen Mod]",
+            "contentsid": "AzrJeAkYWvw",
+            "thumbnail": "https://i.ytimg.com/vi/AzrJeAkYWvw/hqdefault.jpg",
+            "makeyear": "2014-08-02T04:23:12.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 샌드아트",
+            "contentsid": "jgqQLQDNYVY",
+            "thumbnail": "https://i.ytimg.com/vi/jgqQLQDNYVY/hqdefault.jpg",
+            "makeyear": "2014-03-11T11:51:32.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "(ENG) 겨울왕국 엘사 메이크업 Frozen Elsa make up tutorial | SSIN",
+            "contentsid": "JYR-d4JtFVg",
+            "thumbnail": "https://i.ytimg.com/vi/JYR-d4JtFVg/hqdefault.jpg",
+            "makeyear": "2014-02-05T23:39:59.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "미미 라면 요리놀이 주방놀이 식완 소꿉놀이 겨울왕국 타요 폴리 뽀로로 미니특공대 장난감 Ramen Cook Kitchen toy キッチン おもちゃ",
+            "contentsid": "TGAv2hxhXYk",
+            "thumbnail": "https://i.ytimg.com/vi/TGAv2hxhXYk/hqdefault.jpg",
+            "makeyear": "2015-03-11T15:19:47.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "마인크래프트 겨울왕국모드! 렛잇고~[양띵TV미소]Minecraft[Disney Frozen Mod]",
+            "contentsid": "xkcaw2-mhzw",
+            "thumbnail": "https://i.ytimg.com/vi/xkcaw2-mhzw/hqdefault.jpg",
+            "makeyear": "2014-07-30T06:30:02.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "초등학생의 그림으로 재탄생한 겨울왕국",
+            "contentsid": "cx_3Y50RU3w",
+            "thumbnail": "https://i.ytimg.com/vi/cx_3Y50RU3w/hqdefault.jpg",
+            "makeyear": "2014-03-05T05:13:00.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "[FHD] 2. Frozen(겨울왕국) - For The First Time In Forever (영어+한글자막)",
+            "contentsid": "jQJTt-Upjnc",
+            "thumbnail": "https://i.ytimg.com/vi/jQJTt-Upjnc/hqdefault.jpg",
+            "makeyear": "2014-12-15T09:48:07.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "LET IT GO (FROZEN OST) JACK FROST VERSION (with lyrics) - 렛잇고 (겨울왕국 OST) 잭 프로스트 버전 (한글자막)",
+            "contentsid": "5SeF8RsIVE4",
+            "thumbnail": "https://i.ytimg.com/vi/5SeF8RsIVE4/hqdefault.jpg",
+            "makeyear": "2014-01-21T05:22:34.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "엘사의 비밀옷장 흐흐흐~! * 겨울왕국게임 (카일TV) * Elsa's Secret Closet Game",
+            "contentsid": "WsUSIeW3Atw",
+            "thumbnail": "https://i.ytimg.com/vi/WsUSIeW3Atw/hqdefault.jpg",
+            "makeyear": "2015-02-13T18:38:25.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "(한글자막/프로즌 피버/겨울왕국 열기) 오늘을 완벽한 날로! Makin' today a perfect day from Frozen fever",
+            "contentsid": "93BFzkxxwM0",
+            "thumbnail": "https://i.ytimg.com/vi/93BFzkxxwM0/hqdefault.jpg",
+            "makeyear": "2015-03-22T08:09:50.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 엘사 아이어맨 패러디",
+            "contentsid": "ip8JEh4oV-k",
+            "thumbnail": "https://i.ytimg.com/vi/ip8JEh4oV-k/hqdefault.jpg",
+            "makeyear": "2014-02-27T13:41:32.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국(Frozen) ost, Idina Menzel - Let It Go piano cover,RD-700NX",
+            "contentsid": "K6X9QrSsapY",
+            "thumbnail": "https://i.ytimg.com/vi/K6X9QrSsapY/hqdefault.jpg",
+            "makeyear": "2014-01-21T13:45:37.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 패션 디자이너 스티커 인형 놀이 뽀로로 폴리 타요 미니특공대 장난감 Disney Frozen Princess Elsa Dress up Doll Sticker Toy",
+            "contentsid": "293YlmsXRvI",
+            "thumbnail": "https://i.ytimg.com/vi/293YlmsXRvI/hqdefault.jpg",
+            "makeyear": "2015-04-09T13:05:38.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 Frozen 아쿠아비즈 세트 엘사 올라프 인형 Disney Frozen Princess Elsa Olaf Beads Toy Холодное сердце игрушка",
+            "contentsid": "2zFZoHHjD5U",
+            "thumbnail": "https://i.ytimg.com/vi/2zFZoHHjD5U/hqdefault.jpg",
+            "makeyear": "2015-01-20T11:24:28.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국ost - 태어나서처음으로",
+            "contentsid": "Z2luG_f6AOA",
+            "thumbnail": "https://i.ytimg.com/vi/Z2luG_f6AOA/hqdefault.jpg",
+            "makeyear": "2014-02-20T05:03:38.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "[HIT] 겨울왕국 Disney's Frozen \"Let It Go\" [Ailee(에일리)]",
+            "contentsid": "y5xmoR2yVHo",
+            "thumbnail": "https://i.ytimg.com/vi/y5xmoR2yVHo/hqdefault.jpg",
+            "makeyear": "2014-01-20T05:13:28.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "올라프 생일잔치(엘사의 생일선물편) *카일TV겨울왕국 게임 * Olaf's Birthday party (Elsa's present) Frozen Game",
+            "contentsid": "hDj5_k60hFA",
+            "thumbnail": "https://i.ytimg.com/vi/hDj5_k60hFA/hqdefault.jpg",
+            "makeyear": "2015-02-14T03:41:12.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "[FHD] 1. Frozen(겨울왕국) - Do You Want To Build A Snowman (영어+한글자막)",
+            "contentsid": "2EkTkiHeSmI",
+            "thumbnail": "https://i.ytimg.com/vi/2EkTkiHeSmI/hqdefault.jpg",
+            "makeyear": "2014-12-15T09:36:09.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "애플의 마인크래프트 겨울왕국 술래잡기! [벌칙내기]",
+            "contentsid": "dqrf7PUlHms",
+            "thumbnail": "https://i.ytimg.com/vi/dqrf7PUlHms/hqdefault.jpg",
+            "makeyear": "2015-01-07T11:00:06.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 패러디 엘사 안나 메이크업 + 올라프 메이크업",
+            "contentsid": "yo7hfkENKEk",
+            "thumbnail": "https://i.ytimg.com/vi/yo7hfkENKEk/hqdefault.jpg",
+            "makeyear": "2014-11-04T09:27:25.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "겨울왕국 ost - Let it go (마인크래프트 ver.) (Frozen OST)",
+            "contentsid": "CSzlyYyIBAY",
+            "thumbnail": "https://i.ytimg.com/vi/CSzlyYyIBAY/hqdefault.jpg",
+            "makeyear": "2014-02-08T11:00:35.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "엘사 파티 여신 만들기ㅋㅋ 카일TV 겨울왕국게임 * Queen Elsa party Dress!",
+            "contentsid": "KaNTgZKcCxc",
+            "thumbnail": "https://i.ytimg.com/vi/KaNTgZKcCxc/hqdefault.jpg",
+            "makeyear": "2015-02-13T18:38:25.000Z",
+            "code": "youtube"
+          }
+        ]
+      },
+      {
+        "code": "web",
+        "value": "web",
+        "totalcount": 1,
+        "hitcount": 1,
+        "doc": [
+          {
+            "rank": "0",
+            "ranklevel": "L",
+            "code": "web",
+            "url": "http://search.daum.net/search?w=tot&rtupcoll=NNS&nil_ch=30&q="
+          }
+        ]
+      }
+    ]
+  }
+}

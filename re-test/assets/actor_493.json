@@ -1,0 +1,101 @@
+{
+  "@testversion": "20141009_001",
+  "message": "OK",
+  "item": {
+    "@pinup_able": "TEST",
+    "@type": "PERSON",
+    "item_id": "493",
+    "item_name": "성준",
+    "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/person_2012_0712_09_51_34__4ffe1f964b989.jpg",
+    "item_desc": "성준(1990년 7월 10일 ~ )은 대한민국의 모델 겸 배우이다. 모델로 데뷔하여 이제는 드라마뿐만 아니라 영화에서도 활약을 펼치고 있는 중이다. \n\n드라마 \n2011년 KBS 《KBS 드라마 스페셜 연작 시리즈 - 화이트 크리스마스》 ... 최치훈 역\n2011년 SBS 미니시리즈 《내게 거짓말을 해봐》 ... 현상희 역\n2012년 tvN 미니시리즈 《닥치고 꽃미남 밴드》 ... 권지혁 역\n2012년 KBS 단막극 《KBS 드라마 스페셜 - 습지생태보고서》 ... 최군 역\n2012년 JTBC 미니시리즈 《우리가 결혼할 수 있을까》 ... 정훈 역\n2013년 MBC 미니시리즈 《구가의 서》 ... 곤 역\n\n영화\n2011년 《나는 공무원이다》 ... 민기 역\n2013년 《명왕성》\n2013년 《무서운 이야기2》 ... 동욱 역\n\n수상내역\n2012년 KBS 연기대상 남자 연작단막극상 단막극부문 [데이터제공: Cine21]",
+    "item_detail": {
+      "pinup_state": "FALSE",
+      "tab_vod": {
+        "items": [
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|43548",
+            "item_name": "2014 SIA",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2015_0116_16_17_44__54b8bb18c3bc7[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "TS"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|38647",
+            "item_name": "구가의 서",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0408_15_17_11__516260e7d2fa2[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "TS"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|34832",
+            "item_name": "내게 거짓말을 해봐",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0201_m0010100_1[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "TS"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|42502",
+            "item_name": "연애의 발견",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0826_15_52_44__53fc2ebc71a40[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "TS"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|38679",
+            "item_name": "무서운 이야기 2",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0513_38679_51903f1f4f08c_poster[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "MV"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|43615",
+            "item_name": "하이드 지킬, 나",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2015_0121_13_59_12__54bf322055ecf[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "TS"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|37592",
+            "item_name": "명왕성",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0624_37592_51c8050180244_0624[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "MV"
+          }
+        ]
+      },
+      "tab_tv": null
+    },
+    "person_role_type": "",
+    "person_role_name": "",
+    "person_birth_date": "1990-07-10",
+    "person_death_date": ""
+  }
+}

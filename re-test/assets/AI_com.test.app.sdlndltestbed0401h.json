@@ -1,0 +1,11 @@
+{
+  "appFile" : {
+    "appId" : "com.test.app.sdlndltestbed0401h",
+    "bPremium" : false,
+    "internalInstOnly" : false,
+    "signature" : "WTbFop5Xt3LmpVxTlA37sBrd8s/9SuHZJqgfhKBFV+gW4GOl8MQmsEXWB/SA2PsjS6IKoND03ISZM/ylDFac86f2L67oMYAVrWs+VvvKYPE2Mnd2coJdZradWeVdOgVImkcOqLCUNAjA2hpBpbvJ5PmB+ca2lXglYnZ2v5fb7Vk=",
+    "fileURL" : "http://qt2-gfts.lge.com/fts/gftsFilePathDownload.lge?key=646545&hash=OG0YYdUbbRgbOtx3&mtime=1428536978000",
+    "packFileSize" : 10824122,
+    "unpackFileSize" : 11448022
+  }
+}

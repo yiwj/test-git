@@ -1,0 +1,11 @@
+{
+  "appFile" : {
+    "appId" : "webos.app.test.girafficava",
+    "bPremium" : false,
+    "internalInstOnly" : false,
+    "signature" : "Q9E4/JjfC20znX0mwXBa1WNtS4dSDH8+3BckVhFFcdAF6JDrXM4GLVgvMDOX592+Nb8SkQt/JFqntPgYnieZT2l1Neyv4tPnu9Ich+OwgeMkzU6bx5S5/wyIGmXfJshGYfrfZfedtTbQ4O5bpaX6cZSYINXQWHYwfQlWEbQS0gM=",
+    "fileURL" : "http://qt2-gfts.lge.com/fts/gftsFilePathDownload.lge?key=653655&hash=F4Lzy77EmB7IH1EN&mtime=1430988651000",
+    "packFileSize" : 3770486,
+    "unpackFileSize" : 3338208
+  }
+}

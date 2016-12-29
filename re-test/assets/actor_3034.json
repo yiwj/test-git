@@ -1,0 +1,57 @@
+{
+  "@testversion": "20141009_001",
+  "message": "OK",
+  "item": {
+    "@pinup_able": "TEST",
+    "@type": "PERSON",
+    "item_id": "3034",
+    "item_name": "김민수",
+    "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/person_2013_0329_68079.jpg",
+    "item_desc": "성별 : 남 \n출생지 : 서울 \n소 속 : DBC엔터테인먼트 \n신체사항 : 186cm \n학 력 : 서울 예술대학 연극과 졸업 \n출연작품 \n-연극 : <고래>,<사천의 선인>, <스포트라이트>, <테베를 공격한 7인>, <골목길>, <크리스토퍼 빈의 죽음> \n-영화 : , <뷰티플데이>, <괴물>, <한국식저녁식사> 등 다수 \n-CF : KTF핸드폰 \n\n취 미 : 등산, 영화감상 \n특 기 : 검도, 수영, 태권도 [데이터제공: Cine21]",
+    "item_detail": {
+      "pinup_state": "FALSE",
+      "tab_vod": {
+        "items": [
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|43927",
+            "item_name": "그래도 푸르른 날에",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2015_0303_14_56_57__54f54d2945e26[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "TS"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|42813",
+            "item_name": "압구정 백야",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_1006_16_59_15__54324bd390564[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "TS"
+          },
+          {
+            "@pinup_able": "TEST",
+            "@type": "CONTS",
+            "item_id": "com.lge.meta.crawler.cine21.Cine21Crawler|32530",
+            "item_name": "아름다운 유산",
+            "item_img": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2011_0706_m0010006_2[s282,414].jpg",
+            "item_desc": "",
+            "item_provider_name": "",
+            "item_rating": "0",
+            "conts_type": "MV"
+          }
+        ]
+      },
+      "tab_tv": null
+    },
+    "person_role_type": "",
+    "person_role_name": "",
+    "person_birth_date": "1983-09-20",
+    "person_death_date": ""
+  }
+}

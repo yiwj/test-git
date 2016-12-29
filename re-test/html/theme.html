@@ -1,0 +1,60 @@
+<div class="page panel-detail panel-detail2 no-textTransform" ng-mouseup="onMouseUp($event)">
+  <div class="panel-header">
+    <div class="area-text no-event panel-title">
+      <div class="marquee text" ng-class="{'premium-title' : !useRating}">{{themeData.themeTitle | uppercase}}</div>
+    </div>
+  </div>
+  <div class="detail-brief detail-apps-brief"><!-- Apps & Games 에서 class="detail-apps-brief" 추가 -->
+    <div class="item-thumb item-theme">
+      <img ng-src="{{themeData.bannerImg}}" class="thumb-img" image-resize d-img-type="APR">
+    </div>
+  </div>
+  <div class="panel-body">
+    <div class="panel-cont detail-scroller" style="padding-bottom: 5px;" ng-show="drawed">
+      <!-- content -->
+      <!-- sec-info-detail -->
+      <div class="detail-section sec-info-detail" ng-if="themeData.description" detail-section-handle><!-- more 버튼이 있는 경우에 class="more-open"추가 -->
+        <div class="sec-title detail-title" ng-bind="detailsTxt"></div>
+        <div class="detail-cont">
+          <div style="max-height: none;line-height: 40px;" class="synopsis-text app-detail-text" ng-bind-html="themeData.description | nl2br"></div>
+        </div>
+        <div class="blank btn-more item-descBtn-0" item="item-descBtn-0" ng-if="useDescMore" more-button-handle></div>
+      </div>
+      <!-- //sec-info-detail -->
+      <!-- Recommand Apps -->
+      <div class="detail-section" ng-repeat="(parentIndex, themeCategory) in themeData.Category" ng-if="themeData.Category.length > 0 && themeCategory.contentsCategory !='3d'">
+        <div class="sec-title detail-title" ng-bind="themeCategory.categoryTitle"></div>
+        <div class="sec-cont detail-list-apps" ng-if="themeCategory.contentsCategory == 'appsngames'">
+          <!-- item -->
+          <div class="blank item item-apps item-{{themeCategory.contentsCategory}}{{parentIndex}}-{{$index}}" ng-repeat="appList in themeCategory.contents.appList.rankTypeList[0].appList" item="item-{{themeCategory.contentsCategory}}{{parentIndex}}-{{$index}}" item-id="{{appList.id}}" conts-type="{{vodList.conts_type}}">
+            <div class="item-thumb">
+              <img ng-src="{{appList.iconURL}}" class="thumb-img" ng-hide="hideThumb" image-resize d-img-type="APP">
+            </div>
+            <div class="area-text item-tit"><div class="marquee text" ng-bind="appList.name"></div></div>
+            <div class="app-category" ng-bind="appList.categoryName"></div>
+            <div class="item-price" ng-bind="appList.dpPrice1"></div>
+            <div class="list-price" ng-bind="appList.dpPrice2"><div class="price-empty"></div></div>
+          </div>
+          <!-- //item -->
+        </div>
+        <div class="sec-cont detail-list" ng-if="themeCategory.contentsCategory == 'tvshows' || themeCategory.contentsCategory == 'movies'">
+          <div class="blank item item-detail2 item-{{themeCategory.contentsCategory}}{{parentIndex}}-{{$index}}" ng-repeat="vodList in (themeCategory.contents.vodList||themeCategory.contents.movieList)" item-id="{{vodList.item_id}}" conts-type="{{vodList.conts_type}}" item="item-{{themeCategory.contentsCategory}}{{parentIndex}}-{{$index}}">
+            <div class="item-thumb">
+              <img class="list-poster" ng-src="{{vodList.item_img}}" image-resize d-img-type="{{vodList.conts_type}}"><div class="thumbcheck" id="thumbcheck{{id}}"></div>
+            </div>
+            <div class="area-text item-tit">
+              <div class="marquee text" ng-bind="vodList.item_name"></div>
+            </div>
+            <div class="item-grade list-grade" ng-hide="vodList.hideScore">
+              <div class="icon percent-grade" ng-style="vodList.scoreStyle"></div>
+              <div class="icon bg-grade"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- //Recommand Apps -->
+      <!-- //content -->
+    </div>
+    <div scroll class="scroll scroll-v"></div>
+  </div>
+</div>

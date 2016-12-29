@@ -1,0 +1,50 @@
+{
+    "app_count": "5",
+    "appInfo": [
+        {
+            "@selected": "false",
+            "contents_set_id": "com.lge.meta.crawler.threedzone.ThreeDZoneCrawler_plsysapp_kr",
+            "app_id": "LG3D",
+            "app_name": "LG3D",
+            "app_icon_url": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=META_IMG&func_code=CPLOGO&file_path=/CDN/D01/meta_img/cplogo/3dicon.png",
+            "app_icon_color": "",
+            "app_type": "NONE"
+        },
+        {
+            "@selected": "false",
+            "contents_set_id": "com.lge.meta.crawler.cine21premium.Cine21PremiumCrawler",
+            "app_id": "cine21",
+            "app_name": "즐감",
+            "app_icon_url": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=META_IMG&func_code=CPLOGO&file_path=/appstore/app/icon/20150428/13133509968069316cine21_130x130_130x130_webos.png",
+            "app_icon_color": "#35A6E9",
+            "app_type": "NONE"
+        },
+        {
+            "@selected": "true",
+            "contents_set_id": "com.lge.meta.crawler.cjenm.CJENMCrawler",
+            "app_id": "cj.eandm",
+            "app_name": "CJ E&M",
+            "app_icon_url": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=META_IMG&func_code=CPLOGO&file_path=/appstore/app/icon/20141028/10737036787251463cj.eandm_130x130_130x130_webos.png",
+            "app_icon_color": "#FEFEFE",
+            "app_type": "NONE"
+        },
+        {
+            "@selected": "false",
+            "contents_set_id": "com.lge.meta.crawler.kidsland.KidsLandCrawler_KR",
+            "app_id": "kidsland",
+            "app_name": "kidsland",
+            "app_icon_url": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=META_IMG&func_code=CPLOGO&file_path=/appstore/app/icon/20140618/72499545354182kidsland130_130x130_webos.png",
+            "app_icon_color": "#000000",
+            "app_type": "NONE"
+        },
+        {
+            "@selected": "false",
+            "contents_set_id": "com.lge.meta.crawler.pooq2.Pooq2Crawler",
+            "app_id": "pooq",
+            "app_name": "pooq",
+            "app_icon_url": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=META_IMG&func_code=CPLOGO&file_path=/appstore/app/icon/20150708/19250295119104673pooq_130x130_130x130_webos.png",
+            "app_icon_color": "#9446EC",
+            "app_type": "NONE"
+        }
+    ]
+}

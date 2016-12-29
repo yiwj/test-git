@@ -1,0 +1,249 @@
+{
+  "@testversion":"20141009_001",
+  "message":"OK",
+  "item":{
+    "@pinup_able":"TEST",
+    "@type":"CONTS",
+    "item_id":"com.lge.meta.crawler.cine21.Cine21Crawler|38547",
+    "item_name":"나 혼자 산다",
+    "item_img":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0322_11_33_37__514bc3017d9f8[s282,414].jpg",
+    "item_desc":"대한민국 1인 가구 453만 시대!\n이제는 1인 가구가 대세!\n\n연예게 역시 1/3은 1인 가구!\n기러기 아빠, 주말부부, 상경후 고군분투중인 청년, 독시남 등\n각기 다른 이유로 싱글족이 된 스타들!\n당당한 1인 가구의 싱글라이프는 과연 어떤 것일까?\n1인 가구가 트렌드가 된 현시점에서\n프로그램을 통해 사회적 공감대를 형성해본다.\n\n그들의 일상을 다큐멘터리 기법으로 촬영.\n싱글라이픞에 대한 진솔한 모습, 지혜로운 삶의 노하우.\n혼자 사는 삶에 대한 철학 등을\n허심탄회한 스토리로 이어나간다.  [데이터제공: Cine21]",
+    "item_provider_name":"",
+    "item_rating":"0",
+    "item_rating_disp":"15세 관람가",
+    "item_detail":{
+      "pinup_state":"FALSE",
+      "tab_cast":{
+        "items":[
+          {
+            "@pinup_able":"TEST",
+            "@type":"PERSON",
+            "item_id":"11526",
+            "item_name":"이지선",
+            "item_img":"",
+            "item_desc":"",
+            "person_role_type":"DIRECTOR",
+            "person_role_name":"",
+            "person_birth_date":"",
+            "person_death_date":""
+          }, {
+            "@pinup_able":"TEST",
+            "@type":"PERSON",
+            "item_id":"5210",
+            "item_name":"노홍철",
+            "item_img":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/still_2013_1030_17_51_33__5270c895683a6.jpg",
+            "item_desc":"",
+            "person_role_type":"ACTOR",
+            "person_role_name":"",
+            "person_birth_date":"1979-03-31",
+            "person_death_date":""
+          }, {
+            "@pinup_able":"TEST",
+            "@type":"PERSON",
+            "item_id":"4584",
+            "item_name":"김태원",
+            "item_img":"",
+            "item_desc":"",
+            "person_role_type":"ACTOR",
+            "person_role_name":"",
+            "person_birth_date":"1965-04-12",
+            "person_death_date":""
+          }, {
+            "@pinup_able":"TEST",
+            "@type":"PERSON",
+            "item_id":"10719",
+            "item_name":"이성재",
+            "item_img":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/2010_0524_p0000028_11.jpg",
+            "item_desc":"",
+            "person_role_type":"ACTOR",
+            "person_role_name":"",
+            "person_birth_date":"1970-08-23",
+            "person_death_date":""
+          }, {
+            "@pinup_able":"TEST",
+            "@type":"PERSON",
+            "item_id":"2602",
+            "item_name":"김광규",
+            "item_img":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/person_2013_0329_60775.jpg",
+            "item_desc":"",
+            "person_role_type":"ACTOR",
+            "person_role_name":"",
+            "person_birth_date":"",
+            "person_death_date":""
+          }, {
+            "@pinup_able":"TEST",
+            "@type":"PERSON",
+            "item_id":"2592554",
+            "item_name":"서인국",
+            "item_img":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/person_2013_1025_11_33_27__5269d8776b219.jpg",
+            "item_desc":"",
+            "person_role_type":"ACTOR",
+            "person_role_name":"",
+            "person_birth_date":"1987-10-23",
+            "person_death_date":""
+          }
+        ]
+      },
+      "tab_vod":{
+        "items":[
+          {
+            "@pinup_able":"TEST",
+            "@type":"CONTS",
+            "item_id":"com.lge.meta.crawler.cine21.Cine21Crawler|26682",
+            "item_name":"무한도전",
+            "item_img":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0417_01_16_43__4f8c45eb6e4df[s282,414].jpg",
+            "item_desc":"",
+            "item_provider_name":"",
+            "item_rating":"0",
+            "conts_type":"TS",
+            "item_rated_score":"9.4"
+          }, {
+            "@pinup_able":"TEST",
+            "@type":"CONTS",
+            "item_id":"com.lge.meta.crawler.cine21.Cine21Crawler|38379",
+            "item_name":"인간의 조건",
+            "item_img":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0308_16_33_13__5139943954a4b[s282,414].jpg",
+            "item_desc":"",
+            "item_provider_name":"",
+            "item_rating":"0",
+            "conts_type":"TS"
+          }, {
+            "@pinup_able":"TEST",
+            "@type":"CONTS",
+            "item_id":"com.lge.meta.crawler.cine21.Cine21Crawler|42496",
+            "item_name":"1박 2일 시즌 3",
+            "item_img":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0813_16_33_43__53eb14d7e7fab[s282,414].jpg",
+            "item_desc":"",
+            "item_provider_name":"",
+            "item_rating":"0",
+            "conts_type":"TS"
+          }, {
+            "@pinup_able":"TEST",
+            "@type":"CONTS",
+            "item_id":"com.lge.meta.crawler.cine21.Cine21Crawler|30732",
+            "item_name":"해피투게더 시즌 3",
+            "item_img":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0330_15_08_37__4f754de518886[s282,414].jpg",
+            "item_desc":"",
+            "item_provider_name":"",
+            "item_rating":"0",
+            "conts_type":"TS",
+            "item_rated_score":"7"
+          }, {
+            "@pinup_able":"TEST",
+            "@type":"CONTS",
+            "item_id":"com.lge.meta.crawler.cine21.Cine21Crawler|38198",
+            "item_name":"아빠! 어디가?",
+            "item_img":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0212_17_56_32__511a03c0a2c6c[s282,414].jpg",
+            "item_desc":"",
+            "item_provider_name":"",
+            "item_rating":"0",
+            "conts_type":"TS"
+          }, {
+            "@pinup_able":"TEST",
+            "@type":"CONTS",
+            "item_id":"com.lge.meta.crawler.cine21.Cine21Crawler|40553",
+            "item_name":"슈퍼맨이 돌아왔다",
+            "item_img":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_1108_40553_527c9e6f8a10c_screenshot_3[s282,414].jpg",
+            "item_desc":"",
+            "item_provider_name":"",
+            "item_rating":"0",
+            "conts_type":"TS"
+          }, {
+            "@pinup_able":"TEST",
+            "@type":"CONTS",
+            "item_id":"com.lge.meta.crawler.cine21.Cine21Crawler|38664",
+            "item_name":"우리동네 예체능",
+            "item_img":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0410_10_46_56__5164c4909996b[s282,414].jpg",
+            "item_desc":"",
+            "item_provider_name":"",
+            "item_rating":"0",
+            "conts_type":"TS"},{"@pinup_able":"TEST",
+            "@type":"CONTS",
+            "item_id":"com.lge.meta.crawler.cine21.Cine21Crawler|37316",
+            "item_name":"김병만의 정글의 법칙",
+            "item_img":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0921_14_03_49__505bf5354a6be[s282,414].jpg",
+            "item_desc":"",
+            "item_provider_name":"",
+            "item_rating":"0",
+            "conts_type":"TS"
+          }, {
+            "@pinup_able":"TEST",
+            "@type":"CONTS",
+            "item_id":"com.lge.meta.crawler.cine21.Cine21Crawler|40646",
+            "item_name":"우리 결혼했어요 시즌4",
+            "item_img":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_1129_40646_529805b1e0477_screenshot_2[s282,414].jpg",
+            "item_desc":"",
+            "item_provider_name":"",
+            "item_rating":"0",
+            "conts_type":"TS"
+          }, {
+            "@pinup_able":"TEST",
+            "@type":"CONTS",
+            "item_id":"com.lge.meta.crawler.cine21.Cine21Crawler|28899",
+            "item_name":"런닝맨",
+            "item_img":"http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0202_m0010045_2012-02-0210-59-14[s282,414].jpg",
+            "item_desc":"",
+            "item_provider_name":"",
+            "item_rating":"0",
+            "conts_type":"TS",
+            "item_rated_score":"6"
+          }
+        ]
+      },
+      "tab_clip":{
+        "items":[
+          {
+            "@pinup_able":"TEST",
+            "@type":"CLIP_IMG",
+            "item_id":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0322_11_33_37__514bc3017d9f8[s282,414].jpg",
+            "item_name":"-",
+            "item_img":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0322_11_33_37__514bc3017d9f8[s282,414].jpg",
+            "item_desc":""
+          },{
+            "@pinup_able":"TEST",
+            "@type":"CLIP_IMG",
+            "item_id":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0322_11_33_44__514bc308b719f[s500,500].jpg",
+            "item_name":"-",
+            "item_img":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0322_11_33_44__514bc308b719f[s500,500].jpg",
+            "item_desc":""
+          }
+        ]
+      },
+      "tab_tv":null,
+      "exec_list":{
+        "execs":[{
+          "item_id":"com.lge.meta.crawler.pooq.PooqCrawler|M_1002831100000100000",
+          "cp_conts_name":"나 혼자 산다",
+          "exec_type":"APP",
+          "exec_app_id":"pooq",
+          "exec_app_name":"pooq",
+          "exec_id":"M_1002831100000100000",
+          "plex_flag":"FALSE",
+          "price_disp":"",
+          "img_url_cp":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=META_IMG&func_code=CPLOGO&file_path=/appstore/app/icon/20141028/10736729836784463pooq_130x130_130x130_webos.png",
+          "add_info_disp":"정액제",
+          "premium_app_flag":"TRUE"
+        }]
+      },
+      "exec_multi_list":{
+        "execs":[{
+          "item_id":"com.lge.meta.crawler.pooq.PooqCrawler|M_1002831100000100000",
+          "cp_conts_name":"나 혼자 산다",
+          "exec_type":"APP",
+          "exec_app_id":"pooq",
+          "exec_app_name":"pooq",
+          "exec_id":"M_1002831100000100000",
+          "plex_flag":"FALSE",
+          "price_disp":"",
+          "img_url_cp":"http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=META_IMG&func_code=CPLOGO&file_path=/appstore/app/icon/20141028/10736729836784463pooq_130x130_130x130_webos.png",
+          "add_info_disp":"정액제",
+          "premium_app_flag":"TRUE"
+        }]
+      }
+    },
+    "item_genre_disp":" 오락/연예",
+    "conts_type":"TS",
+    "conts_make_year":"2013",
+    "conts_duration":"60"
+  }
+}

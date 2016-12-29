@@ -1,0 +1,57 @@
+{
+  "app" : {
+    "type" : "S",
+    "id" : "webos.app.test.girafficava",
+    "bPremium" : false,
+    "name" : "Giraffic AVA Test",
+    "version" : "1.0.2",
+    "createDate" : "05-07-2015",
+    "updateDate" : "05-07-2015",
+    "categoryId" : "003",
+    "categoryName" : "엔터테인먼트",
+    "description" : "Giraffic Acceleration Test \nGiraffic Acceleration Test \n\n\n\n\n\n",
+    "bItem" : "N",
+    "currencyCode" : "USD",
+    "bFree" : "Y",
+    "price" : 0.0,
+    "displayPrice" : "$0.00",
+    "event" : "N",
+    "supportLanguage" : "English",
+    "evaluationYN" : "N",
+    "evaluationCount" : 0,
+    "evaluationAverage" : 0.0,
+    "ageType" : "0",
+    "adultYN" : "N",
+    "sellerId" : 7244,
+    "sellerName" : "123123",
+    "iconColor" : "#00D8FF",
+    "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150507/1_130x130_webos.png",
+    "purchasable" : "N",
+    "bPurchased" : "Y",
+    "capability" : {
+      "useGamePad" : "N",
+      "useInternet" : "Y",
+      "sdkVersion" : "2.0.0",
+      "use3d" : "N",
+      "useCamera" : "N",
+      "useMagic" : "N"
+    },
+    "appPreviewCount" : 3,
+    "appPreviewList" : [ {
+      "previewId" : 653623,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20150507/7.png"
+    }, {
+      "previewId" : 653624,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20150507/9.png"
+    }, {
+      "previewId" : 653625,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20150507/8.png"
+    } ],
+    "appFileCount" : 1,
+    "appFileList" : [ {
+      "fileId" : 653655,
+      "packFileSize" : 3770486,
+      "unpackFileSize" : 3338208
+    } ]
+  }
+}

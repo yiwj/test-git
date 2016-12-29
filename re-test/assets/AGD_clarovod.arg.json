@@ -1,0 +1,52 @@
+{
+  "app" : {
+    "type" : "S",
+    "id" : "clarovod.arg",
+    "bPremium" : false,
+    "name" : "Clarovideo",
+    "version" : "1.0.2",
+    "createDate" : "2013-11-22",
+    "updateDate" : "2015-01-16",
+    "categoryId" : "003",
+    "categoryName" : "엔터테인먼트",
+    "description" : "This is a premium service for LG smart TV. Enjoy your smart TV with premium services.\nAdd FCK Value 2015.01.16",
+    "bItem" : "N",
+    "currencyCode" : "KRW",
+    "bFree" : "Y",
+    "price" : 0.0,
+    "displayPrice" : "￦0",
+    "event" : "N",
+    "supportLanguage" : "English",
+    "evaluationYN" : "N",
+    "evaluationCount" : 0,
+    "evaluationAverage" : 0.0,
+    "ageType" : "0",
+    "adultYN" : "N",
+    "sellerId" : 138660,
+    "sellerName" : "appqaadmin",
+    "iconColor" : "#EE2E24",
+    "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20140206/1_130x130_webos.png",
+    "capability" : {
+      "useGamePad" : "N",
+      "useInternet" : "Y",
+      "sdkVersion" : "1.0.0",
+      "use3d" : "N",
+      "useCamera" : "N",
+      "useMagic" : "N"
+    },
+    "appPreviewCount" : 2,
+    "appPreviewList" : [ {
+      "previewId" : 404239,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20140127/1629.png"
+    }, {
+      "previewId" : 404241,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20140127/1630.png"
+    } ],
+    "appFileCount" : 1,
+    "appFileList" : [ {
+      "fileId" : 514494,
+      "packFileSize" : 60870,
+      "unpackFileSize" : 2123839
+    } ]
+  }
+}

@@ -1,0 +1,8 @@
+<div item="{{item.name}}" class="menu-item" ng-repeat="item in menu"
+  ng-class="{'focus': focusItem=='{{item.name}}'}">
+  <div class="menu-box">
+    <div class="menu-text museo-bold marquee ellipsis">{{item.title}}</div>
+  </div>
+  <div class="menu-icon menu-{{item.name}}"></div>
+  <div class="menu-line" ng-hide="$last"></div>
+</div>

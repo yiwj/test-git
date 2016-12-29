@@ -1,0 +1,52 @@
+{
+  "app" : {
+    "type" : "S",
+    "id" : "new-netflix",
+    "bPremium" : false,
+    "name" : "Netflix with New Icon",
+    "version" : "1.0.0",
+    "createDate" : "2014-06-17",
+    "updateDate" : "2014-06-17",
+    "categoryId" : "003",
+    "categoryName" : "엔터테인먼트",
+    "description" : "Netflix with New Icon test by yeonhwah chung",
+    "bItem" : "N",
+    "currencyCode" : "KRW",
+    "bFree" : "Y",
+    "price" : 0.0,
+    "displayPrice" : "￦0",
+    "event" : "N",
+    "supportLanguage" : "English",
+    "evaluationYN" : "N",
+    "evaluationCount" : 6,
+    "evaluationAverage" : 7.67,
+    "ageType" : "0",
+    "adultYN" : "N",
+    "sellerId" : 138660,
+    "sellerName" : "appqaadmin",
+    "iconColor" : "#FFFFFF",
+    "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20140617/2_130x130_webos.png",
+    "capability" : {
+      "useGamePad" : "N",
+      "useInternet" : "Y",
+      "sdkVersion" : "1.0.0",
+      "use3d" : "N",
+      "useCamera" : "N",
+      "useMagic" : "N"
+    },
+    "appPreviewCount" : 2,
+    "appPreviewList" : [ {
+      "previewId" : 438465,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20140617/3.png"
+    }, {
+      "previewId" : 438467,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20140617/4.png"
+    } ],
+    "appFileCount" : 1,
+    "appFileList" : [ {
+      "fileId" : 438479,
+      "packFileSize" : 30850,
+      "unpackFileSize" : 2086400
+    } ]
+  }
+}

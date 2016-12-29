@@ -1,0 +1,28 @@
+{
+  "response": {
+    "version": "v1",
+    "query_information": "params={\"query\":\"zqwqdqeq\",\"startindex\":\"1\",\"maxresults\":\"12\",\"domain\":[\"livetv\",\"tvshow\",\"movie\",\"app\",\"youtube\",\"premium\",\"cp\"],\"version\":\"v1\",\"epgcode\":[\"794\",\"795\",\"796\",\"798\",\"797\"],\"sortby\":[\"\"],\"filterby\":{}}",
+    "time": "285 ms",
+    "code": "JEDI-200",
+    "message": "OK",
+    "engine_url": "165.244.145.110:15100",
+    "totalcount": 1,
+    "hitcount": 1,
+    "results": [
+      {
+        "code": "web",
+        "value": "web",
+        "totalcount": 1,
+        "hitcount": 1,
+        "doc": [
+          {
+            "rank": "0",
+            "ranklevel": "L",
+            "code": "web",
+            "url": "http:\/\/search.daum.net\/search?w=tot&rtupcoll=NNS&nil_ch=30&q="
+          }
+        ]
+      }
+    ]
+  }
+}

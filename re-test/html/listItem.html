@@ -1,0 +1,23 @@
+<div ng-hide="hideItem" item-id="{{id}}" item-type="{{type}}">
+  <!--badge -->
+  <div class="item-badge" ng-if="itemOverIconCode != undefined">
+    <div class="area-text badge-text"><div class="marquee text" ng-bind="badge"></div></div>
+  </div>
+  <div class="img-badge_wrap" ng-if="execCpList.length > 0">
+  <div class="img-badge" ng-repeat="cp in execCpList" ng-if="cp.iconUrl != ''">
+    <div class="bg-badge" style="background-color:{{cp.iconColor[0]}};"></div>
+    <img class="badge-img" src="{{cp.iconUrl[0]}}" />
+  </div>
+  </div>
+  <div class="item-thumb">
+    <img class="thumb-img" ng-src="{{src}}" image-resize d-img-type="{{type}}"><div class="thumbcheck" id="thumbcheck{{id}}"></div>
+  </div>
+  <div class="area-text item-tit">
+    <div class="marquee text" ng-bind="name"></div>
+  </div>
+  <div class="item-grade list-grade" ng-hide="hideScore">
+    <div class="icon percent-grade" ng-style="scoreStyle"></div>
+    <div class="icon bg-grade"></div>
+  </div>
+  <div class="blank icon-player btn-cp-play" item="player" item-id="{{id}}"></div>
+</div>

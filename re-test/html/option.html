@@ -1,0 +1,10 @@
+<div class="popup-list-option" ng-class="{'popup-open': open}" ng-hide="hide"><!-- 팝업 show 경우 class="popup-open" 추가 -->
+  <div class="wrap-filter {{getColumnClass($index)}}" ng-repeat="option in options" ng-if="!hide">
+    <div class="sec-title list-title" ng-bind="option.name"></div>
+    <div class="blank option-list" item="{{item.code}}" index="{{option.idx}}-{{item.idx}}" ng-class="{'check-on': selected{{option.filter}}=='{{item.code}}'}" ng-repeat="item in option.values">
+      <div class="icon icon-check"></div>
+      <div class="area-text"><div class="marquee text" ng-bind="item.name"></div></div>
+    </div>
+  </div>
+  <div class="blank btn btn-icon btn-pop-close" item="close"><div class="icon"></div></div>
+</div>

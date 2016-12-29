@@ -1,0 +1,55 @@
+{
+  "app" : {
+    "type" : "S",
+    "id" : "naver",
+    "bPremium" : true,
+    "name" : "NAVER",
+    "version" : "1.0.1",
+    "createDate" : "2013-09-02",
+    "updateDate" : "2015-03-23",
+    "categoryId" : "004",
+    "categoryName" : "생활",
+    "description" : "NAVER\nNAVER\nNAVER\nNAVER\nNAVER                                           ",
+    "bItem" : "N",
+    "currencyCode" : "KRW",
+    "bFree" : "Y",
+    "price" : 0.0,
+    "displayPrice" : "￦0",
+    "event" : "N",
+    "supportLanguage" : "Korean",
+    "evaluationYN" : "N",
+    "evaluationCount" : 1,
+    "evaluationAverage" : 5.0,
+    "ageType" : "0",
+    "adultYN" : "N",
+    "sellerId" : 138660,
+    "sellerName" : "appqaadmin",
+    "iconColor" : "#24AF0E",
+    "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150323/7_130x130_webos.png",
+    "capability" : {
+      "useGamePad" : "N",
+      "useInternet" : "Y",
+      "sdkVersion" : "1.0.0",
+      "use3d" : "N",
+      "useCamera" : "N",
+      "useMagic" : "N"
+    },
+    "appPreviewCount" : 3,
+    "appPreviewList" : [ {
+      "previewId" : 399910,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20140127/1260.png"
+    }, {
+      "previewId" : 604234,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20150323/8.png"
+    }, {
+      "previewId" : 399912,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20140127/1261.png"
+    } ],
+    "appFileCount" : 1,
+    "appFileList" : [ {
+      "fileId" : 604255,
+      "packFileSize" : 9004,
+      "unpackFileSize" : 10724
+    } ]
+  }
+}

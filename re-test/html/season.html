@@ -1,0 +1,18 @@
+<div class="popup-modal-season" ng-hide="hide">
+  <div class="popup-contextual pop-{{type}}" ng-style="popStyle" ng-class="{'open': open}" ng-if="!hide">
+    <!-- pop-opt-cont -->
+    <div class="pop-opt-cont">
+      <div class="wrap-opt-list season-scroller">
+        <!-- popup option -->
+        <div class="blank option-list item-season-{{$index}}" ng-class="{'on': item.isSelect}" item="item-season-{{$index}}" select="{{item.isSelect}}" ng-repeat="item in data.items" item-type="season" item-id="{{item.id}}">
+          <div class="icon-bullet"></div>
+          <div class="area-text"><div class="marquee text" ng-class="{'dir-ltr': item.isLTR}">{{item.name}}&nbsp;{{data.unit}}</div></div>
+        </div>
+        <!-- //popup option -->
+      </div>
+      <div scroll class="scroll scroll-v"></div>
+    </div>
+    <div class="bg-empty bg-left" ng-style="arrowStyle"><div class="bg-empty-inner"></div><div class="bg-empty-inner2"></div></div>
+    <!-- //pop-opt-cont -->
+  </div>
+</div>

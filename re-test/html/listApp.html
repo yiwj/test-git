@@ -1,0 +1,28 @@
+<div class="page panel-list">
+  <div class="panel-header">
+    <div class="area-text no-event panel-title">
+      <div class="marquee text" ng-bind="title"></div>
+    </div>
+    <div class="panel-sub">
+      <div class="sub-text sub-title" ng-bind="subtitle"></div>
+      <div class="bar-empty">|</div>
+      <div class="sub-text sub-sub-title" ng-bind="sort"></div>
+    </div>
+  </div>
+  <div class="panel-menu">
+    <div class="menu-list menu-depth" ng-class="{'depth-open': focusedMenu == '{{menu.code}}'}" ng-repeat-start="menu in listData.menuList">
+      <div class="blank menu-depth-header app-left-menu" item="{{menu.code}}">
+        <div class="area-text menu-text"><div class="marquee text" ng-bind="menu.name"></div></div>
+        <div class="icon icon-depth"></div>
+      </div>
+    </div>
+    <!-- menu-list-depth -->
+    <div ng-repeat-end class="menu-depth-drawer" item="{{menu.code}}">
+      <div class="blank menu-list-depth" ng-repeat="filter in listData.filterList[0].values" ng-show="focusedMenu == menu.code" ng-class="{'on': selectedCategory == '{{filter.code}}' && selectedMenu == '{{menu.code}}', 'app-left-menu': focusedMenu == menu.code}" item="{{filter.code}}">
+      <div class="icon-bullet"></div><div class="area-text menu-text"><div class="marquee text" ng-bind="filter.name"></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="blank" list-control-app name="appngameList" itemPerRow="3" itemH="160" listtype="appngame">
+  </div>
+</div>

@@ -1,0 +1,24 @@
+{
+  "id": "banner.test.apps",
+  "statusValue": 8,
+  "details": {
+    "packageId": "",
+    "receivedSize": "1198440",
+    "premium": false,
+    "modifiedTime": "1407405954000",
+    "client": "com.webos.app.discovery",
+    "id": "banner.test.app",
+    "subscribe": false,
+    "totalSize": "3922940",
+    "verified": true,
+    "progress": 30,
+    "installBasePath": "/media/cryptofs",
+    "silence": false,
+    "paused": false,
+    "simpleStatus": "download",
+    "state": "ipk download current",
+    "update": false,
+    "ipkFile": ""
+  },
+  "installDataPath": "/media/cryptofs/tmp/banner.test.app"
+}

@@ -1,0 +1,324 @@
+{
+	"@testversion" : "20141009_001",
+	"message" : "OK",
+	"menu_list" : {
+		"menus" : [{
+				"@selected" : "FALSE",
+				"name" : "추천",
+				"code" : "ME2312"
+			}, {
+				"@selected" : "FALSE",
+				"name" : "최신",
+				"code" : "ME2314"
+			}, {
+				"@selected" : "FALSE",
+				"name" : "장르별",
+				"code" : "ME2310"
+			}, {
+				"@selected" : "TRUE",
+				"name" : "전체",
+				"code" : "ME2320"
+			}
+		]
+	},
+	"item_list" : {
+		"@list_title" : "",
+		"@total_item_cnt" : "21",
+		"@start_index" : "1",
+		"@skin_type" : "POSTER",
+		"@type" : "PAGE",
+		"items" : [{
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|32895",
+				"item_name" : "나넬 모차르트",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2011_0812_32895_4e44808c97714_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "5.6667"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|28533",
+				"item_name" : "노다메 칸타빌레 최종악장",
+				"item_img" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2010_1221_m0010005_[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.2391"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|26499",
+				"item_name" : "노다메 칸타빌레 Vol.1",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2010_0831_m0010003_--1[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.2414"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|25904",
+				"item_name" : "디트로이트 메탈 시티",
+				"item_img" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2009_0416_m0010003_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.9756"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38079",
+				"item_name" : "레이디 가가 : 온 더 엣지",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0109_38079_50ecc41ea790b_ladygaga_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "18",
+				"conts_type" : "MV",
+				"item_rated_score" : "9.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37259",
+				"item_name" : "리듬 앤 비트",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0907_37259_5049b64ba5e89_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "3.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|38078",
+				"item_name" : "마돈나 : 라이크 어 버진",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2013_0109_10_02_34__50ecc1aad3b1f[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "9.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|33357",
+				"item_name" : "뮤직 네버 스탑",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2011_0929_m0010008_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.5"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|27229",
+				"item_name" : "반드시 크게 들을 것",
+				"item_img" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2010_0405_m0010005___[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.7619"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|32445",
+				"item_name" : "사랑은 음악처럼",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2011_0628_32445_4e0994ffe504b_fourlastsongs_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.75"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|26939",
+				"item_name" : "소규모 아카시아 밴드 이야기",
+				"item_img" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2010_0104_m0010002__poster_web[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.9565"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|26704",
+				"item_name" : "소년 메리켄사쿠",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2011_0321_m0010015_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.5714"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|41302",
+				"item_name" : "스타로부터 스무 발자국",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2014_0514_10_08_21__5372c205642db[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|37315",
+				"item_name" : "스타 : 빛나는 사랑",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2012_0921_37315_505be547854bb_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "5.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|28043",
+				"item_name" : "어이그, 저 귓것",
+				"item_img" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2011_0809_m0010005_0804__poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "8.2857"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|32757",
+				"item_name" : "원스 어게인",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2011_1209_m0010004_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "8.1429"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|28207",
+				"item_name" : "존레논 비긴즈-노웨어보이",
+				"item_img" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2010_1110_m0010009_[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.25"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|28113",
+				"item_name" : "춤추는 꿈틀이 밴드",
+				"item_img" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2010_0104_m0010005___[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "7.9167"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|32990",
+				"item_name" : "치코와 리타",
+				"item_img" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2011_1212_m0010035_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "8.0"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|29431",
+				"item_name" : "플레이",
+				"item_img" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2011_0511_m0010008_play_poster[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.6667"
+			}, {
+				"@pinup_able" : "TEST",
+				"@type" : "CONTS",
+				"item_id" : "com.lge.meta.crawler.cine21.Cine21Crawler|27337",
+				"item_name" : "하우 투 비",
+				"item_img" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=/mas/meta_thumbnail/poster_2009_1127_m0010001_posterfinal[s282,414].jpg",
+				"item_desc" : "",
+				"item_provider_name" : "",
+				"item_rating" : "0",
+				"conts_type" : "MV",
+				"item_rated_score" : "6.5789"
+			}
+		]
+	},
+	"filter_list" : {
+		"filters" : [{
+				"@type" : "SIDE",
+				"key" : "FILTER_ORDER",
+				"values" : [{
+						"code" : "PD",
+						"name" : "인기순"
+					}, {
+						"code" : "MD",
+						"name" : "최신순"
+					}, {
+						"@selected" : "TRUE",
+						"code" : "CA",
+						"name" : "가나다순"
+					}
+				]
+			}, {
+				"@type" : "SIDE",
+				"key" : "FILTER_GENRE",
+				"values" : [{
+						"code" : "All Genres",
+						"name" : "모든 장르"
+					}, {
+						"code" : "Drama",
+						"name" : "드라마"
+					}, {
+						"code" : "Melodrama Romance",
+						"name" : "멜로 로맨스"
+					}, {
+						"code" : "Comedy",
+						"name" : "코미디"
+					}, {
+						"code" : "Thriller",
+						"name" : "스릴러"
+					}, {
+						"code" : "Animation",
+						"name" : "애니메이션"
+					}, {
+						"code" : "Action & Adventure",
+						"name" : "액션 & 어드벤쳐"
+					}, {
+						"code" : "Mystery",
+						"name" : "미스터리"
+					}, {
+						"@selected" : "TRUE",
+						"code" : "Music",
+						"name" : "음악"
+					}, {
+						"code" : "Family",
+						"name" : "가족"
+					}, {
+						"code" : "Fantasy",
+						"name" : "판타지"
+					}, {
+						"code" : "ETC",
+						"name" : "기타 장르"
+					}
+				]
+			}
+		]
+	}
+}

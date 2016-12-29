@@ -1,0 +1,15 @@
+<div class="main-header">
+  <div class="header-tit" ng-bind="title"></div>
+ <img class="thumb-img" ng-src="{{current.src}}" ng-hide="hideImage">
+ <div class="header-item">
+   <div class="item-category" ng-bind="current.genre"></div>
+   <div class="item-tit" ng-bind="current.name"></div>
+   <div class="item-text" ng-bind="current.desc"></div>
+   <div item="more" class="blank btn btn-small" ng-class="{'focus': focusInMore}" ng-hide="!more">
+     <div class="area-text"><div class="text marquee" ng-bind="more"></div></div>
+   </div>
+ </div>
+ <div item="left" class="blank btn btn-icon btn-main-prev" ng-class="{'focus': focusInLeft}"><div class="icon"></div></div>
+ <div item="right" class="blank btn btn-icon btn-main-next" ng-class="{'focus': focusInRight}"><div class="icon"></div></div>
+ <div class="header-mask" ng-class="{'mask-block' : maskBlock}"></div>
+</div>

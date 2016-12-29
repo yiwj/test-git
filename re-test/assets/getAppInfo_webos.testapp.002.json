@@ -1,0 +1,4 @@
+{
+  "returnValue": false,
+  "errorText": "Invalid appId specified OR Unsupported Application Type: webos.testapp.002"
+}

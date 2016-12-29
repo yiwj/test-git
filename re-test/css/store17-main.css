@@ -119,7 +119,7 @@ body:not(.hover-mode) .blank.item-main.focus .img-badge_wrap{display:block;}
 
 /* main item > banner */
 .item-main-banner{width:76rem;height:20rem;}
-
+.item-main-banner.blank.border-none{background-color:transparent !important;}
 
 /* main item > promotion */
 .item-main-promotion{width:25.33rem;height:20rem;}

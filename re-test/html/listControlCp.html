@@ -1,0 +1,10 @@
+<div class="panel-body">
+  <div class="panel-cont list-scroller" ng-hide="hideListContent" ng-show="drawed">
+    <div class="cp-guide-text">{{mypage_cp_guide1}}Select an app to be your default content provider.<br>When you select content to watch, it will be open in the default app.<br>{{mypage_cp_guide2}}* The default content app applies to selections from the LG Content Store, My Content and Universal Search results.</div>
+    <div class="list-cont list-cont-apps list-check" ng-repeat="r in getRows()" ng-class="{'row{{r}}': true}"
+         ng-show="view['r' + r]" data-type ng-if="listData.total">
+      <div ng-repeat="c in getRowItems()" ng-class="{'item{{r}}-{{c}}': true}" item="item{{r}}-{{c}}" list-cp></div>
+    </div>
+  </div>
+  <div scroll class="scroll scroll-v"></div>
+</div>

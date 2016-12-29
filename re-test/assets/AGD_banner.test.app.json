@@ -1,0 +1,8 @@
+{
+"error": {
+"request": "/appstore/v6.0/app/app",
+"code": "A.014.01",
+"message": "Wrong App ID"
+},
+"responseStatus": 406
+}

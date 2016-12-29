@@ -1,0 +1,49 @@
+{
+  "app" : {
+    "type" : "S",
+    "id" : "com.14070.6030",
+    "bPremium" : false,
+    "name" : "Homemade Natural Packs",
+    "version" : "1.2.0",
+    "createDate" : "2012-01-03",
+    "updateDate" : "2012-01-03",
+    "categoryId" : "004",
+    "categoryName" : "생활",
+    "description" : "[update date : 1219]\r\nApplication that allow people to make a pack with common ingredients at home.\r\n\r\nIt informs ingredients and method to enhance user satisfaction.",
+    "bItem" : "N",
+    "currencyCode" : "KRW",
+    "bFree" : "Y",
+    "price" : 0.0,
+    "displayPrice" : "￦0",
+    "event" : "N",
+    "evaluationYN" : "N",
+    "evaluationCount" : 1,
+    "evaluationAverage" : 10.0,
+    "ageType" : "0",
+    "adultYN" : "N",
+    "sellerId" : 14070,
+    "sellerName" : "qa12345",
+    "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20110609/7.png",
+    "capability" : {
+      "useInternet" : "Y",
+      "sdkVersion" : "1.0.0",
+      "use3d" : "N",
+      "useCamera" : "N",
+      "useMagic" : "N"
+    },
+    "appPreviewCount" : 2,
+    "appPreviewList" : [ {
+      "previewId" : 182138,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20110609/16.jpg"
+    }, {
+      "previewId" : 182140,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20110609/18.jpg"
+    } ],
+    "appFileCount" : 1,
+    "appFileList" : [ {
+      "fileId" : 287380,
+      "packFileSize" : 17336,
+      "unpackFileSize" : 117951
+    } ]
+  }
+}

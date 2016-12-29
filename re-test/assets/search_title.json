@@ -1,0 +1,15 @@
+{
+  "response": {
+    "query_information": "{\"version\":\"v1\",\"service\":\"lgstore\"}",
+    "time": "0 ms",
+    "code": "JEDI-200",
+    "message": "OK",
+    "totalcount": "1",
+    "hitcount": "1",
+    "results": [
+      {
+        "direction": "검색어를 입력하세요"
+      }
+    ]
+  }
+}

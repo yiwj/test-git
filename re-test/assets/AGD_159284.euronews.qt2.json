@@ -1,0 +1,53 @@
+{
+  "app" : {
+    "type" : "S",
+    "id" : "159284.euronews.qt2",
+    "bPremium" : false,
+    "name" : "euronews",
+    "version" : "1.0.1",
+    "createDate" : "01-03-2014",
+    "updateDate" : "01-03-2014",
+    "categoryId" : "006",
+    "categoryName" : "뉴스 & 정보",
+    "description" : "euronews, l’actualité internationale à la demande.\nRetrouvez les dernières infos et magazines culturels de la chaîne internationale d’information leader en Europe. \nService disponible en français, anglais, espagnol, italien, allemand, portugais, russe et turc.",
+    "bItem" : "N",
+    "currencyCode" : "USD",
+    "bFree" : "Y",
+    "price" : 0.0,
+    "displayPrice" : "$0.00",
+    "event" : "N",
+    "evaluationYN" : "Y",
+    "evaluationPoint" : 6,
+    "evaluationCount" : 2,
+    "evaluationAverage" : 8.0,
+    "ageType" : "12",
+    "adultYN" : "N",
+    "sellerId" : 137950,
+    "sellerName" : "lgcns123",
+    "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20140103/6816964905143920icon_130x130_webos.png",
+    "purchasable" : "N",
+    "bPurchased" : "Y",
+    "capability" : {
+      "useGamePad" : "N",
+      "useInternet" : "Y",
+      "sdkVersion" : "2.0.0",
+      "use3d" : "N",
+      "useCamera" : "N",
+      "useMagic" : "N"
+    },
+    "appPreviewCount" : 2,
+    "appPreviewList" : [ {
+      "previewId" : 299931,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20131016/141.png"
+    }, {
+      "previewId" : 299933,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20131016/142.png"
+    } ],
+    "appFileCount" : 1,
+    "appFileList" : [ {
+      "fileId" : 327960,
+      "packFileSize" : 81146,
+      "unpackFileSize" : 2135280
+    } ]
+  }
+}

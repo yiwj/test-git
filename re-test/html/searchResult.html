@@ -1,0 +1,113 @@
+<div ng-class="{
+    'direct': direct,
+    'showing': showing,
+    'hiding': hiding
+  }" class="page panel-search">
+  <div class="blank panel-back" item="back">01<div class="icon icon-panel-back"></div></div>
+  <div class="panel-header">
+    <div class="area-text no-event panel-title">
+      <div class="marquee text">{{title}}</div>
+    </div>
+    <div class="panel-sub">
+      <div class="sub-text sub-title">{{subTitle}}</div>
+    </div>
+    <div class="wrap-btn-header" > <!-- option button -->
+      <div class="blank btn btn-icon btn-list-option" item="option" ng-show="sort"><div class="icon"></div></div>
+    </div>
+  </div>
+
+  <div class="panel-body" style="overflow: hidden;">
+    <!-- content -->
+    <div class="panel-cont" ng-show="drawed">
+      <div class="result-phrase results-category" ng-if="showCategoryTitle"> <!-- ToDo what? -->
+        <div class="result-phrase-text museo-light">{{categoryTitle}}</div>
+      </div>
+      <div ng-repeat="item in section.items">
+        <div class="sec-title search-title">{{item.title}}
+          <div class="blank btn-more" category="{{item.code}}" data-act="searchMore" item="detail-more-{{item.row}}" ng-if="item.showMore">{{moreTitle}}
+            <div class="icon icon-more-search"></div>
+          </div>
+        </div>
+        <div class="list-cont">
+          <!-- item -->
+          <div class="blank item {{item.searchListItem}} item-search {{item.itemSpecialKeyword}}" data-act="{{item.code}}DetailMove" row-index="{{item.rowIndex}}" item="{{item.idx}}" id="{{item.idx}}" item-type={{item.item_type}} item-id={{item.item_id}} ng-if="item.show" ng-repeat="item in item.content.items">
+            <div class="item-thumb">
+              <img class="thumb-img {{item.searchListItem}}" ng-src="{{item.thumb}}" default-search-result-image />
+            </div>
+            <div class="area-text item-tit">
+              <div class="marquee text">{{item.title}}</div>
+            </div>
+            <div class="item-grade list-grade" ng-if="item.itemGrade">
+              <div class="icon percent-grade" style="width:{{item.score}}%;"></div>
+              <div class="icon bg-grade"></div>
+            </div>
+
+            <div ng-if="item.isApp"> <!-- class="item-info" -->
+              <div class="app-category">{{item.category}}</div>
+              <div class="area-text item-prices" ng-if="item.showPrice">
+                <div class="marquee text">
+                  <div class="item-price">{{item.price}}</div>
+                  <!-- <div class="list-price">$5.92<div class="price-empty"></div></div> -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Special Keyword -->
+            <div class="item-keyword" ng-if="item.itemKeywordDetail"><!-- Keyword 강조내용 -->
+              <div class="release-date">{{item.year}}</div>
+              <div class="name-broadcaster">{{item.broadcastName}}</div>
+              <div class="name-cast">{{item.cast}}</div>
+            </div>
+
+            <div class="item-keyword" ng-if="item.appItemKeywordDetail"><!-- Keyword 강조내용 -->
+              <div class="item-grade keyword-grade" ng-if="item.appGrade">
+                <div class="icon percent-grade" style="width:{{item.score}}%;"></div>
+                <div class="icon bg-grade"></div>
+              </div>
+              <div class="name-developer">{{item.developer}}</div>
+              <div ng-if="item.appPrice">
+                <div class="item-price">{{item.price}}</div>
+                <div class="list-price" ng-if="item.isEventPriceDifferFromPrice">{{item.eventPrice}}<div class="price-empty"></div></div>
+              </div>
+            </div>
+            <!-- end of Special Keyword -->
+          </div>
+          <!-- //item -->
+        </div>
+
+        <!-- 본문 검색결과만 존재할 경우 -->
+        <div class="result-txt-cont" ng-if="item.resultPhrase">
+          <div class="text-result">{{item.resultPhraseText}}</div>
+          <div class="blank btn btn-large btn-result" category="{{item.code}}" data-act="searchMore" item="detail-more-{{item.row}}">
+            <div class="area-text"><div class="text marquee">{{item.view}}</div></div>
+          </div>
+        </div>
+        <!-- //본문 검색결과만 존재할 경우 -->
+      </div>
+
+      <div class="blank btn btn-large btn-webSearch" ng-if="!noResult" data-act="webSearch" item="detail-more-{{webRow}}">
+        <div class="area-text">
+          <div class="text marquee">{{webSearch}}</div>
+        </div>
+      </div>
+
+      <!-- 검색 결과 없는 경우 -->
+      <div class="wrap-no-search" ng-if="noResult">
+        <div class="no-data-img"></div>
+        <div class="text">{{nodata}}</div>
+        <div class="blank btn btn-large btn-webSearch" data-act="webSearch" item="detail-more-{{webRow}}">
+          <div class="area-text">
+            <div class="text marquee">{{webSearch}}</div>
+          </div>
+        </div>
+      </div>
+      <!-- //검색 결과 없는 경우 -->
+    </div>
+    <!-- //content -->
+    <div scroll class="scroll scroll-v">
+      <div class="blank icon scroll-prev"></div>
+      <div class="scroll-area"><div class="scroll-bar" style="height:454px; top:0px;"></div></div>
+      <div class="blank icon scroll-next"></div>
+    </div>
+  </div>
+</div>

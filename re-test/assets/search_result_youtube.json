@@ -1,0 +1,307 @@
+{
+  "response": {
+    "version": "v1",
+    "query_information": "params={\"query\":\"youtube\",\"startindex\":\"1\",\"maxresults\":\"12\",\"domain\":[\"livetv\",\"tvshow\",\"movie\",\"app\",\"youtube\",\"3d\",\"premium\",\"cp\"],\"version\":\"v1\",\"epgcode\":[\"794\",\"795\",\"796\",\"798\",\"797\"],\"sortby\":[\"\"],\"filterby\":{}}",
+    "time": "304 ms",
+    "code": "JEDI-200",
+    "message": "OK",
+    "engine_url": "165.244.145.185:15100",
+    "totalcount": 1000008,
+    "hitcount": 20,
+    "results": [
+      {
+        "code": "premium",
+        "value": "premium",
+        "totalcount": 1,
+        "hitcount": 1,
+        "doc": [
+          {
+            "genre": "엔터테인먼트",
+            "eventflag": "N",
+            "score": "5",
+            "ranklevel": "XS",
+            "makeyear": "2015",
+            "appid": "youtube.leanback.v4",
+            "code": "premium",
+            "threedflag": "N",
+            "director": "appqaadmin",
+            "iconbgcolor": "#E42E28",
+            "title": "YouTube",
+            "rank": "1066010096",
+            "thumbnail": "http:\/\/qt2-ngfts.lge.com\/fts\/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=\/appstore\/app\/icon\/20150323\/10022379715402316youtube_leanback_v4_130x130_130x130_webos.png",
+            "price": "￦0",
+            "description": "This is a premium service for LG smart TV. Enjoy your smart TV with premium services.",
+            "age": "0",
+            "grade": "All ages",
+            "adultYN": "N",
+            "eventprice": "￦0",
+            "freeflag": "Y"
+          }
+        ]
+      },
+      {
+        "code": "app",
+        "value": "app",
+        "totalcount": 5,
+        "hitcount": 5,
+        "doc": [
+          {
+            "genre": "엔터테인먼트",
+            "eventflag": "N",
+            "score": "10",
+            "ranklevel": "XS",
+            "makeyear": "2015",
+            "appid": "youtube.leanback.v4.for.ces",
+            "code": "app",
+            "threedflag": "N",
+            "director": "appqaadmin",
+            "iconbgcolor": "#E42E28",
+            "title": "YouTube",
+            "rank": "1066010096",
+            "thumbnail": "http:\/\/qt2-ngfts.lge.com\/fts\/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=\/appstore\/app\/icon\/20141226\/2502090821856352youtube_leanback_v4_130x130_130x130_webos.png",
+            "price": "￦0",
+            "description": "Experience a whole new world of Smart TV. Smart TV connects you to the content that you and your family want. Create a premium entertainment experience at home.",
+            "age": "0",
+            "grade": "All ages",
+            "adultYN": "N",
+            "eventprice": "￦0",
+            "freeflag": "Y"
+          },
+          {
+            "genre": "엔터테인먼트",
+            "eventflag": "N",
+            "score": "-11",
+            "ranklevel": "M",
+            "makeyear": "2015",
+            "appid": "test.4k.youtube.leanback.v4",
+            "code": "app",
+            "threedflag": "N",
+            "director": "appqaadmin",
+            "iconbgcolor": "#3C3E41",
+            "title": "Test_4K_YouTube",
+            "rank": "6010101",
+            "thumbnail": "http:\/\/qt2-ngfts.lge.com\/fts\/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=\/appstore\/app\/icon\/20140822\/4947522017988967test_4k_youtube_leanback_v4_130x130_130x130_webos.png",
+            "price": "￦0",
+            "description": "This is Test App for youtube 4K video test.",
+            "age": "0",
+            "grade": "All ages",
+            "adultYN": "N",
+            "eventprice": "￦0",
+            "freeflag": "Y"
+          },
+          {
+            "genre": "엔터테인먼트",
+            "eventflag": "N",
+            "score": "0",
+            "ranklevel": "M",
+            "makeyear": "2015",
+            "appid": "youtube.leanback.v4.mousemove",
+            "code": "app",
+            "threedflag": "N",
+            "director": "appqaadmin",
+            "iconbgcolor": "#E42E28",
+            "title": "YouTube Mouse Move Test",
+            "rank": "6010096",
+            "thumbnail": "http:\/\/qt2-ngfts.lge.com\/fts\/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=\/appstore\/app\/icon\/20141205\/695502528932352youtube_leanback_v4_130x130_130x130_webos.png",
+            "price": "￦0",
+            "description": "Experience a whole new world of Smart TV. Smart TV connects you to the content that you and your family want. Create a premium entertainment experience at home.",
+            "age": "0",
+            "grade": "All ages",
+            "adultYN": "N",
+            "eventprice": "￦0",
+            "freeflag": "Y"
+          },
+          {
+            "genre": "엔터테인먼트",
+            "eventflag": "N",
+            "score": "0",
+            "ranklevel": "L",
+            "makeyear": "2015",
+            "appid": "com.2686233.117107",
+            "code": "app",
+            "threedflag": "N",
+            "director": "s198186",
+            "iconbgcolor": "#3C3E41",
+            "title": "myTVLink",
+            "rank": "10021",
+            "thumbnail": "http:\/\/qt2-ngfts.lge.com\/fts\/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=\/appstore\/app\/icon\/20141015\/96263089026193714_148x148_130x130_webos.png",
+            "price": "￦0",
+            "description": "leading TV-App for time-shifted television with more than half a million links to Mediatheken, VOD services, web- and YouTube-videos. The myTVLink editoral team is creating daily tips and myTVLink user can personalize their myTVLink experience and",
+            "age": "0",
+            "grade": "All ages",
+            "adultYN": "N",
+            "eventprice": "￦0",
+            "freeflag": "Y"
+          },
+          {
+            "genre": "엔터테인먼트",
+            "eventflag": "N",
+            "score": "0",
+            "ranklevel": "L",
+            "makeyear": "2015",
+            "appid": "com.637189.145861",
+            "code": "app",
+            "threedflag": "N",
+            "director": "s198186",
+            "iconbgcolor": "#3C3E41",
+            "title": "vTelek",
+            "rank": "10021",
+            "thumbnail": "http:\/\/qt2-ngfts.lge.com\/fts\/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=\/appstore\/app\/icon\/20141015\/9626853543438371icon_130x130_webos.png",
+            "price": "￦0",
+            "description": "[02 July 2013] YouTube support addedthis app you can easily send video from YouTube, vKontakte social network and otherCurrently vTelek supports video from: - YouTube website - vk.com website (and YouTube",
+            "age": "0",
+            "grade": "All ages",
+            "adultYN": "N",
+            "eventprice": "￦0",
+            "freeflag": "Y"
+          }
+        ]
+      },
+      {
+        "code": "youtube",
+        "value": "youtube",
+        "totalcount": 1000000,
+        "hitcount": 12,
+        "doc": [
+          {
+            "rank": "100000",
+            "title": "John Wall's Top 10 Plays of the 2014-2015 Season!",
+            "contentsid": "B2MSpQ52b-w",
+            "thumbnail": "https:\/\/i.ytimg.com\/vi\/B2MSpQ52b-w\/hqdefault.jpg",
+            "makeyear": "2015-05-21T16:57:02.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "NBA Finals 2015 Commercial - Lessons in Storytelling: The Greatest Endings",
+            "contentsid": "U-WvnUyNt_A",
+            "thumbnail": "https:\/\/i.ytimg.com\/vi\/U-WvnUyNt_A\/hqdefault.jpg",
+            "makeyear": "2015-05-21T16:12:15.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "Blake Griffin's Top 10 Plays of 2014-2015 Season!",
+            "contentsid": "I-Z-DyZC1r8",
+            "thumbnail": "https:\/\/i.ytimg.com\/vi\/I-Z-DyZC1r8\/hqdefault.jpg",
+            "makeyear": "2015-05-21T13:00:01.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "Top 5 LoL Plays | Week 70 (League of Legends)",
+            "contentsid": "CuchGrDxWmI",
+            "thumbnail": "https:\/\/i.ytimg.com\/vi\/CuchGrDxWmI\/hqdefault.jpg",
+            "makeyear": "2015-05-21T18:30:01.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "Smashing Pinatas of Our Faces",
+            "contentsid": "JyyzHIW3lIo",
+            "thumbnail": "https:\/\/i.ytimg.com\/vi\/JyyzHIW3lIo\/hqdefault.jpg",
+            "makeyear": "2015-05-21T10:00:00.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "Xavi Hernandez's farewell press conference",
+            "contentsid": "7h7t3cFsuvQ",
+            "thumbnail": "https:\/\/i.ytimg.com\/vi\/7h7t3cFsuvQ\/hqdefault.jpg",
+            "makeyear": "2015-05-21T12:17:37.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "M6.9 Earthquake, STARWATER | S0 News May 21, 2015",
+            "contentsid": "8CtgLhgxxrc",
+            "thumbnail": "https:\/\/i.ytimg.com\/vi\/8CtgLhgxxrc\/hqdefault.jpg",
+            "makeyear": "2015-05-21T10:22:47.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "Derrick Rose's Top 10 Plays of 2014-2015 Season!",
+            "contentsid": "rApTotlS2lg",
+            "thumbnail": "https:\/\/i.ytimg.com\/vi\/rApTotlS2lg\/hqdefault.jpg",
+            "makeyear": "2015-05-21T13:00:03.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "Top 5 NBA Plays: May 20th",
+            "contentsid": "j5jTlBo9Qng",
+            "thumbnail": "https:\/\/i.ytimg.com\/vi\/j5jTlBo9Qng\/hqdefault.jpg",
+            "makeyear": "2015-05-21T05:17:36.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "The Time There Was Cotton Candy in My Cosmo (Day 212)",
+            "contentsid": "C9SQe5cwYg4",
+            "thumbnail": "https:\/\/i.ytimg.com\/vi\/C9SQe5cwYg4\/hqdefault.jpg",
+            "makeyear": "2015-05-21T06:15:48.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "J.R. Smith Sets New Cavs Record with 8 Triples!!",
+            "contentsid": "7_G7-eEkpwY",
+            "thumbnail": "https:\/\/i.ytimg.com\/vi\/7_G7-eEkpwY\/hqdefault.jpg",
+            "makeyear": "2015-05-21T04:06:15.000Z",
+            "code": "youtube"
+          },
+          {
+            "rank": "100000",
+            "title": "LCK Summer - Week 1 Day 2",
+            "contentsid": "lKuzBJG5DR0",
+            "thumbnail": "https:\/\/i.ytimg.com\/vi\/lKuzBJG5DR0\/hqdefault.jpg",
+            "makeyear": "2015-05-21T11:26:26.000Z",
+            "code": "youtube"
+          }
+        ]
+      },
+      {
+        "code": "tvshow",
+        "value": "tvshow",
+        "totalcount": 1,
+        "hitcount": 1,
+        "doc": [
+          {
+            "contentssetid": "com.lge.meta.crawler.cine21.Cine21Crawler",
+            "contentsid": "43014",
+            "thumbnailsize": "V293X414",
+            "score": null,
+            "ranklevel": "L",
+            "appid": "pooq-_-pooq",
+            "makeyear": "2014",
+            "code": "tvshow",
+            "title": "글로벌 리퀘스트 쇼 어송포유 시즌3",
+            "rank": "10016",
+            "thumbnail": "http:\/\/ngfts.lge.com\/fts\/gftsDownload.lge?biz_code=MAS&func_code=META_THUMBNAIL&file_path=\/mas\/meta_thumbnail\/poster_2014_1231_16_40_53__54a3a8858d621[s282,414].jpg",
+            "cast": "육성재-_-강인-_-엠버",
+            "providername": null,
+            "age": "0",
+            "grade": "전체 관람가",
+            "freeflag": "Y",
+            "mappingflag": "Y"
+          }
+        ]
+      },
+      {
+        "code": "web",
+        "value": "web",
+        "totalcount": 1,
+        "hitcount": 1,
+        "doc": [
+          {
+            "rank": "0",
+            "ranklevel": "L",
+            "code": "web",
+            "url": "http:\/\/search.daum.net\/search?w=tot&rtupcoll=NNS&nil_ch=30&q="
+          }
+        ]
+      }
+    ]
+  }
+}

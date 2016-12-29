@@ -1,0 +1,55 @@
+{
+  "app" : {
+    "type" : "S",
+    "id" : "youtube.leanback.v4",
+    "bPremium" : true,
+    "name" : "YouTube",
+    "version" : "1.1.32",
+    "createDate" : "2014-02-07",
+    "updateDate" : "2015-03-23",
+    "categoryId" : "003",
+    "categoryName" : "엔터테인먼트",
+    "description" : "This is a premium service for LG smart TV. Enjoy your smart TV with premium services.",
+    "bItem" : "N",
+    "currencyCode" : "KRW",
+    "bFree" : "Y",
+    "price" : 0.0,
+    "displayPrice" : "￦0",
+    "event" : "N",
+    "supportLanguage" : "English, Korean",
+    "evaluationYN" : "N",
+    "evaluationCount" : 7,
+    "evaluationAverage" : 5.0,
+    "ageType" : "0",
+    "adultYN" : "N",
+    "sellerId" : 138660,
+    "sellerName" : "appqaadmin",
+    "iconColor" : "#E42E28",
+    "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150323/10022379715402316youtube_leanback_v4_130x130_130x130_webos.png",
+    "capability" : {
+      "useGamePad" : "N",
+      "useInternet" : "Y",
+      "sdkVersion" : "1.0.0",
+      "use3d" : "N",
+      "useCamera" : "N",
+      "useMagic" : "N"
+    },
+    "appPreviewCount" : 3,
+    "appPreviewList" : [ {
+      "previewId" : 510965,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20150106/6.png"
+    }, {
+      "previewId" : 404016,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20140127/1612.jpg"
+    }, {
+      "previewId" : 594019,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20150227/8.png"
+    } ],
+    "appFileCount" : 1,
+    "appFileList" : [ {
+      "fileId" : 604286,
+      "packFileSize" : 45370,
+      "unpackFileSize" : 2121154
+    } ]
+  }
+}

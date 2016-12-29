@@ -1,0 +1,57 @@
+{
+  "app" : {
+    "type" : "S",
+    "id" : "webos.test.girafficava",
+    "bPremium" : false,
+    "name" : "Girafficava Test",
+    "version" : "1.0.2",
+    "createDate" : "2015-04-07",
+    "updateDate" : "2015-04-14",
+    "categoryId" : "003",
+    "categoryName" : "엔터테인먼트",
+    "description" : "Sample Girafficava Test app Sample Girafficava Test app",
+    "bItem" : "N",
+    "currencyCode" : "KRW",
+    "bFree" : "Y",
+    "price" : 0.0,
+    "displayPrice" : "￦0",
+    "event" : "N",
+    "supportLanguage" : "English",
+    "evaluationYN" : "N",
+    "evaluationCount" : 0,
+    "evaluationAverage" : 0.0,
+    "ageType" : "0",
+    "adultYN" : "N",
+    "sellerId" : 7244,
+    "sellerName" : "123123",
+    "iconColor" : "#00D8FF",
+    "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150414/2_130x130_webos.png",
+    "purchasable" : "N",
+    "bPurchased" : "Y",
+    "capability" : {
+      "useGamePad" : "Y",
+      "useInternet" : "Y",
+      "sdkVersion" : "2.0.0",
+      "use3d" : "Y",
+      "useCamera" : "N",
+      "useMagic" : "N"
+    },
+    "appPreviewCount" : 3,
+    "appPreviewList" : [ {
+      "previewId" : 645508,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20150407/1.png"
+    }, {
+      "previewId" : 645509,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20150407/2.png"
+    }, {
+      "previewId" : 645511,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20150407/3.png"
+    } ],
+    "appFileCount" : 1,
+    "appFileList" : [ {
+      "fileId" : 647788,
+      "packFileSize" : 6173096,
+      "unpackFileSize" : 5740078
+    } ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "rankType" : {
+    "lastModifiedDate" : "1426654830000",
+    "type" : 3,
+    "name" : "인기 유료",
+    "promotionCount" : 0,
+    "totalAppCount" : 4,
+    "appCount" : 4,
+    "appList" : [ {
+      "type" : "S",
+      "id" : "fd.event.app.02",
+      "bPremium" : false,
+      "name" : "fd event 02(ipk)",
+      "categoryId" : "006",
+      "categoryName" : "뉴스 & 정보",
+      "currencyCode" : "KRW",
+      "price" : 12000.0,
+      "displayPrice" : "￦12,000",
+      "event" : "Y",
+      "eventPrice" : 0.0,
+      "displayEventPrice" : "￦0",
+      "evaluationAverage" : 0.0,
+      "ageType" : "0",
+      "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20140529/8880910775045868large_icon_130x130_webos.png"
+    }, {
+      "type" : "S",
+      "id" : "fd.event.app.01",
+      "bPremium" : false,
+      "name" : "fd event 01(zip)",
+      "categoryId" : "006",
+      "categoryName" : "뉴스 & 정보",
+      "currencyCode" : "KRW",
+      "price" : 12000.0,
+      "displayPrice" : "￦12,000",
+      "event" : "Y",
+      "eventPrice" : 0.0,
+      "displayEventPrice" : "￦0",
+      "evaluationAverage" : 0.0,
+      "ageType" : "0",
+      "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20140528/1_130x130_webos.png"
+    }, {
+      "type" : "S",
+      "id" : "fd.webos.01",
+      "bPremium" : false,
+      "name" : "fd webOS Period Test",
+      "categoryId" : "006",
+      "categoryName" : "뉴스 & 정보",
+      "currencyCode" : "KRW",
+      "price" : 3000.0,
+      "displayPrice" : "￦3,000",
+      "event" : "N",
+      "evaluationAverage" : 0.0,
+      "ageType" : "0",
+      "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20130930/1.png"
+    }, {
+      "type" : "S",
+      "id" : "com.85850.165791",
+      "bPremium" : false,
+      "name" : "exam_test5",
+      "categoryId" : "006",
+      "categoryName" : "뉴스 & 정보",
+      "currencyCode" : "KRW",
+      "price" : 6000.0,
+      "displayPrice" : "￦6,000",
+      "event" : "N",
+      "evaluationAverage" : 0.0,
+      "ageType" : "12",
+      "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20130712/11.gif"
+    } ]
+  }
+}

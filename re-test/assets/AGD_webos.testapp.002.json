@@ -1,0 +1,57 @@
+{
+  "app": {
+    "type": "S",
+    "id": "webos.testapp.002",
+    "bPremium": false,
+    "name": "[webOS]ESPORT.TV_W",
+    "version": "1.0.0",
+    "createDate": "2013-10-29",
+    "updateDate": "2013-10-29",
+    "categoryId": "002",
+    "categoryName": "게임",
+    "description": " \n - Recommended : Bigger than 460 x 337 pixel (4:3)\n- 5% of the image border can be cropped\n   when it is displayed on TV\n- Available File Types: JPG, GIF, PNG\n- Available File Size : Max 5MB\n",
+    "bItem": "N",
+    "currencyCode": "KRW",
+    "bFree": "N",
+    "price": 1000.0,
+    "displayPrice": "￦1,000",
+    "event": "N",
+    "evaluationYN": "N",
+    "evaluationCount": 2,
+    "evaluationAverage": 6.0,
+    "ageType": "0",
+    "adultYN": "N",
+    "sellerId": 26910,
+    "sellerName": "testsellerqt",
+    "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20131029/6.png",
+    "purchasable": "Y",
+    "bPurchased": "N",
+    "capability": {
+      "useGamePad": "N",
+      "useInternet": "N",
+      "sdkVersion": "1.0.0",
+      "use3d": "N",
+      "useCamera": "N",
+      "useMagic": "N"
+    },
+    "appPreviewCount": 2,
+    "appPreviewList": [
+      {
+        "previewId": 302445,
+        "previewURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20131029/15.jpg"
+      },
+      {
+        "previewId": 302447,
+        "previewURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20131029/16.jpg"
+      }
+    ],
+    "appFileCount": 1,
+    "appFileList": [
+      {
+        "fileId": 302451,
+        "packFileSize": 19258,
+        "unpackFileSize": 177023
+      }
+    ]
+  }
+}

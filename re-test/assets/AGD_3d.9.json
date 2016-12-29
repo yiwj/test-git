@@ -1,0 +1,53 @@
+{
+  "app" : {
+    "type" : "S",
+    "id" : "3d.9",
+    "bPremium" : false,
+    "name" : "3D(9)",
+    "version" : "1.0.0",
+    "createDate" : "2014-03-06",
+    "updateDate" : "2014-03-06",
+    "categoryId" : "002",
+    "categoryName" : "게임",
+    "description" : "3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)3D(9)",
+    "bItem" : "N",
+    "currencyCode" : "KRW",
+    "bFree" : "Y",
+    "price" : 0.0,
+    "displayPrice" : "￦0",
+    "event" : "N",
+    "supportLanguage" : "Arabic",
+    "evaluationYN" : "N",
+    "evaluationCount" : 0,
+    "evaluationAverage" : 0.0,
+    "ageType" : "0",
+    "adultYN" : "N",
+    "sellerId" : 26910,
+    "sellerName" : "testsellerqt",
+    "iconURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20140305/9_130x130_webos.jpg",
+    "purchasable" : "Y",
+    "bPurchased" : "N",
+    "capability" : {
+      "useGamePad" : "N",
+      "useInternet" : "N",
+      "sdkVersion" : "1.0.0",
+      "use3d" : "Y",
+      "useCamera" : "N",
+      "useMagic" : "N"
+    },
+    "appPreviewCount" : 2,
+    "appPreviewList" : [ {
+      "previewId" : 413433,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20140305/21.jpg"
+    }, {
+      "previewId" : 413435,
+      "previewURL" : "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_PREVIEW&file_path=/appstore/app/preview/20140305/22.jpg"
+    } ],
+    "appFileCount" : 1,
+    "appFileList" : [ {
+      "fileId" : 413438,
+      "packFileSize" : 2306792,
+      "unpackFileSize" : 2664553
+    } ]
+  }
+}

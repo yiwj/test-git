@@ -1,0 +1,8 @@
+{
+  "error": {
+    "request": "/appstore/v6.0/app/install",
+    "code": "A.001.02",
+    "message": "App Purchase Info is not existed"
+  },
+  "responseStatus": 406
+}

@@ -1,0 +1,126 @@
+<div class="popup-dialog" ng-hide="hide" ng-class="{'open': open}">
+  <div class="popup-basic" ng-if="!hide">
+    <div ng-if="type=='popup'">
+      <div class="popup-header">
+        <div class="wrap-title-popup">
+          <div class="area-text no-event popup-title">
+            <div class="marquee text" ng-bind="title"></div>
+          </div>
+        </div>
+        <div class="wrap-btn-popup">
+          <div class="blank btn-popup btn-small btn01" item="btn01" ng-if="button1">
+            <div class="area-text">
+              <div class="text marquee" ng-bind="button1"></div>
+            </div>
+          </div>
+          <div class="blank btn-popup btn-small btn02" item="btn02" ng-if="button2">
+            <div class="area-text">
+              <div class="text marquee" ng-bind="button2"></div>
+            </div>
+          </div>
+          <div class="blank btn-popup btn-small btn03" item="btn03" ng-if="button3">
+            <div class="area-text">
+              <div class="text marquee" ng-bind="button3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup-cont" ng-bind-html="desc | nl2br"></div>
+    </div>
+    <div ng-if="type=='error'">
+      <div class="popup-header">
+        <div class="wrap-title-popup">
+          <div class="area-text no-event popup-title">
+            <div class="marquee text" ng-bind="title"></div>
+          </div>
+        </div>
+        <div class="wrap-btn-popup">
+          <div class="blank btn-popup btn-small" item="close">
+            <div class="area-text"><div class="text marquee" ng-bind="okTxt"></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="popup-cont popup-error">
+        {{errorMsg}}
+        <div class="blank icon icon-code" item="error"></div>
+      </div>
+    </div>
+    <div ng-if="type=='usb'">
+      <div class="popup-header">
+        <div class="wrap-title-popup">
+          <div class="area-text no-event popup-title">
+            <div class="marquee text" ng-bind="title"></div>
+          </div>
+          <div class="popup-sub-text" ng-bind="usbDesc"></div>
+        </div>
+        <div class="wrap-btn-popup">
+          <div class="blank btn-popup btn-small btn01" item="btn01" ng-if="button1">
+            <div class="area-text"><div class="text marquee" ng-bind="button1"></div></div>
+          </div><div class="blank btn-popup btn-small btn02" item="btn02" ng-if="button2">
+          <div class="area-text"><div class="text marquee" ng-bind="button2"></div></div>
+        </div>
+        </div>
+      </div>
+      <div class="pop-external-memory" ng-if="usbListData">
+        <div class="blank memory-list usbList{{$index}}" ng-repeat="usb in usbListData" item="usbList{{$index}}"
+             device-id="{{usb.deviceId}}" drive-id="{{usb.driveId}}" ng-class="{'check-on': (selectedDeviceId == usb.deviceId) && (selectedDriveId == usb.driveId)}">
+          <div class="icon icon-check"></div>
+          <div class="area-text"><div class="marquee text">USB{{usb.portNum}} : [{{usb.freeSpace}} Free] {{usb.deviceName}}
+            ({{usb.partitionInfo}})</div></div>
+        </div>
+      </div>
+    </div>
+    <div ng-if="type=='package'">
+      <div class="popup-header">
+        <div class="wrap-title-popup">
+          <div class="area-text no-event popup-title">
+            <div class="marquee text" ng-bind="title"></div>
+          </div>
+          <div class="popup-sub-text" ng-bind="packageGuide"></div>
+        </div>
+        <div class="wrap-btn-popup">
+          <div class="blank btn-popup btn-small btn01" item="btn01" ng-if="button1">
+            <div class="area-text"><div class="text marquee" ng-bind="button1"></div></div>
+          </div><div class="blank btn-popup btn-small btn02" item="btn02" ng-if="button2">
+          <div class="area-text"><div class="text marquee" ng-bind="button2"></div></div>
+        </div>
+        </div>
+      </div>
+      <div class="pop-list-package">
+        <div class="blank item item-apps item-package-{{$index}}" data-act="launch" item="item-package-{{$index}}" item-id="{{loopAppInfo.id}}" ng-repeat="loopAppInfo in packageListData">
+          <div class="item-thumb">
+            <img ng-src="{{loopAppInfo.iconURL}}" class="thumb-img">
+          </div>
+          <div class="area-text item-tit"><div class="marquee text" ng-bind="loopAppInfo.name"></div></div>
+        </div>
+      </div>
+    </div>
+    <div ng-if="type=='watch'" class="view-popup">
+      <div class="popup-header">
+      <div class="wrap-title-popup">
+        <div class="area-text no-event popup-title">
+          <div class="marquee text" ng-bind="title"></div>
+        </div>
+        <div class="popup-sub-text" ng-bind="desc"></div>
+      </div>
+      <div class="wrap-btn-popup">
+        <div class="blank btn-popup btn-small btn-close" item="close">
+          <div class="area-text"><div class="text marquee" ng-bind="watchClose"></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="pop-list-cp">
+      <!-- item -->
+      <div class="blank item item-apps {{item.execId}}" isSameDevice="{{item.isSameDevice}}" premiumAppFlag = "{{item.premiumAppFlag}}" item="{{item.execId}}" execItemId="{{item.execItemId}}" appId ="{{item.execAppId}}" price="{{item.execPrice}}" index="{{$index}}" ng-style="item.style" ng-repeat="item in items">
+        <div class="item-thumb">
+          <img ng-src="{{item.execImgUrl}}" class="thumb-img">
+        </div>
+        <div class="area-text item-tit"><div class="marquee text">{{item.execAppName}}-{{item.execContsName}}</div></div>
+        <div class="item-attribute" ng-repeat="disp in item.addInfoDisp" ng-bind="disp"></div>
+        <div class="item-price" ng-bind="item.execPrice"></div>
+      </div>
+      <!-- //item -->
+    </div>
+    </div>
+  </div>
+</div>

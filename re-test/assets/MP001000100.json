@@ -1,0 +1,53 @@
+{
+    "appUpdateList": {
+        "appCount": 3,
+        "appUpdateCheck": [
+            {
+                "id": "banner.test.app",
+                "bPremium": false,
+                "name": "Image Test App",
+                "bFree": true,
+                "bPurchased": true,
+                "prohibitYN": "N",
+                "updateYN": "N",
+                "nsuYN": "N",
+                "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20140320/1_130x130_webos.png",
+                "purchaseDate": "2015-04-06",
+                "bInstalled": true,
+                "installedDate": "2015-04-06",
+                "bSvcAvailable": true
+            },
+            {
+                "id": "bbc.news.qtest",
+                "bPremium": false,
+                "name": "BBC News",
+                "bFree": true,
+                "bPurchased": true,
+                "prohibitYN": "N",
+                "updateYN": "Y",
+                "nsuYN": "N",
+                "iconColor": "#8D0000",
+                "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150123/4914929854900352bbc_news_130x130_130x130_webos.png",
+                "purchaseDate": "2015-04-06",
+                "bInstalled": true,
+                "installedDate": "2015-04-06",
+                "bSvcAvailable": true
+            },
+            {
+                "id": "new-netflix",
+                "bPremium": false,
+                "name": "Netflix with New Icon",
+                "bFree": true,
+                "bPurchased": false,
+                "prohibitYN": "N",
+                "updateYN": "N",
+                "nsuYN": "N",
+                "iconColor": "#FFFFFF",
+                "iconURL": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20140617/2_130x130_webos.png",
+                "bInstalled": true,
+                "installedDate": "2015-03-27",
+                "bSvcAvailable": true
+            }
+        ]
+    }
+}

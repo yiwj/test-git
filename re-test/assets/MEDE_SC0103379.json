@@ -1,0 +1,126 @@
+{
+  "@testversion": "20140112_001",
+  "message": "OK",
+  "item": {
+    "@type": "CONTS",
+    "item_id": "com.lge.meta.crawler.cine21premium.Cine21PremiumCrawler|SC0103379",
+    "item_name": "[HD] 덤 앤 더머 투",
+    "item_img": "http://image.zlgam.com/resize/cine21/poster/2014/1118/15_33_29__546ae8391068b[F343,494].jpg",
+    "item_desc": "오로지 개그 하나만을 치기 위해 20년 동안 환자인 척 했던 로이드. \n해리를 완벽히 속이고 임무를 완수한 그는 가뿐한 마음으로 집으로 돌아 가게 되고 뜻밖의 엽서를 한 장 받게 된다. 그 엽서의 내용은 해리의 옛 연인, 프리다 펠처로부터 아이가 생겼다는 것. \n그들은 아이가 생긴다는 말에 너무 좋아하지만, 알고 보니 그 엽서는 20년 전에 보내진 것이었다. \n로이드와 해리, 전설적 바보 콤비는 20년간 모르고 지냈던 딸의 행방을 찾아 웃다가 쓰러질 여정을 시작하는데...",
+    "item_provider_name": "",
+    "item_rating": "0",
+    "item_rating_disp": "15세 관람가",
+    "item_detail": {
+      "pinup_state": "FALSE",
+      "tab_cast": {
+        "items": [
+          {
+            "@type": "PERSON",
+            "item_id": "",
+            "item_name": "바비 패럴리",
+            "item_img": "",
+            "item_desc": "",
+            "person_role_type": "DIRECTOR",
+            "person_role_name": "",
+            "person_birth_date": "",
+            "person_death_date": ""
+          },
+          {
+            "@type": "PERSON",
+            "item_id": "",
+            "item_name": "피터 패럴리",
+            "item_img": "",
+            "item_desc": "",
+            "person_role_type": "DIRECTOR",
+            "person_role_name": "",
+            "person_birth_date": "",
+            "person_death_date": ""
+          },
+          {
+            "@type": "PERSON",
+            "item_id": "",
+            "item_name": "제프 다니엘스",
+            "item_img": "",
+            "item_desc": "",
+            "person_role_type": "ACTOR",
+            "person_role_name": "",
+            "person_birth_date": "",
+            "person_death_date": ""
+          },
+          {
+            "@type": "PERSON",
+            "item_id": "",
+            "item_name": "짐 캐리",
+            "item_img": "",
+            "item_desc": "",
+            "person_role_type": "ACTOR",
+            "person_role_name": "",
+            "person_birth_date": "",
+            "person_death_date": ""
+          },
+          {
+            "@type": "PERSON",
+            "item_id": "",
+            "item_name": "로리 홀든",
+            "item_img": "",
+            "item_desc": "",
+            "person_role_type": "ACTOR",
+            "person_role_name": "",
+            "person_birth_date": "",
+            "person_death_date": ""
+          }
+        ]
+      },
+      "tab_clip": {
+        "items": [
+          {
+            "@type": "CLIP_IMG",
+            "item_id": "http://image.zlgam.com/resize/cine21/poster/2014/1118/15_33_29__546ae8391068b[F343,494].jpg",
+            "item_name": "-",
+            "item_img": "http://image.zlgam.com/resize/cine21/poster/2014/1118/15_33_29__546ae8391068b[F343,494].jpg",
+            "item_desc": ""
+          }
+        ]
+      },
+      "exec_list": {
+        "execs": [
+          {
+            "item_id": "com.lge.meta.crawler.cine21premium.Cine21PremiumCrawler|SC0103379",
+            "cp_conts_name": "[HD] 덤 앤 더머 투",
+            "exec_type": "APP",
+            "exec_app_id": "cine21",
+            "exec_app_name": "즐감",
+            "exec_id": "SC0103379",
+            "plex_flag": "FALSE",
+            "price_disp": "￦4,000",
+            "img_url_cp": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=META_IMG&func_code=CPLOGO&file_path=/appstore/app/icon/20150428/13133509968069316cine21_130x130_130x130_webos.png",
+            "add_info_disp": "HD",
+            "premium_app_flag": "FALSE"
+          }
+        ]
+      },
+      "exec_multi_list": {
+        "execs": [
+          {
+            "item_id": "com.lge.meta.crawler.cine21premium.Cine21PremiumCrawler|SC0103379",
+            "cp_conts_name": "[HD] 덤 앤 더머 투",
+            "exec_type": "APP",
+            "exec_app_id": "cine21",
+            "exec_app_name": "즐감",
+            "exec_id": "SC0103379",
+            "plex_flag": "FALSE",
+            "price_disp": "￦4,000",
+            "img_url_cp": "http://qt2-ngfts.lge.com/fts/gftsDownload.lge?biz_code=META_IMG&func_code=CPLOGO&file_path=/appstore/app/icon/20150428/13133509968069316cine21_130x130_130x130_webos.png",
+            "add_info_disp": "HD",
+            "premium_app_flag": "FALSE"
+          }
+        ]
+      }
+    },
+    "item_genre_disp": " 코미디",
+    "conts_type": "MV",
+    "item_rated_score": "7.67",
+    "conts_make_year": "2014",
+    "conts_duration": "108"
+  }
+}
